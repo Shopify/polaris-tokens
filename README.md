@@ -2,6 +2,12 @@
 
 Design tokens for Polaris, Shopify’s design system.
 
+## Usage
+
+This package isn’t available on npm yet.
+
+Head to <https://github.com/Shopify/polaris-tokens/releases/>, where generated files are available.
+
 ## Generate tokens
 
 1. `dev clone polaris-tokens`
