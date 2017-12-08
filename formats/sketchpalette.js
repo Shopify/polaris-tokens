@@ -1,5 +1,6 @@
 /* eslint-disable id-length */
 const tinycolor2 = require('tinycolor2');
+const sortBy = require('lodash/sortBy');
 
 function convertToSketchPaletteColor(input) {
   const {r, g, b, a} = tinycolor2(input).toRgb();
@@ -18,7 +19,7 @@ module.exports = result => `
   "pluginVersion": "2.0",
   "colors":
   ${JSON.stringify(
-    result.toJS().props.map(prop => convertToSketchPaletteColor(prop.value)),
+    sortBy(result.toJS().props, 'name').map(prop => convertToSketchPaletteColor(prop.value)),
     null,
     2,
   )},

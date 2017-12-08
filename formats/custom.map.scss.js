@@ -1,5 +1,5 @@
 const path = require('path');
-
+const sortBy = require('lodash/sortBy');
 const groupBy = require('lodash/groupBy');
 
 function removeCategory(name) {
@@ -26,7 +26,7 @@ class CustomMap {
     }
     return `
     '${category}': (
-      ${props
+      ${sortBy(props, 'name')
         .filter(prop => prop.name.startsWith(category))
         .map(prop =>
           `${prop.comment ? `// ${prop.comment}` : ''}
