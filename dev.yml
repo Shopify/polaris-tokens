@@ -1,0 +1,12 @@
+---
+name: polaris-tokens
+
+up:
+  - node:
+      version: v8.9.1
+      yarn: true
+commands:
+  test:
+    run: yarn test
+  start:
+    run: yarn dist
