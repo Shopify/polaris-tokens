@@ -13,17 +13,13 @@ function convertToSketchPaletteColor(input) {
   };
 }
 
-module.exports = result => `
-{
-  "compatibleVersion": "2.0",
-  "pluginVersion": "2.0",
-  "colors":
-  ${JSON.stringify(
-    sortBy(result.toJS().props, 'name').map(prop => convertToSketchPaletteColor(prop.value)),
-    null,
-    2,
-  )},
-  "gradients": [],
-  "images": []
-}
-`;
+module.exports = result =>
+  JSON.stringify({
+    compatibleVersion: '2.0',
+    pluginVersion: '2.0',
+    colors: sortBy(result.toJS().props, 'name').map(prop =>
+      convertToSketchPaletteColor(prop.value),
+    ),
+    gradients: [],
+    images: [],
+  });
