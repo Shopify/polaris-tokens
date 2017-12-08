@@ -1,0 +1,131 @@
+props:
+  white-base:
+    value: '#ffffff'
+
+  black-base:
+    value: '#000000'
+
+  sky-lighter:
+    value: '#f9fafb'
+  sky-light:
+    value: '#f4f6f8'
+  sky-base:
+    value: '#dfe3e8'
+  sky-dark:
+    value: '#c4cdd5'
+
+  ink-lightest:
+    value: '#919eab'
+  ink-lighter:
+    value: '#637381'
+  ink-light:
+    value: '#454f5b'
+  ink-base:
+    value: '#212b36'
+
+  blue-lighter:
+    value: '#ebf5fa'
+  blue-light:
+    value: '#b4e1fa'
+  blue-base:
+    value: '#007ace'
+  blue-dark:
+    value: '#084e8a'
+  blue-darker:
+    value: '#001429'
+  blue-text:
+    value: '#3e4e57'
+
+  green-lighter:
+    value: '#e3f1df'
+  green-light:
+    value: '#bbe5b3'
+  green-base:
+    value: '#50b83c'
+  green-dark:
+    value: '#108043'
+  green-darker:
+    value: '#173630'
+  green-text:
+    value: '#414f3e'
+
+  yellow-lighter:
+    value: '#fcf1cd'
+  yellow-light:
+    value: '#ffea8a'
+  yellow-base:
+    value: '#eec200'
+  yellow-dark:
+    value: '#9c6f19'
+  yellow-darker:
+    value: '#573b00'
+  yellow-text:
+    value: '#595130'
+
+  orange-lighter:
+    value: '#fcebdb'
+  orange-light:
+    value: '#ffc58b'
+  orange-base:
+    value: '#f49342'
+  orange-dark:
+    value: '#c05717'
+  orange-darker:
+    value: '#4a1504'
+  orange-text:
+    value: '#594430'
+
+  red-lighter:
+    value: '#fbeae5'
+  red-light:
+    value: '#fead9a'
+  red-base:
+    value: '#ed6347'
+  red-dark:
+    value: '#bf0711'
+  red-darker:
+    value: '#330101'
+  red-text:
+    value: '#583c35'
+
+  purple-lighter:
+    value: '#f6f0fd'
+  purple-light:
+    value: '#e3d0ff'
+  purple-base:
+    value: '#9c6ade'
+  purple-dark:
+    value: '#50248f'
+  purple-darker:
+    value: '#230051'
+  purple-text:
+    value: '#50495a'
+
+  teal-lighter:
+    value: '#e0f5f5'
+  teal-light:
+    value: '#b7ecec'
+  teal-base:
+    value: '#47c1bf'
+  teal-dark:
+    value: '#00848e'
+  teal-darker:
+    value: '#003135'
+  teal-text:
+    value: '#405352'
+
+  indigo-lighter:
+    value: '#f4f5fa'
+  indigo-light:
+    value: '#b3bcf5'
+  indigo-base:
+    value: '#5c6ac4'
+  indigo-dark:
+    value: '#202e78'
+  indigo-darker:
+    value: '#000639'
+  indigo-text:
+    value: '#3e4155'
+global:
+  type: color
+  category: globals

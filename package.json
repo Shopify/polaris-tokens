@@ -1,0 +1,51 @@
+{
+  "name": "polaris-tokens",
+  "version": "0.0.1",
+  "description": "Design Tokens for the Polaris Design System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "npm-run-all dist:*",
+    "dist:default-formats": "theo tokens/*.yml --format scss,json --dest dist",
+    "dist:custom-formats": "gulp",
+    "dist:prettier": "prettier dist/*.{scss,css,json,js} --write",
+    "dist:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
+    "lint": "npm-run-all lint:*",
+    "lint:js": "eslint .",
+    "lint:tokens": "yamllint tokens/*.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shopify/polaris-tokens.git"
+  },
+  "keywords": [
+    "polaris",
+    "design-tokens"
+  ],
+  "author": "Shopify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shopify/polaris-tokens/issues"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:shopify/node",
+      "plugin:shopify/esnext",
+      "plugin:shopify/prettier"
+    ]
+  },
+  "homepage": "https://github.com/Shopify/polaris-tokens#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-shopify": "^18.2.0",
+    "gulp": "^3.9.1",
+    "gulp-theo": "^1.0.0-beta.1",
+    "lodash": "^4.17.4",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.9.1",
+    "theo": "^6.0.0-beta.8",
+    "tinycolor2": "^1.4.1",
+    "yaml-lint": "^1.0.0"
+  }
+}
