@@ -1,6 +1,6 @@
 # polaris-tokens
 
-Design tokens for Polaris, Shopify’s design system.
+[Design tokens](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421) for [Polaris](https://polaris.shopify.com), Shopify’s design system.
 
 ## Usage
 
