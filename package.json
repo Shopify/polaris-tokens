@@ -10,6 +10,8 @@
     "dist:custom-formats": "gulp",
     "dist:prettier": "prettier dist/*.{scss,css,json,js} --write",
     "dist:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
+    "dist:ase": "node scripts/ase-encode.js",
+    "dist:clr": "ase2clr dist/colors.ase dist/colors.clr",
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint .",
     "lint:tokens": "yamllint tokens/*.yml"
@@ -36,6 +38,7 @@
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
+    "ase-utils": "^0.1.1",
     "eslint": "^4.12.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-shopify": "^18.2.0",
@@ -47,5 +50,8 @@
     "theo": "^6.0.0-beta.8",
     "tinycolor2": "^1.4.1",
     "yaml-lint": "^1.0.0"
+  },
+  "dependencies": {
+    "ase-util": "^1.0.1"
   }
 }

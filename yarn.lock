@@ -414,6 +414,20 @@ asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
+ase-util@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ase-util/-/ase-util-1.0.1.tgz#c345af1f717cde6239f5cf00c3efdde99dcfc40c"
+  dependencies:
+    iconv-lite "^0.4.11"
+    lodash "^3.10.0"
+    yargs "^3.15.0"
+
+ase-utils@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ase-utils/-/ase-utils-0.1.1.tgz#7522a822af23fd2a4d4bef3df5fabfeca01d826d"
+  dependencies:
+    bytebuffer "3.5.4"
+
 ast-types-flow@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
@@ -516,9 +530,20 @@ buf-compare@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buf-compare/-/buf-compare-1.0.1.tgz#fef28da8b8113a0a0db4430b0b6467b69730b34a"
 
+bufferview@~1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bufferview/-/bufferview-1.0.1.tgz#7afd74a45f937fa422a1d338c08bbfdc76cd725d"
+
 builtin-modules@^1.0.0, builtin-modules@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
+
+bytebuffer@3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/bytebuffer/-/bytebuffer-3.5.4.tgz#436e2733174f96aaa978b0926749e83fa162e786"
+  dependencies:
+    bufferview "~1"
+    long "~2 >=2.2.3"
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -1771,7 +1796,7 @@ html-tag@^2.0.0:
     is-self-closing "^1.0.1"
     kind-of "^6.0.0"
 
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
+iconv-lite@^0.4.11, iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
@@ -2363,6 +2388,10 @@ lodash@4.17.4, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.0, lo
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^3.10.0:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
 lodash@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-1.0.2.tgz#8f57560c83b59fc270bd3d561b690043430e2551"
@@ -2398,6 +2427,10 @@ logging-helpers@^1.0.0:
   dependencies:
     isobject "^3.0.0"
     log-utils "^0.2.1"
+
+"long@~2 >=2.2.3":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-2.4.0.tgz#9fa180bb1d9500cdc29c4156766a1995e1f4524f"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3698,7 +3731,7 @@ yaml-lint@^1.0.0:
     lodash.snakecase "^4.1.1"
     nconf "^0.8.4"
 
-yargs@^3.19.0:
+yargs@^3.15.0, yargs@^3.19.0:
   version "3.32.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-3.32.0.tgz#03088e9ebf9e756b69751611d2a5ef591482c995"
   dependencies:

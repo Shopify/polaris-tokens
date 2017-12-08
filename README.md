@@ -17,8 +17,11 @@ Head to <https://github.com/Shopify/polaris-tokens/releases/>, where generated f
 Tokens are generated under the `dist/` folder:
 
 ```
+colors.ase
+colors.clr
 colors.custom.map.scss
 colors.json
 colors.scss
 colors.sketchpalette
+colors.yml
 ```
