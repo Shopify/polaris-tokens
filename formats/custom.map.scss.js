@@ -1,5 +1,5 @@
 const path = require('path');
-const sortBy = require('lodash/sortBy');
+const tinycolor2 = require('tinycolor2');
 const groupBy = require('lodash/groupBy');
 
 function removeCategory(name) {
@@ -26,7 +26,18 @@ class CustomMap {
     }
     return `
     '${category}': (
-      ${sortBy(props, 'name')
+      ${props
+        .sort((colorA, colorB) => {
+          // Force 'text' to always be the last color
+          if (removeCategory(colorA.name) === 'text') return 1;
+          if (removeCategory(colorB.name) === 'text') return -1;
+
+          // Sort colors by brightness
+          return (
+            tinycolor2(colorB.value).getBrightness() -
+            tinycolor2(colorA.value).getBrightness()
+          );
+        })
         .filter(prop => prop.name.startsWith(category))
         .map(prop =>
           `${prop.comment ? `// ${prop.comment}` : ''}
