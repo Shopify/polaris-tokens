@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dist": "npm-run-all dist:*",
-    "dist:default-formats": "theo tokens/*.yml --format scss,json --dest dist",
+    "dist:default-formats": "theo tokens/*.yml --format scss,json,custom-properties.css --dest dist",
     "dist:custom-formats": "gulp",
     "dist:prettier": "prettier dist/*.{scss,css,json,js} --write",
     "dist:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
