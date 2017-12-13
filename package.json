@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf ./dist",
     "predist": "yarn clean",
-    "dist": "npm-run-all dist:*",
+    "dist": "npm-run-all dist:**",
     "dist:default-formats": "theo ./tokens/*.yml --format scss,json,custom-properties.css --dest ./dist",
     "dist:custom-formats": "gulp",
     "dist:prettier": "prettier ./dist/*.{scss,css,json,js} --write",
