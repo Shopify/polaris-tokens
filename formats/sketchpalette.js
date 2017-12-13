@@ -16,7 +16,9 @@ module.exports = result => {
   return JSON.stringify({
     compatibleVersion: '2.0',
     pluginVersion: '2.0',
-    colors: result.toJS().map(prop => convertToSketchPaletteColor(prop.value)),
+    colors: result
+      .toJS()
+      .props.map(prop => convertToSketchPaletteColor(prop.value)),
     gradients: [],
     images: [],
   });
