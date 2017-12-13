@@ -34,7 +34,16 @@
       "plugin:shopify/node",
       "plugin:shopify/esnext",
       "plugin:shopify/prettier"
-    ]
+    ],
+    "rules": {
+      "func-style": [
+        "error",
+        "declaration",
+        {
+          "allowArrowFunctions": true
+        }
+      ]
+    }
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
