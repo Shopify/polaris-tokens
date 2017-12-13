@@ -15,7 +15,7 @@
     "dist:colors:ase": "node ./scripts/ase-encode.js",
     "dist:colors:clr": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
-    "lint": "npm-run-all lint:*",
+    "lint": "npm-run-all lint:**",
     "lint:js": "eslint .",
     "lint:tokens": "yamllint ./tokens/*.yml"
   },
