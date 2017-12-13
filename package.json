@@ -51,6 +51,7 @@
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
     "ase-util": "^1.0.1",
+    "ase-utils": "^0.1.1",
     "eslint": "^4.13.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-shopify": "^18.2.0",
