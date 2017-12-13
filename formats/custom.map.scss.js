@@ -1,19 +1,12 @@
 const path = require('path');
-const tinycolor2 = require('tinycolor2');
 const groupBy = require('lodash/groupBy');
-
-function removeCategory(name) {
-  return name.split('-').pop();
-}
-function getCategory(name) {
-  return name.split('-').shift();
-}
+const color = require('./utils/color');
 
 class CustomMap {
   constructor({props, meta}) {
     this.meta = meta;
     const propsWithCategory = props.map(prop => {
-      prop.category = getCategory(prop.name);
+      prop.category = color.getCategory(prop.name);
       return prop;
     });
     this.categories = groupBy(propsWithCategory, 'category');
@@ -27,21 +20,10 @@ class CustomMap {
     return `
     '${category}': (
       ${props
-        .sort((colorA, colorB) => {
-          // Force 'text' to always be the last color
-          if (removeCategory(colorA.name) === 'text') return 1;
-          if (removeCategory(colorB.name) === 'text') return -1;
-
-          // Sort colors by brightness
-          return (
-            tinycolor2(colorB.value).getBrightness() -
-            tinycolor2(colorA.value).getBrightness()
-          );
-        })
         .filter(prop => prop.name.startsWith(category))
         .map(prop =>
           `${prop.comment ? `// ${prop.comment}` : ''}
-            ${removeCategory(prop.name)}: ${prop.value}
+            ${color.getVariant(prop.name)}: ${prop.value}
           `.trim(),
         )
         .join(',\n')}
