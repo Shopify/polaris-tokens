@@ -1,6 +1,6 @@
 {
   "name": "polaris-tokens",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Design Tokens for the Polaris Design System",
   "main": "index.js",
   "scripts": {
