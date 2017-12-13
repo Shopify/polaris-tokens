@@ -8,16 +8,16 @@
     "clean": "rimraf ./dist",
     "predist": "yarn clean",
     "dist": "npm-run-all dist:*",
-    "dist:default-formats": "theo tokens/*.yml --format scss,json,custom-properties.css --dest dist",
+    "dist:default-formats": "theo ./tokens/*.yml --format scss,json,custom-properties.css --dest ./dist",
     "dist:custom-formats": "gulp",
-    "dist:prettier": "prettier dist/*.{scss,css,json,js} --write",
-    "dist:colors:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
-    "dist:colors:ase": "node scripts/ase-encode.js",
-    "dist:colors:clr": "ase2clr dist/colors.ase dist/colors.clr",
+    "dist:prettier": "prettier ./dist/*.{scss,css,json,js} --write",
+    "dist:colors:prettier-sketchpalette": "prettier ./dist/*.sketchpalette --write --parser json",
+    "dist:colors:ase": "node ./scripts/ase-encode.js",
+    "dist:colors:clr": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint .",
-    "lint:tokens": "yamllint tokens/*.yml"
+    "lint:tokens": "yamllint ./tokens/*.yml"
   },
   "repository": {
     "type": "git",
@@ -51,17 +51,17 @@
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
     "ase-util": "^1.0.1",
-    "eslint": "^4.12.1",
+    "eslint": "^4.13.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-shopify": "^18.2.0",
     "gulp": "^3.9.1",
     "gulp-theo": "^1.0.0-beta.1",
     "lodash": "^4.17.4",
     "npm-run-all": "^4.1.2",
-    "prettier": "^1.9.1",
+    "prettier": "^1.9.2",
     "renamer": "^0.6.1",
     "rimraf": "^2.6.2",
-    "theo": "^6.0.0-beta.8",
+    "theo": "^6.0.0-beta.9",
     "tinycolor2": "^1.4.1",
     "yaml-lint": "^1.0.0"
   }
