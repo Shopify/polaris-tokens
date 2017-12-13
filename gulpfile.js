@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const theo = require('gulp-theo');
 const customMapScss = require('./formats/custom.map.scss.js');
 const sketchpalette = require('./formats/sketchpalette.js');
-const aseJSON = require('./formats/ase.js');
+const aseJSON = require('./formats/ase.json.js');
 
 theo.registerFormat('custom.map.scss', customMapScss);
 theo.registerFormat('sketchpalette', sketchpalette);
@@ -38,7 +38,7 @@ gulp.task('sketchpalette', () =>
     .pipe(gulp.dest('dist')),
 );
 
-gulp.task('ase', () =>
+gulp.task('ase.json', () =>
   gulp
     .src('tokens/colors.yml')
     .pipe(
@@ -53,4 +53,4 @@ gulp.task('ase', () =>
     .pipe(gulp.dest('dist')),
 );
 
-gulp.task('default', ['custom-map-scss', 'sketchpalette', 'ase']);
+gulp.task('default', ['custom-map-scss', 'sketchpalette', 'ase.json']);
