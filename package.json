@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf ./dist",
+    "predist": "yarn clean",
     "dist": "npm-run-all dist:*",
     "dist:default-formats": "theo tokens/*.yml --format scss,json,custom-properties.css --dest dist",
     "dist:custom-formats": "gulp",
     "dist:prettier": "prettier dist/*.{scss,css,json,js} --write",
-    "dist:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
-    "dist:ase": "node scripts/ase-encode.js",
-    "dist:clr": "ase2clr dist/colors.ase dist/colors.clr",
+    "dist:colors:prettier-sketchpalette": "prettier dist/*.sketchpalette --write --parser json",
+    "dist:colors:ase": "node scripts/ase-encode.js",
+    "dist:colors:clr": "ase2clr dist/colors.ase dist/colors.clr",
+    "dist:colors:rename-palettes": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint .",
     "lint:tokens": "yamllint tokens/*.yml"
@@ -47,7 +50,7 @@
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
-    "ase-utils": "^0.1.1",
+    "ase-util": "^1.0.1",
     "eslint": "^4.12.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-shopify": "^18.2.0",
@@ -56,11 +59,10 @@
     "lodash": "^4.17.4",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.9.1",
+    "renamer": "^0.6.1",
+    "rimraf": "^2.6.2",
     "theo": "^6.0.0-beta.8",
     "tinycolor2": "^1.4.1",
     "yaml-lint": "^1.0.0"
-  },
-  "dependencies": {
-    "ase-util": "^1.0.1"
   }
 }
