@@ -1,130 +1,130 @@
 props:
-  white-base:
+  - name: white-base
     value: '#ffffff'
 
-  black-base:
+  - name: black-base
     value: '#000000'
 
-  sky-lighter:
+  - name: sky-lighter
     value: '#f9fafb'
-  sky-light:
+  - name: sky-light
     value: '#f4f6f8'
-  sky-base:
+  - name: sky-base
     value: '#dfe3e8'
-  sky-dark:
+  - name: sky-dark
     value: '#c4cdd5'
 
-  ink-lightest:
+  - name: ink-lightest
     value: '#919eab'
-  ink-lighter:
+  - name: ink-lighter
     value: '#637381'
-  ink-light:
+  - name: ink-light
     value: '#454f5b'
-  ink-base:
+  - name: ink-base
     value: '#212b36'
 
-  blue-lighter:
+  - name: blue-lighter
     value: '#ebf5fa'
-  blue-light:
+  - name: blue-light
     value: '#b4e1fa'
-  blue-base:
+  - name: blue-base
     value: '#007ace'
-  blue-dark:
+  - name: blue-dark
     value: '#084e8a'
-  blue-darker:
+  - name: blue-darker
     value: '#001429'
-  blue-text:
+  - name: blue-text
     value: '#3e4e57'
 
-  green-lighter:
+  - name: green-lighter
     value: '#e3f1df'
-  green-light:
+  - name: green-light
     value: '#bbe5b3'
-  green-base:
+  - name: green-base
     value: '#50b83c'
-  green-dark:
+  - name: green-dark
     value: '#108043'
-  green-darker:
+  - name: green-darker
     value: '#173630'
-  green-text:
+  - name: green-text
     value: '#414f3e'
 
-  yellow-lighter:
+  - name: yellow-lighter
     value: '#fcf1cd'
-  yellow-light:
+  - name: yellow-light
     value: '#ffea8a'
-  yellow-base:
+  - name: yellow-base
     value: '#eec200'
-  yellow-dark:
+  - name: yellow-dark
     value: '#9c6f19'
-  yellow-darker:
+  - name: yellow-darker
     value: '#573b00'
-  yellow-text:
+  - name: yellow-text
     value: '#595130'
 
-  orange-lighter:
+  - name: orange-lighter
     value: '#fcebdb'
-  orange-light:
+  - name: orange-light
     value: '#ffc58b'
-  orange-base:
+  - name: orange-base
     value: '#f49342'
-  orange-dark:
+  - name: orange-dark
     value: '#c05717'
-  orange-darker:
+  - name: orange-darker
     value: '#4a1504'
-  orange-text:
+  - name: orange-text
     value: '#594430'
 
-  red-lighter:
+  - name: red-lighter
     value: '#fbeae5'
-  red-light:
+  - name: red-light
     value: '#fead9a'
-  red-base:
+  - name: red-base
     value: '#ed6347'
-  red-dark:
+  - name: red-dark
     value: '#bf0711'
-  red-darker:
+  - name: red-darker
     value: '#330101'
-  red-text:
+  - name: red-text
     value: '#583c35'
 
-  purple-lighter:
+  - name: purple-lighter
     value: '#f6f0fd'
-  purple-light:
+  - name: purple-light
     value: '#e3d0ff'
-  purple-base:
+  - name: purple-base
     value: '#9c6ade'
-  purple-dark:
+  - name: purple-dark
     value: '#50248f'
-  purple-darker:
+  - name: purple-darker
     value: '#230051'
-  purple-text:
+  - name: purple-text
     value: '#50495a'
 
-  teal-lighter:
+  - name: teal-lighter
     value: '#e0f5f5'
-  teal-light:
+  - name: teal-light
     value: '#b7ecec'
-  teal-base:
+  - name: teal-base
     value: '#47c1bf'
-  teal-dark:
+  - name: teal-dark
     value: '#00848e'
-  teal-darker:
+  - name: teal-darker
     value: '#003135'
-  teal-text:
+  - name: teal-text
     value: '#405352'
 
-  indigo-lighter:
+  - name: indigo-lighter
     value: '#f4f5fa'
-  indigo-light:
+  - name: indigo-light
     value: '#b3bcf5'
-  indigo-base:
+  - name: indigo-base
     value: '#5c6ac4'
-  indigo-dark:
+  - name: indigo-dark
     value: '#202e78'
-  indigo-darker:
+  - name: indigo-darker
     value: '#000639'
-  indigo-text:
+  - name: indigo-text
     value: '#3e4155'
 global:
   type: color
