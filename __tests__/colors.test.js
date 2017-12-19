@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const colorFiles = [
-  'colors.custom.map.scss',
+  'colors.color-map.scss',
   'colors.custom-properties.css',
   'colors.json',
   'colors.scss',

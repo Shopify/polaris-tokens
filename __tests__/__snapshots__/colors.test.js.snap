@@ -350,89 +350,62 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
 "
 `;
 
-exports[`renders colors.custom.map.scss correctly 1`] = `
+exports[`renders colors.color-map.scss correctly 1`] = `
 "$colors: (
-  \\"white\\": (base: rgb(255, 255, 255)),
-  \\"black\\": (base: rgb(0, 0, 0)),
-  \\"sky\\":
+  \\"color\\":
     (
+      base: rgb(255, 255, 255),
+      base: rgb(0, 0, 0),
       lighter: rgb(249, 250, 251),
       light: rgb(244, 246, 248),
       base: rgb(223, 227, 232),
-      dark: rgb(196, 205, 213)
-    ),
-  \\"ink\\":
-    (
+      dark: rgb(196, 205, 213),
       lightest: rgb(145, 158, 171),
       lighter: rgb(99, 115, 129),
       light: rgb(69, 79, 91),
-      base: rgb(33, 43, 54)
-    ),
-  \\"blue\\":
-    (
+      base: rgb(33, 43, 54),
       lighter: rgb(235, 245, 250),
       light: rgb(180, 225, 250),
       base: rgb(0, 122, 206),
       dark: rgb(8, 78, 138),
       darker: rgb(0, 20, 41),
-      text: rgb(62, 78, 87)
-    ),
-  \\"green\\":
-    (
+      text: rgb(62, 78, 87),
       lighter: rgb(227, 241, 223),
       light: rgb(187, 229, 179),
       base: rgb(80, 184, 60),
       dark: rgb(16, 128, 67),
       darker: rgb(23, 54, 48),
-      text: rgb(65, 79, 62)
-    ),
-  \\"yellow\\":
-    (
+      text: rgb(65, 79, 62),
       lighter: rgb(252, 241, 205),
       light: rgb(255, 234, 138),
       base: rgb(238, 194, 0),
       dark: rgb(156, 111, 25),
       darker: rgb(87, 59, 0),
-      text: rgb(89, 81, 48)
-    ),
-  \\"orange\\":
-    (
+      text: rgb(89, 81, 48),
       lighter: rgb(252, 235, 219),
       light: rgb(255, 197, 139),
       base: rgb(244, 147, 66),
       dark: rgb(192, 87, 23),
       darker: rgb(74, 21, 4),
-      text: rgb(89, 68, 48)
-    ),
-  \\"red\\":
-    (
+      text: rgb(89, 68, 48),
       lighter: rgb(251, 234, 229),
       light: rgb(254, 173, 154),
       base: rgb(237, 99, 71),
       dark: rgb(191, 7, 17),
       darker: rgb(51, 1, 1),
-      text: rgb(88, 60, 53)
-    ),
-  \\"purple\\":
-    (
+      text: rgb(88, 60, 53),
       lighter: rgb(246, 240, 253),
       light: rgb(227, 208, 255),
       base: rgb(156, 106, 222),
       dark: rgb(80, 36, 143),
       darker: rgb(35, 0, 81),
-      text: rgb(80, 73, 90)
-    ),
-  \\"teal\\":
-    (
+      text: rgb(80, 73, 90),
       lighter: rgb(224, 245, 245),
       light: rgb(183, 236, 236),
       base: rgb(71, 193, 191),
       dark: rgb(0, 132, 142),
       darker: rgb(0, 49, 53),
-      text: rgb(64, 83, 82)
-    ),
-  \\"indigo\\":
-    (
+      text: rgb(64, 83, 82),
       lighter: rgb(244, 245, 250),
       light: rgb(179, 188, 245),
       base: rgb(92, 106, 196),
@@ -446,190 +419,190 @@ exports[`renders colors.custom.map.scss correctly 1`] = `
 
 exports[`renders colors.custom-properties.css correctly 1`] = `
 ":root {
-  --white-base: #ffffff;
-  --black-base: #000000;
-  --sky-lighter: #f9fafb;
-  --sky-light: #f4f6f8;
-  --sky-base: #dfe3e8;
-  --sky-dark: #c4cdd5;
-  --ink-lightest: #919eab;
-  --ink-lighter: #637381;
-  --ink-light: #454f5b;
-  --ink-base: #212b36;
-  --blue-lighter: #ebf5fa;
-  --blue-light: #b4e1fa;
-  --blue-base: #007ace;
-  --blue-dark: #084e8a;
-  --blue-darker: #001429;
-  --blue-text: #3e4e57;
-  --green-lighter: #e3f1df;
-  --green-light: #bbe5b3;
-  --green-base: #50b83c;
-  --green-dark: #108043;
-  --green-darker: #173630;
-  --green-text: #414f3e;
-  --yellow-lighter: #fcf1cd;
-  --yellow-light: #ffea8a;
-  --yellow-base: #eec200;
-  --yellow-dark: #9c6f19;
-  --yellow-darker: #573b00;
-  --yellow-text: #595130;
-  --orange-lighter: #fcebdb;
-  --orange-light: #ffc58b;
-  --orange-base: #f49342;
-  --orange-dark: #c05717;
-  --orange-darker: #4a1504;
-  --orange-text: #594430;
-  --red-lighter: #fbeae5;
-  --red-light: #fead9a;
-  --red-base: #ed6347;
-  --red-dark: #bf0711;
-  --red-darker: #330101;
-  --red-text: #583c35;
-  --purple-lighter: #f6f0fd;
-  --purple-light: #e3d0ff;
-  --purple-base: #9c6ade;
-  --purple-dark: #50248f;
-  --purple-darker: #230051;
-  --purple-text: #50495a;
-  --teal-lighter: #e0f5f5;
-  --teal-light: #b7ecec;
-  --teal-base: #47c1bf;
-  --teal-dark: #00848e;
-  --teal-darker: #003135;
-  --teal-text: #405352;
-  --indigo-lighter: #f4f5fa;
-  --indigo-light: #b3bcf5;
-  --indigo-base: #5c6ac4;
-  --indigo-dark: #202e78;
-  --indigo-darker: #000639;
-  --indigo-text: #3e4155;
+  --color-white-base: rgb(255, 255, 255);
+  --color-black-base: rgb(0, 0, 0);
+  --color-sky-lighter: rgb(249, 250, 251);
+  --color-sky-light: rgb(244, 246, 248);
+  --color-sky-base: rgb(223, 227, 232);
+  --color-sky-dark: rgb(196, 205, 213);
+  --color-ink-lightest: rgb(145, 158, 171);
+  --color-ink-lighter: rgb(99, 115, 129);
+  --color-ink-light: rgb(69, 79, 91);
+  --color-ink-base: rgb(33, 43, 54);
+  --color-blue-lighter: rgb(235, 245, 250);
+  --color-blue-light: rgb(180, 225, 250);
+  --color-blue-base: rgb(0, 122, 206);
+  --color-blue-dark: rgb(8, 78, 138);
+  --color-blue-darker: rgb(0, 20, 41);
+  --color-blue-text: rgb(62, 78, 87);
+  --color-green-lighter: rgb(227, 241, 223);
+  --color-green-light: rgb(187, 229, 179);
+  --color-green-base: rgb(80, 184, 60);
+  --color-green-dark: rgb(16, 128, 67);
+  --color-green-darker: rgb(23, 54, 48);
+  --color-green-text: rgb(65, 79, 62);
+  --color-yellow-lighter: rgb(252, 241, 205);
+  --color-yellow-light: rgb(255, 234, 138);
+  --color-yellow-base: rgb(238, 194, 0);
+  --color-yellow-dark: rgb(156, 111, 25);
+  --color-yellow-darker: rgb(87, 59, 0);
+  --color-yellow-text: rgb(89, 81, 48);
+  --color-orange-lighter: rgb(252, 235, 219);
+  --color-orange-light: rgb(255, 197, 139);
+  --color-orange-base: rgb(244, 147, 66);
+  --color-orange-dark: rgb(192, 87, 23);
+  --color-orange-darker: rgb(74, 21, 4);
+  --color-orange-text: rgb(89, 68, 48);
+  --color-red-lighter: rgb(251, 234, 229);
+  --color-red-light: rgb(254, 173, 154);
+  --color-red-base: rgb(237, 99, 71);
+  --color-red-dark: rgb(191, 7, 17);
+  --color-red-darker: rgb(51, 1, 1);
+  --color-red-text: rgb(88, 60, 53);
+  --color-purple-lighter: rgb(246, 240, 253);
+  --color-purple-light: rgb(227, 208, 255);
+  --color-purple-base: rgb(156, 106, 222);
+  --color-purple-dark: rgb(80, 36, 143);
+  --color-purple-darker: rgb(35, 0, 81);
+  --color-purple-text: rgb(80, 73, 90);
+  --color-teal-lighter: rgb(224, 245, 245);
+  --color-teal-light: rgb(183, 236, 236);
+  --color-teal-base: rgb(71, 193, 191);
+  --color-teal-dark: rgb(0, 132, 142);
+  --color-teal-darker: rgb(0, 49, 53);
+  --color-teal-text: rgb(64, 83, 82);
+  --color-indigo-lighter: rgb(244, 245, 250);
+  --color-indigo-light: rgb(179, 188, 245);
+  --color-indigo-base: rgb(92, 106, 196);
+  --color-indigo-dark: rgb(32, 46, 120);
+  --color-indigo-darker: rgb(0, 6, 57);
+  --color-indigo-text: rgb(62, 65, 85);
 }
 "
 `;
 
 exports[`renders colors.json correctly 1`] = `
 "{
-  \\"white-base\\": \\"#ffffff\\",
-  \\"black-base\\": \\"#000000\\",
-  \\"sky-lighter\\": \\"#f9fafb\\",
-  \\"sky-light\\": \\"#f4f6f8\\",
-  \\"sky-base\\": \\"#dfe3e8\\",
-  \\"sky-dark\\": \\"#c4cdd5\\",
-  \\"ink-lightest\\": \\"#919eab\\",
-  \\"ink-lighter\\": \\"#637381\\",
-  \\"ink-light\\": \\"#454f5b\\",
-  \\"ink-base\\": \\"#212b36\\",
-  \\"blue-lighter\\": \\"#ebf5fa\\",
-  \\"blue-light\\": \\"#b4e1fa\\",
-  \\"blue-base\\": \\"#007ace\\",
-  \\"blue-dark\\": \\"#084e8a\\",
-  \\"blue-darker\\": \\"#001429\\",
-  \\"blue-text\\": \\"#3e4e57\\",
-  \\"green-lighter\\": \\"#e3f1df\\",
-  \\"green-light\\": \\"#bbe5b3\\",
-  \\"green-base\\": \\"#50b83c\\",
-  \\"green-dark\\": \\"#108043\\",
-  \\"green-darker\\": \\"#173630\\",
-  \\"green-text\\": \\"#414f3e\\",
-  \\"yellow-lighter\\": \\"#fcf1cd\\",
-  \\"yellow-light\\": \\"#ffea8a\\",
-  \\"yellow-base\\": \\"#eec200\\",
-  \\"yellow-dark\\": \\"#9c6f19\\",
-  \\"yellow-darker\\": \\"#573b00\\",
-  \\"yellow-text\\": \\"#595130\\",
-  \\"orange-lighter\\": \\"#fcebdb\\",
-  \\"orange-light\\": \\"#ffc58b\\",
-  \\"orange-base\\": \\"#f49342\\",
-  \\"orange-dark\\": \\"#c05717\\",
-  \\"orange-darker\\": \\"#4a1504\\",
-  \\"orange-text\\": \\"#594430\\",
-  \\"red-lighter\\": \\"#fbeae5\\",
-  \\"red-light\\": \\"#fead9a\\",
-  \\"red-base\\": \\"#ed6347\\",
-  \\"red-dark\\": \\"#bf0711\\",
-  \\"red-darker\\": \\"#330101\\",
-  \\"red-text\\": \\"#583c35\\",
-  \\"purple-lighter\\": \\"#f6f0fd\\",
-  \\"purple-light\\": \\"#e3d0ff\\",
-  \\"purple-base\\": \\"#9c6ade\\",
-  \\"purple-dark\\": \\"#50248f\\",
-  \\"purple-darker\\": \\"#230051\\",
-  \\"purple-text\\": \\"#50495a\\",
-  \\"teal-lighter\\": \\"#e0f5f5\\",
-  \\"teal-light\\": \\"#b7ecec\\",
-  \\"teal-base\\": \\"#47c1bf\\",
-  \\"teal-dark\\": \\"#00848e\\",
-  \\"teal-darker\\": \\"#003135\\",
-  \\"teal-text\\": \\"#405352\\",
-  \\"indigo-lighter\\": \\"#f4f5fa\\",
-  \\"indigo-light\\": \\"#b3bcf5\\",
-  \\"indigo-base\\": \\"#5c6ac4\\",
-  \\"indigo-dark\\": \\"#202e78\\",
-  \\"indigo-darker\\": \\"#000639\\",
-  \\"indigo-text\\": \\"#3e4155\\"
+  \\"color-white-base\\": \\"rgb(255, 255, 255)\\",
+  \\"color-black-base\\": \\"rgb(0, 0, 0)\\",
+  \\"color-sky-lighter\\": \\"rgb(249, 250, 251)\\",
+  \\"color-sky-light\\": \\"rgb(244, 246, 248)\\",
+  \\"color-sky-base\\": \\"rgb(223, 227, 232)\\",
+  \\"color-sky-dark\\": \\"rgb(196, 205, 213)\\",
+  \\"color-ink-lightest\\": \\"rgb(145, 158, 171)\\",
+  \\"color-ink-lighter\\": \\"rgb(99, 115, 129)\\",
+  \\"color-ink-light\\": \\"rgb(69, 79, 91)\\",
+  \\"color-ink-base\\": \\"rgb(33, 43, 54)\\",
+  \\"color-blue-lighter\\": \\"rgb(235, 245, 250)\\",
+  \\"color-blue-light\\": \\"rgb(180, 225, 250)\\",
+  \\"color-blue-base\\": \\"rgb(0, 122, 206)\\",
+  \\"color-blue-dark\\": \\"rgb(8, 78, 138)\\",
+  \\"color-blue-darker\\": \\"rgb(0, 20, 41)\\",
+  \\"color-blue-text\\": \\"rgb(62, 78, 87)\\",
+  \\"color-green-lighter\\": \\"rgb(227, 241, 223)\\",
+  \\"color-green-light\\": \\"rgb(187, 229, 179)\\",
+  \\"color-green-base\\": \\"rgb(80, 184, 60)\\",
+  \\"color-green-dark\\": \\"rgb(16, 128, 67)\\",
+  \\"color-green-darker\\": \\"rgb(23, 54, 48)\\",
+  \\"color-green-text\\": \\"rgb(65, 79, 62)\\",
+  \\"color-yellow-lighter\\": \\"rgb(252, 241, 205)\\",
+  \\"color-yellow-light\\": \\"rgb(255, 234, 138)\\",
+  \\"color-yellow-base\\": \\"rgb(238, 194, 0)\\",
+  \\"color-yellow-dark\\": \\"rgb(156, 111, 25)\\",
+  \\"color-yellow-darker\\": \\"rgb(87, 59, 0)\\",
+  \\"color-yellow-text\\": \\"rgb(89, 81, 48)\\",
+  \\"color-orange-lighter\\": \\"rgb(252, 235, 219)\\",
+  \\"color-orange-light\\": \\"rgb(255, 197, 139)\\",
+  \\"color-orange-base\\": \\"rgb(244, 147, 66)\\",
+  \\"color-orange-dark\\": \\"rgb(192, 87, 23)\\",
+  \\"color-orange-darker\\": \\"rgb(74, 21, 4)\\",
+  \\"color-orange-text\\": \\"rgb(89, 68, 48)\\",
+  \\"color-red-lighter\\": \\"rgb(251, 234, 229)\\",
+  \\"color-red-light\\": \\"rgb(254, 173, 154)\\",
+  \\"color-red-base\\": \\"rgb(237, 99, 71)\\",
+  \\"color-red-dark\\": \\"rgb(191, 7, 17)\\",
+  \\"color-red-darker\\": \\"rgb(51, 1, 1)\\",
+  \\"color-red-text\\": \\"rgb(88, 60, 53)\\",
+  \\"color-purple-lighter\\": \\"rgb(246, 240, 253)\\",
+  \\"color-purple-light\\": \\"rgb(227, 208, 255)\\",
+  \\"color-purple-base\\": \\"rgb(156, 106, 222)\\",
+  \\"color-purple-dark\\": \\"rgb(80, 36, 143)\\",
+  \\"color-purple-darker\\": \\"rgb(35, 0, 81)\\",
+  \\"color-purple-text\\": \\"rgb(80, 73, 90)\\",
+  \\"color-teal-lighter\\": \\"rgb(224, 245, 245)\\",
+  \\"color-teal-light\\": \\"rgb(183, 236, 236)\\",
+  \\"color-teal-base\\": \\"rgb(71, 193, 191)\\",
+  \\"color-teal-dark\\": \\"rgb(0, 132, 142)\\",
+  \\"color-teal-darker\\": \\"rgb(0, 49, 53)\\",
+  \\"color-teal-text\\": \\"rgb(64, 83, 82)\\",
+  \\"color-indigo-lighter\\": \\"rgb(244, 245, 250)\\",
+  \\"color-indigo-light\\": \\"rgb(179, 188, 245)\\",
+  \\"color-indigo-base\\": \\"rgb(92, 106, 196)\\",
+  \\"color-indigo-dark\\": \\"rgb(32, 46, 120)\\",
+  \\"color-indigo-darker\\": \\"rgb(0, 6, 57)\\",
+  \\"color-indigo-text\\": \\"rgb(62, 65, 85)\\"
 }
 "
 `;
 
 exports[`renders colors.scss correctly 1`] = `
-"$white-base: #ffffff;
-$black-base: #000000;
-$sky-lighter: #f9fafb;
-$sky-light: #f4f6f8;
-$sky-base: #dfe3e8;
-$sky-dark: #c4cdd5;
-$ink-lightest: #919eab;
-$ink-lighter: #637381;
-$ink-light: #454f5b;
-$ink-base: #212b36;
-$blue-lighter: #ebf5fa;
-$blue-light: #b4e1fa;
-$blue-base: #007ace;
-$blue-dark: #084e8a;
-$blue-darker: #001429;
-$blue-text: #3e4e57;
-$green-lighter: #e3f1df;
-$green-light: #bbe5b3;
-$green-base: #50b83c;
-$green-dark: #108043;
-$green-darker: #173630;
-$green-text: #414f3e;
-$yellow-lighter: #fcf1cd;
-$yellow-light: #ffea8a;
-$yellow-base: #eec200;
-$yellow-dark: #9c6f19;
-$yellow-darker: #573b00;
-$yellow-text: #595130;
-$orange-lighter: #fcebdb;
-$orange-light: #ffc58b;
-$orange-base: #f49342;
-$orange-dark: #c05717;
-$orange-darker: #4a1504;
-$orange-text: #594430;
-$red-lighter: #fbeae5;
-$red-light: #fead9a;
-$red-base: #ed6347;
-$red-dark: #bf0711;
-$red-darker: #330101;
-$red-text: #583c35;
-$purple-lighter: #f6f0fd;
-$purple-light: #e3d0ff;
-$purple-base: #9c6ade;
-$purple-dark: #50248f;
-$purple-darker: #230051;
-$purple-text: #50495a;
-$teal-lighter: #e0f5f5;
-$teal-light: #b7ecec;
-$teal-base: #47c1bf;
-$teal-dark: #00848e;
-$teal-darker: #003135;
-$teal-text: #405352;
-$indigo-lighter: #f4f5fa;
-$indigo-light: #b3bcf5;
-$indigo-base: #5c6ac4;
-$indigo-dark: #202e78;
-$indigo-darker: #000639;
-$indigo-text: #3e4155;
+"$color-white-base: rgb(255, 255, 255);
+$color-black-base: rgb(0, 0, 0);
+$color-sky-lighter: rgb(249, 250, 251);
+$color-sky-light: rgb(244, 246, 248);
+$color-sky-base: rgb(223, 227, 232);
+$color-sky-dark: rgb(196, 205, 213);
+$color-ink-lightest: rgb(145, 158, 171);
+$color-ink-lighter: rgb(99, 115, 129);
+$color-ink-light: rgb(69, 79, 91);
+$color-ink-base: rgb(33, 43, 54);
+$color-blue-lighter: rgb(235, 245, 250);
+$color-blue-light: rgb(180, 225, 250);
+$color-blue-base: rgb(0, 122, 206);
+$color-blue-dark: rgb(8, 78, 138);
+$color-blue-darker: rgb(0, 20, 41);
+$color-blue-text: rgb(62, 78, 87);
+$color-green-lighter: rgb(227, 241, 223);
+$color-green-light: rgb(187, 229, 179);
+$color-green-base: rgb(80, 184, 60);
+$color-green-dark: rgb(16, 128, 67);
+$color-green-darker: rgb(23, 54, 48);
+$color-green-text: rgb(65, 79, 62);
+$color-yellow-lighter: rgb(252, 241, 205);
+$color-yellow-light: rgb(255, 234, 138);
+$color-yellow-base: rgb(238, 194, 0);
+$color-yellow-dark: rgb(156, 111, 25);
+$color-yellow-darker: rgb(87, 59, 0);
+$color-yellow-text: rgb(89, 81, 48);
+$color-orange-lighter: rgb(252, 235, 219);
+$color-orange-light: rgb(255, 197, 139);
+$color-orange-base: rgb(244, 147, 66);
+$color-orange-dark: rgb(192, 87, 23);
+$color-orange-darker: rgb(74, 21, 4);
+$color-orange-text: rgb(89, 68, 48);
+$color-red-lighter: rgb(251, 234, 229);
+$color-red-light: rgb(254, 173, 154);
+$color-red-base: rgb(237, 99, 71);
+$color-red-dark: rgb(191, 7, 17);
+$color-red-darker: rgb(51, 1, 1);
+$color-red-text: rgb(88, 60, 53);
+$color-purple-lighter: rgb(246, 240, 253);
+$color-purple-light: rgb(227, 208, 255);
+$color-purple-base: rgb(156, 106, 222);
+$color-purple-dark: rgb(80, 36, 143);
+$color-purple-darker: rgb(35, 0, 81);
+$color-purple-text: rgb(80, 73, 90);
+$color-teal-lighter: rgb(224, 245, 245);
+$color-teal-light: rgb(183, 236, 236);
+$color-teal-base: rgb(71, 193, 191);
+$color-teal-dark: rgb(0, 132, 142);
+$color-teal-darker: rgb(0, 49, 53);
+$color-teal-text: rgb(64, 83, 82);
+$color-indigo-lighter: rgb(244, 245, 250);
+$color-indigo-light: rgb(179, 188, 245);
+$color-indigo-base: rgb(92, 106, 196);
+$color-indigo-dark: rgb(32, 46, 120);
+$color-indigo-darker: rgb(0, 6, 57);
+$color-indigo-text: rgb(62, 65, 85);
 "
 `;
