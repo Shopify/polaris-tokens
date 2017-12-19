@@ -1,56 +1,63 @@
 const gulp = require('gulp');
 const theo = require('gulp-theo');
-const customMapScss = require('./formats/custom.map.scss.js');
+const colorMapScss = require('./formats/color-map.scss.js');
 const sketchpalette = require('./formats/sketchpalette.js');
 const aseJSON = require('./formats/ase.json.js');
 
-theo.registerFormat('custom.map.scss', customMapScss);
+theo.registerFormat('color-map.scss', colorMapScss);
 theo.registerFormat('sketchpalette', sketchpalette);
 theo.registerFormat('ase.json', aseJSON);
 
-gulp.task('custom-map-scss', () =>
+const webFormats = ['scss', 'json', 'custom-properties.css'];
+const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
+
+gulp.task('web-formats', () =>
+  webFormats.map(format =>
+    gulp
+      .src('./tokens/*.yml')
+      .pipe(
+        theo.plugin({
+          transform: {type: 'web'},
+          format: {type: format},
+        }),
+      )
+      .on('error', err => {
+        throw new Error(err);
+      })
+      .pipe(gulp.dest('./dist')),
+  ),
+);
+
+gulp.task('color-formats', () =>
+  colorFormats.map(format =>
+    gulp
+      .src('./tokens/*.yml')
+      .pipe(
+        theo.plugin({
+          transform: {type: 'web'},
+          format: {type: format},
+        }),
+      )
+      .on('error', err => {
+        throw new Error(err);
+      })
+      .pipe(gulp.dest('./dist')),
+  ),
+);
+
+gulp.task('documentation', () =>
   gulp
-    .src('tokens/colors.yml')
+    .src('./tokens/index.yml')
     .pipe(
       theo.plugin({
         transform: {type: 'web'},
-        format: {type: 'custom.map.scss'},
+        format: {type: 'html'},
       }),
     )
     .on('error', err => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('dist')),
+    .pipe(gulp.dest('./gh-pages')),
 );
 
-gulp.task('sketchpalette', () =>
-  gulp
-    .src('tokens/colors.yml')
-    .pipe(
-      theo.plugin({
-        transform: {type: 'web'},
-        format: {type: 'sketchpalette'},
-      }),
-    )
-    .on('error', err => {
-      throw new Error(err);
-    })
-    .pipe(gulp.dest('dist')),
-);
-
-gulp.task('ase.json', () =>
-  gulp
-    .src('tokens/colors.yml')
-    .pipe(
-      theo.plugin({
-        transform: {type: 'web'},
-        format: {type: 'ase.json'},
-      }),
-    )
-    .on('error', err => {
-      throw new Error(err);
-    })
-    .pipe(gulp.dest('dist')),
-);
-
-gulp.task('default', ['custom-map-scss', 'sketchpalette', 'ase.json']);
+gulp.task('default', ['web-formats', 'color-formats', 'documentation']);
