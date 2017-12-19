@@ -1,131 +1,137 @@
 props:
-  - name: white-base
+  - name: color-white-base
     value: '#ffffff'
 
-  - name: black-base
+  - name: color-black-base
     value: '#000000'
 
-  - name: sky-lighter
+  - name: color-sky-lighter
     value: '#f9fafb'
-  - name: sky-light
+  - name: color-sky-light
     value: '#f4f6f8'
-  - name: sky-base
+  - name: color-sky-base
     value: '#dfe3e8'
-  - name: sky-dark
+  - name: color-sky-dark
     value: '#c4cdd5'
 
-  - name: ink-lightest
+  - name: color-ink-lightest
     value: '#919eab'
-  - name: ink-lighter
+  - name: color-ink-lighter
     value: '#637381'
-  - name: ink-light
+  - name: color-ink-light
     value: '#454f5b'
-  - name: ink-base
+  - name: color-ink-base
     value: '#212b36'
 
-  - name: blue-lighter
+  - name: color-blue-lighter
     value: '#ebf5fa'
-  - name: blue-light
+  - name: color-blue-light
     value: '#b4e1fa'
-  - name: blue-base
+  - name: color-blue-base
     value: '#007ace'
-  - name: blue-dark
+  - name: color-blue-dark
     value: '#084e8a'
-  - name: blue-darker
+  - name: color-blue-darker
     value: '#001429'
-  - name: blue-text
+  - name: color-blue-text
     value: '#3e4e57'
+    category: text-color
 
-  - name: green-lighter
+  - name: color-green-lighter
     value: '#e3f1df'
-  - name: green-light
+  - name: color-green-light
     value: '#bbe5b3'
-  - name: green-base
+  - name: color-green-base
     value: '#50b83c'
-  - name: green-dark
+  - name: color-green-dark
     value: '#108043'
-  - name: green-darker
+  - name: color-green-darker
     value: '#173630'
-  - name: green-text
+  - name: color-green-text
     value: '#414f3e'
+    category: text-color
 
-  - name: yellow-lighter
+  - name: color-yellow-lighter
     value: '#fcf1cd'
-  - name: yellow-light
+  - name: color-yellow-light
     value: '#ffea8a'
-  - name: yellow-base
+  - name: color-yellow-base
     value: '#eec200'
-  - name: yellow-dark
+  - name: color-yellow-dark
     value: '#9c6f19'
-  - name: yellow-darker
+  - name: color-yellow-darker
     value: '#573b00'
-  - name: yellow-text
+  - name: color-yellow-text
     value: '#595130'
+    category: text-color
 
-  - name: orange-lighter
+  - name: color-orange-lighter
     value: '#fcebdb'
-  - name: orange-light
+  - name: color-orange-light
     value: '#ffc58b'
-  - name: orange-base
+  - name: color-orange-base
     value: '#f49342'
-  - name: orange-dark
+  - name: color-orange-dark
     value: '#c05717'
-  - name: orange-darker
+  - name: color-orange-darker
     value: '#4a1504'
-  - name: orange-text
+  - name: color-orange-text
     value: '#594430'
 
-  - name: red-lighter
+  - name: color-red-lighter
     value: '#fbeae5'
-  - name: red-light
+  - name: color-red-light
     value: '#fead9a'
-  - name: red-base
+  - name: color-red-base
     value: '#ed6347'
-  - name: red-dark
+  - name: color-red-dark
     value: '#bf0711'
-  - name: red-darker
+  - name: color-red-darker
     value: '#330101'
-  - name: red-text
+  - name: color-red-text
     value: '#583c35'
 
-  - name: purple-lighter
+  - name: color-purple-lighter
     value: '#f6f0fd'
-  - name: purple-light
+  - name: color-purple-light
     value: '#e3d0ff'
-  - name: purple-base
+  - name: color-purple-base
     value: '#9c6ade'
-  - name: purple-dark
+  - name: color-purple-dark
     value: '#50248f'
-  - name: purple-darker
+  - name: color-purple-darker
     value: '#230051'
-  - name: purple-text
+  - name: color-purple-text
     value: '#50495a'
+    category: text-color
 
-  - name: teal-lighter
+  - name: color-teal-lighter
     value: '#e0f5f5'
-  - name: teal-light
+  - name: color-teal-light
     value: '#b7ecec'
-  - name: teal-base
+  - name: color-teal-base
     value: '#47c1bf'
-  - name: teal-dark
+  - name: color-teal-dark
     value: '#00848e'
-  - name: teal-darker
+  - name: color-teal-darker
     value: '#003135'
-  - name: teal-text
+  - name: color-teal-text
     value: '#405352'
+    category: text-color
 
-  - name: indigo-lighter
+  - name: color-indigo-lighter
     value: '#f4f5fa'
-  - name: indigo-light
+  - name: color-indigo-light
     value: '#b3bcf5'
-  - name: indigo-base
+  - name: color-indigo-base
     value: '#5c6ac4'
-  - name: indigo-dark
+  - name: color-indigo-dark
     value: '#202e78'
-  - name: indigo-darker
+  - name: color-indigo-darker
     value: '#000639'
-  - name: indigo-text
+  - name: color-indigo-text
     value: '#3e4155'
+    category: text-color
 global:
   type: color
-  category: globals
+  category: background-color
