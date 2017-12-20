@@ -57,7 +57,7 @@ gulp.task('documentation', () =>
     .on('error', err => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('./gh-pages')),
+    .pipe(gulp.dest('./docs')),
 );
 
 gulp.task('default', ['web-formats', 'color-formats', 'documentation']);
