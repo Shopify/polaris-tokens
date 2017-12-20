@@ -20,7 +20,7 @@ class CustomMap {
     return `
     '${category}': (
       ${props
-        .filter(prop => prop.name.startsWith(category))
+        .filter(prop => prop.name.includes(category))
         .map(prop =>
           `${prop.comment ? `// ${prop.comment}` : ''}
             ${color.getVariant(prop.name)}: ${prop.value}

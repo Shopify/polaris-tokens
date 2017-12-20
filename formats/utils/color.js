@@ -1,8 +1,16 @@
-// getCategory('ink-lightest') -> 'ink'
-const getCategory = name => name.split('-').shift();
+// getCategory('color-ink-lightest') -> 'ink'
+const getCategory = name =>
+  name
+    .replace('color-', '')
+    .split('-')
+    .shift();
 
-// getVariant('ink-lightest') -> 'lightest'
-const getVariant = name => name.split('-').pop();
+// getVariant('color-ink-lightest') -> 'lightest'
+const getVariant = name =>
+  name
+    .replace('color-', '')
+    .split('-')
+    .pop();
 
 module.exports = {
   getCategory,
