@@ -11,7 +11,7 @@ const colorFiles = [
   'Polaris.sketchpalette',
 ];
 
-colorFiles.map(filename =>
+colorFiles.map((filename) =>
   it(`renders ${filename} correctly`, () => {
     const contents = fs.readFileSync(
       path.join(__dirname, '..', 'dist', filename),

@@ -1,12 +1,12 @@
 // getCategory('color-ink-lightest') -> 'ink'
-const getCategory = name =>
+const getCategory = (name) =>
   name
     .replace('color-', '')
     .split('-')
     .shift();
 
 // getVariant('color-ink-lightest') -> 'lightest'
-const getVariant = name =>
+const getVariant = (name) =>
   name
     .replace('color-', '')
     .split('-')

@@ -12,7 +12,7 @@ const webFormats = ['scss', 'json', 'custom-properties.css'];
 const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 
 gulp.task('web-formats', () =>
-  webFormats.map(format =>
+  webFormats.map((format) =>
     gulp
       .src('./tokens/*.yml')
       .pipe(
@@ -21,7 +21,7 @@ gulp.task('web-formats', () =>
           format: {type: format},
         }),
       )
-      .on('error', err => {
+      .on('error', (err) => {
         throw new Error(err);
       })
       .pipe(gulp.dest('./dist')),
@@ -29,7 +29,7 @@ gulp.task('web-formats', () =>
 );
 
 gulp.task('color-formats', () =>
-  colorFormats.map(format =>
+  colorFormats.map((format) =>
     gulp
       .src('./tokens/*.yml')
       .pipe(
@@ -38,7 +38,7 @@ gulp.task('color-formats', () =>
           format: {type: format},
         }),
       )
-      .on('error', err => {
+      .on('error', (err) => {
         throw new Error(err);
       })
       .pipe(gulp.dest('./dist')),
@@ -54,7 +54,7 @@ gulp.task('documentation', () =>
         format: {type: 'html'},
       }),
     )
-    .on('error', err => {
+    .on('error', (err) => {
       throw new Error(err);
     })
     .pipe(gulp.dest('./docs')),

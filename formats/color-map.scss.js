@@ -5,7 +5,7 @@ const color = require('./utils/color');
 class CustomMap {
   constructor({props, meta}) {
     this.meta = meta;
-    const propsWithCategory = props.map(prop => {
+    const propsWithCategory = props.map((prop) => {
       prop.category = color.getCategory(prop.name);
       return prop;
     });
@@ -20,8 +20,8 @@ class CustomMap {
     return `
     '${category}': (
       ${props
-        .filter(prop => prop.name.includes(category))
-        .map(prop =>
+        .filter((prop) => prop.name.includes(category))
+        .map((prop) =>
           `${prop.comment ? `// ${prop.comment}` : ''}
             ${color.getVariant(prop.name)}: ${prop.value}
           `.trim(),
@@ -34,13 +34,13 @@ class CustomMap {
     return `
     $${path.basename(this.meta.file, '.yml')}: (
       ${Object.keys(this.categories)
-        .map(category => this.renderCategory(category))
+        .map((category) => this.renderCategory(category))
         .join(',\n')}
     );`;
   }
 }
 
-module.exports = result => {
+module.exports = (result) => {
   const customMap = new CustomMap(result.toJS());
   return customMap.render();
 };
