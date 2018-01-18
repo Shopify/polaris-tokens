@@ -31,7 +31,7 @@ gulp.task('web-formats', () =>
 gulp.task('color-formats', () =>
   colorFormats.map((format) =>
     gulp
-      .src('./tokens/*.yml')
+      .src('./tokens/colors.yml')
       .pipe(
         theo.plugin({
           transform: {type: 'web'},
