@@ -1,3 +1,1 @@
-module.exports = {
-  colors: require('./dist/colors.json').colors,
-};
+module.exports = require('./dist/index.json');
