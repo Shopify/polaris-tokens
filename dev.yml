@@ -10,3 +10,5 @@ commands:
     run: yarn test
   start:
     run: yarn dist
+  server:
+    run: yarn watch

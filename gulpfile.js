@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const browserSync = require('browser-sync');
 const theo = require('gulp-theo');
 const colorMapScss = require('./formats/color-map.scss.js');
 const sketchpalette = require('./formats/sketchpalette.js');
@@ -59,5 +60,16 @@ gulp.task('documentation', () =>
     })
     .pipe(gulp.dest('./docs')),
 );
+
+// Static Server (development)
+gulp.task('watch', ['documentation'], () => {
+  browserSync({
+    notify: false,
+    server: 'docs',
+  });
+
+  gulp.watch(['tokens/*.yml', 'formats/**/*.*'], ['documentation']);
+  gulp.watch(['docs/**/*.*']).on('change', browserSync.reload);
+});
 
 gulp.task('default', ['web-formats', 'color-formats', 'documentation']);
