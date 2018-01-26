@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn dist:invision' to generate a new version
-# Last updated: 16:53:09 GMT-0800 (PST)
+# Last updated: 13:37:51 GMT-0800 (PST)
 props:
   - name: color-black-base
     value: '#000000'
@@ -25,6 +25,7 @@ props:
   - name: color-blue-darker
     value: '#001429'
     friendlyName: Blue Darker
+    comment: This blue is great for things
   - name: color-blue-text
     value: '#3e4e57'
     friendlyName: Blue Text
