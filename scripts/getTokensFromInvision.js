@@ -20,7 +20,7 @@ const fetchTokens = async () => {
 };
 
 // Invision’s API returns colors under this path
-const getColorTokens = (tokens) => tokens.colors[0].colors;
+const getColorTokens = (object) => object.list.colors[0].colors;
 
 const getPalette = (friendlyName) => friendlyName.split(' ').shift();
 
@@ -76,7 +76,6 @@ const warningBanner = `# DO NOT MANUALLY EDIT THIS FILE
 `;
 
 fetchTokens()
-  .then((object) => object.list)
   .then(getColorTokens)
   .then(sortColorTokens)
   .then(buildTheoColorTokens)
