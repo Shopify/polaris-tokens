@@ -4,7 +4,9 @@
 
 ## Usage
 
-This package isn’t available on npm yet.
+```
+yarn add polaris-tokens --dev
+```
 
 Head to <https://github.com/Shopify/polaris-tokens/releases/>, where generated files are available.
 
@@ -17,11 +19,26 @@ Head to <https://github.com/Shopify/polaris-tokens/releases/>, where generated f
 Tokens are generated under the `dist/` folder:
 
 ```
-colors.ase
-colors.clr
-colors.custom.map.scss
+colors.color-map.scss
+colors.custom-properties.css
 colors.json
 colors.scss
-colors.sketchpalette
-colors.yml
+index.custom-properties.css
+index.json
+index.scss
+Polaris.ase
+Polaris.clr
+Polaris.sketchpalette
+spacing.custom-properties.css
+spacing.json
+spacing.scss
+typography.custom-properties.css
+typography.json
+typography.scss
+```
+
+## Dev workflow
+
+```
+dev server
 ```
