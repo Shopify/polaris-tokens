@@ -57,6 +57,10 @@ const buildTheoColorTokens = (colors) => ({
     if (color.name.includes('text')) {
       color.category = 'text-color';
     }
+    if (color.description) {
+      color.comment = color.description;
+    }
+    delete color.description;
     return color;
   }),
   global: {
