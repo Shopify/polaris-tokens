@@ -5,56 +5,8 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
   \\"compatibleVersion\\": \\"2.0\\",
   \\"pluginVersion\\": \\"2.0\\",
   \\"colors\\": [
-    { \\"red\\": 1, \\"green\\": 1, \\"blue\\": 1, \\"alpha\\": 1 },
     { \\"red\\": 0, \\"green\\": 0, \\"blue\\": 0, \\"alpha\\": 1 },
-    {
-      \\"red\\": 0.9764705882352941,
-      \\"green\\": 0.9803921568627451,
-      \\"blue\\": 0.984313725490196,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.9568627450980393,
-      \\"green\\": 0.9647058823529412,
-      \\"blue\\": 0.9725490196078431,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.8745098039215686,
-      \\"green\\": 0.8901960784313725,
-      \\"blue\\": 0.9098039215686274,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.7686274509803922,
-      \\"green\\": 0.803921568627451,
-      \\"blue\\": 0.8352941176470589,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.5686274509803921,
-      \\"green\\": 0.6196078431372549,
-      \\"blue\\": 0.6705882352941176,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.38823529411764707,
-      \\"green\\": 0.45098039215686275,
-      \\"blue\\": 0.5058823529411764,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.27058823529411763,
-      \\"green\\": 0.30980392156862746,
-      \\"blue\\": 0.3568627450980392,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.12941176470588237,
-      \\"green\\": 0.16862745098039217,
-      \\"blue\\": 0.21176470588235294,
-      \\"alpha\\": 1
-    },
+    { \\"red\\": 1, \\"green\\": 1, \\"blue\\": 1, \\"alpha\\": 1 },
     {
       \\"red\\": 0.9215686274509803,
       \\"green\\": 0.9607843137254902,
@@ -128,39 +80,63 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9882352941176471,
-      \\"green\\": 0.9450980392156862,
-      \\"blue\\": 0.803921568627451,
+      \\"red\\": 0.9568627450980393,
+      \\"green\\": 0.9607843137254902,
+      \\"blue\\": 0.9803921568627451,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 1,
-      \\"green\\": 0.9176470588235294,
-      \\"blue\\": 0.5411764705882353,
+      \\"red\\": 0.7019607843137254,
+      \\"green\\": 0.7372549019607844,
+      \\"blue\\": 0.9607843137254902,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9333333333333333,
-      \\"green\\": 0.7607843137254902,
-      \\"blue\\": 0,
+      \\"red\\": 0.3607843137254902,
+      \\"green\\": 0.41568627450980394,
+      \\"blue\\": 0.7686274509803922,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.611764705882353,
-      \\"green\\": 0.43529411764705883,
-      \\"blue\\": 0.09803921568627451,
+      \\"red\\": 0.12549019607843137,
+      \\"green\\": 0.1803921568627451,
+      \\"blue\\": 0.47058823529411764,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.3411764705882353,
-      \\"green\\": 0.23137254901960785,
-      \\"blue\\": 0,
+      \\"red\\": 0,
+      \\"green\\": 0.023529411764705882,
+      \\"blue\\": 0.2235294117647059,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.34901960784313724,
-      \\"green\\": 0.3176470588235294,
-      \\"blue\\": 0.18823529411764706,
+      \\"red\\": 0.24313725490196078,
+      \\"green\\": 0.2549019607843137,
+      \\"blue\\": 0.3333333333333333,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.5686274509803921,
+      \\"green\\": 0.6196078431372549,
+      \\"blue\\": 0.6705882352941176,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.38823529411764707,
+      \\"green\\": 0.45098039215686275,
+      \\"blue\\": 0.5058823529411764,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.27058823529411763,
+      \\"green\\": 0.30980392156862746,
+      \\"blue\\": 0.3568627450980392,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.12941176470588237,
+      \\"green\\": 0.16862745098039217,
+      \\"blue\\": 0.21176470588235294,
       \\"alpha\\": 1
     },
     {
@@ -200,6 +176,42 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
+      \\"red\\": 0.9647058823529412,
+      \\"green\\": 0.9411764705882353,
+      \\"blue\\": 0.9921568627450981,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.8901960784313725,
+      \\"green\\": 0.8156862745098039,
+      \\"blue\\": 1,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.611764705882353,
+      \\"green\\": 0.41568627450980394,
+      \\"blue\\": 0.8705882352941177,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.3137254901960784,
+      \\"green\\": 0.1411764705882353,
+      \\"blue\\": 0.5607843137254902,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.13725490196078433,
+      \\"green\\": 0,
+      \\"blue\\": 0.3176470588235294,
+      \\"alpha\\": 1
+    },
+    {
+      \\"red\\": 0.3137254901960784,
+      \\"green\\": 0.28627450980392155,
+      \\"blue\\": 0.35294117647058826,
+      \\"alpha\\": 1
+    },
+    {
       \\"red\\": 0.984313725490196,
       \\"green\\": 0.9176470588235294,
       \\"blue\\": 0.8980392156862745,
@@ -236,39 +248,27 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9647058823529412,
-      \\"green\\": 0.9411764705882353,
-      \\"blue\\": 0.9921568627450981,
+      \\"red\\": 0.9764705882352941,
+      \\"green\\": 0.9803921568627451,
+      \\"blue\\": 0.984313725490196,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.8901960784313725,
-      \\"green\\": 0.8156862745098039,
-      \\"blue\\": 1,
+      \\"red\\": 0.9568627450980393,
+      \\"green\\": 0.9647058823529412,
+      \\"blue\\": 0.9725490196078431,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.611764705882353,
-      \\"green\\": 0.41568627450980394,
-      \\"blue\\": 0.8705882352941177,
+      \\"red\\": 0.8745098039215686,
+      \\"green\\": 0.8901960784313725,
+      \\"blue\\": 0.9098039215686274,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.3137254901960784,
-      \\"green\\": 0.1411764705882353,
-      \\"blue\\": 0.5607843137254902,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.13725490196078433,
-      \\"green\\": 0,
-      \\"blue\\": 0.3176470588235294,
-      \\"alpha\\": 1
-    },
-    {
-      \\"red\\": 0.3137254901960784,
-      \\"green\\": 0.28627450980392155,
-      \\"blue\\": 0.35294117647058826,
+      \\"red\\": 0.7686274509803922,
+      \\"green\\": 0.803921568627451,
+      \\"blue\\": 0.8352941176470589,
       \\"alpha\\": 1
     },
     {
@@ -308,39 +308,39 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9568627450980393,
-      \\"green\\": 0.9607843137254902,
-      \\"blue\\": 0.9803921568627451,
+      \\"red\\": 0.9882352941176471,
+      \\"green\\": 0.9450980392156862,
+      \\"blue\\": 0.803921568627451,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.7019607843137254,
-      \\"green\\": 0.7372549019607844,
-      \\"blue\\": 0.9607843137254902,
+      \\"red\\": 1,
+      \\"green\\": 0.9176470588235294,
+      \\"blue\\": 0.5411764705882353,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.3607843137254902,
-      \\"green\\": 0.41568627450980394,
-      \\"blue\\": 0.7686274509803922,
+      \\"red\\": 0.9333333333333333,
+      \\"green\\": 0.7607843137254902,
+      \\"blue\\": 0,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.12549019607843137,
-      \\"green\\": 0.1803921568627451,
-      \\"blue\\": 0.47058823529411764,
+      \\"red\\": 0.611764705882353,
+      \\"green\\": 0.43529411764705883,
+      \\"blue\\": 0.09803921568627451,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0,
-      \\"green\\": 0.023529411764705882,
-      \\"blue\\": 0.2235294117647059,
+      \\"red\\": 0.3411764705882353,
+      \\"green\\": 0.23137254901960785,
+      \\"blue\\": 0,
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.24313725490196078,
-      \\"green\\": 0.2549019607843137,
-      \\"blue\\": 0.3333333333333333,
+      \\"red\\": 0.34901960784313724,
+      \\"green\\": 0.3176470588235294,
+      \\"blue\\": 0.18823529411764706,
       \\"alpha\\": 1
     }
   ],
@@ -351,115 +351,118 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
 `;
 
 exports[`renders colors.color-map.scss correctly 1`] = `
-"$colors: (
-  \\"white\\": (base: rgb(255, 255, 255)),
-  \\"black\\": (base: rgb(0, 0, 0)),
-  \\"sky\\":
-    (
-      lighter: rgb(249, 250, 251),
-      light: rgb(244, 246, 248),
-      base: rgb(223, 227, 232),
-      dark: rgb(196, 205, 213)
-    ),
-  \\"ink\\":
-    (
-      lightest: rgb(145, 158, 171),
-      lighter: rgb(99, 115, 129),
-      light: rgb(69, 79, 91),
-      base: rgb(33, 43, 54)
-    ),
-  \\"blue\\":
-    (
-      lighter: rgb(235, 245, 250),
-      light: rgb(180, 225, 250),
-      base: rgb(0, 122, 206),
-      dark: rgb(8, 78, 138),
-      darker: rgb(0, 20, 41),
-      text: rgb(62, 78, 87)
-    ),
-  \\"green\\":
-    (
-      lighter: rgb(227, 241, 223),
-      light: rgb(187, 229, 179),
-      base: rgb(80, 184, 60),
-      dark: rgb(16, 128, 67),
-      darker: rgb(23, 54, 48),
-      text: rgb(65, 79, 62)
-    ),
-  \\"yellow\\":
-    (
-      lighter: rgb(252, 241, 205),
-      light: rgb(255, 234, 138),
-      base: rgb(238, 194, 0),
-      dark: rgb(156, 111, 25),
-      darker: rgb(87, 59, 0),
-      text: rgb(89, 81, 48)
-    ),
-  \\"orange\\":
-    (
-      lighter: rgb(252, 235, 219),
-      light: rgb(255, 197, 139),
-      base: rgb(244, 147, 66),
-      dark: rgb(192, 87, 23),
-      darker: rgb(74, 21, 4),
-      text: rgb(89, 68, 48)
-    ),
-  \\"red\\":
-    (
-      lighter: rgb(251, 234, 229),
-      light: rgb(254, 173, 154),
-      base: rgb(237, 99, 71),
-      dark: rgb(191, 7, 17),
-      darker: rgb(51, 1, 1),
-      text: rgb(88, 60, 53)
-    ),
-  \\"purple\\":
-    (
-      lighter: rgb(246, 240, 253),
-      light: rgb(227, 208, 255),
-      base: rgb(156, 106, 222),
-      dark: rgb(80, 36, 143),
-      darker: rgb(35, 0, 81),
-      text: rgb(80, 73, 90)
-    ),
-  \\"teal\\":
-    (
-      lighter: rgb(224, 245, 245),
-      light: rgb(183, 236, 236),
-      base: rgb(71, 193, 191),
-      dark: rgb(0, 132, 142),
-      darker: rgb(0, 49, 53),
-      text: rgb(64, 83, 82)
-    ),
-  \\"indigo\\":
-    (
-      lighter: rgb(244, 245, 250),
-      light: rgb(179, 188, 245),
-      base: rgb(92, 106, 196),
-      dark: rgb(32, 46, 120),
-      darker: rgb(0, 6, 57),
-      text: rgb(62, 65, 85)
-    )
-);
 "
+    $colors: (
+      
+    'black': (
+      base: rgb(0, 0, 0)
+    ),
+
+    'white': (
+      base: rgb(255, 255, 255)
+    ),
+
+    'blue': (
+      lighter: rgb(235, 245, 250),
+light: rgb(180, 225, 250),
+// This is a description and it’s awesome.
+            base: rgb(0, 122, 206),
+dark: rgb(8, 78, 138),
+// This blue is great for things
+            darker: rgb(0, 20, 41),
+text: rgb(62, 78, 87)
+    ),
+
+    'green': (
+      lighter: rgb(227, 241, 223),
+light: rgb(187, 229, 179),
+base: rgb(80, 184, 60),
+dark: rgb(16, 128, 67),
+darker: rgb(23, 54, 48),
+text: rgb(65, 79, 62)
+    ),
+
+    'indigo': (
+      lighter: rgb(244, 245, 250),
+light: rgb(179, 188, 245),
+base: rgb(92, 106, 196),
+dark: rgb(32, 46, 120),
+darker: rgb(0, 6, 57),
+text: rgb(62, 65, 85)
+    ),
+
+    'ink': (
+      lightest: rgb(145, 158, 171),
+lighter: rgb(99, 115, 129),
+light: rgb(69, 79, 91),
+base: rgb(33, 43, 54)
+    ),
+
+    'orange': (
+      lighter: rgb(252, 235, 219),
+light: rgb(255, 197, 139),
+base: rgb(244, 147, 66),
+dark: rgb(192, 87, 23),
+darker: rgb(74, 21, 4),
+text: rgb(89, 68, 48)
+    ),
+
+    'purple': (
+      lighter: rgb(246, 240, 253),
+light: rgb(227, 208, 255),
+base: rgb(156, 106, 222),
+dark: rgb(80, 36, 143),
+darker: rgb(35, 0, 81),
+text: rgb(80, 73, 90)
+    ),
+
+    'red': (
+      lighter: rgb(251, 234, 229),
+light: rgb(254, 173, 154),
+base: rgb(237, 99, 71),
+dark: rgb(191, 7, 17),
+darker: rgb(51, 1, 1),
+text: rgb(88, 60, 53)
+    ),
+
+    'sky': (
+      lighter: rgb(249, 250, 251),
+light: rgb(244, 246, 248),
+base: rgb(223, 227, 232),
+dark: rgb(196, 205, 213)
+    ),
+
+    'teal': (
+      lighter: rgb(224, 245, 245),
+light: rgb(183, 236, 236),
+base: rgb(71, 193, 191),
+dark: rgb(0, 132, 142),
+darker: rgb(0, 49, 53),
+text: rgb(64, 83, 82)
+    ),
+
+    'yellow': (
+      lighter: rgb(252, 241, 205),
+light: rgb(255, 234, 138),
+base: rgb(238, 194, 0),
+dark: rgb(156, 111, 25),
+darker: rgb(87, 59, 0),
+text: rgb(89, 81, 48)
+    )
+    );"
 `;
 
 exports[`renders colors.custom-properties.css correctly 1`] = `
-":root {
-  --color-white-base: rgb(255, 255, 255);
+"
+:root {
   --color-black-base: rgb(0, 0, 0);
-  --color-sky-lighter: rgb(249, 250, 251);
-  --color-sky-light: rgb(244, 246, 248);
-  --color-sky-base: rgb(223, 227, 232);
-  --color-sky-dark: rgb(196, 205, 213);
-  --color-ink-lightest: rgb(145, 158, 171);
-  --color-ink-lighter: rgb(99, 115, 129);
-  --color-ink-light: rgb(69, 79, 91);
-  --color-ink-base: rgb(33, 43, 54);
+  --color-white-base: rgb(255, 255, 255);
   --color-blue-lighter: rgb(235, 245, 250);
   --color-blue-light: rgb(180, 225, 250);
+  /* This is a description and it’s awesome. */
   --color-blue-base: rgb(0, 122, 206);
   --color-blue-dark: rgb(8, 78, 138);
+  /* This blue is great for things */
   --color-blue-darker: rgb(0, 20, 41);
   --color-blue-text: rgb(62, 78, 87);
   --color-green-lighter: rgb(227, 241, 223);
@@ -468,58 +471,58 @@ exports[`renders colors.custom-properties.css correctly 1`] = `
   --color-green-dark: rgb(16, 128, 67);
   --color-green-darker: rgb(23, 54, 48);
   --color-green-text: rgb(65, 79, 62);
-  --color-yellow-lighter: rgb(252, 241, 205);
-  --color-yellow-light: rgb(255, 234, 138);
-  --color-yellow-base: rgb(238, 194, 0);
-  --color-yellow-dark: rgb(156, 111, 25);
-  --color-yellow-darker: rgb(87, 59, 0);
-  --color-yellow-text: rgb(89, 81, 48);
-  --color-orange-lighter: rgb(252, 235, 219);
-  --color-orange-light: rgb(255, 197, 139);
-  --color-orange-base: rgb(244, 147, 66);
-  --color-orange-dark: rgb(192, 87, 23);
-  --color-orange-darker: rgb(74, 21, 4);
-  --color-orange-text: rgb(89, 68, 48);
-  --color-red-lighter: rgb(251, 234, 229);
-  --color-red-light: rgb(254, 173, 154);
-  --color-red-base: rgb(237, 99, 71);
-  --color-red-dark: rgb(191, 7, 17);
-  --color-red-darker: rgb(51, 1, 1);
-  --color-red-text: rgb(88, 60, 53);
-  --color-purple-lighter: rgb(246, 240, 253);
-  --color-purple-light: rgb(227, 208, 255);
-  --color-purple-base: rgb(156, 106, 222);
-  --color-purple-dark: rgb(80, 36, 143);
-  --color-purple-darker: rgb(35, 0, 81);
-  --color-purple-text: rgb(80, 73, 90);
-  --color-teal-lighter: rgb(224, 245, 245);
-  --color-teal-light: rgb(183, 236, 236);
-  --color-teal-base: rgb(71, 193, 191);
-  --color-teal-dark: rgb(0, 132, 142);
-  --color-teal-darker: rgb(0, 49, 53);
-  --color-teal-text: rgb(64, 83, 82);
   --color-indigo-lighter: rgb(244, 245, 250);
   --color-indigo-light: rgb(179, 188, 245);
   --color-indigo-base: rgb(92, 106, 196);
   --color-indigo-dark: rgb(32, 46, 120);
   --color-indigo-darker: rgb(0, 6, 57);
   --color-indigo-text: rgb(62, 65, 85);
+  --color-ink-lightest: rgb(145, 158, 171);
+  --color-ink-lighter: rgb(99, 115, 129);
+  --color-ink-light: rgb(69, 79, 91);
+  --color-ink-base: rgb(33, 43, 54);
+  --color-orange-lighter: rgb(252, 235, 219);
+  --color-orange-light: rgb(255, 197, 139);
+  --color-orange-base: rgb(244, 147, 66);
+  --color-orange-dark: rgb(192, 87, 23);
+  --color-orange-darker: rgb(74, 21, 4);
+  --color-orange-text: rgb(89, 68, 48);
+  --color-purple-lighter: rgb(246, 240, 253);
+  --color-purple-light: rgb(227, 208, 255);
+  --color-purple-base: rgb(156, 106, 222);
+  --color-purple-dark: rgb(80, 36, 143);
+  --color-purple-darker: rgb(35, 0, 81);
+  --color-purple-text: rgb(80, 73, 90);
+  --color-red-lighter: rgb(251, 234, 229);
+  --color-red-light: rgb(254, 173, 154);
+  --color-red-base: rgb(237, 99, 71);
+  --color-red-dark: rgb(191, 7, 17);
+  --color-red-darker: rgb(51, 1, 1);
+  --color-red-text: rgb(88, 60, 53);
+  --color-sky-lighter: rgb(249, 250, 251);
+  --color-sky-light: rgb(244, 246, 248);
+  --color-sky-base: rgb(223, 227, 232);
+  --color-sky-dark: rgb(196, 205, 213);
+  --color-teal-lighter: rgb(224, 245, 245);
+  --color-teal-light: rgb(183, 236, 236);
+  --color-teal-base: rgb(71, 193, 191);
+  --color-teal-dark: rgb(0, 132, 142);
+  --color-teal-darker: rgb(0, 49, 53);
+  --color-teal-text: rgb(64, 83, 82);
+  --color-yellow-lighter: rgb(252, 241, 205);
+  --color-yellow-light: rgb(255, 234, 138);
+  --color-yellow-base: rgb(238, 194, 0);
+  --color-yellow-dark: rgb(156, 111, 25);
+  --color-yellow-darker: rgb(87, 59, 0);
+  --color-yellow-text: rgb(89, 81, 48);
 }
 "
 `;
 
 exports[`renders colors.json correctly 1`] = `
 "{
-  \\"color-white-base\\": \\"rgb(255, 255, 255)\\",
   \\"color-black-base\\": \\"rgb(0, 0, 0)\\",
-  \\"color-sky-lighter\\": \\"rgb(249, 250, 251)\\",
-  \\"color-sky-light\\": \\"rgb(244, 246, 248)\\",
-  \\"color-sky-base\\": \\"rgb(223, 227, 232)\\",
-  \\"color-sky-dark\\": \\"rgb(196, 205, 213)\\",
-  \\"color-ink-lightest\\": \\"rgb(145, 158, 171)\\",
-  \\"color-ink-lighter\\": \\"rgb(99, 115, 129)\\",
-  \\"color-ink-light\\": \\"rgb(69, 79, 91)\\",
-  \\"color-ink-base\\": \\"rgb(33, 43, 54)\\",
+  \\"color-white-base\\": \\"rgb(255, 255, 255)\\",
   \\"color-blue-lighter\\": \\"rgb(235, 245, 250)\\",
   \\"color-blue-light\\": \\"rgb(180, 225, 250)\\",
   \\"color-blue-base\\": \\"rgb(0, 122, 206)\\",
@@ -532,61 +535,63 @@ exports[`renders colors.json correctly 1`] = `
   \\"color-green-dark\\": \\"rgb(16, 128, 67)\\",
   \\"color-green-darker\\": \\"rgb(23, 54, 48)\\",
   \\"color-green-text\\": \\"rgb(65, 79, 62)\\",
-  \\"color-yellow-lighter\\": \\"rgb(252, 241, 205)\\",
-  \\"color-yellow-light\\": \\"rgb(255, 234, 138)\\",
-  \\"color-yellow-base\\": \\"rgb(238, 194, 0)\\",
-  \\"color-yellow-dark\\": \\"rgb(156, 111, 25)\\",
-  \\"color-yellow-darker\\": \\"rgb(87, 59, 0)\\",
-  \\"color-yellow-text\\": \\"rgb(89, 81, 48)\\",
+  \\"color-indigo-lighter\\": \\"rgb(244, 245, 250)\\",
+  \\"color-indigo-light\\": \\"rgb(179, 188, 245)\\",
+  \\"color-indigo-base\\": \\"rgb(92, 106, 196)\\",
+  \\"color-indigo-dark\\": \\"rgb(32, 46, 120)\\",
+  \\"color-indigo-darker\\": \\"rgb(0, 6, 57)\\",
+  \\"color-indigo-text\\": \\"rgb(62, 65, 85)\\",
+  \\"color-ink-lightest\\": \\"rgb(145, 158, 171)\\",
+  \\"color-ink-lighter\\": \\"rgb(99, 115, 129)\\",
+  \\"color-ink-light\\": \\"rgb(69, 79, 91)\\",
+  \\"color-ink-base\\": \\"rgb(33, 43, 54)\\",
   \\"color-orange-lighter\\": \\"rgb(252, 235, 219)\\",
   \\"color-orange-light\\": \\"rgb(255, 197, 139)\\",
   \\"color-orange-base\\": \\"rgb(244, 147, 66)\\",
   \\"color-orange-dark\\": \\"rgb(192, 87, 23)\\",
   \\"color-orange-darker\\": \\"rgb(74, 21, 4)\\",
   \\"color-orange-text\\": \\"rgb(89, 68, 48)\\",
-  \\"color-red-lighter\\": \\"rgb(251, 234, 229)\\",
-  \\"color-red-light\\": \\"rgb(254, 173, 154)\\",
-  \\"color-red-base\\": \\"rgb(237, 99, 71)\\",
-  \\"color-red-dark\\": \\"rgb(191, 7, 17)\\",
-  \\"color-red-darker\\": \\"rgb(51, 1, 1)\\",
-  \\"color-red-text\\": \\"rgb(88, 60, 53)\\",
   \\"color-purple-lighter\\": \\"rgb(246, 240, 253)\\",
   \\"color-purple-light\\": \\"rgb(227, 208, 255)\\",
   \\"color-purple-base\\": \\"rgb(156, 106, 222)\\",
   \\"color-purple-dark\\": \\"rgb(80, 36, 143)\\",
   \\"color-purple-darker\\": \\"rgb(35, 0, 81)\\",
   \\"color-purple-text\\": \\"rgb(80, 73, 90)\\",
+  \\"color-red-lighter\\": \\"rgb(251, 234, 229)\\",
+  \\"color-red-light\\": \\"rgb(254, 173, 154)\\",
+  \\"color-red-base\\": \\"rgb(237, 99, 71)\\",
+  \\"color-red-dark\\": \\"rgb(191, 7, 17)\\",
+  \\"color-red-darker\\": \\"rgb(51, 1, 1)\\",
+  \\"color-red-text\\": \\"rgb(88, 60, 53)\\",
+  \\"color-sky-lighter\\": \\"rgb(249, 250, 251)\\",
+  \\"color-sky-light\\": \\"rgb(244, 246, 248)\\",
+  \\"color-sky-base\\": \\"rgb(223, 227, 232)\\",
+  \\"color-sky-dark\\": \\"rgb(196, 205, 213)\\",
   \\"color-teal-lighter\\": \\"rgb(224, 245, 245)\\",
   \\"color-teal-light\\": \\"rgb(183, 236, 236)\\",
   \\"color-teal-base\\": \\"rgb(71, 193, 191)\\",
   \\"color-teal-dark\\": \\"rgb(0, 132, 142)\\",
   \\"color-teal-darker\\": \\"rgb(0, 49, 53)\\",
   \\"color-teal-text\\": \\"rgb(64, 83, 82)\\",
-  \\"color-indigo-lighter\\": \\"rgb(244, 245, 250)\\",
-  \\"color-indigo-light\\": \\"rgb(179, 188, 245)\\",
-  \\"color-indigo-base\\": \\"rgb(92, 106, 196)\\",
-  \\"color-indigo-dark\\": \\"rgb(32, 46, 120)\\",
-  \\"color-indigo-darker\\": \\"rgb(0, 6, 57)\\",
-  \\"color-indigo-text\\": \\"rgb(62, 65, 85)\\"
-}
-"
+  \\"color-yellow-lighter\\": \\"rgb(252, 241, 205)\\",
+  \\"color-yellow-light\\": \\"rgb(255, 234, 138)\\",
+  \\"color-yellow-base\\": \\"rgb(238, 194, 0)\\",
+  \\"color-yellow-dark\\": \\"rgb(156, 111, 25)\\",
+  \\"color-yellow-darker\\": \\"rgb(87, 59, 0)\\",
+  \\"color-yellow-text\\": \\"rgb(89, 81, 48)\\"
+}"
 `;
 
 exports[`renders colors.scss correctly 1`] = `
-"$color-white-base: rgb(255, 255, 255);
+"
 $color-black-base: rgb(0, 0, 0);
-$color-sky-lighter: rgb(249, 250, 251);
-$color-sky-light: rgb(244, 246, 248);
-$color-sky-base: rgb(223, 227, 232);
-$color-sky-dark: rgb(196, 205, 213);
-$color-ink-lightest: rgb(145, 158, 171);
-$color-ink-lighter: rgb(99, 115, 129);
-$color-ink-light: rgb(69, 79, 91);
-$color-ink-base: rgb(33, 43, 54);
+$color-white-base: rgb(255, 255, 255);
 $color-blue-lighter: rgb(235, 245, 250);
 $color-blue-light: rgb(180, 225, 250);
+// This is a description and it’s awesome.
 $color-blue-base: rgb(0, 122, 206);
 $color-blue-dark: rgb(8, 78, 138);
+// This blue is great for things
 $color-blue-darker: rgb(0, 20, 41);
 $color-blue-text: rgb(62, 78, 87);
 $color-green-lighter: rgb(227, 241, 223);
@@ -595,41 +600,49 @@ $color-green-base: rgb(80, 184, 60);
 $color-green-dark: rgb(16, 128, 67);
 $color-green-darker: rgb(23, 54, 48);
 $color-green-text: rgb(65, 79, 62);
-$color-yellow-lighter: rgb(252, 241, 205);
-$color-yellow-light: rgb(255, 234, 138);
-$color-yellow-base: rgb(238, 194, 0);
-$color-yellow-dark: rgb(156, 111, 25);
-$color-yellow-darker: rgb(87, 59, 0);
-$color-yellow-text: rgb(89, 81, 48);
-$color-orange-lighter: rgb(252, 235, 219);
-$color-orange-light: rgb(255, 197, 139);
-$color-orange-base: rgb(244, 147, 66);
-$color-orange-dark: rgb(192, 87, 23);
-$color-orange-darker: rgb(74, 21, 4);
-$color-orange-text: rgb(89, 68, 48);
-$color-red-lighter: rgb(251, 234, 229);
-$color-red-light: rgb(254, 173, 154);
-$color-red-base: rgb(237, 99, 71);
-$color-red-dark: rgb(191, 7, 17);
-$color-red-darker: rgb(51, 1, 1);
-$color-red-text: rgb(88, 60, 53);
-$color-purple-lighter: rgb(246, 240, 253);
-$color-purple-light: rgb(227, 208, 255);
-$color-purple-base: rgb(156, 106, 222);
-$color-purple-dark: rgb(80, 36, 143);
-$color-purple-darker: rgb(35, 0, 81);
-$color-purple-text: rgb(80, 73, 90);
-$color-teal-lighter: rgb(224, 245, 245);
-$color-teal-light: rgb(183, 236, 236);
-$color-teal-base: rgb(71, 193, 191);
-$color-teal-dark: rgb(0, 132, 142);
-$color-teal-darker: rgb(0, 49, 53);
-$color-teal-text: rgb(64, 83, 82);
 $color-indigo-lighter: rgb(244, 245, 250);
 $color-indigo-light: rgb(179, 188, 245);
 $color-indigo-base: rgb(92, 106, 196);
 $color-indigo-dark: rgb(32, 46, 120);
 $color-indigo-darker: rgb(0, 6, 57);
 $color-indigo-text: rgb(62, 65, 85);
+$color-ink-lightest: rgb(145, 158, 171);
+$color-ink-lighter: rgb(99, 115, 129);
+$color-ink-light: rgb(69, 79, 91);
+$color-ink-base: rgb(33, 43, 54);
+$color-orange-lighter: rgb(252, 235, 219);
+$color-orange-light: rgb(255, 197, 139);
+$color-orange-base: rgb(244, 147, 66);
+$color-orange-dark: rgb(192, 87, 23);
+$color-orange-darker: rgb(74, 21, 4);
+$color-orange-text: rgb(89, 68, 48);
+$color-purple-lighter: rgb(246, 240, 253);
+$color-purple-light: rgb(227, 208, 255);
+$color-purple-base: rgb(156, 106, 222);
+$color-purple-dark: rgb(80, 36, 143);
+$color-purple-darker: rgb(35, 0, 81);
+$color-purple-text: rgb(80, 73, 90);
+$color-red-lighter: rgb(251, 234, 229);
+$color-red-light: rgb(254, 173, 154);
+$color-red-base: rgb(237, 99, 71);
+$color-red-dark: rgb(191, 7, 17);
+$color-red-darker: rgb(51, 1, 1);
+$color-red-text: rgb(88, 60, 53);
+$color-sky-lighter: rgb(249, 250, 251);
+$color-sky-light: rgb(244, 246, 248);
+$color-sky-base: rgb(223, 227, 232);
+$color-sky-dark: rgb(196, 205, 213);
+$color-teal-lighter: rgb(224, 245, 245);
+$color-teal-light: rgb(183, 236, 236);
+$color-teal-base: rgb(71, 193, 191);
+$color-teal-dark: rgb(0, 132, 142);
+$color-teal-darker: rgb(0, 49, 53);
+$color-teal-text: rgb(64, 83, 82);
+$color-yellow-lighter: rgb(252, 241, 205);
+$color-yellow-light: rgb(255, 234, 138);
+$color-yellow-base: rgb(238, 194, 0);
+$color-yellow-dark: rgb(156, 111, 25);
+$color-yellow-darker: rgb(87, 59, 0);
+$color-yellow-text: rgb(89, 81, 48);
 "
 `;
