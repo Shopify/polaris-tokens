@@ -18,7 +18,7 @@ class CustomMap {
       return '';
     }
     return `
-    '${palette}': (
+    ${palette}: (
       ${props
         .filter((prop) => prop.name.includes(palette))
         .map((prop) =>
