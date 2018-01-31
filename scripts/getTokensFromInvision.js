@@ -7,7 +7,7 @@ const tinycolor2 = require('tinycolor2');
 const sortBy = require('lodash/sortBy');
 const dashify = require('dashify');
 
-// Edit tokens in Invision DSM
+// You can edit tokens in Invision DSM and in Sketch
 // https://shopify.invisionapp.com/dsm/shopify/design-tokens
 // Run 'yarn dist:invision' to generate a new version of the tokens
 
@@ -52,7 +52,7 @@ const sortColorTokens = (colors) =>
 
 const buildTheoColorTokens = (colors) => ({
   props: colors.map((color) => {
-    color.friendlyName = color.name;
+    color.meta = {friendlyName: color.name};
     color.name = `color-${dashify(color.name)}`;
     if (color.name.includes('text')) {
       color.category = 'text-color';

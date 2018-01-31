@@ -1,18 +1,18 @@
-// getCategory('color-ink-lightest') -> 'ink'
-const getCategory = (name) =>
+// getPalette('color-ink-lightest') -> 'ink'
+const getPalette = (name) =>
   name
     .replace('color-', '')
     .split('-')
     .shift();
 
-// getVariant('color-ink-lightest') -> 'lightest'
-const getVariant = (name) =>
+// getShade('color-ink-lightest') -> 'lightest'
+const getShade = (name) =>
   name
     .replace('color-', '')
     .split('-')
     .pop();
 
 module.exports = {
-  getCategory,
-  getVariant,
+  getPalette,
+  getShade,
 };

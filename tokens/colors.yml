@@ -1,191 +1,249 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn dist:invision' to generate a new version
-# Last updated: 13:37:51 GMT-0800 (PST)
+# Last updated: 19:13:43 GMT-0800 (PST)
 props:
   - name: color-black-base
     value: '#000000'
-    friendlyName: Black Base
+    meta:
+      friendlyName: Black Base
   - name: color-white-base
     value: '#ffffff'
-    friendlyName: White Base
+    meta:
+      friendlyName: White Base
   - name: color-blue-lighter
     value: '#ebf5fa'
-    friendlyName: Blue Lighter
+    meta:
+      friendlyName: Blue Lighter
   - name: color-blue-light
     value: '#b4e1fa'
-    friendlyName: Blue Light
+    meta:
+      friendlyName: Blue Light
   - name: color-blue-base
     value: '#007ace'
-    friendlyName: Blue Base
-    comment: This is a description
+    meta:
+      friendlyName: Blue Base
+    comment: This is a description and it’s awesome.
   - name: color-blue-dark
     value: '#084e8a'
-    friendlyName: Blue Dark
+    meta:
+      friendlyName: Blue Dark
   - name: color-blue-darker
     value: '#001429'
-    friendlyName: Blue Darker
+    meta:
+      friendlyName: Blue Darker
     comment: This blue is great for things
   - name: color-blue-text
     value: '#3e4e57'
-    friendlyName: Blue Text
+    meta:
+      friendlyName: Blue Text
     category: text-color
   - name: color-green-lighter
     value: '#e3f1df'
-    friendlyName: Green Lighter
+    meta:
+      friendlyName: Green Lighter
   - name: color-green-light
     value: '#bbe5b3'
-    friendlyName: Green Light
+    meta:
+      friendlyName: Green Light
   - name: color-green-base
     value: '#50b83c'
-    friendlyName: Green Base
+    meta:
+      friendlyName: Green Base
   - name: color-green-dark
     value: '#108043'
-    friendlyName: Green Dark
+    meta:
+      friendlyName: Green Dark
   - name: color-green-darker
     value: '#173630'
-    friendlyName: Green Darker
+    meta:
+      friendlyName: Green Darker
   - name: color-green-text
     value: '#414f3e'
-    friendlyName: Green Text
+    meta:
+      friendlyName: Green Text
     category: text-color
   - name: color-indigo-lighter
     value: '#f4f5fa'
-    friendlyName: Indigo Lighter
+    meta:
+      friendlyName: Indigo Lighter
   - name: color-indigo-light
     value: '#b3bcf5'
-    friendlyName: Indigo Light
+    meta:
+      friendlyName: Indigo Light
   - name: color-indigo-base
     value: '#5c6ac4'
-    friendlyName: Indigo Base
+    meta:
+      friendlyName: Indigo Base
   - name: color-indigo-dark
     value: '#202e78'
-    friendlyName: Indigo Dark
+    meta:
+      friendlyName: Indigo Dark
   - name: color-indigo-darker
     value: '#000639'
-    friendlyName: Indigo Darker
+    meta:
+      friendlyName: Indigo Darker
   - name: color-indigo-text
     value: '#3e4155'
-    friendlyName: Indigo Text
+    meta:
+      friendlyName: Indigo Text
     category: text-color
   - name: color-ink-lightest
     value: '#919eab'
-    friendlyName: Ink Lightest
+    meta:
+      friendlyName: Ink Lightest
   - name: color-ink-lighter
     value: '#637381'
-    friendlyName: Ink Lighter
+    meta:
+      friendlyName: Ink Lighter
   - name: color-ink-light
     value: '#454f5b'
-    friendlyName: Ink Light
+    meta:
+      friendlyName: Ink Light
   - name: color-ink-base
     value: '#212b36'
-    friendlyName: Ink Base
+    meta:
+      friendlyName: Ink Base
   - name: color-orange-lighter
     value: '#fcebdb'
-    friendlyName: Orange Lighter
+    meta:
+      friendlyName: Orange Lighter
   - name: color-orange-light
     value: '#ffc58b'
-    friendlyName: Orange Light
+    meta:
+      friendlyName: Orange Light
   - name: color-orange-base
     value: '#f49342'
-    friendlyName: Orange Base
+    meta:
+      friendlyName: Orange Base
   - name: color-orange-dark
     value: '#c05717'
-    friendlyName: Orange Dark
+    meta:
+      friendlyName: Orange Dark
   - name: color-orange-darker
     value: '#4a1504'
-    friendlyName: Orange Darker
+    meta:
+      friendlyName: Orange Darker
   - name: color-orange-text
     value: '#594430'
-    friendlyName: Orange Text
+    meta:
+      friendlyName: Orange Text
     category: text-color
   - name: color-purple-lighter
     value: '#f6f0fd'
-    friendlyName: Purple Lighter
+    meta:
+      friendlyName: Purple Lighter
   - name: color-purple-light
     value: '#e3d0ff'
-    friendlyName: Purple Light
+    meta:
+      friendlyName: Purple Light
   - name: color-purple-base
     value: '#9c6ade'
-    friendlyName: Purple Base
+    meta:
+      friendlyName: Purple Base
   - name: color-purple-dark
     value: '#50248f'
-    friendlyName: Purple Dark
+    meta:
+      friendlyName: Purple Dark
   - name: color-purple-darker
     value: '#230051'
-    friendlyName: Purple Darker
+    meta:
+      friendlyName: Purple Darker
   - name: color-purple-text
     value: '#50495a'
-    friendlyName: Purple Text
+    meta:
+      friendlyName: Purple Text
     category: text-color
   - name: color-red-lighter
     value: '#fbeae5'
-    friendlyName: Red Lighter
+    meta:
+      friendlyName: Red Lighter
   - name: color-red-light
     value: '#fead9a'
-    friendlyName: Red Light
+    meta:
+      friendlyName: Red Light
   - name: color-red-base
     value: '#ed6347'
-    friendlyName: Red Base
+    meta:
+      friendlyName: Red Base
   - name: color-red-dark
     value: '#bf0711'
-    friendlyName: Red Dark
+    meta:
+      friendlyName: Red Dark
   - name: color-red-darker
     value: '#330101'
-    friendlyName: Red Darker
+    meta:
+      friendlyName: Red Darker
   - name: color-red-text
     value: '#583c35'
-    friendlyName: Red Text
+    meta:
+      friendlyName: Red Text
     category: text-color
   - name: color-sky-lighter
     value: '#f9fafb'
-    friendlyName: Sky Lighter
+    meta:
+      friendlyName: Sky Lighter
   - name: color-sky-light
     value: '#f4f6f8'
-    friendlyName: Sky Light
+    meta:
+      friendlyName: Sky Light
   - name: color-sky-base
     value: '#dfe3e8'
-    friendlyName: Sky Base
+    meta:
+      friendlyName: Sky Base
   - name: color-sky-dark
     value: '#c4cdd5'
-    friendlyName: Sky Dark
+    meta:
+      friendlyName: Sky Dark
   - name: color-teal-lighter
     value: '#e0f5f5'
-    friendlyName: Teal Lighter
+    meta:
+      friendlyName: Teal Lighter
   - name: color-teal-light
     value: '#b7ecec'
-    friendlyName: Teal Light
+    meta:
+      friendlyName: Teal Light
   - name: color-teal-base
     value: '#47c1bf'
-    friendlyName: Teal Base
+    meta:
+      friendlyName: Teal Base
   - name: color-teal-dark
     value: '#00848e'
-    friendlyName: Teal Dark
+    meta:
+      friendlyName: Teal Dark
   - name: color-teal-darker
     value: '#003135'
-    friendlyName: Teal Darker
+    meta:
+      friendlyName: Teal Darker
   - name: color-teal-text
     value: '#405352'
-    friendlyName: Teal Text
+    meta:
+      friendlyName: Teal Text
     category: text-color
   - name: color-yellow-lighter
     value: '#fcf1cd'
-    friendlyName: Yellow Lighter
+    meta:
+      friendlyName: Yellow Lighter
   - name: color-yellow-light
     value: '#ffea8a'
-    friendlyName: Yellow Light
+    meta:
+      friendlyName: Yellow Light
   - name: color-yellow-base
     value: '#eec200'
-    friendlyName: Yellow Base
+    meta:
+      friendlyName: Yellow Base
   - name: color-yellow-dark
     value: '#9c6f19'
-    friendlyName: Yellow Dark
+    meta:
+      friendlyName: Yellow Dark
   - name: color-yellow-darker
     value: '#573b00'
-    friendlyName: Yellow Darker
+    meta:
+      friendlyName: Yellow Darker
   - name: color-yellow-text
     value: '#595130'
-    friendlyName: Yellow Text
+    meta:
+      friendlyName: Yellow Text
     category: text-color
 global:
   type: color

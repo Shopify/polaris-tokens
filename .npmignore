@@ -1,5 +1,5 @@
 **/*
-!dist
+!dist/**/*
 !index.js
 !LICENSE.md
 !README.md
