@@ -22,18 +22,22 @@ Tokens are generated under the `dist/` folder:
 colors.color-map.scss
 colors.custom-properties.css
 colors.json
+colors.map.scss
 colors.scss
 index.custom-properties.css
 index.json
+index.map.scss
 index.scss
 Polaris.ase
 Polaris.clr
 Polaris.sketchpalette
 spacing.custom-properties.css
 spacing.json
+spacing.map.scss
 spacing.scss
 typography.custom-properties.css
 typography.json
+typography.map.scss
 typography.scss
 ```
 
