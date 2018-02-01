@@ -1,9 +1,0 @@
-# List of all token files
-# Useful for documentation generation
-imports:
-  - colors.yml
-  - spacing.yml
-  - typography.yml
-global:
-  type: all
-  category: global
