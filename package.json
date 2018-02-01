@@ -68,7 +68,7 @@
     "gulp-restart": "^0.1.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-theo": "^1.0.0-beta.1",
+    "gulp-theo": "^1.0.0",
     "jest": "^22.1.4",
     "js-yaml": "^3.10.0",
     "lodash": "^4.17.4",
@@ -78,7 +78,7 @@
     "renamer": "^0.6.1",
     "rimraf": "^2.6.2",
     "run-sequence": "^2.2.1",
-    "theo": "6.0.0-beta.10",
+    "theo": "6.0.0",
     "tinycolor2": "^1.4.1",
     "yaml-lint": "^1.0.0"
   }
