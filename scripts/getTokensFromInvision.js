@@ -51,9 +51,14 @@ const sortColorTokens = (colors) =>
   });
 
 const buildTheoColorTokens = (colors) => ({
+  aliases: Object.assign(
+    {},
+    ...colors.map((color) => ({[`color-${dashify(color.name)}`]: color.value})),
+  ),
   props: colors.map((color) => {
     color.meta = {friendlyName: color.name};
     color.name = `color-${dashify(color.name)}`;
+    color.value = `{!${color.name}}`;
     if (color.name.includes('text')) {
       color.category = 'text-color';
     }
