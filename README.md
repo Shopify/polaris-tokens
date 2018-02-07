@@ -8,6 +8,24 @@
 yarn add polaris-tokens --dev
 ```
 
+### JavaScript
+
+```js
+const tokens = require('polaris-tokens');
+console.log(tokens.colorBlueLighter) // rgb(235, 245, 250)
+```
+
+### Sass
+
+```scss
+@import 'node_modules/polaris-tokens/dist/index';
+p {
+  color: $color-blue-text;
+}
+```
+
+---
+
 Head to <https://github.com/Shopify/polaris-tokens/releases/>, where generated files are available.
 
 ## Generate tokens
