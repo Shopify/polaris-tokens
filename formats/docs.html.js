@@ -257,10 +257,10 @@ class Styleguide {
       const color = tinycolor(prop.value);
       prop.value = color.getAlpha() < 1 ? color : color.toHexString();
       const example = `
-        <td style="background-color: ${tokens['color-sky-lighter']}; color: ${
+        <td style="background-color: ${tokens.colorSkyLighter}; color: ${
         prop.value
-      }; padding: ${tokens['spacing-tight']} ${
-        tokens['spacing-base']
+      }; padding: ${tokens.spacingTight} ${
+        tokens.spacingBase
       }; line-height: 1.3;">
           <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
         </td>

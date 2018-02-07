@@ -1,1 +1,1 @@
-module.exports = require('./dist/index.json');
+module.exports = require('./dist/index.common.js');

@@ -20,10 +20,12 @@ Tokens are generated under the `dist/` folder:
 
 ```
 colors.color-map.scss
+colors.common.js
 colors.custom-properties.css
 colors.json
 colors.map.scss
 colors.scss
+index.common.js
 index.custom-properties.css
 index.json
 index.map.scss
@@ -31,10 +33,12 @@ index.scss
 Polaris.ase
 Polaris.clr
 Polaris.sketchpalette
+spacing.common.js
 spacing.custom-properties.css
 spacing.json
 spacing.map.scss
 spacing.scss
+typography.common.js
 typography.custom-properties.css
 typography.json
 typography.map.scss

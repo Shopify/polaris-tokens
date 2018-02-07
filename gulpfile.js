@@ -13,7 +13,7 @@ theo.registerFormat('color-map.scss', colorMapScss);
 theo.registerFormat('sketchpalette', sketchpalette);
 theo.registerFormat('ase.json', aseJSON);
 
-const webFormats = ['scss', 'json', 'custom-properties.css', 'map.scss'];
+const webFormats = ['scss', 'common.js', 'json', 'custom-properties.css', 'map.scss'];
 const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 
 gulp.task('web-formats', () =>
