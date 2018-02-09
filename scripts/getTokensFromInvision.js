@@ -6,6 +6,7 @@ const fetch = require('node-fetch');
 const tinycolor2 = require('tinycolor2');
 const sortBy = require('lodash/sortBy');
 const dashify = require('dashify');
+const {getPaletteFromFriendlyName} = require('../formats/utils/color');
 
 // You can edit tokens in Invision DSM and in Sketch
 // https://shopify.invisionapp.com/dsm/shopify/design-tokens
@@ -22,8 +23,6 @@ const fetchTokens = async () => {
 // Invision’s API returns colors under this path
 const getColorTokens = (object) => object.list.colors[0].colors;
 
-const getPalette = (friendlyName) => friendlyName.split(' ').shift();
-
 // Invision doesn't support manual color sorting from the DSM UI
 // so we're doing our best to sort colors in a way that makes sense
 // to designers: light to dark, then the text color
@@ -33,11 +32,11 @@ const sortColorTokens = (colors) =>
       // Force base colors (black, white) to be at the beginning of the file
       color.isNotBaseColor = !/black|white/.test(color.name.toLowerCase());
       // Sort colors by color palette (ink, indigo…)
-      color.colorPalette = getPalette(color.name);
-      // Force text-specific colors to be last in a palette
-      color.isText = color.name.toLowerCase().includes('text');
+      color.colorPalette = getPaletteFromFriendlyName(color.name);
+      // Force text-specific colors to be first in a palette
+      color.isText = !color.name.toLowerCase().includes('text');
       // Sort by brightness inside of a color palette
-      color.brightness = tinycolor2(color.value).getBrightness() * -1;
+      color.brightness = tinycolor2(color.value).getBrightness();
       return color;
     }),
     ['isNotBaseColor', 'colorPalette', 'isText', 'brightness'],
