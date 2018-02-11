@@ -10,4 +10,4 @@ fs.writeFileSync(
   Buffer.from(ase.encode(props), 'utf8'),
 );
 
-// fs.unlinkSync(path.join(__dirname, '..', 'dist', 'colors.ase.json'));
+fs.unlinkSync(path.join(__dirname, '..', 'dist', 'colors.ase.json'));
