@@ -1,0 +1,7 @@
+declare interface Tokens {
+{{#each props as |prop|}}
+  {{ camelcase prop.name}}: '{{{replace prop.value "'" "\'"}}}';
+{{/each}}
+}
+declare let tokens: Tokens;
+export = tokens;

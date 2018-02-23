@@ -3,6 +3,7 @@
   "version": "0.11.0",
   "description": "Design Tokens for the Polaris Design System",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "clean": "rimraf ./dist",

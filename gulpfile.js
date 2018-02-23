@@ -1,17 +1,17 @@
+const fs = require('fs');
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
 const theo = require('gulp-theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const runSequence = require('run-sequence');
-const colorMapScss = require('./formats/color-map.scss.js');
-const sketchpalette = require('./formats/sketchpalette.js');
-const aseJSON = require('./formats/ase.json.js');
 
 const $ = gulpLoadPlugins();
 
-theo.registerFormat('color-map.scss', colorMapScss);
-theo.registerFormat('sketchpalette', sketchpalette);
-theo.registerFormat('ase.json', aseJSON);
+theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
+theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
+theo.registerFormat('ase.json', require('./formats/ase.json.js'));
+
+theo.registerFormat('d.ts', fs.readFileSync('./formats/d.ts.hbs', 'utf8'));
 
 const webFormats = [
   'scss',
@@ -37,6 +37,21 @@ gulp.task('web-formats', () =>
       })
       .pipe(gulp.dest('./dist')),
   ),
+);
+
+gulp.task('typings', () =>
+  gulp
+    .src('./tokens/index.yml')
+    .pipe(
+      theo.plugin({
+        transform: {type: 'web'},
+        format: {type: 'd.ts'},
+      }),
+    )
+    .on('error', (err) => {
+      throw new Error(err);
+    })
+    .pipe(gulp.dest('./dist')),
 );
 
 gulp.task('color-formats', () =>
@@ -100,10 +115,13 @@ gulp.task('watch', runSequence(['web-formats', 'color-formats']), () => {
     server: 'docs',
   });
 
-  gulp.watch(['tokens/*.yml'], ['web-formats', 'color-formats', 'docs']);
+  gulp.watch(
+    ['tokens/*.yml'],
+    ['web-formats', 'typings', 'color-formats', 'docs'],
+  );
   gulp.watch('docs/**/*.scss', ['docs:styles']);
   gulp.watch(['formats/**/*.*', 'gulpfile.js'], $.restart);
   gulp.watch(['docs/**/*.html']).on('change', browserSync.reload);
 });
 
-gulp.task('default', runSequence(['web-formats', 'color-formats']));
+gulp.task('default', runSequence(['web-formats', 'typings', 'color-formats']));
