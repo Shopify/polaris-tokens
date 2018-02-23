@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn dist:invision' to generate a new version
-# Last updated: 16:48:25 GMT-0500 (EST)
+# Last updated: 08:05:52 GMT-0800 (PST)
 aliases:
   color-black-base: '#000000'
   color-white-base: '#ffffff'
@@ -42,7 +42,7 @@ aliases:
   color-red-text: '#583c35'
   color-red-darker: '#330101'
   color-red-dark: '#bf0711'
-  color-red-base: '#ed6347'
+  color-red-base: '#de3618'
   color-red-light: '#fead9a'
   color-red-lighter: '#fbeae5'
   color-sky-dark: '#c4cdd5'
