@@ -25,7 +25,7 @@ const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 gulp.task('web-formats', () =>
   webFormats.map((format) =>
     gulp
-      .src(['tokens/*.yml'])
+      .src('tokens/*.yml')
       .pipe(
         $.theo({
           transform: {type: 'web'},
@@ -57,7 +57,7 @@ gulp.task('typings', () =>
 gulp.task('color-formats', () =>
   colorFormats.map((format) =>
     gulp
-      .src(path.resolve('tokens/colors.yml'))
+      .src('tokens/colors.yml')
       .pipe(
         $.theo({
           transform: {type: 'web', includeMeta: true},
