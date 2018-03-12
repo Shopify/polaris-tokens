@@ -1,7 +1,7 @@
-const fs = require('fs');
+const path = require('path');
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
-const theo = require('gulp-theo');
+const theo = require('theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const runSequence = require('run-sequence');
 
@@ -11,7 +11,7 @@ theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
 
-theo.registerFormat('d.ts', fs.readFileSync('./formats/d.ts.hbs', 'utf8'));
+theo.registerFormat('d.ts', require('./formats/d.ts'));
 
 const webFormats = [
   'scss',
@@ -25,9 +25,9 @@ const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 gulp.task('web-formats', () =>
   webFormats.map((format) =>
     gulp
-      .src('./tokens/*.yml')
+      .src(['tokens/*.yml'])
       .pipe(
-        theo.plugin({
+        $.theo({
           transform: {type: 'web'},
           format: {type: format},
         }),
@@ -35,15 +35,15 @@ gulp.task('web-formats', () =>
       .on('error', (err) => {
         throw new Error(err);
       })
-      .pipe(gulp.dest('./dist')),
+      .pipe(gulp.dest('dist')),
   ),
 );
 
 gulp.task('typings', () =>
   gulp
-    .src('./tokens/index.yml')
+    .src('tokens/index.yml')
     .pipe(
-      theo.plugin({
+      $.theo({
         transform: {type: 'web'},
         format: {type: 'd.ts'},
       }),
@@ -51,15 +51,15 @@ gulp.task('typings', () =>
     .on('error', (err) => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('./dist')),
+    .pipe(gulp.dest('dist')),
 );
 
 gulp.task('color-formats', () =>
   colorFormats.map((format) =>
     gulp
-      .src('./tokens/colors.yml')
+      .src(path.resolve('tokens/colors.yml'))
       .pipe(
-        theo.plugin({
+        $.theo({
           transform: {type: 'web', includeMeta: true},
           format: {type: format},
         }),
@@ -67,7 +67,7 @@ gulp.task('color-formats', () =>
       .on('error', (err) => {
         throw new Error(err);
       })
-      .pipe(gulp.dest('./dist')),
+      .pipe(gulp.dest('dist')),
   ),
 );
 
@@ -92,9 +92,9 @@ gulp.task('docs', ['docs:styles'], () => {
   const docsHTML = require('./formats/docs.html.js');
   theo.registerFormat('docs.html', docsHTML);
   return gulp
-    .src('./tokens/index.yml')
+    .src('tokens/index.yml')
     .pipe(
-      theo.plugin({
+      $.theo({
         transform: {type: 'web'},
         format: {type: 'docs.html'},
       }),
@@ -103,7 +103,7 @@ gulp.task('docs', ['docs:styles'], () => {
     .on('error', (err) => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('./docs'));
+    .pipe(gulp.dest('docs'));
 });
 
 // Static Server (development)

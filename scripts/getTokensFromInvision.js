@@ -79,7 +79,7 @@ const warningBanner = `# DO NOT MANUALLY EDIT THIS FILE
 # Last updated: ${new Date().toTimeString()}
 `;
 
-fetchTokens()
+module.exports = fetchTokens()
   .then(getColorTokens)
   .then(sortColorTokens)
   .then(buildTheoColorTokens)

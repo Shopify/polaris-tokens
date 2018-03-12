@@ -19,7 +19,7 @@
     "dist:colors:rename-palettes": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "npm-run-all lint:**",
     "lint:js": "eslint . --format codeframe",
-    "lint:tokens": "yamllint ./tokens/*.yml",
+    "lint:tokens": "yamllint tokens/*.yml",
     "watch": "gulp watch"
   },
   "repository": {
@@ -57,9 +57,9 @@
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.23.6",
     "dashify": "^1.0.0",
-    "eslint": "^4.16.0",
+    "eslint": "^4.18.2",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-shopify": "^19.0.0",
     "fs-extra": "^5.0.0",
     "gulp": "^3.9.1",
@@ -69,18 +69,19 @@
     "gulp-restart": "^0.1.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-theo": "^1.0.0",
-    "jest": "^22.1.4",
-    "js-yaml": "^3.10.0",
-    "lodash": "^4.17.4",
-    "node-fetch": "^1.7.3",
+    "gulp-theo": "^2.0.0-beta.1",
+    "immutable": "^3.8.2",
+    "jest": "^22.4.2",
+    "js-yaml": "^3.11.0",
+    "lodash": "^4.17.5",
+    "node-fetch": "^2.1.1",
     "npm-run-all": "^4.1.2",
-    "prettier": "^1.10.2",
+    "prettier": "^1.11.1",
     "renamer": "^0.6.1",
     "rimraf": "^2.6.2",
     "run-sequence": "^2.2.1",
-    "theo": "6.0.0",
+    "theo": "^7.0.1",
     "tinycolor2": "^1.4.1",
-    "yaml-lint": "^1.0.0"
+    "yaml-lint": "^1.2.1"
   }
 }
