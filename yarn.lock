@@ -1937,9 +1937,9 @@ eslint-plugin-react@^7.5.1:
     jsx-ast-utils "^2.0.0"
     prop-types "^15.6.0"
 
-eslint-plugin-shopify@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-shopify/-/eslint-plugin-shopify-19.0.0.tgz#4ca1f4210a391bfbf1b910a9de784392e3bfccaf"
+eslint-plugin-shopify@^19.0.1:
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-shopify/-/eslint-plugin-shopify-19.0.1.tgz#0ee62fba33fdfd8ab306fe4c7bc7350fcf6dbef2"
   dependencies:
     babel-eslint "^8.2.1"
     eslint-config-prettier "^2.9.0"
@@ -6771,9 +6771,9 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yaml-lint@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/yaml-lint/-/yaml-lint-1.2.1.tgz#60ab2bed5acd935790de069923205b228b1c3aba"
+yaml-lint@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/yaml-lint/-/yaml-lint-1.2.2.tgz#6256db04b10499e886a458fd72731e0d0eb3f25b"
   dependencies:
     glob "^7.1.2"
     js-yaml "^3.10.0"
