@@ -1,6 +1,3 @@
-# Build output folders
-dist
-
 # Logs
 logs
 *.log

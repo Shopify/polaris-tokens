@@ -1,3 +1,0 @@
-deploy:
-  pre:
-    - yarn run dist
