@@ -1,5 +1,5 @@
 {
-  "name": "polaris-tokens",
+  "name": "@shopify/polaris-tokens",
   "version": "0.13.1",
   "description": "Design Tokens for the Polaris Design System",
   "main": "index.js",
