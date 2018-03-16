@@ -1,0 +1,6 @@
+# https://services.shopify.io/services/polaris-tokens/production
+director: kpeatt
+owners:
+- Shopify/polaris
+production:
+  classification: tier4
