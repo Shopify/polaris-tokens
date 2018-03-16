@@ -1,0 +1,3 @@
+deploy:
+  override:
+    - yarn publish --access public
