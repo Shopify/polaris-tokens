@@ -1,3 +1,0 @@
-deploy:
-  override:
-    - npm publish --access public
