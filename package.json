@@ -60,7 +60,7 @@
     "eslint": "^4.18.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-shopify": "^19.0.1",
+    "eslint-plugin-shopify": "^20.0.0",
     "fs-extra": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.5.0",
