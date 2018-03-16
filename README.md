@@ -63,6 +63,17 @@ typography.map.scss
 typography.scss
 ```
 
+## Updating colors
+
+Colors are stored in Invision’s DSM.
+
+Fetch the latest version:
+
+```
+yarn getTokensFromInvision
+yarn dist
+```
+
 ## Dev workflow
 
 ```

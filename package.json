@@ -7,9 +7,9 @@
   "scripts": {
     "test": "jest",
     "clean": "rimraf ./dist",
+    "getTokensFromInvision": "node ./scripts/getTokensFromInvision.js",
     "predist": "yarn clean",
     "dist": "npm-run-all dist:**",
-    "dist:getTokensFromInvision": "node ./scripts/getTokensFromInvision.js",
     "dist:gulp": "gulp",
     "dist:docs": "gulp docs",
     "dist:prettier": "prettier ./dist/*.{scss,css,json,js} --write",
