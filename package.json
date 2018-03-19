@@ -57,7 +57,7 @@
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.23.6",
     "dashify": "^1.0.0",
-    "eslint": "^4.18.2",
+    "eslint": "^4.19.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-shopify": "^20.0.0",
