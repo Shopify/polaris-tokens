@@ -4,9 +4,9 @@ $colors: (
   blue:
     (
       text: rgb(62, 78, 87),
-      / / This blue is great for things darker: rgb(0, 20, 41),
-      / / This is some documentation dark: rgb(8, 78, 138),
-      / / This is a description and it’s awesome. LOL base: rgb(0, 122, 206),
+      darker: rgb(0, 20, 41),
+      dark: rgb(8, 78, 138),
+      base: rgb(0, 122, 206),
       light: rgb(180, 225, 250),
       lighter: rgb(235, 245, 250)
     ),
