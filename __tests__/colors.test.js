@@ -9,6 +9,7 @@ const colorFiles = [
   'colors.json',
   'colors.scss',
   'Polaris.sketchpalette',
+  'index.d.ts',
 ];
 
 colorFiles.map((filename) =>
