@@ -5,20 +5,20 @@
 ## Usage
 
 ```
-yarn add polaris-tokens --dev
+yarn add @shopify/polaris-tokens --dev
 ```
 
 ### JavaScript
 
 ```js
-const tokens = require('polaris-tokens');
+const tokens = require('@shopify/polaris-tokens');
 console.log(tokens.colorBlueLighter) // rgb(235, 245, 250)
 ```
 
 ### Sass
 
 ```scss
-@import 'node_modules/polaris-tokens/dist/index';
+@import 'node_modules/@shopify/polaris-tokens/dist/index';
 p {
   color: $color-blue-text;
 }
