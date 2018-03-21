@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     working_directory: ~/app
-    macos:
-      xcode: "9.2"
+    docker:
+      - image: circleci/node:8.9.4
     steps:
       - checkout
       - restore_cache:
@@ -18,6 +18,6 @@ jobs:
          key: v1-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
          paths:
            - node_modules
-      - run: yarn run dist
+      - run: yarn run dist-ci
       - run: yarn run test
       - run: yarn run lint
