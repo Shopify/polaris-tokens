@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     working_directory: ~/app
-    docker:
-      - image: circleci/node:8.9.4
+    macos:
+      xcode: "9.2"
     steps:
       - checkout
       - restore_cache:
