@@ -2,11 +2,8 @@ module.exports = {
   colorBlackBase: "rgb(0, 0, 0)",
   colorWhiteBase: "rgb(255, 255, 255)",
   colorBlueText: "rgb(62, 78, 87)",
-  // This blue is great for things
   colorBlueDarker: "rgb(0, 20, 41)",
-  // This is some documentation
   colorBlueDark: "rgb(8, 78, 138)",
-  // This is a description and it’s awesome. LOL
   colorBlueBase: "rgb(0, 122, 206)",
   colorBlueLight: "rgb(180, 225, 250)",
   colorBlueLighter: "rgb(235, 245, 250)",

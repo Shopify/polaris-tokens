@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn dist:invision' to generate a new version
-# Last updated: 12:12:20 GMT-0700 (PDT)
+# Last updated: 17:27:36 GMT-0700 (PDT)
 aliases:
   color-black-base: '#000000'
   color-white-base: '#ffffff'
@@ -79,17 +79,14 @@ props:
     value: '{!color-blue-darker}'
     meta:
       friendlyName: Blue Darker
-    comment: This blue is great for things
   - name: color-blue-dark
     value: '{!color-blue-dark}'
     meta:
       friendlyName: Blue Dark
-    comment: This is some documentation
   - name: color-blue-base
     value: '{!color-blue-base}'
     meta:
       friendlyName: Blue Base
-    comment: This is a description and it’s awesome. LOL
   - name: color-blue-light
     value: '{!color-blue-light}'
     meta:
