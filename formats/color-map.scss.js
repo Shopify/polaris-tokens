@@ -23,7 +23,7 @@ class CustomMap {
         .filter((prop) => prop.name.includes(palette))
         .map((prop) =>
           `${prop.comment ? `// ${prop.comment}` : ''}
-            ${getShade(prop.name)}: ${prop.value}
+            '${getShade(prop.name)}': ${prop.value}
           `.trim(),
         )
         .join(',\n')}
