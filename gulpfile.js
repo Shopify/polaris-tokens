@@ -21,16 +21,28 @@ const webFormats = [
 ];
 const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 
+const addPrefix = {prefix: 'polaris-'};
+
+const removePrefix = (gulpRenameOptions) => {
+  gulpRenameOptions.basename = gulpRenameOptions.basename.replace(
+    'polaris-',
+    '',
+  );
+  return gulpRenameOptions;
+};
+
 gulp.task('web-formats', () =>
   webFormats.map((format) =>
     gulp
       .src('tokens/*.yml')
+      .pipe($.rename(addPrefix))
       .pipe(
         $.theo({
           transform: {type: 'web'},
           format: {type: format},
         }),
       )
+      .pipe($.rename(removePrefix))
       .on('error', (err) => {
         throw new Error(err);
       })
@@ -41,12 +53,14 @@ gulp.task('web-formats', () =>
 gulp.task('typings', () =>
   gulp
     .src('tokens/index.yml')
+    .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
         transform: {type: 'web'},
         format: {type: 'd.ts'},
       }),
     )
+    .pipe($.rename(removePrefix))
     .on('error', (err) => {
       throw new Error(err);
     })
@@ -57,12 +71,14 @@ gulp.task('color-formats', () =>
   colorFormats.map((format) =>
     gulp
       .src('tokens/colors.yml')
+      .pipe($.rename(addPrefix))
       .pipe(
         $.theo({
           transform: {type: 'web', includeMeta: true},
           format: {type: format},
         }),
       )
+      .pipe($.rename(removePrefix))
       .on('error', (err) => {
         throw new Error(err);
       })
@@ -75,6 +91,7 @@ gulp.task('docs:styles', () =>
     .src('docs/*.scss')
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
+    .pipe($.rename(addPrefix))
     .pipe(
       $.sass
         .sync({
@@ -82,6 +99,7 @@ gulp.task('docs:styles', () =>
         })
         .on('error', $.sass.logError),
     )
+    .pipe($.rename(removePrefix))
     .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('docs'))
     .pipe(browserSync.stream({match: '**/*.css'})),
