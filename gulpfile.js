@@ -21,6 +21,8 @@ const webFormats = [
 ];
 const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 
+// Hack to ensure Sass maps are prefixed with `polaris-`
+// (Theo relies on the filename to name all Sass maps)
 const addPrefix = {prefix: 'polaris-'};
 
 const removePrefix = (gulpRenameOptions) => {
