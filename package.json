@@ -27,6 +27,9 @@
     "type": "git",
     "url": "git+https://github.com/Shopify/polaris-tokens.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "polaris",
     "design-tokens"
