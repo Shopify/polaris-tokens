@@ -4,3 +4,5 @@ owners:
 - Shopify/polaris
 production:
   classification: tier4
+gem:
+  classification: tier4
