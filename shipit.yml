@@ -12,3 +12,7 @@ deploy:
   override:
     - bundle exec package_cloud push shopify/gems pkg/*.gem
     - npm publish
+review:
+  checklist:
+    - Run <code>yarn version</code>, and assign a new version
+    - Run <code>git push origin master --follow-tags</code>
