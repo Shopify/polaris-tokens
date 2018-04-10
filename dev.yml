@@ -2,9 +2,12 @@
 name: polaris-tokens
 
 up:
+  - ruby:
+      version: 2.3.4
   - node:
       version: v8.9.4
       yarn: true
+  - bundler
 commands:
   test:
     run: yarn test
