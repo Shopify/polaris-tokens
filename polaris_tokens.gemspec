@@ -15,6 +15,12 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/Shopify/polaris-tokens#readme'
   s.summary = 'Design Tokens for the Polaris Design System'
   s.description = 'Design Tokens for the Polaris Design System'
-  s.files = Dir["{dist,lib}/**/*", 'README.md', 'package.json']
+  s.files = Dir[
+    "{dist,lib}/**/*",
+    'README.md',
+    'LICENSE.md',
+    'package.json',
+    'index.js'
+  ]
   s.require_paths = ['lib']
 end
