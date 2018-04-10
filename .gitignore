@@ -9,5 +9,6 @@ node_modules
 # macOS metadata
 .DS_Store
 
-# gem
+# Bundler files
 *.gem
+/.bundle
