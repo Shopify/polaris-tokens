@@ -3,4 +3,6 @@ director: kpeatt
 owners:
 - Shopify/polaris
 production:
-  classification: tier4
+  classification: library
+gem:
+  classification: library
