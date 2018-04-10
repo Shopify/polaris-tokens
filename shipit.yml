@@ -7,8 +7,7 @@ deploy:
     - yarn test
     - bundle exec rake build
     # Use auto-dist-tag to still allow publishing beta, alpha, and rc versions
-    - npm install -g auto-dist-tag
-    - auto-dist-tag --write
+    - npx auto-dist-tag --write
   override:
     - bundle exec package_cloud push shopify/gems pkg/*.gem
     - npm publish
