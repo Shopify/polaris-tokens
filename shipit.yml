@@ -14,4 +14,4 @@ deploy:
 review:
   checklist:
     - Run <strong>yarn version</strong>, and assign a new version
-    - Run <strong>git push origin master --follow-tags</strong>
+    - Run <strong>git push --follow-tags</strong>
