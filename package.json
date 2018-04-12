@@ -61,7 +61,7 @@
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.23.6",
     "dashify": "^1.0.0",
-    "eslint": "^4.19.0",
+    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-shopify": "^20.0.0",
@@ -71,14 +71,14 @@
     "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-restart": "^0.1.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-theo": "^2.0.0-beta.1",
     "immutable": "^3.8.2",
-    "jest": "^22.4.2",
+    "jest": "^22.4.3",
     "js-yaml": "^3.11.0",
     "lodash": "^4.17.5",
-    "node-fetch": "^2.1.1",
+    "node-fetch": "^2.1.2",
     "npm-run-all": "^4.1.2",
     "prettier": "1.11.1",
     "renamer": "^0.6.1",
@@ -86,6 +86,6 @@
     "run-sequence": "^2.2.1",
     "theo": "^7.0.1",
     "tinycolor2": "^1.4.1",
-    "yaml-lint": "^1.2.2"
+    "yaml-lint": "^1.2.3"
   }
 }
