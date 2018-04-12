@@ -88,12 +88,14 @@ colors.common.js
 colors.custom-properties.css
 colors.json
 colors.map.scss
+colors.raw.json
 colors.scss
 index.common.js
 index.custom-properties.css
 index.d.ts
 index.json
 index.map.scss
+index.raw.json
 index.scss
 Polaris.ase
 Polaris.clr
@@ -102,11 +104,13 @@ spacing.common.js
 spacing.custom-properties.css
 spacing.json
 spacing.map.scss
+spacing.raw.json
 spacing.scss
 typography.common.js
 typography.custom-properties.css
 typography.json
 typography.map.scss
+typography.raw.json
 typography.scss
 ```
 
