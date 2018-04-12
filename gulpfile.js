@@ -18,6 +18,7 @@ const webFormats = [
   'json',
   'custom-properties.css',
   'map.scss',
+  'raw.json',
 ];
 const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
 

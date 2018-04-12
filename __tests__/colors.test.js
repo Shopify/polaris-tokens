@@ -7,6 +7,7 @@ const colorFiles = [
   'colors.color-map.scss',
   'colors.custom-properties.css',
   'colors.json',
+  'colors.raw.json',
   'colors.scss',
   'Polaris.sketchpalette',
   'index.d.ts',

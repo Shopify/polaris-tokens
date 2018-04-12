@@ -1,0 +1,21 @@
+{
+  "aliases": {},
+  "props": {
+    "font-stack-base": {
+      "type": "string",
+      "category": "font-family",
+      "name": "font-stack-base",
+      "value":
+        "-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif",
+      "originalValue":
+        "-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif"
+    },
+    "font-stack-monospace": {
+      "type": "string",
+      "category": "font-family",
+      "name": "font-stack-monospace",
+      "value": "Monaco, Consolas, 'Lucida Console', monospace",
+      "originalValue": "Monaco, Consolas, 'Lucida Console', monospace"
+    }
+  }
+}
