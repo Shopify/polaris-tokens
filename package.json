@@ -28,7 +28,8 @@
     "url": "git+https://github.com/Shopify/polaris-tokens.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "polaris",
