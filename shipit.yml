@@ -6,7 +6,6 @@ deploy:
   pre:
     - yarn test
     - bundle exec rake build
-    - npm unpublish @shopify/polaris-tokens --force
     # Use auto-dist-tag to still allow publishing beta, alpha, and rc versions
     - npx auto-dist-tag --write
   override:
