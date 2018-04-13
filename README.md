@@ -76,9 +76,9 @@ a {
 
 ## Generate tokens
 
-1. `dev clone polaris-tokens`
-2. `dev up`
-3. `yarn dist`
+1.  `dev clone polaris-tokens`
+2.  `dev up`
+3.  `yarn dist`
 
 Tokens are generated under the `dist/` folder:
 

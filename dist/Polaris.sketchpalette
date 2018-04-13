@@ -26,10 +26,10 @@
       "blue": 0.984313725490196,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.12941176470588237,
       "green": 0.16862745098039217,
@@ -54,10 +54,10 @@
       "blue": 0.6705882352941176,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.34509803921568627,
       "green": 0.23529411764705882,
@@ -94,8 +94,8 @@
       "blue": 0.8980392156862745,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.34901960784313724,
       "green": 0.26666666666666666,
@@ -132,8 +132,8 @@
       "blue": 0.8588235294117647,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.34901960784313724,
       "green": 0.3176470588235294,
@@ -170,8 +170,8 @@
       "blue": 0.803921568627451,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.2549019607843137,
       "green": 0.30980392156862746,
@@ -208,8 +208,8 @@
       "blue": 0.8745098039215686,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.25098039215686274,
       "green": 0.3254901960784314,
@@ -246,8 +246,8 @@
       "blue": 0.9607843137254902,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.24313725490196078,
       "green": 0.3058823529411765,
@@ -284,8 +284,8 @@
       "blue": 0.9803921568627451,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.24313725490196078,
       "green": 0.2549019607843137,
@@ -322,8 +322,8 @@
       "blue": 0.9803921568627451,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
     {
       "red": 0.3137254901960784,
       "green": 0.28627450980392155,
@@ -360,8 +360,8 @@
       "blue": 0.9921568627450981,
       "alpha": 1
     },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 },
-    { "red": 1, "green": 1, "blue": 1, "alpha": 1 }
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1},
+    {"red": 1, "green": 1, "blue": 1, "alpha": 1}
   ],
   "gradients": [],
   "images": []
