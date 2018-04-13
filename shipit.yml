@@ -13,5 +13,6 @@ deploy:
     - npm publish
 review:
   checklist:
-    - Run <strong>yarn version</strong>, and assign a new version
+    - Update <strong>CHANGELOG.md</strong> and commit the changes
+    - Run <strong>yarn version</strong> and assign a new version
     - Run <strong>git push --follow-tags</strong>
