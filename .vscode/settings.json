@@ -1,0 +1,8 @@
+{
+  "javascript.validate.enable": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.formatOnSave": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+}
