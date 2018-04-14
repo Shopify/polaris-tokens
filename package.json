@@ -4,6 +4,9 @@
   "description": "Design Tokens for the Polaris Design System",
   "main": "index.js",
   "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "test": "jest",
     "test-watch": "nodemon --exec 'npm-run-all dist test' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts",
