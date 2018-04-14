@@ -24,7 +24,7 @@
     "lint:tokens": "yamllint ./tokens/*.yml",
     "watch": "gulp watch",
     "heroku-postbuild": "yarn dist-ci",
-    "start": "npx http-server docs"
+    "start": "http-server docs"
   },
   "repository": {
     "type": "git",
@@ -78,6 +78,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-theo": "^2.0.0-beta.1",
+    "http-server": "^0.11.1",
     "immutable": "^3.8.2",
     "jest": "^22.4.3",
     "js-yaml": "^3.11.0",
