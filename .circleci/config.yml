@@ -18,6 +18,6 @@ jobs:
          key: v1-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
          paths:
            - node_modules
-      - run: yarn run dist-ci
-      - run: yarn run test
-      - run: yarn run lint
+      - run: yarn dist-ci
+      - run: yarn test
+      - run: yarn lint

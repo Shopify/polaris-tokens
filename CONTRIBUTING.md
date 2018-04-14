@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via an issue with the owners of this repository before making a change. Documentation updates such as typo fixes and other improvements are welcome at any time without submitting an issue first.
+When contributing to this repository, please first discuss the change you wish to make via an issue with the owners of this repository before making a change. Adding tests, documentation updates such as typo fixes and other improvements are welcome at any time without submitting an issue first.
 
 Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
@@ -76,6 +76,38 @@ or, if you don’t have `dev` on your machine:
 
 ```
 yarn watch
+```
+
+---
+
+## Running the tests
+
+This project uses [Jest snapshot testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html) to test the output of design tokens files in `./dist` generated from the YAML source files from `./tokens`.
+
+Tests are located in the [`__tests__`](https://github.com/Shopify/polaris-tokens/tree/master/__tests__) folder.
+
+### Running tests once
+
+```
+yarn test
+```
+
+### Running tests on every file change
+
+When developing or refactoring, running tests continuously can be a great time saver.
+
+This command will run the test suite every time a file change is detected:
+
+```
+yarn test-watch
+```
+
+### Updating snapshots
+
+Snapshots can become out of date (for example, after an update was made to any of the `./tokens/*.yml` files), and need to be updated for the test to pass:
+
+```
+yarn test -u
 ```
 
 ---

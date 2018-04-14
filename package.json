@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
+    "test-watch": "nodemon --exec 'npm-run-all dist test' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts",
     "clean": "rimraf ./dist",
     "getTokensFromInvision": "node ./scripts/getTokensFromInvision.js",
     "predist": "yarn clean",
@@ -80,6 +81,7 @@
     "js-yaml": "^3.11.0",
     "lodash": "^4.17.5",
     "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.3",
     "npm-run-all": "^4.1.2",
     "prettier": "1.12.0",
     "renamer": "^0.6.1",
