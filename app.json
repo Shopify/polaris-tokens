@@ -2,11 +2,6 @@
   "name": "polaris-tokens",
   "scripts": {
   },
-  "env": {
-    "NODE_ENV": {
-      "required": true
-    }
-  },
   "formation": {
     "web": {
       "quantity": 1
