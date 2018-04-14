@@ -1,4 +1,4 @@
-# polaris-tokens
+# Polaris design tokens
 
 [![CircleCI](https://circleci.com/gh/Shopify/polaris-tokens.svg?style=shield)](https://circleci.com/gh/Shopify/polaris-tokens)
 
@@ -8,11 +8,25 @@ Design tokens originated at Salesforce, and the best way to describe them is to 
 
 > Design tokens are the visual design atoms of the design system — specifically, they are named entities that store visual design attributes. We use them in place of hard-coded values (such as hex values for color or pixel values for spacing) in order to maintain a scalable and consistent visual system for UI development – [Salesforce UX](https://www.lightningdesignsystem.com/design-tokens/)
 
-## Usage
+## Installation
+
+Polaris design tokens are available on [npm](https://www.npmjs.com/) as the `@shopify/polaris-tokens` package.
+
+The recommended way to use and install design tokens may vary depending on your project, the most common are documented below.
+
+Using npm:
 
 ```
-yarn add @shopify/polaris-tokens --dev
+npm install @shopify/polaris-tokens --save
 ```
+
+Using yarn:
+
+```
+yarn add @shopify/polaris-tokens
+```
+
+## Usage
 
 Find all available tokens in the [design tokens documentation](https://shopify.github.io/polaris-tokens/).
 
@@ -74,65 +88,24 @@ a {
 
 ---
 
-## Generate tokens
-
-1.  `dev clone polaris-tokens`
-2.  `dev up`
-3.  `yarn dist`
-
-Tokens are generated under the `dist/` folder:
-
-```
-colors.color-map.scss
-colors.common.js
-colors.custom-properties.css
-colors.json
-colors.map.scss
-colors.raw.json
-colors.scss
-index.common.js
-index.custom-properties.css
-index.d.ts
-index.json
-index.map.scss
-index.raw.json
-index.scss
-Polaris.ase
-Polaris.clr
-Polaris.sketchpalette
-spacing.common.js
-spacing.custom-properties.css
-spacing.json
-spacing.map.scss
-spacing.raw.json
-spacing.scss
-typography.common.js
-typography.custom-properties.css
-typography.json
-typography.map.scss
-typography.raw.json
-typography.scss
-```
-
----
-
 ## Contributing
 
-### Updating colors
+The purpose of this repository is to see the core design elements of the Polaris design system
+evolve and improve over time with the needs of developers, designers and partners in mind.
 
-Colors are stored in Invision’s DSM.
+We gratefully accept impromptu contributions to the documentation, typo and bug fixes,
+and expect design token requests and changes to be discussed before a pull request.
 
-Fetch the latest version from DSM:
+### [Code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md)
 
-```
-yarn getTokensFromInvision
-yarn dist
-```
+We have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md),
+please follow it in all your interactions with the project.
 
-### Dev workflow
+### [Contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/CONTRIBUTING.md)
 
-Editing any file will refresh the list of available tokens:
+Read the [contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/CONTRIBUTING.md)
+to learn how to propose changes and understand our development process.
 
-```
-dev server
-```
+### [License](https://github.com/Shopify/polaris-tokens/blob/master/LICENSE.md)
+
+The polaris-tokens project is available under the [MIT license](https://github.com/Shopify/polaris-tokens/blob/master/LICENSE.md).

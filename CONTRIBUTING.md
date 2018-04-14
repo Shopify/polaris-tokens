@@ -1,0 +1,126 @@
+# Contributing
+
+When contributing to this repository, please first discuss the change you wish to make via an issue with the owners of this repository before making a change. Documentation updates such as typo fixes and other improvements are welcome at any time without submitting an issue first.
+
+Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+
+---
+
+## Generating the design tokens
+
+In a terminal, paste the following instructions.
+
+With `dev` (Shopify employees):
+
+```
+dev clone polaris-tokens
+dev up
+dev start
+```
+
+Without `dev` (external contributors), with [yarn](https://yarnpkg.com/en/):
+
+```
+git clone https://github.com/Shopify/polaris-tokens.git
+cd polaris-tokens
+yarn
+yarn dist
+```
+
+Tokens are exported under the `dist/` folder for consumption by external projects:
+
+```
+colors.color-map.scss
+colors.common.js
+colors.custom-properties.css
+colors.json
+colors.map.scss
+colors.raw.json
+colors.scss
+index.common.js
+index.custom-properties.css
+index.d.ts
+index.json
+index.map.scss
+index.raw.json
+index.scss
+Polaris.ase
+Polaris.clr
+Polaris.sketchpalette
+spacing.common.js
+spacing.custom-properties.css
+spacing.json
+spacing.map.scss
+spacing.raw.json
+spacing.scss
+typography.common.js
+typography.custom-properties.css
+typography.json
+typography.map.scss
+typography.raw.json
+typography.scss
+```
+
+---
+
+## Developing with the watch mode
+
+In watch mode, the [documentation](https://shopify.github.io/polaris-tokens/) automatically live reloads at <http://localhost:3000>
+when design tokens files (`./tokens/*.yml`) are edited.
+
+```
+dev server
+```
+
+or, if you don’t have `dev` on your machine:
+
+```
+yarn watch
+```
+
+---
+
+## Editing design tokens
+
+Design tokens source files are in the `./tokens` directory, in YAML format.
+
+Adding, removing, and updating design tokens should be discussed in the issues of this project.
+
+## Updating color tokens
+
+Color names, values and descriptions are managed in Invision’s [Design System Manager](https://www.invisionapp.com/blog/announcing-invision-design-system-manager/) (currently in private beta) at this URL:
+<https://shopify.invisionapp.com/dsm/shopify/design-tokens>.
+
+A script fetches color data from the DSM API and dumps it in `[tokens/colors.yml](https://github.com/Shopify/polaris-tokens/blob/master/tokens/colors.yml)` under a format appropriate for consumption by [Theo](https://github.com/salesforce-ux/theo).
+
+To fetch the latest version from DSM:
+
+```
+yarn getTokensFromInvision
+yarn dist
+yarn test -u
+```
+
+### Adding a new color
+
+First, open Design System Manager (currently in private beta) in [Sketch](https://www.sketchapp.com/) and log in with your Shopify account.
+
+If you have early access to DSM, you should be able to [follow these instructions](https://support.invisionapp.com/hc/en-us/articles/115005671843-Design-System-Manager-early-access-instructions) to access it in Sketch.
+
+Then, follow these steps:
+
+![ ](https://user-images.githubusercontent.com/85783/38760431-0e55954e-3f30-11e8-935c-7ba35b0edc44.png)
+
+![ ](https://user-images.githubusercontent.com/85783/38760487-60970130-3f30-11e8-8a45-e02b7c8c4b46.png)
+
+**[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
+
+### Editing a color’s value
+
+At the time these lines were written, Invision Design System Manager doesn’t support editing colors.
+
+There is a workaround:
+
+1.  Delete said color
+2.  Re-add the color (with the same name), this time specifying the new value
+    (following the steps described above in “Adding a new color”)
