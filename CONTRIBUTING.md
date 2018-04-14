@@ -98,17 +98,17 @@ Color names, values and descriptions are managed in Invision’s [Design System 
 
 ### Adding colors
 
-First, open Design System Manager (currently in private beta) in [Sketch](https://www.sketchapp.com/) and log in with your Shopify account.
+1.  First, open Design System Manager (currently in private beta) in [Sketch](https://www.sketchapp.com/) and log in with your Shopify account.
 
-If you have early access to DSM, you should be able to [follow these instructions](https://support.invisionapp.com/hc/en-us/articles/115005671843-Design-System-Manager-early-access-instructions) to access it in Sketch.
+    If you have early access to DSM, you should be able to [follow these instructions](https://support.invisionapp.com/hc/en-us/articles/115005671843-Design-System-Manager-early-access-instructions) to access it in Sketch.
 
-Once DSM is open in Sketch, follow these steps:
+2.  Once DSM is open in Sketch, follow these steps:
 
-![ ](https://user-images.githubusercontent.com/85783/38760431-0e55954e-3f30-11e8-935c-7ba35b0edc44.png)
+    ![ ](https://user-images.githubusercontent.com/85783/38760431-0e55954e-3f30-11e8-935c-7ba35b0edc44.png)
 
-![ ](https://user-images.githubusercontent.com/85783/38760487-60970130-3f30-11e8-8a45-e02b7c8c4b46.png)
+    ![ ](https://user-images.githubusercontent.com/85783/38760487-60970130-3f30-11e8-8a45-e02b7c8c4b46.png)
 
-**Finally, [Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
+3.  Finally, **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
 
 ### Changing a color’s name
 
@@ -118,7 +118,7 @@ Important considerations before changing color names: this type of update is a b
 and products consuming design tokens will have to update all occurrences of the old name in their codebases.
 
 1.  Change the name of the color
-2.  [Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)
+2.  **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
 
 ### Editing a color’s value
 
@@ -129,7 +129,7 @@ Here’s a workaround:
 1.  Delete said color
 2.  Re-add the color (with the same name), this time specifying the new value
     (following the steps described above in “Adding colors”)
-3.  [Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)
+3.  **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
 
 ### Developers
 
