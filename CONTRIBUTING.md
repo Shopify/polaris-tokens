@@ -133,7 +133,7 @@ Here’s a workaround:
 
 ### Developers
 
-This script fetches color data from the DSM API and dumps it in `[tokens/colors.yml](https://github.com/Shopify/polaris-tokens/blob/master/tokens/colors.yml)` under a format appropriate for consumption by [Theo](https://github.com/salesforce-ux/theo):
+This script fetches color data from the DSM API and dumps it in [`tokens/colors.yml`](https://github.com/Shopify/polaris-tokens/blob/master/tokens/colors.yml) under a format appropriate for consumption by [Theo](https://github.com/salesforce-ux/theo):
 
 ```
 yarn getTokensFromInvision
