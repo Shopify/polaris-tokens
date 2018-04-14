@@ -3,7 +3,7 @@
 # Run 'yarn dist:invision' to generate a new version
 # Last updated: 15:12:15 GMT-0700 (PDT)
 aliases:
-  color-purple-lighter: '#f6f0fd'
+  color-purple-lighter: '#f4f5fa'
   color-purple-light: '#e3d0ff'
   color-purple-base: '#9c6ade'
   color-purple-dark: '#50248f'
