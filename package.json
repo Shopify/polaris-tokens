@@ -22,7 +22,9 @@
     "lint": "npm-run-all lint:**",
     "lint:js": "eslint . --format codeframe",
     "lint:tokens": "yamllint ./tokens/*.yml",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "heroku-postbuild": "yarn dist",
+    "start": "npx http-server docs"
   },
   "repository": {
     "type": "git",
