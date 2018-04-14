@@ -14,13 +14,13 @@ Polaris design tokens are available on [npm](https://www.npmjs.com/) as the `@sh
 
 The recommended way to use and install design tokens may vary depending on your project, the most common are documented below.
 
-Using npm:
+Using [npm](https://www.npmjs.com/):
 
 ```
 npm install @shopify/polaris-tokens --save
 ```
 
-Using yarn:
+Using [yarn](https://yarnpkg.com/en/):
 
 ```
 yarn add @shopify/polaris-tokens
