@@ -1,6 +1,16 @@
-# Polaris design tokens
+<h1 align="center">Polaris design tokens</h1>
 
-[![CircleCI](https://circleci.com/gh/Shopify/polaris-tokens.svg?style=shield)](https://circleci.com/gh/Shopify/polaris-tokens)
+<h3 align="center">Colors, spacing, typography for all platforms</h3>
+
+<p align="center"><em>JavaScript · JSON · CSS · SCSS · Sketch · macOS · Adobe Swatch</em></p>
+
+<div align="center" markdown="1">
+
+[![CircleCI](https://circleci.com/gh/Shopify/polaris-tokens.svg?style=shield)](https://circleci.com/gh/Shopify/polaris-tokens) [![npm version](https://img.shields.io/npm/v/@shopify/polaris-tokens.svg)](https://www.npmjs.com/package/@shopify/polaris-tokens) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
+</div>
+
+---
 
 [Design tokens](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421) for [Polaris](https://polaris.shopify.com), Shopify’s design system.
 
