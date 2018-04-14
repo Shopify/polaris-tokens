@@ -140,7 +140,7 @@ Color names, values and descriptions are managed in Invision’s [Design System 
 
     ![ ](https://user-images.githubusercontent.com/85783/38760487-60970130-3f30-11e8-8a45-e02b7c8c4b46.png)
 
-3.  Finally, **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
+3.  Finally, **[open a new issue][issue-temlpate-color-updated]**
 
 ### Changing a color’s name
 
@@ -150,7 +150,7 @@ Important considerations before changing color names: this type of update is a b
 and products consuming design tokens will have to update all occurrences of the old name in their codebases.
 
 1.  Change the name of the color
-2.  **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
+2.  **[Open a new issue][issue-temlpate-color-updated]**
 
 ### Editing a color’s value
 
@@ -161,7 +161,7 @@ Here’s a workaround:
 1.  Delete said color
 2.  Re-add the color (with the same name), this time specifying the new value
     (following the steps described above in “Adding colors”)
-3.  **[Open a new issue](https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md)**
+3.  **[Open a new issue][issue-template-color-updated]**
 
 ### Developers
 
@@ -172,3 +172,5 @@ yarn getTokensFromInvision
 yarn dist
 yarn test -u
 ```
+
+[issue-template-color-updated]: https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md&title=Update%20colors%20🎨
