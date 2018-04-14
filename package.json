@@ -26,7 +26,7 @@
     "lint:js": "eslint . --format codeframe",
     "lint:tokens": "yamllint ./tokens/*.yml",
     "watch": "gulp watch",
-    "heroku-postbuild": "yarn dist",
+    "heroku-postbuild": "yarn dist-ci",
     "start": "npx http-server docs"
   },
   "repository": {
