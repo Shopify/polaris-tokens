@@ -9,7 +9,6 @@ deploy:
     # Use auto-dist-tag to still allow publishing beta, alpha, and rc versions
     - npx auto-dist-tag --write
   override:
-    - bundle exec package_cloud push shopify/gems pkg/*.gem
     - npm publish
 review:
   checklist:
