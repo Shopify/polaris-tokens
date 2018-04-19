@@ -1,5 +1,7 @@
 <h1 align="center">Polaris design tokens</h1>
 
+<img src="https://user-images.githubusercontent.com/85783/39013196-87b40714-43cb-11e8-99e7-bf1a7e0b8545.png" alt="" align="center" />
+
 <h3 align="center">Colors, spacing, typography for all platforms</h3>
 
 <p align="center"><em>JavaScript · JSON · CSS · SCSS · Sketch · macOS · Adobe Swatch</em></p>
