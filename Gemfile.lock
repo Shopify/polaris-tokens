@@ -3,6 +3,7 @@ GEM
   specs:
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
+    gem-release (1.0.0)
     highline (1.6.20)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -33,6 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gem-release
   package_cloud
   rake
 
