@@ -9,6 +9,7 @@ deploy:
     # Use auto-dist-tag to still allow publishing beta, alpha, and rc versions
     - npx auto-dist-tag --write
   override:
+    - bundle exec rake release
     - npm publish
 review:
   checklist:
