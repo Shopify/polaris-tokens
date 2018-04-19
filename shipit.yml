@@ -11,8 +11,8 @@ deploy:
   override:
     - npm publish
     # Reset potential unstaged changes made by auto-dist-tag,
-    # as the release rake task requires a clean working directory
-    - git checkout -- . && bundle exec rake release
+    # as the release task requires a clean working directory
+    - git checkout -- . && gem release
 review:
   checklist:
     - Update <strong>CHANGELOG.md</strong> and commit the changes
