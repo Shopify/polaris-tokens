@@ -174,3 +174,11 @@ yarn test -u
 ```
 
 [issue-template-color-updated]: https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md&title=Update%20colors%20🎨
+
+## Releasing
+
+When releasing a new version, follow these steps on `master`:
+
+1.  Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/master/CHANGELOG.md) and commit the changes
+2.  Run `yarn version` and assign a new version
+3.  Run `git push --follow-tags`
