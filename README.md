@@ -22,9 +22,11 @@ Design tokens originated at Salesforce, and the best way to describe them is to 
 
 ## Installation
 
-Polaris design tokens are available on [npm](https://www.npmjs.com/) as the `@shopify/polaris-tokens` package.
+Polaris design tokens are available as both a npm package (`@shopify/polaris-tokens`) on [npm](https://www.npmjs.com/), and as a Ruby gem (`polaris_tokens`) on [RubyGems](https://rubygems.org/).
 
-The recommended way to use and install design tokens may vary depending on your project, the most common are documented below.
+The recommended way to use and install design tokens may vary depending on your project; the most common are documented below.
+
+### JavaScript package installation
 
 Using [npm](https://www.npmjs.com/):
 
@@ -36,6 +38,15 @@ Using [yarn](https://yarnpkg.com/en/):
 
 ```
 yarn add @shopify/polaris-tokens
+```
+
+### Ruby on Rails installation
+
+Add `polaris_tokens` to your `Gemfile`:
+
+```sh
+$ echo "gem 'polaris_tokens'" >> Gemfile
+$ bundle install
 ```
 
 ## Usage
@@ -96,6 +107,17 @@ Custom properties are formatted in [kebab-case](http://wiki.c2.com/?KebabCase).
 a {
   color: var(--color-blue-text);
 }
+```
+
+### Rails
+
+Token files are added to the assets pipeline. In JSON, design token names are formatted in [kebab-case](http://wiki.c2.com/?KebabCase).
+
+```ruby
+require 'json'
+polaris_token_file = Rails.application.assets_manifest.find_sources('colors.json').first
+polaris_colors = JSON.parse(polaris_token_file)
+polaris_colors['color-blue-lighter'] # "rgb(235, 245, 250)"
 ```
 
 ---
