@@ -130,14 +130,14 @@ evolve and improve over time with the needs of developers, designers and partner
 We gratefully accept impromptu contributions to the documentation, typo and bug fixes,
 and expect design token requests and changes to be discussed before a pull request.
 
-### [Code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md)
+### [Code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/.github/CODE_OF_CONDUCT.md)
 
-We have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md),
+We have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/.github/CODE_OF_CONDUCT.md),
 please follow it in all your interactions with the project.
 
-### [Contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/CONTRIBUTING.md)
+### [Contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/.github/CONTRIBUTING.md)
 
-Read the [contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/CONTRIBUTING.md)
+Read the [contributing guide](https://github.com/Shopify/polaris-tokens/blob/master/.github/CONTRIBUTING.md)
 to learn how to propose changes and understand our development process.
 
 ### [License](https://github.com/Shopify/polaris-tokens/blob/master/LICENSE.md)

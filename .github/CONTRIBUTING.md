@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make via an issue with the owners of this repository before making a change. Adding tests, documentation updates such as typo fixes and other improvements are welcome at any time without submitting an issue first.
 
-Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ---
 
