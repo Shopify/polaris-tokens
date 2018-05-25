@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 * `ase` and `clr` palettes: removed the `color-` prefix from color names
+* Updated dev dependencies
 
 ## 1.1.0 - 2018-04-24
 
