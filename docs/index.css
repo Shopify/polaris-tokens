@@ -129,7 +129,7 @@ code {
 .radius-box {
   display: inline-block;
   vertical-align: middle;
-  background: #eee;
+  background: #eeeeee;
 }
 
 .radius-box {
@@ -142,9 +142,9 @@ code {
 }
 
 .line-height-example {
-  border-bottom: 1px solid #eee;
-  background-image: -webkit-linear-gradient(#eee 1px, transparent 1px);
-  background-image: linear-gradient(#eee 1px, transparent 1px);
+  border-bottom: 1px solid #eeeeee;
+  background-image: -webkit-linear-gradient(#eeeeee 1px, transparent 1px);
+  background-image: linear-gradient(#eeeeee 1px, transparent 1px);
   background-size: 100% 1rem;
 }
 
