@@ -11,7 +11,7 @@ module.exports = (result) =>
     version: '1.0',
     groups: [],
     colors: result.toJS().props.map(({name, value}) => ({
-      name,
+      name: name.replace('color-', ''),
       model: 'RGB',
       type: 'global',
       color: convertToRGBArray(value),

@@ -9,5 +9,3 @@ fs.writeFileSync(
   path.join(__dirname, '..', 'dist', 'colors.ase'),
   Buffer.from(ase.encode(props), 'utf8'),
 );
-
-fs.unlinkSync(path.join(__dirname, '..', 'dist', 'colors.ase.json'));
