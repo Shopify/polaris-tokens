@@ -5,7 +5,7 @@ up:
   - ruby:
       version: 2.3.4
   - node:
-      version: v8.9.4
+      version: v8.11.2
       yarn: true
   - bundler
 commands:
