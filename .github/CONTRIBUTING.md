@@ -150,7 +150,7 @@ Important considerations before changing color names: this type of update is a b
 and products consuming design tokens will have to update all occurrences of the old name in their codebases.
 
 1.  Change the name of the color
-2.  **[Open a new issue][issue-temlpate-color-updated]**
+2.  **[Open a new issue][issue-template-color-updated]**
 
 ### Editing a color’s value
 
