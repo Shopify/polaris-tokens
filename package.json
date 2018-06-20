@@ -92,6 +92,7 @@
     "run-sequence": "^2.2.1",
     "theo": "^7.0.1",
     "tinycolor2": "^1.4.1",
+    "xml": "^1.0.1",
     "yaml-lint": "^1.2.3"
   }
 }

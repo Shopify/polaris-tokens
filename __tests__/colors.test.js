@@ -9,6 +9,7 @@ const colorsAseJSON = require('../dist/colors.ase.json');
 const colorsRawJSON = require('../dist/colors.raw.json');
 
 const colorFiles = [
+  'colors.android-colors.xml',
   'colors.color-map.scss',
   'colors.custom-properties.css',
   'colors.scss',

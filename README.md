@@ -4,7 +4,7 @@
 
 <h3 align="center">Colors, spacing, typography for all platforms</h3>
 
-<p align="center"><em>JavaScript · JSON · CSS · SCSS · Sketch · macOS · Adobe Swatch</em></p>
+<p align="center"><em>JavaScript · JSON · CSS · SCSS · Android · Sketch · macOS · Adobe Swatch</em></p>
 
 <div align="center" markdown="1">
 

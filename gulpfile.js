@@ -9,6 +9,10 @@ const $ = gulpLoadPlugins();
 theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
+theo.registerFormat(
+  'android-colors.xml',
+  require('./formats/android-colors.xml.js'),
+);
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -20,7 +24,12 @@ const webFormats = [
   'map.scss',
   'raw.json',
 ];
-const colorFormats = ['color-map.scss', 'sketchpalette', 'ase.json'];
+const colorFormats = [
+  {transformType: 'android', formatType: 'android-colors.xml'},
+  {transformType: 'web', formatType: 'color-map.scss'},
+  {transformType: 'web', formatType: 'sketchpalette'},
+  {transformType: 'web', formatType: 'ase.json'},
+];
 
 // Hack to ensure Sass maps are prefixed with `polaris-`
 // (Theo relies on the filename to name all Sass maps)
@@ -71,14 +80,14 @@ gulp.task('typings', () =>
 );
 
 gulp.task('color-formats', () =>
-  colorFormats.map((format) =>
+  colorFormats.map(({transformType, formatType}) =>
     gulp
       .src('tokens/colors.yml')
       .pipe($.rename(addPrefix))
       .pipe(
         $.theo({
-          transform: {type: 'web', includeMeta: true},
-          format: {type: format},
+          transform: {type: transformType, includeMeta: true},
+          format: {type: formatType},
         }),
       )
       .pipe($.rename(removePrefix))
