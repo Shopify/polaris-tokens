@@ -4,6 +4,7 @@ const _ = require('lodash');
 module.exports = (def) => {
   const content = def
     .get('props')
+    .sortBy((prop) => prop.get('name'))
     .map((prop) => {
       let result = Immutable.List();
       const key = _.camelCase(prop.get('name'));
