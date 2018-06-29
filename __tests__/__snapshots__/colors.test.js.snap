@@ -1238,69 +1238,6 @@ Array [
 ]
 `;
 
-exports[`JSON object representation renders similar colors for Android 1`] = `
-Object {
-  "polaris_color_black_base": "#ff000000",
-  "polaris_color_blue_base": "#ff007ace",
-  "polaris_color_blue_dark": "#ff084e8a",
-  "polaris_color_blue_darker": "#ff001429",
-  "polaris_color_blue_light": "#ffb4e1fa",
-  "polaris_color_blue_lighter": "#ffebf5fa",
-  "polaris_color_blue_text": "#ff3e4e57",
-  "polaris_color_green_base": "#ff50b83c",
-  "polaris_color_green_dark": "#ff108043",
-  "polaris_color_green_darker": "#ff173630",
-  "polaris_color_green_light": "#ffbbe5b3",
-  "polaris_color_green_lighter": "#ffe3f1df",
-  "polaris_color_green_text": "#ff414f3e",
-  "polaris_color_indigo_base": "#ff5c6ac4",
-  "polaris_color_indigo_dark": "#ff202e78",
-  "polaris_color_indigo_darker": "#ff000639",
-  "polaris_color_indigo_light": "#ffb3bcf5",
-  "polaris_color_indigo_lighter": "#fff4f5fa",
-  "polaris_color_indigo_text": "#ff3e4155",
-  "polaris_color_ink_base": "#ff212b36",
-  "polaris_color_ink_light": "#ff454f5b",
-  "polaris_color_ink_lighter": "#ff637381",
-  "polaris_color_ink_lightest": "#ff919eab",
-  "polaris_color_orange_base": "#fff49342",
-  "polaris_color_orange_dark": "#ffc05717",
-  "polaris_color_orange_darker": "#ff4a1504",
-  "polaris_color_orange_light": "#ffffc58b",
-  "polaris_color_orange_lighter": "#fffcebdb",
-  "polaris_color_orange_text": "#ff594430",
-  "polaris_color_purple_base": "#ff9c6ade",
-  "polaris_color_purple_dark": "#ff50248f",
-  "polaris_color_purple_darker": "#ff230051",
-  "polaris_color_purple_light": "#ffe3d0ff",
-  "polaris_color_purple_lighter": "#fff6f0fd",
-  "polaris_color_purple_text": "#ff50495a",
-  "polaris_color_red_base": "#ffde3618",
-  "polaris_color_red_dark": "#ffbf0711",
-  "polaris_color_red_darker": "#ff330101",
-  "polaris_color_red_light": "#fffead9a",
-  "polaris_color_red_lighter": "#fffbeae5",
-  "polaris_color_red_text": "#ff583c35",
-  "polaris_color_sky_base": "#ffdfe3e8",
-  "polaris_color_sky_dark": "#ffc4cdd5",
-  "polaris_color_sky_light": "#fff4f6f8",
-  "polaris_color_sky_lighter": "#fff9fafb",
-  "polaris_color_teal_base": "#ff47c1bf",
-  "polaris_color_teal_dark": "#ff00848e",
-  "polaris_color_teal_darker": "#ff003135",
-  "polaris_color_teal_light": "#ffb7ecec",
-  "polaris_color_teal_lighter": "#ffe0f5f5",
-  "polaris_color_teal_text": "#ff405352",
-  "polaris_color_white_base": "#ffffffff",
-  "polaris_color_yellow_base": "#ffeec200",
-  "polaris_color_yellow_dark": "#ff9c6f19",
-  "polaris_color_yellow_darker": "#ff573b00",
-  "polaris_color_yellow_light": "#ffffea8a",
-  "polaris_color_yellow_lighter": "#fffcf1cd",
-  "polaris_color_yellow_text": "#ff595130",
-}
-`;
-
 exports[`renders Polaris.sketchpalette correctly 1`] = `
 "{
   \\"compatibleVersion\\": \\"2.0\\",
@@ -1671,6 +1608,70 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
   \\"images\\": []
 }
 "
+`;
+
+exports[`renders colors.android-colors.xml correctly 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
+<resources>
+    <color name=\\"polaris_color_black_base\\">#ff000000</color>
+    <color name=\\"polaris_color_blue_base\\">#ff007ace</color>
+    <color name=\\"polaris_color_blue_dark\\">#ff084e8a</color>
+    <color name=\\"polaris_color_blue_darker\\">#ff001429</color>
+    <color name=\\"polaris_color_blue_light\\">#ffb4e1fa</color>
+    <color name=\\"polaris_color_blue_lighter\\">#ffebf5fa</color>
+    <color name=\\"polaris_color_blue_text\\">#ff3e4e57</color>
+    <color name=\\"polaris_color_green_base\\">#ff50b83c</color>
+    <color name=\\"polaris_color_green_dark\\">#ff108043</color>
+    <color name=\\"polaris_color_green_darker\\">#ff173630</color>
+    <color name=\\"polaris_color_green_light\\">#ffbbe5b3</color>
+    <color name=\\"polaris_color_green_lighter\\">#ffe3f1df</color>
+    <color name=\\"polaris_color_green_text\\">#ff414f3e</color>
+    <color name=\\"polaris_color_indigo_base\\">#ff5c6ac4</color>
+    <color name=\\"polaris_color_indigo_dark\\">#ff202e78</color>
+    <color name=\\"polaris_color_indigo_darker\\">#ff000639</color>
+    <color name=\\"polaris_color_indigo_light\\">#ffb3bcf5</color>
+    <color name=\\"polaris_color_indigo_lighter\\">#fff4f5fa</color>
+    <color name=\\"polaris_color_indigo_text\\">#ff3e4155</color>
+    <color name=\\"polaris_color_ink_base\\">#ff212b36</color>
+    <color name=\\"polaris_color_ink_light\\">#ff454f5b</color>
+    <color name=\\"polaris_color_ink_lighter\\">#ff637381</color>
+    <color name=\\"polaris_color_ink_lightest\\">#ff919eab</color>
+    <color name=\\"polaris_color_orange_base\\">#fff49342</color>
+    <color name=\\"polaris_color_orange_dark\\">#ffc05717</color>
+    <color name=\\"polaris_color_orange_darker\\">#ff4a1504</color>
+    <color name=\\"polaris_color_orange_light\\">#ffffc58b</color>
+    <color name=\\"polaris_color_orange_lighter\\">#fffcebdb</color>
+    <color name=\\"polaris_color_orange_text\\">#ff594430</color>
+    <color name=\\"polaris_color_purple_base\\">#ff9c6ade</color>
+    <color name=\\"polaris_color_purple_dark\\">#ff50248f</color>
+    <color name=\\"polaris_color_purple_darker\\">#ff230051</color>
+    <color name=\\"polaris_color_purple_light\\">#ffe3d0ff</color>
+    <color name=\\"polaris_color_purple_lighter\\">#fff6f0fd</color>
+    <color name=\\"polaris_color_purple_text\\">#ff50495a</color>
+    <color name=\\"polaris_color_red_base\\">#ffde3618</color>
+    <color name=\\"polaris_color_red_dark\\">#ffbf0711</color>
+    <color name=\\"polaris_color_red_darker\\">#ff330101</color>
+    <color name=\\"polaris_color_red_light\\">#fffead9a</color>
+    <color name=\\"polaris_color_red_lighter\\">#fffbeae5</color>
+    <color name=\\"polaris_color_red_text\\">#ff583c35</color>
+    <color name=\\"polaris_color_sky_base\\">#ffdfe3e8</color>
+    <color name=\\"polaris_color_sky_dark\\">#ffc4cdd5</color>
+    <color name=\\"polaris_color_sky_light\\">#fff4f6f8</color>
+    <color name=\\"polaris_color_sky_lighter\\">#fff9fafb</color>
+    <color name=\\"polaris_color_teal_base\\">#ff47c1bf</color>
+    <color name=\\"polaris_color_teal_dark\\">#ff00848e</color>
+    <color name=\\"polaris_color_teal_darker\\">#ff003135</color>
+    <color name=\\"polaris_color_teal_light\\">#ffb7ecec</color>
+    <color name=\\"polaris_color_teal_lighter\\">#ffe0f5f5</color>
+    <color name=\\"polaris_color_teal_text\\">#ff405352</color>
+    <color name=\\"polaris_color_white_base\\">#ffffffff</color>
+    <color name=\\"polaris_color_yellow_base\\">#ffeec200</color>
+    <color name=\\"polaris_color_yellow_dark\\">#ff9c6f19</color>
+    <color name=\\"polaris_color_yellow_darker\\">#ff573b00</color>
+    <color name=\\"polaris_color_yellow_light\\">#ffffea8a</color>
+    <color name=\\"polaris_color_yellow_lighter\\">#fffcf1cd</color>
+    <color name=\\"polaris_color_yellow_text\\">#ff595130</color>
+</resources>"
 `;
 
 exports[`renders colors.color-map.scss correctly 1`] = `

@@ -5,6 +5,7 @@ module.exports = (def) => {
   const obj = {
     resources: def
       .get('props')
+      .sortBy((prop) => prop.get('name'))
       .map((prop) => ({
         color: [
           {
