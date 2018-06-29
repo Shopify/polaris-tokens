@@ -5,16 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<!-- ## [Unreleased] -->
+## [Unreleased]
+
+- Update devDependencies, including prettier which caused SCSS files to reformat
 
 ## [1.3.0] - 2018-06-29
 
-* Added [`colors.android-colors.xml`](https://github.com/Shopify/polaris-tokens/blob/master/dist/colors.android-colors.xml), for Android apps
+- Added [`colors.android-colors.xml`](https://github.com/Shopify/polaris-tokens/blob/master/dist/colors.android-colors.xml), for Android apps
 
 ## [1.2.0] - 2018-05-30
 
-* `ase` and `clr` palettes: removed the `color-` prefix from color names
-* Updated dev dependencies
+- `ase` and `clr` palettes: removed the `color-` prefix from color names
+- Updated dev dependencies
 
 ## [1.1.0] - 2018-04-24
 
@@ -26,9 +28,9 @@ First stable release 🎉
 
 Color design tokens are now used in:
 
-* `Shopify/shopify`
-* `Shopify/polaris-styleguide`
-* `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
+- `Shopify/shopify`
+- `Shopify/polaris-styleguide`
+- `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
 [unreleased]: https://github.com/Shopify/polaris-tokens/compare/v1.3.0...HEAD
 [1.3.0]: https://github.com/Shopify/polaris-tokens/compare/v1.2.0...v1.3.0
