@@ -3,13 +3,18 @@
 const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
+const xml2json = require('xml2json');
 
 const colorsJSON = require('../dist/colors.json');
 const colorsAseJSON = require('../dist/colors.ase.json');
 const colorsRawJSON = require('../dist/colors.raw.json');
 
+const colorsAndroidXML = fs.readFileSync(
+  path.resolve(__dirname, '../dist/colors.android-colors.xml'),
+  'utf-8',
+);
+
 const colorFiles = [
-  'colors.android-colors.xml',
   'colors.color-map.scss',
   'colors.custom-properties.css',
   'colors.scss',
@@ -56,5 +61,18 @@ describe('JSON objects', () => {
 
     // Props
     expect(_(colorsRawJSON.props).sortBy('name')).toMatchSnapshot();
+  });
+
+  it('renders similar colors for Android', () => {
+    const colorsAndroidObject = xml2json.toJson(colorsAndroidXML, {
+      object: true,
+    });
+    expect(
+      _(colorsAndroidObject.resources.color)
+        .sortBy('name')
+        .keyBy('name')
+        .mapValues('$t')
+        .value(),
+    ).toMatchSnapshot();
   });
 });
