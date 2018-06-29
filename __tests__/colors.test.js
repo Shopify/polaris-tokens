@@ -34,7 +34,7 @@ colorFiles.map((filename) =>
   }),
 );
 
-describe('JSON objects', () => {
+describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
     expect(
       _(colorsJSON)
@@ -44,11 +44,13 @@ describe('JSON objects', () => {
         .value(),
     ).toMatchSnapshot();
   });
+
   it('renders similar ASE JSON objects', () => {
     expect(colorsAseJSON.version).toBe('1.0');
     expect(colorsAseJSON.groups.length).toBe(0);
     expect(_(colorsAseJSON.colors).sortBy('name')).toMatchSnapshot();
   });
+
   it('renders similar RAW JSON objects', () => {
     // Aliases
     expect(
