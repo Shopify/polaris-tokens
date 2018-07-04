@@ -1,62 +1,62 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn getTokensFromInvision' to generate a new version
-# Last updated: 10:56:25 GMT-0400 (EDT)
+# Last updated: 13:48:16 GMT-0400 (EDT)
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
   color-purple-dark: '#50248f'
-  color-purple-base: '#9c6ade'
+  color-purple: '#9c6ade'
   color-purple-light: '#e3d0ff'
   color-purple-lighter: '#f5f0fc'
   color-indigo-text: '#3e4155'
   color-indigo-darker: '#000639'
   color-indigo-dark: '#202e78'
-  color-indigo-base: '#5c6ac4'
+  color-indigo: '#5c6ac4'
   color-indigo-light: '#b3bcf5'
   color-indigo-lighter: '#f3f4fa'
   color-blue-text: '#3e4e57'
   color-blue-darker: '#00152a'
   color-blue-dark: '#084e8a'
-  color-blue-base: '#007ace'
+  color-blue: '#007ace'
   color-blue-light: '#b4e0fa'
   color-blue-lighter: '#ebf4fa'
   color-teal-text: '#405352'
   color-teal-darker: '#003136'
   color-teal-dark: '#00848e'
-  color-teal-base: '#47c1bf'
+  color-teal: '#47c1bf'
   color-teal-light: '#b6eceb'
   color-teal-lighter: '#e0f5f4'
   color-green-text: '#414f3e'
   color-green-darker: '#173630'
   color-green-dark: '#108043'
-  color-green-base: '#50b83c'
+  color-green: '#50b83c'
   color-green-light: '#bbe5b3'
   color-green-lighter: '#e3f1df'
   color-yellow-text: '#595130'
   color-yellow-darker: '#573b00'
   color-yellow-dark: '#9c6f19'
-  color-yellow-base: '#edc200'
+  color-yellow: '#edc200'
   color-yellow-light: '#ffea8a'
   color-yellow-lighter: '#fcf0cd'
   color-orange-text: '#594430'
   color-orange-darker: '#4a1504'
   color-orange-dark: '#c05717'
-  color-orange-base: '#f49342'
+  color-orange: '#f49342'
   color-orange-light: '#ffc48b'
   color-orange-lighter: '#fcebdb'
   color-red-text: '#583c35'
   color-red-darker: '#330101'
   color-red-dark: '#bf0711'
-  color-red-base: '#de3618'
+  color-red: '#de3618'
   color-red-light: '#fead9a'
   color-red-lighter: '#fbeae5'
-  color-ink-base: '#212b36'
+  color-ink: '#212b36'
   color-ink-light: '#454f5b'
   color-ink-lighter: '#637381'
   color-ink-lightest: '#919eab'
   color-sky-dark: '#c4cdd5'
-  color-sky-base: '#dfe3e8'
+  color-sky: '#dfe3e8'
   color-sky-light: '#f4f6f8'
   color-sky-lighter: '#f9fafb'
   color-black: '#000000'
@@ -75,10 +75,10 @@ props:
     value: '{!color-purple-dark}'
     meta:
       friendlyName: Purple Dark
-  - name: color-purple-base
-    value: '{!color-purple-base}'
+  - name: color-purple
+    value: '{!color-purple}'
     meta:
-      friendlyName: Purple Base
+      friendlyName: Purple
   - name: color-purple-light
     value: '{!color-purple-light}'
     meta:
@@ -100,10 +100,10 @@ props:
     value: '{!color-indigo-dark}'
     meta:
       friendlyName: Indigo Dark
-  - name: color-indigo-base
-    value: '{!color-indigo-base}'
+  - name: color-indigo
+    value: '{!color-indigo}'
     meta:
-      friendlyName: Indigo Base
+      friendlyName: Indigo
   - name: color-indigo-light
     value: '{!color-indigo-light}'
     meta:
@@ -125,10 +125,10 @@ props:
     value: '{!color-blue-dark}'
     meta:
       friendlyName: Blue Dark
-  - name: color-blue-base
-    value: '{!color-blue-base}'
+  - name: color-blue
+    value: '{!color-blue}'
     meta:
-      friendlyName: Blue Base
+      friendlyName: Blue
   - name: color-blue-light
     value: '{!color-blue-light}'
     meta:
@@ -150,10 +150,10 @@ props:
     value: '{!color-teal-dark}'
     meta:
       friendlyName: Teal Dark
-  - name: color-teal-base
-    value: '{!color-teal-base}'
+  - name: color-teal
+    value: '{!color-teal}'
     meta:
-      friendlyName: Teal Base
+      friendlyName: Teal
   - name: color-teal-light
     value: '{!color-teal-light}'
     meta:
@@ -175,10 +175,10 @@ props:
     value: '{!color-green-dark}'
     meta:
       friendlyName: Green Dark
-  - name: color-green-base
-    value: '{!color-green-base}'
+  - name: color-green
+    value: '{!color-green}'
     meta:
-      friendlyName: Green Base
+      friendlyName: Green
   - name: color-green-light
     value: '{!color-green-light}'
     meta:
@@ -200,10 +200,10 @@ props:
     value: '{!color-yellow-dark}'
     meta:
       friendlyName: Yellow Dark
-  - name: color-yellow-base
-    value: '{!color-yellow-base}'
+  - name: color-yellow
+    value: '{!color-yellow}'
     meta:
-      friendlyName: Yellow Base
+      friendlyName: Yellow
   - name: color-yellow-light
     value: '{!color-yellow-light}'
     meta:
@@ -225,10 +225,10 @@ props:
     value: '{!color-orange-dark}'
     meta:
       friendlyName: Orange Dark
-  - name: color-orange-base
-    value: '{!color-orange-base}'
+  - name: color-orange
+    value: '{!color-orange}'
     meta:
-      friendlyName: Orange Base
+      friendlyName: Orange
   - name: color-orange-light
     value: '{!color-orange-light}'
     meta:
@@ -250,10 +250,10 @@ props:
     value: '{!color-red-dark}'
     meta:
       friendlyName: Red Dark
-  - name: color-red-base
-    value: '{!color-red-base}'
+  - name: color-red
+    value: '{!color-red}'
     meta:
-      friendlyName: Red Base
+      friendlyName: Red
   - name: color-red-light
     value: '{!color-red-light}'
     meta:
@@ -262,10 +262,10 @@ props:
     value: '{!color-red-lighter}'
     meta:
       friendlyName: Red Lighter
-  - name: color-ink-base
-    value: '{!color-ink-base}'
+  - name: color-ink
+    value: '{!color-ink}'
     meta:
-      friendlyName: Ink Base
+      friendlyName: Ink
   - name: color-ink-light
     value: '{!color-ink-light}'
     meta:
@@ -282,10 +282,10 @@ props:
     value: '{!color-sky-dark}'
     meta:
       friendlyName: Sky Dark
-  - name: color-sky-base
-    value: '{!color-sky-base}'
+  - name: color-sky
+    value: '{!color-sky}'
     meta:
-      friendlyName: Sky Base
+      friendlyName: Sky
   - name: color-sky-light
     value: '{!color-sky-light}'
     meta:
