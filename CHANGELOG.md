@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-- Update devDependencies, including prettier which caused SCSS files to reformat
+- Updated devDependencies, including [Prettier](https://prettier.io/). This reformatted SCSS files in `./dist/` but didn’t impact the tokens themselves.
 
 ## [1.3.0] - 2018-06-29
 
@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.2.0] - 2018-05-30
 
 - `ase` and `clr` palettes: removed the `color-` prefix from color names
-- Updated dev dependencies
+- Updated devDependencies
 
 ## [1.1.0] - 2018-04-24
 
