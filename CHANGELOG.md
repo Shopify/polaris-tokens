@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+- Updated color names in InVision DSM
+- Fixes Issue #16 [Remove `-base` suffix from base color variables](https://github.com/Shopify/polaris-tokens/issues/16)
+
 ## [1.3.1] - 2018-07-09
 
 - Updated devDependencies, including [Prettier](https://prettier.io/). This reformatted SCSS files in `./dist/` but didn’t impact the tokens themselves.
@@ -14,11 +17,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.3.0] - 2018-06-29
 
 - Added [`colors.android-colors.xml`](https://github.com/Shopify/polaris-tokens/blob/master/dist/colors.android-colors.xml), for Android apps
-
-## [2.0.0] - 2018-06-14
-
-* Updated color names in InVision DSM
-* Fixes Issue #16 [Remove `-base` suffix from base color variables](https://github.com/Shopify/polaris-tokens/issues/16)
 
 ## [1.2.0] - 2018-05-30
 
