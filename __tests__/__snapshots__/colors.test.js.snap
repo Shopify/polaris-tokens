@@ -35,8 +35,8 @@ Array [
   Object {
     "color": Array [
       0,
-      0.08235294117647059,
-      0.16470588235294117,
+      0.0784313725490196,
+      0.1607843137254902,
     ],
     "model": "RGB",
     "name": "blue-darker",
@@ -45,7 +45,7 @@ Array [
   Object {
     "color": Array [
       0.7058823529411765,
-      0.8784313725490196,
+      0.8823529411764706,
       0.9803921568627451,
     ],
     "model": "RGB",
@@ -55,7 +55,7 @@ Array [
   Object {
     "color": Array [
       0.9215686274509803,
-      0.9568627450980393,
+      0.9607843137254902,
       0.9803921568627451,
     ],
     "model": "RGB",
@@ -174,8 +174,8 @@ Array [
   },
   Object {
     "color": Array [
-      0.9529411764705882,
       0.9568627450980393,
+      0.9607843137254902,
       0.9803921568627451,
     ],
     "model": "RGB",
@@ -265,7 +265,7 @@ Array [
   Object {
     "color": Array [
       1,
-      0.7686274509803922,
+      0.7725490196078432,
       0.5450980392156862,
     ],
     "model": "RGB",
@@ -334,9 +334,9 @@ Array [
   },
   Object {
     "color": Array [
-      0.9607843137254902,
+      0.9647058823529412,
       0.9411764705882353,
-      0.9882352941176471,
+      0.9921568627450981,
     ],
     "model": "RGB",
     "name": "purple-lighter",
@@ -590,9 +590,9 @@ Object {
   "color-black": "rgb(0, 0, 0)",
   "color-blue": "rgb(0, 122, 206)",
   "color-blue-dark": "rgb(8, 78, 138)",
-  "color-blue-darker": "rgb(0, 21, 42)",
-  "color-blue-light": "rgb(180, 224, 250)",
-  "color-blue-lighter": "rgb(235, 244, 250)",
+  "color-blue-darker": "rgb(0, 20, 41)",
+  "color-blue-light": "rgb(180, 225, 250)",
+  "color-blue-lighter": "rgb(235, 245, 250)",
   "color-blue-text": "rgb(62, 78, 87)",
   "color-green": "rgb(80, 184, 60)",
   "color-green-dark": "rgb(16, 128, 67)",
@@ -604,7 +604,7 @@ Object {
   "color-indigo-dark": "rgb(32, 46, 120)",
   "color-indigo-darker": "rgb(0, 6, 57)",
   "color-indigo-light": "rgb(179, 188, 245)",
-  "color-indigo-lighter": "rgb(243, 244, 250)",
+  "color-indigo-lighter": "rgb(244, 245, 250)",
   "color-indigo-text": "rgb(62, 65, 85)",
   "color-ink": "rgb(33, 43, 54)",
   "color-ink-light": "rgb(69, 79, 91)",
@@ -613,14 +613,14 @@ Object {
   "color-orange": "rgb(244, 147, 66)",
   "color-orange-dark": "rgb(192, 87, 23)",
   "color-orange-darker": "rgb(74, 21, 4)",
-  "color-orange-light": "rgb(255, 196, 139)",
+  "color-orange-light": "rgb(255, 197, 139)",
   "color-orange-lighter": "rgb(252, 235, 219)",
   "color-orange-text": "rgb(89, 68, 48)",
   "color-purple": "rgb(156, 106, 222)",
   "color-purple-dark": "rgb(80, 36, 143)",
   "color-purple-darker": "rgb(35, 0, 81)",
   "color-purple-light": "rgb(227, 208, 255)",
-  "color-purple-lighter": "rgb(245, 240, 252)",
+  "color-purple-lighter": "rgb(246, 240, 253)",
   "color-purple-text": "rgb(80, 73, 90)",
   "color-red": "rgb(222, 54, 24)",
   "color-red-dark": "rgb(191, 7, 17)",
@@ -660,13 +660,13 @@ Object {
     "value": "#084e8a",
   },
   "color-blue-darker": Object {
-    "value": "#00152a",
+    "value": "#001429",
   },
   "color-blue-light": Object {
-    "value": "#b4e0fa",
+    "value": "#b4e1fa",
   },
   "color-blue-lighter": Object {
-    "value": "#ebf4fa",
+    "value": "#ebf5fa",
   },
   "color-blue-text": Object {
     "value": "#3e4e57",
@@ -702,7 +702,7 @@ Object {
     "value": "#b3bcf5",
   },
   "color-indigo-lighter": Object {
-    "value": "#f3f4fa",
+    "value": "#f4f5fa",
   },
   "color-indigo-text": Object {
     "value": "#3e4155",
@@ -729,7 +729,7 @@ Object {
     "value": "#4a1504",
   },
   "color-orange-light": Object {
-    "value": "#ffc48b",
+    "value": "#ffc58b",
   },
   "color-orange-lighter": Object {
     "value": "#fcebdb",
@@ -750,7 +750,7 @@ Object {
     "value": "#e3d0ff",
   },
   "color-purple-lighter": Object {
-    "value": "#f5f0fc",
+    "value": "#f6f0fd",
   },
   "color-purple-text": Object {
     "value": "#50495a",
@@ -855,21 +855,21 @@ Array [
     "name": "color-blue-darker",
     "originalValue": "{!color-blue-darker}",
     "type": "color",
-    "value": "rgb(0, 21, 42)",
+    "value": "rgb(0, 20, 41)",
   },
   Object {
     "category": "background-color",
     "name": "color-blue-light",
     "originalValue": "{!color-blue-light}",
     "type": "color",
-    "value": "rgb(180, 224, 250)",
+    "value": "rgb(180, 225, 250)",
   },
   Object {
     "category": "background-color",
     "name": "color-blue-lighter",
     "originalValue": "{!color-blue-lighter}",
     "type": "color",
-    "value": "rgb(235, 244, 250)",
+    "value": "rgb(235, 245, 250)",
   },
   Object {
     "category": "text-color",
@@ -953,7 +953,7 @@ Array [
     "name": "color-indigo-lighter",
     "originalValue": "{!color-indigo-lighter}",
     "type": "color",
-    "value": "rgb(243, 244, 250)",
+    "value": "rgb(244, 245, 250)",
   },
   Object {
     "category": "text-color",
@@ -1016,7 +1016,7 @@ Array [
     "name": "color-orange-light",
     "originalValue": "{!color-orange-light}",
     "type": "color",
-    "value": "rgb(255, 196, 139)",
+    "value": "rgb(255, 197, 139)",
   },
   Object {
     "category": "background-color",
@@ -1065,7 +1065,7 @@ Array [
     "name": "color-purple-lighter",
     "originalValue": "{!color-purple-lighter}",
     "type": "color",
-    "value": "rgb(245, 240, 252)",
+    "value": "rgb(246, 240, 253)",
   },
   Object {
     "category": "text-color",
@@ -1363,7 +1363,7 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
     },
     {
       \\"red\\": 1,
-      \\"green\\": 0.7686274509803922,
+      \\"green\\": 0.7725490196078432,
       \\"blue\\": 0.5450980392156862,
       \\"alpha\\": 1
     },
@@ -1497,8 +1497,8 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
     },
     {
       \\"red\\": 0,
-      \\"green\\": 0.08235294117647059,
-      \\"blue\\": 0.16470588235294117,
+      \\"green\\": 0.0784313725490196,
+      \\"blue\\": 0.1607843137254902,
       \\"alpha\\": 1
     },
     {
@@ -1515,13 +1515,13 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
     },
     {
       \\"red\\": 0.7058823529411765,
-      \\"green\\": 0.8784313725490196,
+      \\"green\\": 0.8823529411764706,
       \\"blue\\": 0.9803921568627451,
       \\"alpha\\": 1
     },
     {
       \\"red\\": 0.9215686274509803,
-      \\"green\\": 0.9568627450980393,
+      \\"green\\": 0.9607843137254902,
       \\"blue\\": 0.9803921568627451,
       \\"alpha\\": 1
     },
@@ -1558,8 +1558,8 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9529411764705882,
-      \\"green\\": 0.9568627450980393,
+      \\"red\\": 0.9568627450980393,
+      \\"green\\": 0.9607843137254902,
       \\"blue\\": 0.9803921568627451,
       \\"alpha\\": 1
     },
@@ -1596,9 +1596,9 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
       \\"alpha\\": 1
     },
     {
-      \\"red\\": 0.9607843137254902,
+      \\"red\\": 0.9647058823529412,
       \\"green\\": 0.9411764705882353,
-      \\"blue\\": 0.9882352941176471,
+      \\"blue\\": 0.9921568627450981,
       \\"alpha\\": 1
     },
     {\\"red\\": 1, \\"green\\": 1, \\"blue\\": 1, \\"alpha\\": 1},
@@ -1616,9 +1616,9 @@ exports[`renders colors.android-colors.xml correctly 1`] = `
     <color name=\\"polaris_color_black\\">#ff000000</color>
     <color name=\\"polaris_color_blue\\">#ff007ace</color>
     <color name=\\"polaris_color_blue_dark\\">#ff084e8a</color>
-    <color name=\\"polaris_color_blue_darker\\">#ff00152a</color>
-    <color name=\\"polaris_color_blue_light\\">#ffb4e0fa</color>
-    <color name=\\"polaris_color_blue_lighter\\">#ffebf4fa</color>
+    <color name=\\"polaris_color_blue_darker\\">#ff001429</color>
+    <color name=\\"polaris_color_blue_light\\">#ffb4e1fa</color>
+    <color name=\\"polaris_color_blue_lighter\\">#ffebf5fa</color>
     <color name=\\"polaris_color_blue_text\\">#ff3e4e57</color>
     <color name=\\"polaris_color_green\\">#ff50b83c</color>
     <color name=\\"polaris_color_green_dark\\">#ff108043</color>
@@ -1630,7 +1630,7 @@ exports[`renders colors.android-colors.xml correctly 1`] = `
     <color name=\\"polaris_color_indigo_dark\\">#ff202e78</color>
     <color name=\\"polaris_color_indigo_darker\\">#ff000639</color>
     <color name=\\"polaris_color_indigo_light\\">#ffb3bcf5</color>
-    <color name=\\"polaris_color_indigo_lighter\\">#fff3f4fa</color>
+    <color name=\\"polaris_color_indigo_lighter\\">#fff4f5fa</color>
     <color name=\\"polaris_color_indigo_text\\">#ff3e4155</color>
     <color name=\\"polaris_color_ink\\">#ff212b36</color>
     <color name=\\"polaris_color_ink_light\\">#ff454f5b</color>
@@ -1639,14 +1639,14 @@ exports[`renders colors.android-colors.xml correctly 1`] = `
     <color name=\\"polaris_color_orange\\">#fff49342</color>
     <color name=\\"polaris_color_orange_dark\\">#ffc05717</color>
     <color name=\\"polaris_color_orange_darker\\">#ff4a1504</color>
-    <color name=\\"polaris_color_orange_light\\">#ffffc48b</color>
+    <color name=\\"polaris_color_orange_light\\">#ffffc58b</color>
     <color name=\\"polaris_color_orange_lighter\\">#fffcebdb</color>
     <color name=\\"polaris_color_orange_text\\">#ff594430</color>
     <color name=\\"polaris_color_purple\\">#ff9c6ade</color>
     <color name=\\"polaris_color_purple_dark\\">#ff50248f</color>
     <color name=\\"polaris_color_purple_darker\\">#ff230051</color>
     <color name=\\"polaris_color_purple_light\\">#ffe3d0ff</color>
-    <color name=\\"polaris_color_purple_lighter\\">#fff5f0fc</color>
+    <color name=\\"polaris_color_purple_lighter\\">#fff6f0fd</color>
     <color name=\\"polaris_color_purple_text\\">#ff50495a</color>
     <color name=\\"polaris_color_red\\">#ffde3618</color>
     <color name=\\"polaris_color_red_dark\\">#ffbf0711</color>
@@ -1682,7 +1682,7 @@ exports[`renders colors.color-map.scss correctly 1`] = `
     'dark': rgb(80, 36, 143),
     'base': rgb(156, 106, 222),
     'light': rgb(227, 208, 255),
-    'lighter': rgb(245, 240, 252),
+    'lighter': rgb(246, 240, 253),
   ),
   'indigo': (
     'text': rgb(62, 65, 85),
@@ -1690,15 +1690,15 @@ exports[`renders colors.color-map.scss correctly 1`] = `
     'dark': rgb(32, 46, 120),
     'base': rgb(92, 106, 196),
     'light': rgb(179, 188, 245),
-    'lighter': rgb(243, 244, 250),
+    'lighter': rgb(244, 245, 250),
   ),
   'blue': (
     'text': rgb(62, 78, 87),
-    'darker': rgb(0, 21, 42),
+    'darker': rgb(0, 20, 41),
     'dark': rgb(8, 78, 138),
     'base': rgb(0, 122, 206),
-    'light': rgb(180, 224, 250),
-    'lighter': rgb(235, 244, 250),
+    'light': rgb(180, 225, 250),
+    'lighter': rgb(235, 245, 250),
   ),
   'teal': (
     'text': rgb(64, 83, 82),
@@ -1729,7 +1729,7 @@ exports[`renders colors.color-map.scss correctly 1`] = `
     'darker': rgb(74, 21, 4),
     'dark': rgb(192, 87, 23),
     'base': rgb(244, 147, 66),
-    'light': rgb(255, 196, 139),
+    'light': rgb(255, 197, 139),
     'lighter': rgb(252, 235, 219),
   ),
   'red': (
@@ -1769,19 +1769,19 @@ exports[`renders colors.custom-properties.css correctly 1`] = `
   --color-purple-dark: rgb(80, 36, 143);
   --color-purple: rgb(156, 106, 222);
   --color-purple-light: rgb(227, 208, 255);
-  --color-purple-lighter: rgb(245, 240, 252);
+  --color-purple-lighter: rgb(246, 240, 253);
   --color-indigo-text: rgb(62, 65, 85);
   --color-indigo-darker: rgb(0, 6, 57);
   --color-indigo-dark: rgb(32, 46, 120);
   --color-indigo: rgb(92, 106, 196);
   --color-indigo-light: rgb(179, 188, 245);
-  --color-indigo-lighter: rgb(243, 244, 250);
+  --color-indigo-lighter: rgb(244, 245, 250);
   --color-blue-text: rgb(62, 78, 87);
-  --color-blue-darker: rgb(0, 21, 42);
+  --color-blue-darker: rgb(0, 20, 41);
   --color-blue-dark: rgb(8, 78, 138);
   --color-blue: rgb(0, 122, 206);
-  --color-blue-light: rgb(180, 224, 250);
-  --color-blue-lighter: rgb(235, 244, 250);
+  --color-blue-light: rgb(180, 225, 250);
+  --color-blue-lighter: rgb(235, 245, 250);
   --color-teal-text: rgb(64, 83, 82);
   --color-teal-darker: rgb(0, 49, 54);
   --color-teal-dark: rgb(0, 132, 142);
@@ -1804,7 +1804,7 @@ exports[`renders colors.custom-properties.css correctly 1`] = `
   --color-orange-darker: rgb(74, 21, 4);
   --color-orange-dark: rgb(192, 87, 23);
   --color-orange: rgb(244, 147, 66);
-  --color-orange-light: rgb(255, 196, 139);
+  --color-orange-light: rgb(255, 197, 139);
   --color-orange-lighter: rgb(252, 235, 219);
   --color-red-text: rgb(88, 60, 53);
   --color-red-darker: rgb(51, 1, 1);
@@ -1832,19 +1832,19 @@ $color-purple-darker: rgb(35, 0, 81);
 $color-purple-dark: rgb(80, 36, 143);
 $color-purple: rgb(156, 106, 222);
 $color-purple-light: rgb(227, 208, 255);
-$color-purple-lighter: rgb(245, 240, 252);
+$color-purple-lighter: rgb(246, 240, 253);
 $color-indigo-text: rgb(62, 65, 85);
 $color-indigo-darker: rgb(0, 6, 57);
 $color-indigo-dark: rgb(32, 46, 120);
 $color-indigo: rgb(92, 106, 196);
 $color-indigo-light: rgb(179, 188, 245);
-$color-indigo-lighter: rgb(243, 244, 250);
+$color-indigo-lighter: rgb(244, 245, 250);
 $color-blue-text: rgb(62, 78, 87);
-$color-blue-darker: rgb(0, 21, 42);
+$color-blue-darker: rgb(0, 20, 41);
 $color-blue-dark: rgb(8, 78, 138);
 $color-blue: rgb(0, 122, 206);
-$color-blue-light: rgb(180, 224, 250);
-$color-blue-lighter: rgb(235, 244, 250);
+$color-blue-light: rgb(180, 225, 250);
+$color-blue-lighter: rgb(235, 245, 250);
 $color-teal-text: rgb(64, 83, 82);
 $color-teal-darker: rgb(0, 49, 54);
 $color-teal-dark: rgb(0, 132, 142);
@@ -1867,7 +1867,7 @@ $color-orange-text: rgb(89, 68, 48);
 $color-orange-darker: rgb(74, 21, 4);
 $color-orange-dark: rgb(192, 87, 23);
 $color-orange: rgb(244, 147, 66);
-$color-orange-light: rgb(255, 196, 139);
+$color-orange-light: rgb(255, 197, 139);
 $color-orange-lighter: rgb(252, 235, 219);
 $color-red-text: rgb(88, 60, 53);
 $color-red-darker: rgb(51, 1, 1);
@@ -1893,9 +1893,9 @@ exports[`renders index.d.ts correctly 1`] = `
   colorBlack: \\"rgb(0, 0, 0)\\";
   colorBlue: \\"rgb(0, 122, 206)\\";
   colorBlueDark: \\"rgb(8, 78, 138)\\";
-  colorBlueDarker: \\"rgb(0, 21, 42)\\";
-  colorBlueLight: \\"rgb(180, 224, 250)\\";
-  colorBlueLighter: \\"rgb(235, 244, 250)\\";
+  colorBlueDarker: \\"rgb(0, 20, 41)\\";
+  colorBlueLight: \\"rgb(180, 225, 250)\\";
+  colorBlueLighter: \\"rgb(235, 245, 250)\\";
   colorBlueText: \\"rgb(62, 78, 87)\\";
   colorGreen: \\"rgb(80, 184, 60)\\";
   colorGreenDark: \\"rgb(16, 128, 67)\\";
@@ -1907,7 +1907,7 @@ exports[`renders index.d.ts correctly 1`] = `
   colorIndigoDark: \\"rgb(32, 46, 120)\\";
   colorIndigoDarker: \\"rgb(0, 6, 57)\\";
   colorIndigoLight: \\"rgb(179, 188, 245)\\";
-  colorIndigoLighter: \\"rgb(243, 244, 250)\\";
+  colorIndigoLighter: \\"rgb(244, 245, 250)\\";
   colorIndigoText: \\"rgb(62, 65, 85)\\";
   colorInk: \\"rgb(33, 43, 54)\\";
   colorInkLight: \\"rgb(69, 79, 91)\\";
@@ -1916,14 +1916,14 @@ exports[`renders index.d.ts correctly 1`] = `
   colorOrange: \\"rgb(244, 147, 66)\\";
   colorOrangeDark: \\"rgb(192, 87, 23)\\";
   colorOrangeDarker: \\"rgb(74, 21, 4)\\";
-  colorOrangeLight: \\"rgb(255, 196, 139)\\";
+  colorOrangeLight: \\"rgb(255, 197, 139)\\";
   colorOrangeLighter: \\"rgb(252, 235, 219)\\";
   colorOrangeText: \\"rgb(89, 68, 48)\\";
   colorPurple: \\"rgb(156, 106, 222)\\";
   colorPurpleDark: \\"rgb(80, 36, 143)\\";
   colorPurpleDarker: \\"rgb(35, 0, 81)\\";
   colorPurpleLight: \\"rgb(227, 208, 255)\\";
-  colorPurpleLighter: \\"rgb(245, 240, 252)\\";
+  colorPurpleLighter: \\"rgb(246, 240, 253)\\";
   colorPurpleText: \\"rgb(80, 73, 90)\\";
   colorRed: \\"rgb(222, 54, 24)\\";
   colorRedDark: \\"rgb(191, 7, 17)\\";

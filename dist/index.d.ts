@@ -2,9 +2,9 @@ declare interface Tokens {
   colorBlack: "rgb(0, 0, 0)";
   colorBlue: "rgb(0, 122, 206)";
   colorBlueDark: "rgb(8, 78, 138)";
-  colorBlueDarker: "rgb(0, 21, 42)";
-  colorBlueLight: "rgb(180, 224, 250)";
-  colorBlueLighter: "rgb(235, 244, 250)";
+  colorBlueDarker: "rgb(0, 20, 41)";
+  colorBlueLight: "rgb(180, 225, 250)";
+  colorBlueLighter: "rgb(235, 245, 250)";
   colorBlueText: "rgb(62, 78, 87)";
   colorGreen: "rgb(80, 184, 60)";
   colorGreenDark: "rgb(16, 128, 67)";
@@ -16,7 +16,7 @@ declare interface Tokens {
   colorIndigoDark: "rgb(32, 46, 120)";
   colorIndigoDarker: "rgb(0, 6, 57)";
   colorIndigoLight: "rgb(179, 188, 245)";
-  colorIndigoLighter: "rgb(243, 244, 250)";
+  colorIndigoLighter: "rgb(244, 245, 250)";
   colorIndigoText: "rgb(62, 65, 85)";
   colorInk: "rgb(33, 43, 54)";
   colorInkLight: "rgb(69, 79, 91)";
@@ -25,14 +25,14 @@ declare interface Tokens {
   colorOrange: "rgb(244, 147, 66)";
   colorOrangeDark: "rgb(192, 87, 23)";
   colorOrangeDarker: "rgb(74, 21, 4)";
-  colorOrangeLight: "rgb(255, 196, 139)";
+  colorOrangeLight: "rgb(255, 197, 139)";
   colorOrangeLighter: "rgb(252, 235, 219)";
   colorOrangeText: "rgb(89, 68, 48)";
   colorPurple: "rgb(156, 106, 222)";
   colorPurpleDark: "rgb(80, 36, 143)";
   colorPurpleDarker: "rgb(35, 0, 81)";
   colorPurpleLight: "rgb(227, 208, 255)";
-  colorPurpleLighter: "rgb(245, 240, 252)";
+  colorPurpleLighter: "rgb(246, 240, 253)";
   colorPurpleText: "rgb(80, 73, 90)";
   colorRed: "rgb(222, 54, 24)";
   colorRedDark: "rgb(191, 7, 17)";

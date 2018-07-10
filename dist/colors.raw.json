@@ -10,7 +10,7 @@
       "value": "#414f3e"
     },
     "color-orange-light": {
-      "value": "#ffc48b"
+      "value": "#ffc58b"
     },
     "color-orange-text": {
       "value": "#594430"
@@ -61,7 +61,7 @@
       "value": "#c05717"
     },
     "color-blue-darker": {
-      "value": "#00152a"
+      "value": "#001429"
     },
     "color-sky-dark": {
       "value": "#c4cdd5"
@@ -70,7 +70,7 @@
       "value": "#f9fafb"
     },
     "color-blue-light": {
-      "value": "#b4e0fa"
+      "value": "#b4e1fa"
     },
     "color-orange-lighter": {
       "value": "#fcebdb"
@@ -94,7 +94,7 @@
       "value": "#637381"
     },
     "color-indigo-lighter": {
-      "value": "#f3f4fa"
+      "value": "#f4f5fa"
     },
     "color-red-text": {
       "value": "#583c35"
@@ -133,7 +133,7 @@
       "value": "#50b83c"
     },
     "color-blue-lighter": {
-      "value": "#ebf4fa"
+      "value": "#ebf5fa"
     },
     "color-indigo": {
       "value": "#5c6ac4"
@@ -145,7 +145,7 @@
       "value": "#212b36"
     },
     "color-purple-lighter": {
-      "value": "#f5f0fc"
+      "value": "#f6f0fd"
     },
     "color-yellow-text": {
       "value": "#595130"
@@ -215,7 +215,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-purple-lighter",
-      "value": "rgb(245, 240, 252)",
+      "value": "rgb(246, 240, 253)",
       "originalValue": "{!color-purple-lighter}"
     },
     "color-indigo-text": {
@@ -257,7 +257,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-indigo-lighter",
-      "value": "rgb(243, 244, 250)",
+      "value": "rgb(244, 245, 250)",
       "originalValue": "{!color-indigo-lighter}"
     },
     "color-blue-text": {
@@ -271,7 +271,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-blue-darker",
-      "value": "rgb(0, 21, 42)",
+      "value": "rgb(0, 20, 41)",
       "originalValue": "{!color-blue-darker}"
     },
     "color-blue-dark": {
@@ -292,14 +292,14 @@
       "type": "color",
       "category": "background-color",
       "name": "color-blue-light",
-      "value": "rgb(180, 224, 250)",
+      "value": "rgb(180, 225, 250)",
       "originalValue": "{!color-blue-light}"
     },
     "color-blue-lighter": {
       "type": "color",
       "category": "background-color",
       "name": "color-blue-lighter",
-      "value": "rgb(235, 244, 250)",
+      "value": "rgb(235, 245, 250)",
       "originalValue": "{!color-blue-lighter}"
     },
     "color-teal-text": {
@@ -460,7 +460,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-orange-light",
-      "value": "rgb(255, 196, 139)",
+      "value": "rgb(255, 197, 139)",
       "originalValue": "{!color-orange-light}"
     },
     "color-orange-lighter": {
