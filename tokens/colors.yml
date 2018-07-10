@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn getTokensFromInvision' to generate a new version
-# Last updated: 10:45:26 GMT-0400 (EDT)
+# Last updated: 10:52:54 GMT-0400 (EDT)
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
@@ -22,11 +22,11 @@ aliases:
   color-blue-light: '#b4e1fa'
   color-blue-lighter: '#ebf5fa'
   color-teal-text: '#405352'
-  color-teal-darker: '#003136'
+  color-teal-darker: '#003135'
   color-teal-dark: '#00848e'
   color-teal: '#47c1bf'
-  color-teal-light: '#b6eceb'
-  color-teal-lighter: '#e0f5f4'
+  color-teal-light: '#b7ecec'
+  color-teal-lighter: '#e0f5f5'
   color-green-text: '#414f3e'
   color-green-darker: '#173630'
   color-green-dark: '#108043'
@@ -36,9 +36,9 @@ aliases:
   color-yellow-text: '#595130'
   color-yellow-darker: '#573b00'
   color-yellow-dark: '#9c6f19'
-  color-yellow: '#edc200'
+  color-yellow: '#eec200'
   color-yellow-light: '#ffea8a'
-  color-yellow-lighter: '#fcf0cd'
+  color-yellow-lighter: '#fcf1cd'
   color-orange-text: '#594430'
   color-orange-darker: '#4a1504'
   color-orange-dark: '#c05717'

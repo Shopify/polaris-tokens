@@ -47,15 +47,15 @@
     <color name="polaris_color_sky_lighter">#fff9fafb</color>
     <color name="polaris_color_teal">#ff47c1bf</color>
     <color name="polaris_color_teal_dark">#ff00848e</color>
-    <color name="polaris_color_teal_darker">#ff003136</color>
-    <color name="polaris_color_teal_light">#ffb6eceb</color>
-    <color name="polaris_color_teal_lighter">#ffe0f5f4</color>
+    <color name="polaris_color_teal_darker">#ff003135</color>
+    <color name="polaris_color_teal_light">#ffb7ecec</color>
+    <color name="polaris_color_teal_lighter">#ffe0f5f5</color>
     <color name="polaris_color_teal_text">#ff405352</color>
     <color name="polaris_color_white">#ffffffff</color>
-    <color name="polaris_color_yellow">#ffedc200</color>
+    <color name="polaris_color_yellow">#ffeec200</color>
     <color name="polaris_color_yellow_dark">#ff9c6f19</color>
     <color name="polaris_color_yellow_darker">#ff573b00</color>
     <color name="polaris_color_yellow_light">#ffffea8a</color>
-    <color name="polaris_color_yellow_lighter">#fffcf0cd</color>
+    <color name="polaris_color_yellow_lighter">#fffcf1cd</color>
     <color name="polaris_color_yellow_text">#ff595130</color>
 </resources>

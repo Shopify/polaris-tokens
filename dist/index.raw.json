@@ -55,7 +55,7 @@
       "value": "#230051"
     },
     "color-teal-darker": {
-      "value": "#003136"
+      "value": "#003135"
     },
     "color-orange-dark": {
       "value": "#c05717"
@@ -82,7 +82,7 @@
       "value": "#e3f1df"
     },
     "color-teal-light": {
-      "value": "#b6eceb"
+      "value": "#b7ecec"
     },
     "color-red-light": {
       "value": "#fead9a"
@@ -109,7 +109,7 @@
       "value": "#50495a"
     },
     "color-yellow-lighter": {
-      "value": "#fcf0cd"
+      "value": "#fcf1cd"
     },
     "color-black": {
       "value": "#000000"
@@ -151,7 +151,7 @@
       "value": "#595130"
     },
     "color-teal-lighter": {
-      "value": "#e0f5f4"
+      "value": "#e0f5f5"
     },
     "color-teal-dark": {
       "value": "#00848e"
@@ -163,7 +163,7 @@
       "value": "#fbeae5"
     },
     "color-yellow": {
-      "value": "#edc200"
+      "value": "#eec200"
     },
     "color-indigo-text": {
       "value": "#3e4155"
@@ -313,7 +313,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-teal-darker",
-      "value": "rgb(0, 49, 54)",
+      "value": "rgb(0, 49, 53)",
       "originalValue": "{!color-teal-darker}"
     },
     "color-teal-dark": {
@@ -334,14 +334,14 @@
       "type": "color",
       "category": "background-color",
       "name": "color-teal-light",
-      "value": "rgb(182, 236, 235)",
+      "value": "rgb(183, 236, 236)",
       "originalValue": "{!color-teal-light}"
     },
     "color-teal-lighter": {
       "type": "color",
       "category": "background-color",
       "name": "color-teal-lighter",
-      "value": "rgb(224, 245, 244)",
+      "value": "rgb(224, 245, 245)",
       "originalValue": "{!color-teal-lighter}"
     },
     "color-green-text": {
@@ -411,7 +411,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-yellow",
-      "value": "rgb(237, 194, 0)",
+      "value": "rgb(238, 194, 0)",
       "originalValue": "{!color-yellow}"
     },
     "color-yellow-light": {
@@ -425,7 +425,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-yellow-lighter",
-      "value": "rgb(252, 240, 205)",
+      "value": "rgb(252, 241, 205)",
       "originalValue": "{!color-yellow-lighter}"
     },
     "color-orange-text": {
