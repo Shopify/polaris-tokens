@@ -5,10 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<!-- ## [Unreleased] -->
+## [Unreleased]
 
 - Updated color names in InVision DSM
-- Fixes Issue #16 [Remove `-base` suffix from base color variables](https://github.com/Shopify/polaris-tokens/issues/16)
+- Breaking: Removed `-base` suffix from base color variables (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
+  Upgrade path: rename base colors to remove `-base`. For example: `$ink-base` → `$ink`.
 
 ## [1.3.1] - 2018-07-09
 
