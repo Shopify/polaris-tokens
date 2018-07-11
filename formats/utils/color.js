@@ -13,11 +13,16 @@ const getPaletteFromFriendlyName = (friendlyName) =>
     .toLowerCase();
 
 // getShade('color-ink-lightest') -> 'lightest'
-const getShade = (name) =>
-  name
-    .replace('color-', '')
-    .split('-')
-    .pop();
+// getShade('color-ink') -> 'base'
+const getShade = (name) => {
+  const nameWithoutPrefix = name.replace('color-', '');
+  const shade = nameWithoutPrefix.split('-').pop();
+  if (shade === nameWithoutPrefix) {
+    return 'base';
+  } else {
+    return shade;
+  }
+};
 
 module.exports = {
   getPalette,
