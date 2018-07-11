@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-- **Breaking:** removed `-base` suffix from base color variables (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
+- **Breaking:** removed `-base` suffix from base color token names (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
 
   Upgrade path:
     - CSS: remove `-base`. For example: `var(--color-ink-base)` → `var(--color-ink)`.
