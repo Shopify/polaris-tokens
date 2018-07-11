@@ -9,7 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated color names in InVision DSM
 - Breaking: Removed `-base` suffix from base color variables (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
-  Upgrade path: rename base colors to remove `-base`. For example: `$ink-base` → `$ink`.
+
+  Upgrade path:
+    - CSS: remove `-base`. For example: `var(--color-ink-base)` → `var(--color-ink)`.
+    - Sass: remove `-base`. For example: `$color-ink-base` → `$color-ink`.
+    - JSON: remove `-base`. For example: `tokens['color-ink-base']` → `tokens['color-ink']`.
+    - Android: remove `_base`. For example: `polaris_color_blue_base` → `polaris_color_blue`.
+    - JavaScript: remove `Base`. For example: `colorPurpleBase` → `colorPurple`.
 
 ## [1.3.1] - 2018-07-09
 
