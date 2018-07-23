@@ -9,10 +9,7 @@ const $ = gulpLoadPlugins();
 theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
-theo.registerFormat(
-  'android-colors.xml',
-  require('./formats/android-colors.xml.js'),
-);
+theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -25,7 +22,7 @@ const webFormats = [
   'raw.json',
 ];
 const colorFormats = [
-  {transformType: 'android', formatType: 'android-colors.xml'},
+  {transformType: 'android', formatType: 'android.xml'},
   {transformType: 'web', formatType: 'color-map.scss'},
   {transformType: 'web', formatType: 'sketchpalette'},
   {transformType: 'web', formatType: 'ase.json'},

@@ -10,11 +10,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - **Breaking:** removed `-base` suffix from base color token names (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
 
   Upgrade path:
-    - CSS: remove `-base`. For example: `var(--color-ink-base)` → `var(--color-ink)`.
-    - Sass: remove `-base`. For example: `$color-ink-base` → `$color-ink`.
-    - JSON: remove `-base`. For example: `tokens['color-ink-base']` → `tokens['color-ink']`.
-    - Android: remove `_base`. For example: `polaris_color_blue_base` → `polaris_color_blue`.
-    - JavaScript: remove `Base`. For example: `colorPurpleBase` → `colorPurple`.
+
+  - CSS: remove `-base`. For example: `var(--color-ink-base)` → `var(--color-ink)`.
+  - Sass: remove `-base`. For example: `$color-ink-base` → `$color-ink`.
+  - JSON: remove `-base`. For example: `tokens['color-ink-base']` → `tokens['color-ink']`.
+  - Android: remove `_base`. For example: `polaris_color_blue_base` → `polaris_color_blue`.
+  - JavaScript: remove `Base`. For example: `colorPurpleBase` → `colorPurple`.
+
+- Updated dependencies, including Theo to from `^7.0.1` to `8.0.0-beta.2`
+- Updated the Android token format to enable it to format other properties than just colors
+- **Breaking:** renamed `colors.android-colors.xml` to `colors.android.xml`
 
 ## [1.3.1] - 2018-07-09
 

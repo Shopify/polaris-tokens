@@ -1610,7 +1610,7 @@ exports[`renders Polaris.sketchpalette correctly 1`] = `
 "
 `;
 
-exports[`renders colors.android-colors.xml correctly 1`] = `
+exports[`renders colors.android.xml correctly 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
 <resources>
     <color name=\\"polaris_color_black\\">#ff000000</color>
