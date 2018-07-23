@@ -18,7 +18,7 @@
     "dist:colors:prettier-sketchpalette": "prettier ./dist/*.sketchpalette --write --parser json",
     "dist:colors:ase": "node ./scripts/ase-encode.js",
     "dist:colors:clr:excludeFromCI": "ase2clr ./dist/colors.ase ./dist/colors.clr",
-    "dist:colors:rename-palettes": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
+    "dist:colors:rename-palettes:excludeFromCI": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "npm-run-all lint:**",
     "lint:js": "eslint . --format codeframe",
     "lint:tokens": "yamllint ./tokens/*.yml",
