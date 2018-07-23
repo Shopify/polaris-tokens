@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- **Breaking:** renamed `colors.android-colors.xml` to `colors.android.xml`
 - **Breaking:** removed `-base` suffix from base color token names (fixes [#16](https://github.com/Shopify/polaris-tokens/issues/16))
 
   Upgrade path:
@@ -19,7 +20,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated dependencies, including Theo to from `^7.0.1` to `8.0.0-beta.2`
 - Updated the Android token format to enable it to format other properties than just colors
-- **Breaking:** renamed `colors.android-colors.xml` to `colors.android.xml`
 
 ## [1.3.1] - 2018-07-09
 
