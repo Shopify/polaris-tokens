@@ -6689,7 +6689,7 @@ tfunk@^3.0.1:
     chalk "^1.1.1"
     object-path "^0.9.0"
 
-theo@^8.0.0-beta.2:
+theo@8.0.0-beta.2:
   version "8.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/theo/-/theo-8.0.0-beta.2.tgz#18a1ec14ebcb04ae7c3c0abd9ec26caeb3769ca4"
   dependencies:
