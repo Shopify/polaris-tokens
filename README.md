@@ -26,27 +26,22 @@ Polaris design tokens are available as both a npm package (`@shopify/polaris-tok
 
 The recommended way to use and install design tokens may vary depending on your project; the most common are documented below.
 
-### JavaScript package installation
-
 Using [npm](https://www.npmjs.com/):
 
-```
+```console
 npm install @shopify/polaris-tokens --save
 ```
 
 Using [yarn](https://yarnpkg.com/en/):
 
-```
+```console
 yarn add @shopify/polaris-tokens
 ```
 
-### Ruby on Rails installation
+Using [Bundler](https://bundler.io/):
 
-Add `polaris_tokens` to your `Gemfile`:
-
-```sh
-$ echo "gem 'polaris_tokens'" >> Gemfile
-$ bundle install
+```console
+bundle add polaris_tokens
 ```
 
 ## Usage
