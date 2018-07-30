@@ -30,6 +30,8 @@ yarn dist
 Tokens are exported under the `dist/` folder for consumption by external projects:
 
 ```
+colors.android.xml
+colors.ase.json
 colors.color-map.scss
 colors.common.js
 colors.custom-properties.css

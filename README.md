@@ -143,3 +143,7 @@ to learn how to propose changes and understand our development process.
 ### [License](https://github.com/Shopify/polaris-tokens/blob/master/LICENSE.md)
 
 The polaris-tokens project is available under the [MIT license](https://github.com/Shopify/polaris-tokens/blob/master/LICENSE.md).
+
+Parts of the code in this repository are directly inspired or borrowed
+from the [Theo project](https://github.com/salesforce-ux/theo),
+property of Salesforce.com, Inc., [licensed under BSD 3-Clause](https://git.io/sfdc-license).
