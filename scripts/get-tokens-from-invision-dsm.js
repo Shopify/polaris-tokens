@@ -46,7 +46,7 @@ const buildTheoColorTokens = (colors) => ({
 
 const warningBanner = `# DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
-# Run 'yarn getTokensFromInvisionDSM' to generate a new version
+# Run 'yarn get-tokens-from-invision-dsm' to generate a new version
 # Last updated: ${new Date().toTimeString()}
 `;
 
