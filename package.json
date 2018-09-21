@@ -8,7 +8,7 @@
     "test": "jest",
     "test-watch": "nodemon --exec 'npm-run-all dist test' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts",
     "clean": "rimraf ./dist",
-    "getTokensFromInvision": "node ./scripts/getTokensFromInvision.js",
+    "getTokensFromInvisionDSM": "node ./scripts/getTokensFromInvisionDSM.js",
     "predist": "yarn clean",
     "dist": "npm-run-all dist:**",
     "dist-ci": "npm-run-all dist:* dist:*:*",

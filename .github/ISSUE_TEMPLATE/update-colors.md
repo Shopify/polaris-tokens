@@ -17,7 +17,7 @@
   git checkout master
   git pull
   git checkout -B update-color-tokens
-  yarn getTokensFromInvision
+  yarn getTokensFromInvisionDSM
   yarn dist
   yarn test -u
   ```

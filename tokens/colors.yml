@@ -1,6 +1,6 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
-# Run 'yarn getTokensFromInvision' to generate a new version
+# Run 'yarn getTokensFromInvisionDSM' to generate a new version
 # Last updated: 10:52:54 GMT-0400 (EDT)
 aliases:
   color-purple-text: '#50495a'
