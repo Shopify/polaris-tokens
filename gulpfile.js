@@ -6,6 +6,13 @@ const runSequence = require('run-sequence');
 
 const $ = gulpLoadPlugins();
 
+theo.registerValueTransform(
+  'filter',
+  (prop) => prop.get('type') === 'color',
+  (prop) => prop.getIn(['meta', 'filter']) || 'none',
+);
+theo.registerTransform('filter', ['filter']);
+
 theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
@@ -21,11 +28,22 @@ const webFormats = [
   'map.scss',
   'raw.json',
 ];
+
 const colorFormats = [
   {transformType: 'android', formatType: 'android.xml'},
   {transformType: 'web', formatType: 'color-map.scss'},
   {transformType: 'web', formatType: 'sketchpalette'},
   {transformType: 'web', formatType: 'ase.json'},
+];
+
+const colorFilterFormats = [
+  'scss',
+  'common.js',
+  'json',
+  'custom-properties.css',
+  'map.scss',
+  'raw.json',
+  'color-map.scss',
 ];
 
 // Hack to ensure Sass maps are prefixed with `polaris-`
@@ -39,6 +57,8 @@ const removePrefix = (gulpRenameOptions) => {
   );
   return gulpRenameOptions;
 };
+
+const filterRename = {basename: 'color-filters'};
 
 gulp.task('web-formats', () =>
   webFormats.map((format) =>
@@ -74,6 +94,26 @@ gulp.task('typings', () =>
       throw new Error(err);
     })
     .pipe(gulp.dest('dist')),
+);
+
+gulp.task('color-filters', () =>
+  colorFilterFormats.map((format) =>
+    gulp
+      .src('tokens/colors.yml')
+      .pipe($.rename(filterRename))
+      .pipe($.rename(addPrefix))
+      .pipe(
+        $.theo({
+          transform: {type: 'filter'},
+          format: {type: format},
+        }),
+      )
+      .pipe($.rename(removePrefix))
+      .on('error', (err) => {
+        throw new Error(err);
+      })
+      .pipe(gulp.dest('dist')),
+  ),
 );
 
 gulp.task('color-formats', () =>
@@ -150,4 +190,7 @@ gulp.task('watch', runSequence(['web-formats', 'color-formats']), () => {
   gulp.watch(['docs/**/*.html']).on('change', browserSync.reload);
 });
 
-gulp.task('default', runSequence(['web-formats', 'typings', 'color-formats']));
+gulp.task(
+  'default',
+  runSequence(['web-formats', 'typings', 'color-filters', 'color-formats']),
+);
