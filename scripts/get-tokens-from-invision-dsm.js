@@ -4,6 +4,7 @@ const fs = require('fs-extra');
 const yaml = require('js-yaml');
 const fetch = require('node-fetch');
 const dashify = require('dashify');
+const matter = require('gray-matter');
 
 // You can edit tokens in Invision DSM and in Sketch
 // https://shopify.invisionapp.com/dsm/shopify/design-tokens
@@ -20,6 +21,12 @@ const fetchTokens = async () => {
 // Invision’s API returns colors under this path
 const getColorTokens = (object) => object.list.colors[0].colors;
 
+// local metadata
+// this is a workaround until DSM resurfaces the `description` field in its API
+const colorMetadata = yaml.safeLoad(
+  fs.readFileSync(path.join('data', 'color-metadata.yml')),
+);
+
 const buildTheoColorTokens = (colors) => ({
   aliases: Object.assign(
     {},
@@ -32,10 +39,18 @@ const buildTheoColorTokens = (colors) => ({
     if (color.name.includes('text')) {
       color.category = 'text-color';
     }
-    if (color.description) {
-      color.comment = color.description;
+
+    // Metadata from Invision, if present, will overwrite local metadata
+    if (colorMetadata[color.name]) {
+      color.meta = Object.assign(color.meta, colorMetadata[color.name]);
     }
-    delete color.description;
+    if (color.description) {
+      const parsedDescription = matter(color.description);
+      color.comment = parsedDescription.content;
+      color.meta = Object.assign(color.meta, parsedDescription.data);
+      delete color.description;
+    }
+
     return color;
   }),
   global: {

@@ -115,6 +115,60 @@ polaris_colors = JSON.parse(polaris_token_file)
 polaris_colors['color-blue-lighter'] # "rgb(235, 245, 250)"
 ```
 
+### CSS Filters
+
+Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) (`filter`) value as part of their metadata. When this filter is applied to an element, it will change that element’s color to _approximate_ the target token color.
+
+```
+<div>
+  No background, no filter
+</div>
+
+<div style="background-color: #fff">
+  White background, no filter
+</div>
+
+<div style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)">
+  No background, red filter
+</div>
+
+<div style="background-color: #fff; filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)">
+  White background, red filter
+</div>
+```
+
+![text and non-transparent backgrounds become red when filter is applied](.github/filter-example-1.png)
+
+In general, these filters shouldn’t be used unless absolutely necessary. The main use case for the filters is to apply a color to an unsafe (e.g. user-provided) SVG. Since SVGs can contain arbitrary code, we should be careful about how they are displayed. The safest option is to render SVGs as an `img` (e.g. `<img src="circle.svg" />`); when SVGs are rendered like this, browsers will block code execution. Unfortunately, it also means that the SVGs cannot be styled with external CSS (e.g. applying `fill: red` to the `img` won’t do anything.)
+
+CSS filters allow us the safety of rendering SVGs inside `img` elements, but still give us control over their appearance.
+
+```
+<div>
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>" alt="" /> black circle, no filter
+</div>
+<div>
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>" style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)" alt="" /> black circle, red filter
+</div>
+```
+
+![the filter turns the black circle red](.github/filter-example-2.png)
+
+Note that _all_ filled areas of an SVG will change color with this approach, including borders/strokes. For that reason it should only be used with monochromatic SVGs.
+
+```
+<div>
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>" alt="" /> black circle with green border, no filter
+</div>
+<div>
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>" style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)" alt="" /> black circle with green border, red filter
+</div>
+```
+
+![the filter turns the entire circle red, including the border](.github/filter-example-3.png)
+
+If you need to generate new filter values, you can do so with [this CodePen](https://codepen.io/kaelig/full/jeObGP/).
+
 ---
 
 ## Contributing

@@ -30,6 +30,13 @@ yarn dist
 Tokens are exported under the `dist/` folder for consumption by external projects:
 
 ```
+color-filters.color-map.scss
+color-filters.common.js
+color-filters.custom-properties.css
+color-filters.json
+color-filters.map.scss
+color-filters.raw.json
+color-filters.scss
 colors.android.xml
 colors.ase.json
 colors.color-map.scss
@@ -161,6 +168,8 @@ Here’s a workaround:
 2.  Re-add the color (with the same name), this time specifying the new value
     (following the steps described above in “Adding colors”)
 3.  **[Open a new issue][issue-template-color-updated]**
+
+When updating a color, please also remember to update its `filter` metadata. Filter values can be generated using [this CodePen](https://codepen.io/kaelig/full/jeObGP/).
 
 ### Developers
 
