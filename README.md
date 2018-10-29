@@ -64,6 +64,14 @@ const tokens = require('@shopify/polaris-tokens/dist/index.json');
 console.log(tokens['color-blue-lighter']); // rgb(235, 245, 250)
 ```
 
+Note that, if your project supports ECMAScript Modules, you can also use the `import` syntax.
+
+```js
+import * as tokens from '@shopify/polaris-tokens';
+// or
+import { colorBlueLighter } from '@shopify/polaris-tokens';
+```
+
 ### Sass
 
 Sass variables and map keys are formatted in [kebab-case](http://wiki.c2.com/?KebabCase).
