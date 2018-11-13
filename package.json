@@ -19,9 +19,7 @@
     "dist:colors:ase": "node ./scripts/ase-encode.js",
     "dist:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
-    "lint": "npm-run-all lint:**",
-    "lint:js": "sewing-kit lint",
-    "lint:tokens": "yamllint ./tokens/*.yml",
+    "lint": "sewing-kit lint",
     "watch": "gulp watch",
     "heroku-postbuild": "yarn dist-ci",
     "start": "http-server docs"
@@ -83,8 +81,7 @@
     "run-sequence": "^2.2.1",
     "theo": "8.0.1",
     "tinycolor2": "^1.4.1",
-    "xml": "^1.0.1",
-    "yaml-lint": "^1.2.4"
+    "xml": "^1.0.1"
   },
   "dependencies": {
     "@shopify/sewing-kit": "^0.64.2"
