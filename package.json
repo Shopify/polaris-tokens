@@ -14,13 +14,13 @@
     "dist-ci": "npm-run-all dist:* dist:*:*",
     "dist:gulp": "gulp",
     "dist:docs": "gulp docs",
-    "dist:prettier": "prettier ./{dist,docs}/*.{scss,css,json,js} --write",
-    "dist:colors:prettier-sketchpalette": "prettier ./dist/*.sketchpalette --write --parser json",
+    "dist:format": "sewing-kit format",
+    "dist:colors:format-sketchpalette": "prettier ./dist/*.sketchpalette --write --parser json",
     "dist:colors:ase": "node ./scripts/ase-encode.js",
     "dist:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "npm-run-all lint:**",
-    "lint:js": "eslint . --format codeframe",
+    "lint:js": "sewing-kit lint",
     "lint:tokens": "yamllint ./tokens/*.yml",
     "watch": "gulp watch",
     "heroku-postbuild": "yarn dist-ci",
@@ -50,16 +50,17 @@
       "plugin:shopify/prettier"
     ]
   },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-shopify"
+    ]
+  },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
     "ase-util": "^1.0.1",
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.26.3",
     "dashify": "^2.0.0",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-shopify": "^26.1.1",
     "fs-extra": "^7.0.1",
     "gray-matter": "^4.0.1",
     "gulp": "^3.9.1",
@@ -78,7 +79,6 @@
     "node-fetch": "^2.3.0",
     "nodemon": "^1.18.7",
     "npm-run-all": "^4.1.5",
-    "prettier": "1.15.2",
     "renamer": "^1.1.0",
     "rimraf": "^2.6.2",
     "run-sequence": "^2.2.1",
@@ -86,5 +86,8 @@
     "tinycolor2": "^1.4.1",
     "xml": "^1.0.1",
     "yaml-lint": "^1.2.4"
+  },
+  "dependencies": {
+    "@shopify/sewing-kit": "^0.64.2"
   }
 }

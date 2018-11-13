@@ -2,5 +2,11 @@
   "arrowParens": "always",
   "singleQuote": true,
   "bracketSpacing": false,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.sketchpalette",
+      "options": {"parser": "json"}
+    }
+  ]
 }
