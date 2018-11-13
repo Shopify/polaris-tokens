@@ -69,7 +69,7 @@ Note that, if your project supports ECMAScript Modules, you can also use the `im
 ```js
 import * as tokens from '@shopify/polaris-tokens';
 // or
-import { colorBlueLighter } from '@shopify/polaris-tokens';
+import {colorBlueLighter} from '@shopify/polaris-tokens';
 ```
 
 ### Sass

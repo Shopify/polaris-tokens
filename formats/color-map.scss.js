@@ -35,8 +35,9 @@ class CustomMap {
     $${path.basename(this.meta.file, '.yml')}: (
       ${Object.keys(this.palettes)
         .map((palette) => this.renderPalette(palette))
-        .join(',\n')}
-    );`;
+        .join(',\n')
+        .trim()}
+    );`.trim();
   }
 }
 

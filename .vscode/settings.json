@@ -4,5 +4,5 @@
   "scss.validate": false,
   "editor.formatOnSave": true,
   "prettier.stylelintIntegration": true,
-  "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": true
 }
