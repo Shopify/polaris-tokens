@@ -52,7 +52,7 @@
   },
   "stylelint": {
     "extends": [
-      "stylelint-config-shopify"
+      "stylelint-config-shopify/prettier"
     ]
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
