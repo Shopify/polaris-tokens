@@ -3,11 +3,11 @@ jobs:
   build:
     working_directory: ~/app
     docker:
-      - image: circleci/node:8.11.2
+      - image: circleci/node:10.13.0
     steps:
       - checkout
       - restore_cache:
-         keys:
+          keys:
             # Find a cache corresponding to this specific package.json checksum
             # when this file is changed, this key will fail
             - v2-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
@@ -15,9 +15,9 @@ jobs:
             - v2-npm-deps-{{ arch }} # used if above checksum fails
       - run: yarn
       - save_cache:
-         key: v2-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
-         paths:
-           - node_modules
+          key: v2-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
       - run: yarn dist-ci
       - run: yarn test
       - run: yarn lint

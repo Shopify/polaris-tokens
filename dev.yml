@@ -1,11 +1,10 @@
----
 name: polaris-tokens
 
 up:
   - ruby:
       version: 2.3.4
   - node:
-      version: v8.11.2
+      version: v10.13.0
       yarn: true
   - bundler
 commands:

@@ -1,16 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    domain_name (0.5.20170404)
+    domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    gem-release (1.0.0)
+    gem-release (2.0.1)
     highline (1.6.20)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     json_pure (1.8.1)
-    mime-types (3.1)
+    mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
+    mime-types-data (3.2018.0812)
     netrc (0.11.0)
     package_cloud (0.3.05)
       highline (= 1.6.20)
@@ -25,7 +25,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    thor (0.20.0)
+    thor (0.20.3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
@@ -39,4 +39,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.1
+   1.16.6
