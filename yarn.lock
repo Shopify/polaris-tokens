@@ -184,9 +184,9 @@
   integrity sha512-DIPOT6ACpmsqYwvh0TQ48PgmZFceuoV8imrxfmCK6HD+zWcE6TWfunKaGEo0DkkdsS+6guGd/aJXe9m+dyBvdQ==
 
 "@shopify/sewing-kit@^0.64.2":
-  version "0.64.2"
-  resolved "https://registry.yarnpkg.com/@shopify/sewing-kit/-/sewing-kit-0.64.2.tgz#29fb38cb28e9f63c631a8ca046c4e040d29c40da"
-  integrity sha512-WKPt2+5vJDYqxcpuj9uJ2kAiykKnel0bbD/ZualctPUGV9Cmk33KKHVSzc4T5A6M8FiJM8SInORWEKByskhe/A==
+  version "0.64.3"
+  resolved "https://registry.yarnpkg.com/@shopify/sewing-kit/-/sewing-kit-0.64.3.tgz#d12a395ee65a0693dada59738daa48e5c1072a11"
+  integrity sha512-sX7VXz6mEiqQJz3ftm7zl5mF5dIGsSVyFi14QY+o+qAE2AdC7Feknf/pgZQ3ee6a8NA4TXidv7z4pwvJP7Y8fA==
   dependencies:
     "@shopify/images" "^1.1.4"
     "@types/graphql" "^0.13.0"
@@ -219,7 +219,7 @@
     graphql-tag "^2.9.1"
     graphql-tool-utilities "^0.9.1"
     graphql-typed "^0.2.0"
-    graphql-typescript-definitions "^0.13.2"
+    graphql-typescript-definitions "^0.13.3"
     graphql-validate-fixtures "^0.10.1"
     happypack "^5.0.0"
     hard-source-webpack-plugin "~0.12.0"
@@ -6637,10 +6637,10 @@ graphql-typed@^0.2.0:
   resolved "https://registry.yarnpkg.com/graphql-typed/-/graphql-typed-0.2.0.tgz#626863bbc8d0f1562db08508601dc2439bf00dd7"
   integrity sha512-cBy1vxabkmx3G0IURSbav7Rww/eQesKvHrSWa0SJy866JyHhxUJehp7m4sgTJt5J1vNFsEaJeHA4xLZmICKHnw==
 
-graphql-typescript-definitions@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/graphql-typescript-definitions/-/graphql-typescript-definitions-0.13.2.tgz#2bc0b41344341129f139e056d64bfac6309cd141"
-  integrity sha512-1lw3xt8vxDAJ9pD9n/Z7jAjwQL86jVJ2UEEVV+1ygXNQS6rvC8Y00NswZRw99NbKyMqVG5SECT1t8wohxbNmqA==
+graphql-typescript-definitions@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/graphql-typescript-definitions/-/graphql-typescript-definitions-0.13.3.tgz#151aa67b18c5fc52b534da992e663f75632eda4f"
+  integrity sha512-FGvP1kKTFiBrMEgKDD2l/Qjk0Cf5anE322NM3XEzSZtpgJRCyPCH7wumz9lnNP4W1v7ZP8biqUZPU2zheIQpRw==
   dependencies:
     "@babel/generator" "^7.0.0-beta.46"
     "@babel/types" "^7.0.0-beta.46"
@@ -13369,9 +13369,9 @@ stable@~0.1.6:
   integrity sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==
 
 stack-utils@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
-  integrity sha1-1PM6tU6OOHeLDKXP07OvsS22hiA=
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
+  integrity sha512-MTX+MeG5U994cazkjd/9KNAapsHnibjMLnfXodlkXw76JEea0UiNzrqidzo1emMwk7w5Qhc9jd4Bn9TBb1MFwA==
 
 stackframe@^0.3.1:
   version "0.3.1"
