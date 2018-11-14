@@ -183,7 +183,7 @@
   resolved "https://registry.yarnpkg.com/@shopify/images/-/images-1.1.5.tgz#f7ae5d5801b4550085480825ceda66420d9ff700"
   integrity sha512-DIPOT6ACpmsqYwvh0TQ48PgmZFceuoV8imrxfmCK6HD+zWcE6TWfunKaGEo0DkkdsS+6guGd/aJXe9m+dyBvdQ==
 
-"@shopify/sewing-kit@^0.64.2":
+"@shopify/sewing-kit@^0.64.3":
   version "0.64.3"
   resolved "https://registry.yarnpkg.com/@shopify/sewing-kit/-/sewing-kit-0.64.3.tgz#d12a395ee65a0693dada59738daa48e5c1072a11"
   integrity sha512-sX7VXz6mEiqQJz3ftm7zl5mF5dIGsSVyFi14QY+o+qAE2AdC7Feknf/pgZQ3ee6a8NA4TXidv7z4pwvJP7Y8fA==
