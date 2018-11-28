@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "sewing-kit test",
     "test-watch": "nodemon --exec 'npm-run-all dist test' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts",
     "clean": "rimraf ./dist",
     "get-tokens-from-invision-dsm": "node ./scripts/get-tokens-from-invision-dsm.js",
@@ -14,14 +14,11 @@
     "dist-ci": "npm-run-all dist:* dist:*:*",
     "dist:gulp": "gulp",
     "dist:docs": "gulp docs",
-    "dist:prettier": "prettier ./{dist,docs}/*.{scss,css,json,js} --write",
-    "dist:colors:prettier-sketchpalette": "prettier ./dist/*.sketchpalette --write --parser json",
+    "dist:format": "prettier ./{dist,docs}/*.{js,json,css,scss,sketchpalette} --write",
     "dist:colors:ase": "node ./scripts/ase-encode.js",
     "dist:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
-    "lint": "npm-run-all lint:**",
-    "lint:js": "eslint . --format codeframe",
-    "lint:tokens": "yamllint ./tokens/*.yml",
+    "lint": "sewing-kit lint",
     "watch": "gulp watch",
     "heroku-postbuild": "yarn dist-ci",
     "start": "http-server docs"
@@ -50,16 +47,18 @@
       "plugin:shopify/prettier"
     ]
   },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-shopify/prettier"
+    ]
+  },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
+    "@shopify/sewing-kit": "^0.65.0",
     "ase-util": "^1.0.1",
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.26.3",
     "dashify": "^2.0.0",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-shopify": "^26.1.1",
     "fs-extra": "^7.0.1",
     "gray-matter": "^4.0.1",
     "gulp": "^3.9.1",
@@ -72,19 +71,16 @@
     "gulp-theo": "^2.0.0",
     "http-server": "^0.11.1",
     "immutable": "^3.8.2",
-    "jest": "^23.6.0",
     "js-yaml": "^3.12.0",
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
     "nodemon": "^1.18.7",
     "npm-run-all": "^4.1.5",
-    "prettier": "1.15.2",
     "renamer": "^1.1.0",
     "rimraf": "^2.6.2",
     "run-sequence": "^2.2.1",
     "theo": "8.0.1",
     "tinycolor2": "^1.4.1",
-    "xml": "^1.0.1",
-    "yaml-lint": "^1.2.4"
+    "xml": "^1.0.1"
   }
 }

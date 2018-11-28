@@ -1,6 +1,6 @@
 # https://services.shopify.io/services/polaris-tokens/production
 owners:
-- Shopify/polaris
+  - Shopify/polaris
 production:
   classification: library
 gem:

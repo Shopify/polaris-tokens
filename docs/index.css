@@ -5,7 +5,6 @@ body {
   line-height: 2rem;
   text-transform: initial;
   letter-spacing: initial;
-  font-weight: 400;
   color: #212b36;
   font-family: -apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto',
     'Segoe UI', 'Helvetica Neue', sans-serif;
@@ -57,7 +56,7 @@ p {
 
 .banner,
 .contentinfo {
-  background: #f5f5f5;
+  background: #f4f6f8;
 }
 
 .banner {
@@ -80,7 +79,7 @@ p {
 h1 {
   margin: 0;
   font-size: 3rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 2;
   padding-left: 20px;
 }
@@ -105,7 +104,7 @@ td {
 }
 
 th {
-  font-weight: normal;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -129,7 +128,7 @@ code {
 .radius-box {
   display: inline-block;
   vertical-align: middle;
-  background: #eeeeee;
+  background: #dfe3e8;
 }
 
 .radius-box {
@@ -142,10 +141,7 @@ code {
 }
 
 .line-height-example {
-  border-bottom: 1px solid #eeeeee;
-  background-image: -webkit-linear-gradient(#eeeeee 1px, transparent 1px);
-  background-image: linear-gradient(#eeeeee 1px, transparent 1px);
+  border-bottom: 1px solid #dfe3e8;
+  background-image: linear-gradient(#dfe3e8 1px, transparent 1px);
   background-size: 100% 1rem;
 }
-
-/*# sourceMappingURL=index.css.map */

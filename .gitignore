@@ -12,3 +12,6 @@ node_modules
 # Bundler files
 *.gem
 /.bundle
+
+# sewing-kit temporary folder
+tmp

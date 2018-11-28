@@ -1,4 +1,6 @@
-@import '../dist/index.scss';
+// stylelint-disable property-no-vendor-prefix, selector-max-type, selector-class-pattern
+
+@import '../dist/index';
 
 html,
 body {
@@ -7,8 +9,7 @@ body {
   line-height: 2rem;
   text-transform: initial;
   letter-spacing: initial;
-  font-weight: 400;
-  color: #212b36;
+  color: $color-ink;
   font-family: unquote($font-stack-base);
 }
 
@@ -35,7 +36,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f4f6f8;
+  background-color: $color-sky-light;
 }
 
 *,
@@ -58,7 +59,7 @@ p {
 
 .banner,
 .contentinfo {
-  background: #f5f5f5;
+  background: $color-sky-light;
 }
 
 .banner {
@@ -81,7 +82,7 @@ p {
 h1 {
   margin: 0;
   font-size: 3rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 2;
   padding-left: $spacing-loose;
 }
@@ -106,7 +107,7 @@ td {
 }
 
 th {
-  font-weight: normal;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -130,7 +131,7 @@ code {
 .radius-box {
   display: inline-block;
   vertical-align: middle;
-  background: #eeeeee;
+  background: $color-sky;
 }
 
 .radius-box {
@@ -143,8 +144,7 @@ code {
 }
 
 .line-height-example {
-  border-bottom: 1px solid #eeeeee;
-  background-image: -webkit-linear-gradient(#eeeeee 1px, transparent 1px);
-  background-image: linear-gradient(#eeeeee 1px, transparent 1px);
+  border-bottom: 1px solid $color-sky;
+  background-image: linear-gradient($color-sky 1px, transparent 1px);
   background-size: 100% 1rem;
 }
