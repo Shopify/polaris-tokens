@@ -5,3 +5,5 @@ production:
   classification: library
 gem:
   classification: library
+slack_channels:
+  - polaris-tokens
