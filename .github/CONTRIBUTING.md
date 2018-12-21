@@ -190,3 +190,4 @@ When releasing a new version, follow these steps on `master`:
 1.  Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/master/CHANGELOG.md) and commit the changes
 2.  Run `yarn version` and assign a new version
 3.  Run `git push --follow-tags`
+4.  [Deploy on Shipit](https://shipit.shopify.io/shopify/polaris-tokens/production)
