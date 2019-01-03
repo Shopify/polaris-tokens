@@ -10,6 +10,10 @@ const matter = require('gray-matter');
 // https://shopify.invisionapp.com/dsm/shopify/design-tokens
 // Run 'yarn dist:invision' to generate a new version of the tokens
 
+// Name of the color palette in Invision DSM, as per:
+// https://shopify.invisionapp.com/dsm/shopify/design-tokens/folder/colors/5b194575d36cf900115a42c3
+const DSM_PALETTE_NAME = '00 Polaris';
+
 const fetchTokens = async () => {
   const res = await fetch(
     'https://shopify.invisionapp.com/dsm-export/shopify/design-tokens/style-data.json?exportFormat=list&key=r1eA1Z8zEz',
@@ -19,7 +23,8 @@ const fetchTokens = async () => {
 };
 
 // Invision’s API returns colors under this path
-const getColorTokens = (object) => object.list.colors[0].colors;
+const getColorTokens = (object) =>
+  object.list.colors.find(({name}) => name === DSM_PALETTE_NAME).colors;
 
 // local metadata
 // this is a workaround until DSM resurfaces the `description` field in its API
