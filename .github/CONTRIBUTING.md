@@ -169,7 +169,7 @@ Here’s a workaround:
     (following the steps described above in “Adding colors”)
 3.  **[Open a new issue][issue-template-color-updated]**
 
-When updating a color, please also remember to update its `filter` metadata. Filter values can be generated using [this CodePen](https://codepen.io/kaelig/full/jeObGP/).
+When updating a color, please also remember to update its `filter` metadata. Filter values can be generated using [this CodePen](https://codepen.io/kaelig/full/jeObGP/) and are stored in [`/data/color-metadata.yml`](https://github.com/Shopify/polaris-tokens/blob/master/data/color-metadata.yml).
 
 ### Developers
 
