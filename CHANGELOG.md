@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Update `color-yellow-dark` for accessibility (fixes [#42](https://github.com/Shopify/polaris-tokens/issues/42))
 - Documented how to import tokens using ES Modules ([#37](https://github.com/Shopify/polaris-tokens/pull/37))
 - Updated Node.js to v10
 - Updated Node.js & Ruby dependencies
