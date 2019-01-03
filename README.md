@@ -125,7 +125,7 @@ polaris_colors['color-blue-lighter'] # "rgb(235, 245, 250)"
 
 ### CSS Filters
 
-Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) (`filter`) value as part of their metadata. When this filter is applied to an element, it will change that element’s color to _approximate_ the target token color.
+Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) (`filter`) value as part of [their metadata](https://github.com/Shopify/polaris-tokens/blob/master/data/color-metadata.yml). When this filter is applied to an element, it will change that element’s color to _approximate_ the target token color.
 
 ```
 <div>
