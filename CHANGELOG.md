@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.1.1] - 2019-01-04
+
+- No changes in this version (re-publishing as the 2.1.0 Gem release failed)
+
 ## [2.1.0] - 2019-01-04
 
 - Updated `color-yellow-dark` for accessibility ([#44](https://github.com/Shopify/polaris-tokens/pull/44))
@@ -58,7 +62,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.1.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.1.1...HEAD
+[2.1.1]: https://github.com/Shopify/polaris-tokens/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/Shopify/polaris-tokens/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/Shopify/polaris-tokens/compare/v1.3.1...v2.0.0
 [1.3.1]: https://github.com/Shopify/polaris-tokens/compare/v1.3.0...v1.3.1
