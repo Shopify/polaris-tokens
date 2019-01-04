@@ -4,7 +4,6 @@ dependencies:
     - bundle install
 deploy:
   pre:
-    - yarn test
     - bundle exec rake build
     # Use auto-dist-tag to still allow publishing beta, alpha, and rc versions
     - npx auto-dist-tag --write
