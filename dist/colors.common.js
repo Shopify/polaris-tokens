@@ -31,7 +31,7 @@ module.exports = {
   colorGreenLighter: 'rgb(227, 241, 223)',
   colorYellowText: 'rgb(89, 81, 48)',
   colorYellowDarker: 'rgb(87, 59, 0)',
-  colorYellowDark: 'rgb(156, 111, 25)',
+  colorYellowDark: 'rgb(138, 97, 22)',
   colorYellow: 'rgb(238, 194, 0)',
   colorYellowLight: 'rgb(255, 234, 138)',
   colorYellowLighter: 'rgb(252, 241, 205)',

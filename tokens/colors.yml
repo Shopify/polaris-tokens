@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn get-tokens-from-invision-dsm' to generate a new version
-# Last updated: 2018-09-27T17:07:26.349Z
+# Last updated: 2019-01-04T14:40:34.360Z
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
@@ -35,7 +35,7 @@ aliases:
   color-green-lighter: '#e3f1df'
   color-yellow-text: '#595130'
   color-yellow-darker: '#573b00'
-  color-yellow-dark: '#9c6f19'
+  color-yellow-dark: '#8a6116'
   color-yellow: '#eec200'
   color-yellow-light: '#ffea8a'
   color-yellow-lighter: '#fcf1cd'

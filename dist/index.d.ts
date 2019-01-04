@@ -52,7 +52,7 @@ declare interface Tokens {
   colorTealText: "rgb(64, 83, 82)";
   colorWhite: "rgb(255, 255, 255)";
   colorYellow: "rgb(238, 194, 0)";
-  colorYellowDark: "rgb(156, 111, 25)";
+  colorYellowDark: "rgb(138, 97, 22)";
   colorYellowDarker: "rgb(87, 59, 0)";
   colorYellowLight: "rgb(255, 234, 138)";
   colorYellowLighter: "rgb(252, 241, 205)";
