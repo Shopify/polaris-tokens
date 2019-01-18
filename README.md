@@ -147,7 +147,7 @@ Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web
 
 ![text and non-transparent backgrounds become red when filter is applied](.github/filter-example-1.png)
 
-In general, these filters shouldn’t be used unless absolutely necessary. The main use case for the filters is to apply a color to an unsafe (e.g. user-provided) SVG. Since SVGs can contain arbitrary code, we should be careful about how they are displayed. The safest option is to render SVGs as an `img` (e.g. `<img src="circle.svg" />`); when SVGs are rendered like this, browsers will block code execution. Unfortunately, it also means that the SVGs cannot be styled with external CSS (e.g. applying `fill: red` to the `img` won’t do anything.)
+In general, these filters shouldn’t be used unless absolutely necessary. The main use case for the filters is to apply a color to an unsafe (as in: user-provided) SVG. Since SVGs can contain arbitrary code, we should be careful about how they are displayed. The safest option is to render SVGs as an `img` (for example `<img src="circle.svg" alt="" />`); when SVGs are rendered like this, browsers will block code execution. Unfortunately, it also means that the SVGs cannot be styled with external CSS (applying `fill: red` to the `img` won’t do anything.)
 
 CSS filters allow us the safety of rendering SVGs inside `img` elements, but still give us control over their appearance.
 
