@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 - Updated devDependencies ([#45](https://github.com/Shopify/polaris-tokens/pull/45))
+- Added `base-tight` to the spacing map ([#48](https://github.com/Shopify/polaris-tokens/pull/48))
 
 ## [2.1.1] - 2019-01-04
 

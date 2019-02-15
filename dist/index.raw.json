@@ -603,6 +603,13 @@
       "value": "8px",
       "originalValue": "8px"
     },
+    "spacing-base-tight": {
+      "type": "number",
+      "category": "spacing",
+      "name": "spacing-base-tight",
+      "value": "12px",
+      "originalValue": "12px"
+    },
     "spacing-base": {
       "type": "number",
       "category": "spacing",

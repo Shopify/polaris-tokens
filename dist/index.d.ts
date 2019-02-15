@@ -60,6 +60,7 @@ declare interface Tokens {
   fontStackBase: "-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif";
   fontStackMonospace: "Monaco, Consolas, 'Lucida Console', monospace";
   spacingBase: "16px";
+  spacingBaseTight: "12px";
   spacingExtraLoose: "32px";
   spacingExtraTight: "4px";
   spacingLoose: "20px";
