@@ -5,6 +5,8 @@ props:
     value: 4px
   - name: spacing-tight
     value: 8px
+  - name: spacing-base-tight
+    value: 12px
   - name: spacing-base
     value: 16px
   - name: spacing-loose
