@@ -127,7 +127,7 @@ polaris_colors['color-blue-lighter'] # "rgb(235, 245, 250)"
 
 Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) (`filter`) value as part of [their metadata](https://github.com/Shopify/polaris-tokens/blob/master/data/color-metadata.yml). When this filter is applied to an element, it will change that element’s color to _approximate_ the target token color.
 
-```
+```html
 <div>
   No background, no filter
 </div>
@@ -151,7 +151,7 @@ In general, these filters shouldn’t be used unless absolutely necessary. The m
 
 CSS filters allow us the safety of rendering SVGs inside `img` elements, but still give us control over their appearance.
 
-```
+```html
 <div>
   <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>" alt="" /> black circle, no filter
 </div>
@@ -164,7 +164,7 @@ CSS filters allow us the safety of rendering SVGs inside `img` elements, but sti
 
 Note that _all_ filled areas of an SVG will change color with this approach, including borders/strokes. For that reason it should only be used with monochromatic SVGs.
 
-```
+```html
 <div>
   <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>" alt="" /> black circle with green border, no filter
 </div>
