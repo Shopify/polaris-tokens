@@ -136,15 +136,11 @@ Color tokens include a [CSS Filter](https://developer.mozilla.org/en-US/docs/Web
   White background, no filter
 </div>
 
-<div
-  style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)"
->
+<div style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)">
   No background, red filter
 </div>
 
-<div
-  style="background-color: #fff; filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)"
->
+<div style="background-color: #fff; filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)">
   White background, red filter
 </div>
 ```
@@ -157,19 +153,10 @@ CSS filters allow us the safety of rendering SVGs inside `img` elements, but sti
 
 ```html
 <div>
-  <img
-    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>"
-    alt=""
-  />
-  black circle, no filter
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>" alt="" /> black circle, no filter
 </div>
 <div>
-  <img
-    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>"
-    style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)"
-    alt=""
-  />
-  black circle, red filter
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' /></svg>" style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)" alt="" /> black circle, red filter
 </div>
 ```
 
@@ -179,19 +166,10 @@ Note that _all_ filled areas of an SVG will change color with this approach, inc
 
 ```html
 <div>
-  <img
-    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>"
-    alt=""
-  />
-  black circle with green border, no filter
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>" alt="" /> black circle with green border, no filter
 </div>
 <div>
-  <img
-    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>"
-    style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)"
-    alt=""
-  />
-  black circle with green border, red filter
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='20' cy='20' r='16' stroke='green' stroke-width='4' /></svg>" style="filter: brightness(0) saturate(100%) invert(28%) sepia(67%) saturate(3622%) hue-rotate(353deg) brightness(89%) contrast(95%)" alt="" /> black circle with green border, red filter
 </div>
 ```
 
