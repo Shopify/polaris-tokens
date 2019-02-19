@@ -92,10 +92,10 @@ a {
 }
 
 // Using the map for a specific type of tokens (here: spacing)
-@import '~@shopify/polaris-tokens/dist/spacing.map';
+@import '~@shopify/polaris-tokens/dist/spacing.spacing-map';
 
 a {
-  color: map-get($polaris-spacing-map, 'spacing-loose');
+  color: map-get($polaris-spacing-map, 'loose');
 }
 ```
 

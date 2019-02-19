@@ -13,6 +13,10 @@ theo.registerValueTransform(
 );
 theo.registerTransform('filter', ['filter']);
 
+theo.registerFormat(
+  'spacing-map.scss',
+  require('./formats/spacing-map.scss.js'),
+);
 theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
@@ -35,6 +39,8 @@ const colorFormats = [
   {transformType: 'web', formatType: 'sketchpalette'},
   {transformType: 'web', formatType: 'ase.json'},
 ];
+
+const spacingFormats = [{transformType: 'web', formatType: 'spacing-map.scss'}];
 
 const colorFilterFormats = [
   'scss',
@@ -116,6 +122,25 @@ gulp.task('color-filters', () =>
   ),
 );
 
+gulp.task('spacing-formats', () =>
+  spacingFormats.map(({transformType, formatType}) =>
+    gulp
+      .src('tokens/spacing.yml')
+      .pipe($.rename(addPrefix))
+      .pipe(
+        $.theo({
+          transform: {type: transformType, includeMeta: true},
+          format: {type: formatType},
+        }),
+      )
+      .pipe($.rename(removePrefix))
+      .on('error', (err) => {
+        throw new Error(err);
+      })
+      .pipe(gulp.dest('dist')),
+  ),
+);
+
 gulp.task('color-formats', () =>
   colorFormats.map(({transformType, formatType}) =>
     gulp
@@ -173,24 +198,34 @@ gulp.task('docs', ['docs:styles'], () => {
 });
 
 // Static Server (development)
-gulp.task('watch', runSequence(['web-formats', 'color-formats']), () => {
-  runSequence('docs');
-  browserSync({
-    open: false,
-    notify: false,
-    server: 'docs',
-  });
+gulp.task(
+  'watch',
+  runSequence(['web-formats', 'spacing-formats', 'color-formats']),
+  () => {
+    runSequence('docs');
+    browserSync({
+      open: false,
+      notify: false,
+      server: 'docs',
+    });
 
-  gulp.watch(
-    ['tokens/*.yml'],
-    ['web-formats', 'typings', 'color-formats', 'docs'],
-  );
-  gulp.watch('docs/**/*.scss', ['docs:styles']);
-  gulp.watch(['formats/**/*.*', 'gulpfile.js'], $.restart);
-  gulp.watch(['docs/**/*.html']).on('change', browserSync.reload);
-});
+    gulp.watch(
+      ['tokens/*.yml'],
+      ['web-formats', 'typings', 'spacing-formats', 'color-formats', 'docs'],
+    );
+    gulp.watch('docs/**/*.scss', ['docs:styles']);
+    gulp.watch(['formats/**/*.*', 'gulpfile.js'], $.restart);
+    gulp.watch(['docs/**/*.html']).on('change', browserSync.reload);
+  },
+);
 
 gulp.task(
   'default',
-  runSequence(['web-formats', 'typings', 'color-filters', 'color-formats']),
+  runSequence([
+    'web-formats',
+    'typings',
+    'color-filters',
+    'spacing-formats',
+    'color-formats',
+  ]),
 );
