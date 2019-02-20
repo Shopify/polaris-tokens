@@ -62,6 +62,7 @@ spacing.json
 spacing.map.scss
 spacing.raw.json
 spacing.scss
+spacing.spacing-map.scss
 typography.common.js
 typography.custom-properties.css
 typography.json

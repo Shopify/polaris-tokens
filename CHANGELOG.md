@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.3.0] - 2019-02-19
+
+- Added spacing-map format, usable as `spacing.spacing-map.scss` ([#52](https://github.com/Shopify/polaris-tokens/pull/52))
+
 ## [2.2.0] - 2019-02-19
 
 - Updated devDependencies ([#45](https://github.com/Shopify/polaris-tokens/pull/45))
@@ -67,7 +71,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.2.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.3.0...HEAD
+[2.3.0]: https://github.com/Shopify/polaris-tokens/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/Shopify/polaris-tokens/compare/v2.1.1...v2.2.0
 [2.1.1]: https://github.com/Shopify/polaris-tokens/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/Shopify/polaris-tokens/compare/v2.0.0...v2.1.0
