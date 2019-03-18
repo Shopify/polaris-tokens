@@ -46,6 +46,12 @@ colors.json
 colors.map.scss
 colors.raw.json
 colors.scss
+duration.common.js
+duration.custom-properties.css
+duration.json
+duration.map.scss
+duration.raw.json
+duration.scss
 index.common.js
 index.custom-properties.css
 index.d.ts

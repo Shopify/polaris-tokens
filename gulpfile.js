@@ -225,6 +225,7 @@ gulp.task(
     'web-formats',
     'typings',
     'color-filters',
+
     'spacing-formats',
     'color-formats',
   ]),

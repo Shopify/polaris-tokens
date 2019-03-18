@@ -1,0 +1,16 @@
+props:
+  - name: duration-none
+    value: 0
+  - name: duration-fast
+    value: 100
+  - name: duration-base
+    value: 200
+  - name: duration-slow
+    value: 300
+  - name: duration-slower
+    value: 400
+  - name: duration-slowest
+    value: 500
+global:
+  type: number
+  category: transition-duration

@@ -582,6 +582,48 @@
       "value": "rgb(255, 255, 255)",
       "originalValue": "{!color-white}"
     },
+    "duration-none": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-none",
+      "value": 0,
+      "originalValue": 0
+    },
+    "duration-fast": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-fast",
+      "value": 100,
+      "originalValue": 100
+    },
+    "duration-base": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-base",
+      "value": 200,
+      "originalValue": 200
+    },
+    "duration-slow": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-slow",
+      "value": 300,
+      "originalValue": 300
+    },
+    "duration-slower": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-slower",
+      "value": 400,
+      "originalValue": 400
+    },
+    "duration-slowest": {
+      "type": "number",
+      "category": "transition-duration",
+      "name": "duration-slowest",
+      "value": 500,
+      "originalValue": 500
+    },
     "spacing-none": {
       "type": "number",
       "category": "spacing",
