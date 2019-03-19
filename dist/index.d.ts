@@ -57,12 +57,12 @@ declare interface Tokens {
   colorYellowLight: "rgb(255, 234, 138)";
   colorYellowLighter: "rgb(252, 241, 205)";
   colorYellowText: "rgb(89, 81, 48)";
-  durationBase: 200;
-  durationFast: 100;
-  durationNone: 0;
-  durationSlow: 300;
-  durationSlower: 400;
-  durationSlowest: 500;
+  durationBase: "200ms";
+  durationFast: "100ms";
+  durationNone: "0ms";
+  durationSlow: "300ms";
+  durationSlower: "400ms";
+  durationSlowest: "500ms";
   fontStackBase: "-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif";
   fontStackMonospace: "Monaco, Consolas, 'Lucida Console', monospace";
   spacingBase: "16px";
