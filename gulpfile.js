@@ -3,6 +3,7 @@ const browserSync = require('browser-sync');
 const theo = require('theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const runSequence = require('run-sequence');
+const ms = require('ms');
 
 const $ = gulpLoadPlugins();
 
@@ -14,15 +15,13 @@ theo.registerValueTransform(
 
 theo.registerTransform('filter', ['filter']);
 
-const removeUnit = (value) => Number(value.replace(/[^0-9.]/g, ''));
-
 theo.registerValueTransform(
-  'timing/unitless',
+  'timing/ms-unitless',
   (prop) => prop.get('type') === 'time',
-  (prop) => removeUnit(prop.get('value')),
+  (prop) => (prop.get('value') === 0 ? 0 : ms(prop.get('value'))),
 );
 
-theo.registerTransform('web/js', ['color/rgb', 'timing/unitless']);
+theo.registerTransform('web/js', ['color/rgb', 'timing/ms-unitless']);
 
 theo.registerFormat(
   'spacing-map.scss',

@@ -1,6 +1,6 @@
 props:
   - name: duration-none
-    value: 0ms
+    value: !!int 0
   - name: duration-fast
     value: 100ms
   - name: duration-base

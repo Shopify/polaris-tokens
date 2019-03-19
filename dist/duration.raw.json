@@ -5,8 +5,8 @@
       "type": "time",
       "category": "time",
       "name": "duration-none",
-      "value": "0ms",
-      "originalValue": "0ms"
+      "value": 0,
+      "originalValue": 0
     },
     "duration-fast": {
       "type": "time",
