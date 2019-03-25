@@ -40,7 +40,7 @@ const webFormats = [
   {transformType: 'web/js', formatType: 'json'},
   {transformType: 'web', formatType: 'custom-properties.css'},
   {transformType: 'web', formatType: 'map.scss'},
-  {transformType: 'raw', formatType: 'raw.json'},
+  {transformType: 'web', formatType: 'raw.json'},
 ];
 
 const colorFormats = [
