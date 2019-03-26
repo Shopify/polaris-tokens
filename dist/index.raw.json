@@ -583,46 +583,46 @@
       "originalValue": "{!color-white}"
     },
     "duration-none": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-none",
       "value": 0,
       "originalValue": 0
     },
     "duration-fast": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-fast",
-      "value": 100,
-      "originalValue": 100
+      "value": "100ms",
+      "originalValue": "100ms"
     },
     "duration-base": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-base",
-      "value": 200,
-      "originalValue": 200
+      "value": "200ms",
+      "originalValue": "200ms"
     },
     "duration-slow": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-slow",
-      "value": 300,
-      "originalValue": 300
+      "value": "300ms",
+      "originalValue": "300ms"
     },
     "duration-slower": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-slower",
-      "value": 400,
-      "originalValue": 400
+      "value": "400ms",
+      "originalValue": "400ms"
     },
     "duration-slowest": {
-      "type": "number",
-      "category": "transition-duration",
+      "type": "time",
+      "category": "time",
       "name": "duration-slowest",
-      "value": 500,
-      "originalValue": 500
+      "value": "500ms",
+      "originalValue": "500ms"
     },
     "spacing-none": {
       "type": "number",
