@@ -99,7 +99,7 @@ gulp.task('typings', () =>
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'web'},
+        transform: {type: 'web/js'},
         format: {type: 'd.ts'},
       }),
     )
