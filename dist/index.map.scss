@@ -195,9 +195,18 @@ $polaris-index-map: (
     32px,
   ),
   'font-stack-base': (
-    "-apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', sans-serif",
+    -apple-system,
+    BlinkMacSystemFont,
+    'San Francisco',
+    Roboto,
+    'Segoe UI',
+    'Helvetica Neue',
+    sans-serif,
   ),
   'font-stack-monospace': (
-    "Monaco, Consolas, 'Lucida Console', monospace",
+    Monaco,
+    Consolas,
+    'Lucida Console',
+    monospace,
   ),
 );

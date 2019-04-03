@@ -10,7 +10,7 @@ body {
   text-transform: initial;
   letter-spacing: initial;
   color: $color-ink;
-  font-family: unquote($font-stack-base);
+  font-family: $font-stack-base;
 }
 
 @media (min-width: 40em) {
@@ -124,7 +124,7 @@ thead th:first-child {
 }
 
 code {
-  font-family: unquote($font-stack-monospace);
+  font-family: $font-stack-monospace;
 }
 
 .metric-box,

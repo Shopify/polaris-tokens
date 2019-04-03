@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 - Added color names to the Sketch palette ([#53](https://github.com/Shopify/polaris-tokens/pull/53))
+- Fixed a bug where the font family value was wrapped in quotes ([#58](https://github.com/Shopify/polaris-tokens/pull/58))
 
 ## [2.3.0] - 2019-02-19
 

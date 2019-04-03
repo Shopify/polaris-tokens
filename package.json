@@ -54,7 +54,7 @@
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
-    "@shopify/sewing-kit": "^0.69.0",
+    "@shopify/sewing-kit": "^0.79.3",
     "ase-util": "^1.0.1",
     "ase-utils": "^0.1.1",
     "browser-sync": "^2.26.3",
