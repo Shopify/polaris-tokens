@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.4.0] - 2019-04-04
+
 - Added color names to the Sketch palette ([#53](https://github.com/Shopify/polaris-tokens/pull/53))
 - Fixed a bug where the font family value was wrapped in quotes ([#58](https://github.com/Shopify/polaris-tokens/pull/58))
 
@@ -74,7 +76,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.3.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.4.0...HEAD
+[2.4.0]: https://github.com/Shopify/polaris-tokens/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/Shopify/polaris-tokens/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/Shopify/polaris-tokens/compare/v2.1.1...v2.2.0
 [2.1.1]: https://github.com/Shopify/polaris-tokens/compare/v2.1.0...v2.1.1
