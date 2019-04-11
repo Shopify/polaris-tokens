@@ -1,0 +1,16 @@
+props:
+  - name: duration-none
+    value: 0
+  - name: duration-fast
+    value: 100ms
+  - name: duration-base
+    value: 200ms
+  - name: duration-slow
+    value: 300ms
+  - name: duration-slower
+    value: 400ms
+  - name: duration-slowest
+    value: 500ms
+global:
+  type: time
+  category: time

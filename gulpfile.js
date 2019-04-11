@@ -3,6 +3,7 @@ const browserSync = require('browser-sync');
 const theo = require('theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const runSequence = require('run-sequence');
+const ms = require('ms');
 
 const $ = gulpLoadPlugins();
 
@@ -11,7 +12,16 @@ theo.registerValueTransform(
   (prop) => prop.get('type') === 'color',
   (prop) => prop.getIn(['meta', 'filter']) || 'none',
 );
+
 theo.registerTransform('filter', ['filter']);
+
+theo.registerValueTransform(
+  'timing/ms-unitless',
+  (prop) => prop.get('type') === 'time',
+  (prop) => (prop.get('value') === 0 ? 0 : ms(prop.get('value'))),
+);
+
+theo.registerTransform('web/js', ['color/rgb', 'timing/ms-unitless']);
 
 theo.registerFormat(
   'spacing-map.scss',
@@ -25,12 +35,12 @@ theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
 const webFormats = [
-  'scss',
-  'common.js',
-  'json',
-  'custom-properties.css',
-  'map.scss',
-  'raw.json',
+  {transformType: 'web', formatType: 'scss'},
+  {transformType: 'web/js', formatType: 'common.js'},
+  {transformType: 'web/js', formatType: 'json'},
+  {transformType: 'web', formatType: 'custom-properties.css'},
+  {transformType: 'web', formatType: 'map.scss'},
+  {transformType: 'web', formatType: 'raw.json'},
 ];
 
 const colorFormats = [
@@ -64,17 +74,15 @@ const removePrefix = (gulpRenameOptions) => {
   return gulpRenameOptions;
 };
 
-const filterRename = {basename: 'color-filters'};
-
 gulp.task('web-formats', () =>
-  webFormats.map((format) =>
+  webFormats.map(({transformType, formatType}) =>
     gulp
       .src('tokens/*.yml')
       .pipe($.rename(addPrefix))
       .pipe(
         $.theo({
-          transform: {type: 'web'},
-          format: {type: format},
+          transform: {type: transformType},
+          format: {type: formatType},
         }),
       )
       .pipe($.rename(removePrefix))
@@ -91,7 +99,7 @@ gulp.task('typings', () =>
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'web'},
+        transform: {type: 'web/js'},
         format: {type: 'd.ts'},
       }),
     )
@@ -101,6 +109,8 @@ gulp.task('typings', () =>
     })
     .pipe(gulp.dest('dist')),
 );
+
+const filterRename = {basename: 'color-filters'};
 
 gulp.task('color-filters', () =>
   colorFilterFormats.map((format) =>

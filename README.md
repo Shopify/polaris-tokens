@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/85783/39013335-ebf76f5e-43cb-11e8-81f2-706259125897.png" alt="" align="center" />
 
-<h3 align="center">Colors, spacing, typography for all platforms</h3>
+<h3 align="center">Colors, spacing, animation, and typography for all platforms</h3>
 
 <p align="center"><em>JavaScript · JSON · CSS · SCSS · Android · Sketch · macOS · Adobe Swatch</em></p>
 

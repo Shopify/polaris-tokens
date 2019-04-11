@@ -2,6 +2,7 @@
 # Useful for documentation generation
 imports:
   - ./colors.yml
+  - ./duration.yml
   - ./spacing.yml
   - ./typography.yml
 global:
