@@ -153,7 +153,7 @@ Color names, values and descriptions are managed in [Invision Design System Mana
 
     ![ ](https://user-images.githubusercontent.com/85783/38760487-60970130-3f30-11e8-8a45-e02b7c8c4b46.png)
 
-3.  Finally, **[open a new issue][issue-temlpate-color-updated]**
+3.  Finally, **[open a new issue][issue-template-color-updated]**
 
 ### Changing a color’s name
 
@@ -188,8 +188,6 @@ yarn dist
 yarn test -u
 ```
 
-[issue-template-color-updated]: https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md&title=Update%20colors%20🎨
-
 ## Releasing
 
 When releasing a new version, follow these steps on `master`:
@@ -198,3 +196,5 @@ When releasing a new version, follow these steps on `master`:
 2.  Run `yarn version` and assign a new version
 3.  Run `git push --follow-tags`
 4.  [Deploy on Shipit](https://shipit.shopify.io/shopify/polaris-tokens/production)
+
+[issue-template-color-updated]: https://github.com/Shopify/polaris-tokens/issues/new?template=update-colors.md&title=Update%20colors%20🎨
