@@ -1,6 +1,6 @@
 declare interface Tokens {
   colorBlack: "rgb(0, 0, 0)";
-  colorBlue: "rgb(0, 122, 206)";
+  colorBlue: "rgb(0, 111, 187)";
   colorBlueDark: "rgb(8, 78, 138)";
   colorBlueDarker: "rgb(0, 20, 41)";
   colorBlueLight: "rgb(180, 225, 250)";
