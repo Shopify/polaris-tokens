@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.6.0] - 2019-06-06
+
+- Update `color-blue` to `#006fbb` from `#007ace` for accessibility ([#63](https://github.com/Shopify/polaris-tokens/pull/63))
+- Add missing `colorYellowDark` values from ([#44](https://github.com/Shopify/polaris-tokens/pull/44))
+
 ## [2.5.0] - 2019-04-19
 
 - Duration tokens (with `type: time`) are treated as unitless and converted to milliseconds in JavaScript formats
