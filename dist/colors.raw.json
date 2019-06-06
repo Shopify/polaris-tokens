@@ -19,7 +19,7 @@
       "value": "#bbe5b3"
     },
     "color-blue": {
-      "value": "#007ace"
+      "value": "#006fbb"
     },
     "color-indigo-light": {
       "value": "#b3bcf5"
@@ -285,7 +285,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-blue",
-      "value": "rgb(0, 122, 206)",
+      "value": "rgb(0, 111, 187)",
       "originalValue": "{!color-blue}"
     },
     "color-blue-light": {

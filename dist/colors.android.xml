@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <color name="polaris_color_black">#ff000000</color>
-    <color name="polaris_color_blue">#ff007ace</color>
+    <color name="polaris_color_blue">#ff006fbb</color>
     <color name="polaris_color_blue_dark">#ff084e8a</color>
     <color name="polaris_color_blue_darker">#ff001429</color>
     <color name="polaris_color_blue_light">#ffb4e1fa</color>

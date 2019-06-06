@@ -64,7 +64,7 @@ module.exports = {
   colorYellowDarker:
     'brightness(0) saturate(100%) invert(19%) sepia(75%) saturate(981%) hue-rotate(17deg) brightness(103%) contrast(103%)',
   colorYellowDark:
-    'brightness(0) saturate(100%) invert(45%) sepia(48%) saturate(6022%) hue-rotate(31deg) brightness(93%) contrast(80%)',
+    'brightness(0) saturate(100%) invert(37%) sepia(51%) saturate(709%) hue-rotate(0deg) brightness(93%) contrast(89%)',
   colorYellow:
     'brightness(0) saturate(100%) invert(65%) sepia(91%) saturate(530%) hue-rotate(5deg) brightness(100%) contrast(100%)',
   colorYellowLight:

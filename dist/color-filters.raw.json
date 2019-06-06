@@ -19,7 +19,7 @@
       "value": "#bbe5b3"
     },
     "color-blue": {
-      "value": "#007ace"
+      "value": "#006fbb"
     },
     "color-indigo-light": {
       "value": "#b3bcf5"
@@ -404,7 +404,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-yellow-dark",
-      "value": "brightness(0) saturate(100%) invert(45%) sepia(48%) saturate(6022%) hue-rotate(31deg) brightness(93%) contrast(80%)",
+      "value": "brightness(0) saturate(100%) invert(37%) sepia(51%) saturate(709%) hue-rotate(0deg) brightness(93%) contrast(89%)",
       "originalValue": "{!color-yellow-dark}"
     },
     "color-yellow": {

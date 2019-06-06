@@ -14,7 +14,7 @@ module.exports = {
   colorBlueText: 'rgb(62, 78, 87)',
   colorBlueDarker: 'rgb(0, 20, 41)',
   colorBlueDark: 'rgb(8, 78, 138)',
-  colorBlue: 'rgb(0, 122, 206)',
+  colorBlue: 'rgb(0, 111, 187)',
   colorBlueLight: 'rgb(180, 225, 250)',
   colorBlueLighter: 'rgb(235, 245, 250)',
   colorTealText: 'rgb(64, 83, 82)',

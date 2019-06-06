@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn get-tokens-from-invision-dsm' to generate a new version
-# Last updated: 2019-01-04T14:40:34.360Z
+# Last updated: 2019-06-04T20:31:34.389Z
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
@@ -18,7 +18,7 @@ aliases:
   color-blue-text: '#3e4e57'
   color-blue-darker: '#001429'
   color-blue-dark: '#084e8a'
-  color-blue: '#007ace'
+  color-blue: '#006fbb'
   color-blue-light: '#b4e1fa'
   color-blue-lighter: '#ebf5fa'
   color-teal-text: '#405352'
@@ -297,8 +297,8 @@ props:
     meta:
       friendlyName: Yellow Dark
       filter: >-
-        brightness(0) saturate(100%) invert(45%) sepia(48%) saturate(6022%)
-        hue-rotate(31deg) brightness(93%) contrast(80%)
+        brightness(0) saturate(100%) invert(37%) sepia(51%) saturate(709%)
+        hue-rotate(0deg) brightness(93%) contrast(89%)
   - name: color-yellow
     value: '{!color-yellow}'
     meta:
