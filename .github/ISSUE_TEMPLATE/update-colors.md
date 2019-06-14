@@ -1,4 +1,4 @@
-🎨 Colors were updated on <https://shopify.invisionapp.com/dsm/shopify/design-tokens>, please update this repository!
+🎨 Colors were updated in the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1HzVgcxnnOCeB2zI46gcSd5fPFUJ2R03CSldx_SKQQwA/edit#gid=0), please update this repository!
 
 ### Changes
 
@@ -11,13 +11,13 @@
   dev clone polaris-tokens
   dev up
   ```
-- [ ] Fetch tokens from Invision DSM (Design System Manager)
+- [ ] Fetch tokens from Google Spreadsheets
   ```
   dev cd polaris-tokens
   git checkout master
   git pull
   git checkout -B update-color-tokens
-  yarn getTokensFromInvisionDSM
+  yarn get-tokens-from-google-spreadsheets
   yarn dist
   yarn test -u
   ```
@@ -29,4 +29,4 @@
   ```
 - [ ] [Open a pull request][pr-link]
 
-[pr-link]: https://github.com/Shopify/polaris-tokens/compare/master...update-color-tokens?expand=1&title=Update%20color%20tokens&body=Fixes%20%23XXX%20%3C!--%20replace%20XXX%20with%20the%20id%20of%20the%20original%20issue%20--%3E&assignees=kaelig,amrocha,tmlayton
+[pr-link]: https://github.com/Shopify/polaris-tokens/compare/master...update-color-tokens?expand=1&title=Update%20color%20tokens&body=Fixes%20%23XXX%20%3C!--%20replace%20XXX%20with%20the%20id%20of%20the%20original%20issue%20--%3E&assignees=kaelig,tmlayton,alex-page
