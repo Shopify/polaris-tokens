@@ -285,7 +285,7 @@
       "type": "color",
       "category": "background-color",
       "name": "color-blue",
-      "value": "brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(2885%) hue-rotate(190deg) brightness(99%) contrast(101%);",
+      "value": "brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(2885%) hue-rotate(190deg) brightness(99%) contrast(101%)",
       "originalValue": "{!color-blue}"
     },
     "color-blue-light": {

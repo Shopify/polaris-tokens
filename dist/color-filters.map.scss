@@ -61,7 +61,7 @@ $polaris-color-filters-map: (
   ),
   'color-blue': (
     brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(2885%)
-      hue-rotate(190deg) brightness(99%) contrast(101%) ;,
+      hue-rotate(190deg) brightness(99%) contrast(101%),
   ),
   'color-blue-light': (
     brightness(0) saturate(100%) invert(80%) sepia(7%) saturate(1832%)
