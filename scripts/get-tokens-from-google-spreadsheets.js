@@ -39,9 +39,10 @@ const buildTheoColorTokens = (colors) => ({
     }
 
     color.meta = {
-      friendlyName: rawColor.gsx$friendlyname.$t,
+      friendlyName: rawColor['gsx$meta.friendlyname'].$t,
+      camelCaseName: rawColor['gsx$meta.camelcasename'].$t,
       filter: rawColor['gsx$meta.filter'].$t,
-      description: rawColor.gsx$description.$t,
+      description: rawColor['gsx$meta.description'].$t,
     };
 
     return color;
