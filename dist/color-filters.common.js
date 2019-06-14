@@ -30,7 +30,7 @@ module.exports = {
   colorBlueDark:
     'brightness(0) saturate(100%) invert(22%) sepia(70%) saturate(1308%) hue-rotate(182deg) brightness(94%) contrast(101%)',
   colorBlue:
-    'brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(1186%) hue-rotate(181deg) brightness(91%) contrast(103%)',
+    'brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(2885%) hue-rotate(190deg) brightness(99%) contrast(101%);',
   colorBlueLight:
     'brightness(0) saturate(100%) invert(80%) sepia(7%) saturate(1832%) hue-rotate(178deg) brightness(108%) contrast(96%)',
   colorBlueLighter:

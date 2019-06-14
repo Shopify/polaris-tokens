@@ -1,7 +1,7 @@
 # DO NOT MANUALLY EDIT THIS FILE
 # This file was automatically generated
 # Run 'yarn get-tokens-from-invision-dsm' to generate a new version
-# Last updated: 2019-06-04T20:31:34.389Z
+# Last updated: 2019-06-14T05:08:04.165Z
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
@@ -175,8 +175,8 @@ props:
     meta:
       friendlyName: Blue
       filter: >-
-        brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(1186%)
-        hue-rotate(181deg) brightness(91%) contrast(103%)
+        brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(2885%)
+        hue-rotate(190deg) brightness(99%) contrast(101%);
   - name: color-blue-light
     value: '{!color-blue-light}'
     meta:
