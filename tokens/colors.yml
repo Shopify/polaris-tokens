@@ -1,7 +1,3 @@
-# DO NOT MANUALLY EDIT THIS FILE
-# This file was automatically generated
-# Run 'yarn get-tokens-from-invision-dsm' to generate a new version
-# Last updated: 2019-06-14T13:58:43.146Z
 aliases:
   color-purple-text: '#50495a'
   color-purple-darker: '#230051'
@@ -64,12 +60,12 @@ aliases:
 props:
   - name: color-purple-text
     value: '{!color-purple-text}'
+    category: text-color
     meta:
       friendlyName: Purple Text
       filter: >-
         brightness(0) saturate(100%) invert(29%) sepia(3%) saturate(2843%)
         hue-rotate(223deg) brightness(92%) contrast(86%)
-    category: text-color
   - name: color-purple-darker
     value: '{!color-purple-darker}'
     meta:
@@ -107,12 +103,12 @@ props:
         hue-rotate(219deg) brightness(110%) contrast(98%)
   - name: color-indigo-text
     value: '{!color-indigo-text}'
+    category: text-color
     meta:
       friendlyName: Indigo Text
       filter: >-
         brightness(0) saturate(100%) invert(24%) sepia(11%) saturate(1035%)
         hue-rotate(195deg) brightness(97%) contrast(94%)
-    category: text-color
   - name: color-indigo-darker
     value: '{!color-indigo-darker}'
     meta:
@@ -150,12 +146,12 @@ props:
         hue-rotate(179deg) brightness(100%) contrast(96%)
   - name: color-blue-text
     value: '{!color-blue-text}'
+    category: text-color
     meta:
       friendlyName: Blue Text
       filter: >-
         brightness(0) saturate(100%) invert(27%) sepia(13%) saturate(709%)
         hue-rotate(158deg) brightness(96%) contrast(89%)
-    category: text-color
   - name: color-blue-darker
     value: '{!color-blue-darker}'
     meta:
@@ -193,12 +189,12 @@ props:
         hue-rotate(175deg) brightness(103%) contrast(96%)
   - name: color-teal-text
     value: '{!color-teal-text}'
+    category: text-color
     meta:
       friendlyName: Teal Text
       filter: >-
         brightness(0) saturate(100%) invert(31%) sepia(11%) saturate(665%)
         hue-rotate(128deg) brightness(94%) contrast(93%)
-    category: text-color
   - name: color-teal-darker
     value: '{!color-teal-darker}'
     meta:
@@ -236,12 +232,12 @@ props:
         hue-rotate(173deg) brightness(114%) contrast(92%)
   - name: color-green-text
     value: '{!color-green-text}'
+    category: text-color
     meta:
       friendlyName: Green Text
       filter: >-
         brightness(0) saturate(100%) invert(30%) sepia(8%) saturate(1010%)
         hue-rotate(63deg) brightness(91%) contrast(91%)
-    category: text-color
   - name: color-green-darker
     value: '{!color-green-darker}'
     meta:
@@ -279,12 +275,12 @@ props:
         hue-rotate(46deg) brightness(108%) contrast(89%)
   - name: color-yellow-text
     value: '{!color-yellow-text}'
+    category: text-color
     meta:
       friendlyName: Yellow Text
       filter: >-
         brightness(0) saturate(100%) invert(28%) sepia(42%) saturate(413%)
         hue-rotate(11deg) brightness(97%) contrast(91%)
-    category: text-color
   - name: color-yellow-darker
     value: '{!color-yellow-darker}'
     meta:
@@ -322,12 +318,12 @@ props:
         hue-rotate(357deg) brightness(103%) contrast(98%)
   - name: color-orange-text
     value: '{!color-orange-text}'
+    category: text-color
     meta:
       friendlyName: Orange Text
       filter: >-
         brightness(0) saturate(100%) invert(23%) sepia(18%) saturate(1092%)
         hue-rotate(348deg) brightness(99%) contrast(84%)
-    category: text-color
   - name: color-orange-darker
     value: '{!color-orange-darker}'
     meta:
@@ -365,12 +361,12 @@ props:
         hue-rotate(312deg) brightness(107%) contrast(98%)
   - name: color-red-text
     value: '{!color-red-text}'
+    category: text-color
     meta:
       friendlyName: Red Text
       filter: >-
         brightness(0) saturate(100%) invert(22%) sepia(9%) saturate(2068%)
         hue-rotate(325deg) brightness(92%) contrast(83%)
-    category: text-color
   - name: color-red-darker
     value: '{!color-red-darker}'
     meta:
