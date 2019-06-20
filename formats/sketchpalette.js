@@ -12,16 +12,19 @@ function convertToSketchPaletteColor(input) {
   };
 }
 
+function friendlyName(propName) {
+  return propName
+    .replace(/^color-/, '')
+    .replace(/-/g, ' ')
+    .replace(/(?<=^| )[a-z]/g, (letter) => letter.toUpperCase());
+}
+
 const convertColorArray = (result) => {
-  const {props} = result.toJS();
-  return (
-    props
-      // Convert each color token into a Sketch-friendly color format
-      .map((prop) => ({
-        name: prop.meta.friendlyName,
-        ...convertToSketchPaletteColor(prop.value),
-      }))
-  );
+  // Convert each color token into a Sketch-friendly color format
+  return result.toJS().props.map((prop) => ({
+    name: friendlyName(prop.name),
+    ...convertToSketchPaletteColor(prop.value),
+  }));
 };
 
 module.exports = (result) =>
