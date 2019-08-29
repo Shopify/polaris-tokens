@@ -1,0 +1,13 @@
+{
+  "size-navigationWidth": "240px",
+  "size-layoutWidth-oneHalf": "450px",
+  "size-layoutWidth-oneThird": "240px",
+  "size-layoutMinWidth-primary": "480px",
+  "size-layoutMaxWidth-primary": "662px",
+  "size-layoutMinWidth-secondary": "240px",
+  "size-layoutMaxWidth-secondary": "320px",
+  "size-pageIsPartiallyCondensed": "450px",
+  "size-pageIsNotCondensed": "680px",
+  "size-typographyIsCondensed": "640px",
+  "size-navigationIsVisible": "769px"
+}

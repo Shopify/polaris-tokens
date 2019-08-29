@@ -176,6 +176,27 @@
     }
   },
   "props": {
+    "borderWidth-1": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-1",
+      "value": "1px",
+      "originalValue": "1px"
+    },
+    "borderWidth-2": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-2",
+      "value": "2px",
+      "originalValue": "2px"
+    },
+    "borderWidth-3": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-3",
+      "value": "3px",
+      "originalValue": "3px"
+    },
     "color-purple-text": {
       "type": "color",
       "category": "text-color",
@@ -623,6 +644,153 @@
       "name": "duration-slowest",
       "value": "500ms",
       "originalValue": "500ms"
+    },
+    "easing-default": {
+      "type": "string",
+      "category": "easing",
+      "name": "easing-default",
+      "value": "cubic-bezier(0.4, 0.22, 0.28, 1)",
+      "originalValue": "cubic-bezier(0.4, 0.22, 0.28, 1)"
+    },
+    "easing-appear": {
+      "type": "string",
+      "category": "easing",
+      "name": "easing-appear",
+      "value": "cubic-bezier(0, 0, 0.13, 1)",
+      "originalValue": "cubic-bezier(0, 0, 0.13, 1)"
+    },
+    "easing-disappear": {
+      "type": "string",
+      "category": "easing",
+      "name": "easing-disappear",
+      "value": "cubic-bezier(0.5, 0.1, 1, 1)",
+      "originalValue": "cubic-bezier(0.5, 0.1, 1, 1)"
+    },
+    "radius-3": {
+      "type": "number",
+      "category": "radius",
+      "name": "radius-3",
+      "value": "3px",
+      "originalValue": "3px"
+    },
+    "radius-6": {
+      "type": "number",
+      "category": "radius",
+      "name": "radius-6",
+      "value": "6px",
+      "originalValue": "6px"
+    },
+    "shadow-faint": {
+      "type": "string",
+      "category": "drop-shadow",
+      "name": "shadow-faint",
+      "value": "( 0 1px 0 0 rgba(22, 29, 37, 0.05), )",
+      "originalValue": "( 0 1px 0 0 rgba(22, 29, 37, 0.05), )"
+    },
+    "shadow-default": {
+      "type": "string",
+      "category": "drop-shadow",
+      "name": "shadow-default",
+      "value": "( 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15), )",
+      "originalValue": "( 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15), )"
+    },
+    "shadow-deep": {
+      "type": "string",
+      "category": "drop-shadow",
+      "name": "shadow-deep",
+      "value": "( 0 0 0 1px rgba(6, 44, 82, 0.1), 0 2px 16px rgba(33, 43, 54, 0.08), )",
+      "originalValue": "( 0 0 0 1px rgba(6, 44, 82, 0.1), 0 2px 16px rgba(33, 43, 54, 0.08), )"
+    },
+    "shadow-layer": {
+      "type": "string",
+      "category": "drop-shadow",
+      "name": "shadow-layer",
+      "value": "( 0 31px 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08), )",
+      "originalValue": "( 0 31px 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08), )"
+    },
+    "shadow-transparent": {
+      "type": "string",
+      "category": "drop-shadow",
+      "name": "shadow-transparent",
+      "value": "0 0 0 0 transparent",
+      "originalValue": "0 0 0 0 transparent"
+    },
+    "size-navigationWidth": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-navigationWidth",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutWidth-oneHalf": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutWidth-oneHalf",
+      "value": "450px",
+      "originalValue": "450px"
+    },
+    "size-layoutWidth-oneThird": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutWidth-oneThird",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutMinWidth-primary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMinWidth-primary",
+      "value": "480px",
+      "originalValue": "480px"
+    },
+    "size-layoutMaxWidth-primary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMaxWidth-primary",
+      "value": "662px",
+      "originalValue": "662px"
+    },
+    "size-layoutMinWidth-secondary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMinWidth-secondary",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutMaxWidth-secondary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMaxWidth-secondary",
+      "value": "320px",
+      "originalValue": "320px"
+    },
+    "size-pageIsPartiallyCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-pageIsPartiallyCondensed",
+      "value": "450px",
+      "originalValue": "450px"
+    },
+    "size-pageIsNotCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-pageIsNotCondensed",
+      "value": "680px",
+      "originalValue": "680px"
+    },
+    "size-typographyIsCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-typographyIsCondensed",
+      "value": "640px",
+      "originalValue": "640px"
+    },
+    "size-navigationIsVisible": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-navigationIsVisible",
+      "value": "769px",
+      "originalValue": "769px"
     },
     "spacing-none": {
       "type": "number",

@@ -1,0 +1,14 @@
+props:
+  - name: shadow-faint
+    value: '( 0 1px 0 0 rgba(22, 29, 37, 0.05), )'
+  - name: shadow-default
+    value: '( 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15), )'
+  - name: shadow-deep
+    value: '( 0 0 0 1px rgba(6, 44, 82, 0.1), 0 2px 16px rgba(33, 43, 54, 0.08), )'
+  - name: shadow-layer
+    value: '( 0 31px 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08), )'
+  - name: shadow-transparent
+    value: '0 0 0 0 transparent'
+global:
+  type: string
+  category: drop-shadow

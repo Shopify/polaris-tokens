@@ -1,4 +1,7 @@
 :root {
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
   --color-purple-text: rgb(80, 73, 90);
   --color-purple-darker: rgb(35, 0, 81);
   --color-purple-dark: rgb(80, 36, 143);
@@ -63,6 +66,27 @@
   --duration-slow: 300ms;
   --duration-slower: 400ms;
   --duration-slowest: 500ms;
+  --easing-default: 'cubic-bezier(0.4, 0.22, 0.28, 1)';
+  --easing-appear: 'cubic-bezier(0, 0, 0.13, 1)';
+  --easing-disappear: 'cubic-bezier(0.5, 0.1, 1, 1)';
+  --radius-3: 3px;
+  --radius-6: 6px;
+  --shadow-faint: '( 0 1px 0 0 rgba(22, 29, 37, 0.05), )';
+  --shadow-default: '( 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15), )';
+  --shadow-deep: '( 0 0 0 1px rgba(6, 44, 82, 0.1), 0 2px 16px rgba(33, 43, 54, 0.08), )';
+  --shadow-layer: '( 0 31px 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08), )';
+  --shadow-transparent: '0 0 0 0 transparent';
+  --size-navigation-width: 240px;
+  --size-layout-width-one-half: 450px;
+  --size-layout-width-one-third: 240px;
+  --size-layout-min-width-primary: 480px;
+  --size-layout-max-width-primary: 662px;
+  --size-layout-min-width-secondary: 240px;
+  --size-layout-max-width-secondary: 320px;
+  --size-page-is-partially-condensed: 450px;
+  --size-page-is-not-condensed: 680px;
+  --size-typography-is-condensed: 640px;
+  --size-navigation-is-visible: 769px;
   --spacing-none: 0;
   --spacing-extra-tight: 4px;
   --spacing-tight: 8px;

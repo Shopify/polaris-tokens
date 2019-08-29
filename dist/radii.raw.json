@@ -1,0 +1,19 @@
+{
+  "aliases": {},
+  "props": {
+    "radius-3": {
+      "type": "number",
+      "category": "radius",
+      "name": "radius-3",
+      "value": "3px",
+      "originalValue": "3px"
+    },
+    "radius-6": {
+      "type": "number",
+      "category": "radius",
+      "name": "radius-6",
+      "value": "6px",
+      "originalValue": "6px"
+    }
+  }
+}

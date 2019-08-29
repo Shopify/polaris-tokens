@@ -1,8 +1,13 @@
 # List of all token files
 # Useful for documentation generation
 imports:
+  - ./borderWidths.yml
   - ./colors.yml
   - ./duration.yml
+  - ./easings.yml
+  - ./radii.yml
+  - ./shadows.yml
+  - ./sizes.yml
   - ./spacing.yml
   - ./typography.yml
 global:

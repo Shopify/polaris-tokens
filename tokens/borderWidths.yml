@@ -1,0 +1,10 @@
+props:
+  - name: borderWidth-1
+    value: 1px
+  - name: borderWidth-2
+    value: 2px
+  - name: borderWidth-3
+    value: 3px
+global:
+  type: number
+  category: sizing

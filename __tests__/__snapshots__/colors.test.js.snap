@@ -1924,6 +1924,9 @@ $color-white: rgb(255, 255, 255);
 
 exports[`renders index.d.ts correctly 1`] = `
 "declare interface Tokens {
+  borderWidth1: \\"1px\\";
+  borderWidth2: \\"2px\\";
+  borderWidth3: \\"3px\\";
   colorBlack: \\"rgb(0, 0, 0)\\";
   colorBlue: \\"rgb(0, 111, 187)\\";
   colorBlueDark: \\"rgb(8, 78, 138)\\";
@@ -1988,8 +1991,29 @@ exports[`renders index.d.ts correctly 1`] = `
   durationSlow: 300;
   durationSlower: 400;
   durationSlowest: 500;
+  easingAppear: \\"cubic-bezier(0, 0, 0.13, 1)\\";
+  easingDefault: \\"cubic-bezier(0.4, 0.22, 0.28, 1)\\";
+  easingDisappear: \\"cubic-bezier(0.5, 0.1, 1, 1)\\";
   fontStackBase: \\"-apple-system, BlinkMacSystemFont, 'San Francisco', Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif\\";
   fontStackMonospace: \\"Monaco, Consolas, 'Lucida Console', monospace\\";
+  radius3: \\"3px\\";
+  radius6: \\"6px\\";
+  shadowDeep: \\"( 0 0 0 1px rgba(6, 44, 82, 0.1), 0 2px 16px rgba(33, 43, 54, 0.08), )\\";
+  shadowDefault: \\"( 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15), )\\";
+  shadowFaint: \\"( 0 1px 0 0 rgba(22, 29, 37, 0.05), )\\";
+  shadowLayer: \\"( 0 31px 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08), )\\";
+  shadowTransparent: \\"0 0 0 0 transparent\\";
+  sizeLayoutMaxWidthPrimary: \\"662px\\";
+  sizeLayoutMaxWidthSecondary: \\"320px\\";
+  sizeLayoutMinWidthPrimary: \\"480px\\";
+  sizeLayoutMinWidthSecondary: \\"240px\\";
+  sizeLayoutWidthOneHalf: \\"450px\\";
+  sizeLayoutWidthOneThird: \\"240px\\";
+  sizeNavigationIsVisible: \\"769px\\";
+  sizeNavigationWidth: \\"240px\\";
+  sizePageIsNotCondensed: \\"680px\\";
+  sizePageIsPartiallyCondensed: \\"450px\\";
+  sizeTypographyIsCondensed: \\"640px\\";
   spacingBase: \\"16px\\";
   spacingBaseTight: \\"12px\\";
   spacingExtraLoose: \\"32px\\";

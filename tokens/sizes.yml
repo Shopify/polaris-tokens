@@ -1,0 +1,26 @@
+props:
+  - name: size-navigationWidth
+    value: 240px
+  - name: size-layoutWidth-oneHalf
+    value: 450px
+  - name: size-layoutWidth-oneThird
+    value: 240px
+  - name: size-layoutMinWidth-primary
+    value: 480px
+  - name: size-layoutMaxWidth-primary
+    value: 662px
+  - name: size-layoutMinWidth-secondary
+    value: 240px
+  - name: size-layoutMaxWidth-secondary
+    value: 320px
+  - name: size-pageIsPartiallyCondensed
+    value: 450px
+  - name: size-pageIsNotCondensed
+    value: 680px
+  - name: size-typographyIsCondensed
+    value: 640px
+  - name: size-navigationIsVisible
+    value: 769px
+global:
+  type: number
+  category: sizing

@@ -1,0 +1,26 @@
+{
+  "aliases": {},
+  "props": {
+    "borderWidth-1": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-1",
+      "value": "1px",
+      "originalValue": "1px"
+    },
+    "borderWidth-2": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-2",
+      "value": "2px",
+      "originalValue": "2px"
+    },
+    "borderWidth-3": {
+      "type": "number",
+      "category": "sizing",
+      "name": "borderWidth-3",
+      "value": "3px",
+      "originalValue": "3px"
+    }
+  }
+}

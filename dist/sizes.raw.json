@@ -1,0 +1,82 @@
+{
+  "aliases": {},
+  "props": {
+    "size-navigationWidth": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-navigationWidth",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutWidth-oneHalf": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutWidth-oneHalf",
+      "value": "450px",
+      "originalValue": "450px"
+    },
+    "size-layoutWidth-oneThird": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutWidth-oneThird",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutMinWidth-primary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMinWidth-primary",
+      "value": "480px",
+      "originalValue": "480px"
+    },
+    "size-layoutMaxWidth-primary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMaxWidth-primary",
+      "value": "662px",
+      "originalValue": "662px"
+    },
+    "size-layoutMinWidth-secondary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMinWidth-secondary",
+      "value": "240px",
+      "originalValue": "240px"
+    },
+    "size-layoutMaxWidth-secondary": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-layoutMaxWidth-secondary",
+      "value": "320px",
+      "originalValue": "320px"
+    },
+    "size-pageIsPartiallyCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-pageIsPartiallyCondensed",
+      "value": "450px",
+      "originalValue": "450px"
+    },
+    "size-pageIsNotCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-pageIsNotCondensed",
+      "value": "680px",
+      "originalValue": "680px"
+    },
+    "size-typographyIsCondensed": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-typographyIsCondensed",
+      "value": "640px",
+      "originalValue": "640px"
+    },
+    "size-navigationIsVisible": {
+      "type": "number",
+      "category": "sizing",
+      "name": "size-navigationIsVisible",
+      "value": "769px",
+      "originalValue": "769px"
+    }
+  }
+}
