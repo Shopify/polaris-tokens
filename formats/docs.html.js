@@ -190,10 +190,9 @@ class Styleguide {
 
   renderRadius(props) {
     return props.map((prop) => {
-      const name = this.options.transformPropName(prop.name);
       const example = `
         <td>
-          <div class="radius-box ${name}" style="border-radius: ${
+          <div class="radius-box ${prop.name}" style="border-radius: ${
         prop.value
       };"></div>
         </td>
