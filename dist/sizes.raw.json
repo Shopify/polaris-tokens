@@ -1,80 +1,80 @@
 {
   "aliases": {},
   "props": {
-    "size-navigationWidth": {
+    "size-navigation-width": {
       "type": "number",
       "category": "sizing",
-      "name": "size-navigationWidth",
+      "name": "size-navigation-width",
       "value": "240px",
       "originalValue": "240px"
     },
-    "size-layoutWidth-oneHalf": {
+    "size-layout-width-one-half": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutWidth-oneHalf",
+      "name": "size-layout-width-one-half",
       "value": "450px",
       "originalValue": "450px"
     },
-    "size-layoutWidth-oneThird": {
+    "size-layout-width-one-third": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutWidth-oneThird",
+      "name": "size-layout-width-one-third",
       "value": "240px",
       "originalValue": "240px"
     },
-    "size-layoutMinWidth-primary": {
+    "size-layout-min-width-primary": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutMinWidth-primary",
+      "name": "size-layout-min-width-primary",
       "value": "480px",
       "originalValue": "480px"
     },
-    "size-layoutMaxWidth-primary": {
+    "size-layout-max-width-primary": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutMaxWidth-primary",
+      "name": "size-layout-max-width-primary",
       "value": "662px",
       "originalValue": "662px"
     },
-    "size-layoutMinWidth-secondary": {
+    "size-layout-min-width-secondary": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutMinWidth-secondary",
+      "name": "size-layout-min-width-secondary",
       "value": "240px",
       "originalValue": "240px"
     },
-    "size-layoutMaxWidth-secondary": {
+    "size-layout-max-width-secondary": {
       "type": "number",
       "category": "sizing",
-      "name": "size-layoutMaxWidth-secondary",
+      "name": "size-layout-max-width-secondary",
       "value": "320px",
       "originalValue": "320px"
     },
-    "size-pageIsPartiallyCondensed": {
+    "size-page-is-partially-condensed": {
       "type": "number",
       "category": "sizing",
-      "name": "size-pageIsPartiallyCondensed",
+      "name": "size-page-is-partially-condensed",
       "value": "450px",
       "originalValue": "450px"
     },
-    "size-pageIsNotCondensed": {
+    "size-page-is-not-condensed": {
       "type": "number",
       "category": "sizing",
-      "name": "size-pageIsNotCondensed",
+      "name": "size-page-is-not-condensed",
       "value": "680px",
       "originalValue": "680px"
     },
-    "size-typographyIsCondensed": {
+    "size-typography-is-condensed": {
       "type": "number",
       "category": "sizing",
-      "name": "size-typographyIsCondensed",
+      "name": "size-typography-is-condensed",
       "value": "640px",
       "originalValue": "640px"
     },
-    "size-navigationIsVisible": {
+    "size-navigation-is-visible": {
       "type": "number",
       "category": "sizing",
-      "name": "size-navigationIsVisible",
+      "name": "size-navigation-is-visible",
       "value": "769px",
       "originalValue": "769px"
     }
