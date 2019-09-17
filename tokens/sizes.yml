@@ -1,25 +1,25 @@
 props:
-  - name: size-navigationWidth
+  - name: size-navigation-width
     value: 240px
-  - name: size-layoutWidth-oneHalf
+  - name: size-layout-width-one-half
     value: 450px
-  - name: size-layoutWidth-oneThird
+  - name: size-layout-width-one-third
     value: 240px
-  - name: size-layoutMinWidth-primary
+  - name: size-layout-min-width-primary
     value: 480px
-  - name: size-layoutMaxWidth-primary
+  - name: size-layout-max-width-primary
     value: 662px
-  - name: size-layoutMinWidth-secondary
+  - name: size-layout-min-width-secondary
     value: 240px
-  - name: size-layoutMaxWidth-secondary
+  - name: size-layout-max-width-secondary
     value: 320px
-  - name: size-pageIsPartiallyCondensed
+  - name: size-page-is-partially-condensed
     value: 450px
-  - name: size-pageIsNotCondensed
+  - name: size-page-is-not-condensed
     value: 680px
-  - name: size-typographyIsCondensed
+  - name: size-typography-is-condensed
     value: 640px
-  - name: size-navigationIsVisible
+  - name: size-navigation-is-visible
     value: 769px
 global:
   type: number
