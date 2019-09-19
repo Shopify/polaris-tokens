@@ -1,4 +1,3 @@
-/* eslint-disable id-length */
 const path = require('path');
 const fs = require('fs');
 const ase = require('ase-utils');
