@@ -1118,7 +1118,7 @@
     url-polyfill "^1.1.7"
     whatwg-fetch "^3.0.0"
 
-"@shopify/react-server-webpack-plugin@^2.1.10":
+"@shopify/react-server-webpack-plugin@^2.1.14":
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/@shopify/react-server-webpack-plugin/-/react-server-webpack-plugin-2.1.14.tgz#d01e5d1fad6db4d7ad75f038edf0f153f3460821"
   integrity sha512-98pLsd1P0TD+s/tcrtVnJRSspO26+xBrm2lyTxrrpZRknzfzoHLC5jioaJ08ss5feaVcnwTjDxlkQjtZxWTkig==
@@ -1126,10 +1126,10 @@
     "@shopify/ast-utilities" "^0.0.3"
     webpack-virtual-modules "^0.1.11"
 
-"@shopify/sewing-kit@^0.106.0":
-  version "0.106.0"
-  resolved "https://registry.yarnpkg.com/@shopify/sewing-kit/-/sewing-kit-0.106.0.tgz#da7a0cf0a30d6f4d4a7b2ebaea36a2fb9025434a"
-  integrity sha512-RFQT5YsBAJO02NCOIiHrhqi9yoa09UBvtBTWueQKc7onaB1TbQ5p+i4c346qvHC0HzcmTPpJ1tiFIADoobaPwg==
+"@shopify/sewing-kit@^0.106.1":
+  version "0.106.1"
+  resolved "https://registry.yarnpkg.com/@shopify/sewing-kit/-/sewing-kit-0.106.1.tgz#8259a248531099e9a07141e7c11bb83b2ad432b0"
+  integrity sha512-+Vr2p3dQvkBZCpB657GEVzUz/Ut7U2E4nwebL+QU4tN+WWEKklWPF2np9/HZZVfYi6NZNRLs6P8gPbXH+e/tHg==
   dependencies:
     "@babel/core" "^7.4.4"
     "@shopify/async" ">1.2.0 <3.0.0"
@@ -1139,7 +1139,7 @@
     "@shopify/find-duplicate-dependencies-plugin" "^1.1.3"
     "@shopify/images" "^2.0.0"
     "@shopify/polyfills" "^1.0.1"
-    "@shopify/react-server-webpack-plugin" "^2.1.10"
+    "@shopify/react-server-webpack-plugin" "^2.1.14"
     "@shopify/typescript-configs" "^1.0.2"
     "@shopify/webpack-asset-metadata-plugin" "^1.3.0"
     "@shopify/webpack-asset-sri-hash-verification-plugin" "^1.0.2"
