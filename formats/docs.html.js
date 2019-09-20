@@ -9,7 +9,7 @@ const tinycolor = require('tinycolor2');
 try {
   require('../');
 } catch (err) {
-  /* eslint-disable no-console */
+  /* eslint-disable-next-line no-console */
   console.error(
     '\n',
     '😯  Run `yarn dist` to be able to build the docs for the first time',
@@ -55,9 +55,7 @@ class Styleguide {
     return props.map((prop) => {
       const example = `
         <td>
-          <div class="metric-box" style="width: ${prop.value}; height: ${
-        prop.value
-      };"></div>
+          <div class="metric-box" style="width: ${prop.value}; height: ${prop.value};"></div>
         </td>
       `;
       return this.renderRow(prop, example);
@@ -68,9 +66,7 @@ class Styleguide {
     return props.map((prop) => {
       const example = `
         <td>
-          <div class="metric-box" style="width: ${prop.value}; height: ${
-        prop.value
-      };"></div>
+          <div class="metric-box" style="width: ${prop.value}; height: ${prop.value};"></div>
         </td>
       `;
       return this.renderRow(prop, example);
@@ -133,9 +129,7 @@ class Styleguide {
     return props.map((prop) => {
       const example = `
         <td>
-          <div class="line-height-example" style="line-height: ${
-            prop.value
-          }; background-size: 100% ${prop.value};">
+          <div class="line-height-example" style="line-height: ${prop.value}; background-size: 100% ${prop.value};">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             elementum odio et lacus rutrum molestie. Nunc arcu enim, elementum
             id feugiat at, venenatis quis erat.
@@ -193,9 +187,7 @@ class Styleguide {
       const name = this.options.transformPropName(prop.name);
       const example = `
         <td>
-          <div class="radius-box ${name}" style="border-radius: ${
-        prop.value
-      };"></div>
+          <div class="radius-box ${name}" style="border-radius: ${prop.value};"></div>
         </td>
       `;
       return this.renderRow(prop, example);
@@ -217,9 +209,7 @@ class Styleguide {
     return props.map((prop) => {
       const color = tinycolor(prop.value);
       prop.value = color.getAlpha() < 1 ? color : color.toHexString();
-      const example = `<td style="background-color: ${
-        prop.value
-      }; border: 1px solid #f6f6f6;"></td>`;
+      const example = `<td style="background-color: ${prop.value}; border: 1px solid #f6f6f6;"></td>`;
       return this.renderRow(prop, example);
     });
   }
@@ -257,11 +247,7 @@ class Styleguide {
       const color = tinycolor(prop.value);
       prop.value = color.getAlpha() < 1 ? color : color.toHexString();
       const example = `
-        <td style="background-color: ${tokens.colorSkyLighter}; color: ${
-        prop.value
-      }; padding: ${tokens.spacingTight} ${
-        tokens.spacingBase
-      }; line-height: 1.3;">
+        <td style="background-color: ${tokens.colorSkyLighter}; color: ${prop.value}; padding: ${tokens.spacingTight} ${tokens.spacingBase}; line-height: 1.3;">
           <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
         </td>
       `;
