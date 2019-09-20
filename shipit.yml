@@ -11,7 +11,7 @@ deploy:
     - npm publish
     # Reset potential unstaged changes made by auto-dist-tag,
     # as the release task requires a clean working directory
-    - git checkout -- . && bundle exec gem release
+    # - git checkout -- . && bundle exec gem release
 review:
   checklist:
     - Update <strong>CHANGELOG.md</strong> and commit the changes
