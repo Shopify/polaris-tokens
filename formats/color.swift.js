@@ -24,5 +24,7 @@ module.exports = (def) => {
     .toArray()
     .join('\n');
 
-  return ['import UIKit', '', 'public enum Color {', content, '}'].join('\n');
+  return ['import UIKit', '', 'public enum Color {', content, '}', ''].join(
+    '\n',
+  );
 };
