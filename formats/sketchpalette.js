@@ -1,7 +1,7 @@
 /* eslint-disable id-length */
 const tinycolor2 = require('tinycolor2');
 
-function convertToSketchPaletteColor(input) {
+const convertToSketchPaletteColor = (input) => {
   const {r, g, b, a} = tinycolor2(input).toRgb();
 
   return {
@@ -10,22 +10,20 @@ function convertToSketchPaletteColor(input) {
     blue: b / 255,
     alpha: a,
   };
-}
+};
 
-function friendlyName(propName) {
-  return propName
+const friendlyName = (propName) =>
+  propName
     .replace(/^color-/, '')
     .replace(/-/g, ' ')
     .replace(/(?<=^| )[a-z]/g, (letter) => letter.toUpperCase());
-}
 
-const convertColorArray = (result) => {
-  // Convert each color token into a Sketch-friendly color format
-  return result.toJS().props.map((prop) => ({
+// Convert each color token into a Sketch-friendly color format
+const convertColorArray = (result) =>
+  result.toJS().props.map((prop) => ({
     name: friendlyName(prop.name),
     ...convertToSketchPaletteColor(prop.value),
   }));
-};
 
 module.exports = (result) =>
   JSON.stringify({
