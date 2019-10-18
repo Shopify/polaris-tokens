@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated filter for the Blue color ([#64](https://github.com/Shopify/polaris-tokens/pull/64))
 - Removed reliance on the Invision DSM import script (colors are now directly managed in `tokens/colors.yml`) ([#66](https://github.com/Shopify/polaris-tokens/pull/66))
+- Added support for Swift colors ([`Color.swift`](/dist/Color.swift)) ([#85](https://github.com/Shopify/polaris-tokens/pull/85))
 
 ## [2.6.0] - 2019-06-06
 
