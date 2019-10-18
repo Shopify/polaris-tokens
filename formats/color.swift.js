@@ -15,7 +15,7 @@ module.exports = (def) => {
     .sortBy((prop) => prop.get('name'))
     .map((prop) => {
       let result = Immutable.List();
-      const key = _.camelCase(prop.get('name'));
+      const key = _.camelCase(prop.get('name').replace('color-', ''));
       const value = convertToColorLiteral(prop.get('value'));
       result = result.push(`  public static let ${key} = ${value}`);
       return result;
