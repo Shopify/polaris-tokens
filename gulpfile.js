@@ -26,6 +26,7 @@ theo.registerFormat(
   'spacing-map.scss',
   require('./formats/spacing-map.scss.js'),
 );
+theo.registerFormat('color-swift', require('./formats/color.swift.js'));
 theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
@@ -47,6 +48,7 @@ const colorFormats = [
   {transformType: 'web', formatType: 'color-map.scss'},
   {transformType: 'web', formatType: 'sketchpalette'},
   {transformType: 'web', formatType: 'ase.json'},
+  {transformType: 'web', formatType: 'color-swift'},
 ];
 
 const spacingFormats = [{transformType: 'web', formatType: 'spacing-map.scss'}];

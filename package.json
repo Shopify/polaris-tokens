@@ -15,6 +15,7 @@
     "dist:docs": "gulp docs",
     "dist:format": "prettier ./{dist,docs}/*.{js,json,css,scss,sketchpalette} --write",
     "dist:colors:ase": "node ./scripts/ase-encode.js",
+    "dist:colors:rename-swift-palette": "renamer --find 'colors.color-swift' --replace 'Color.swift' --force ./dist/colors.color-swift",
     "dist:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
     "dist:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "sewing-kit lint",
