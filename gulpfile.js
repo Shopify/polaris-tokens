@@ -30,6 +30,7 @@ theo.registerFormat('color-map.scss', require('./formats/color-map.scss.js'));
 theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
+theo.registerFormat('ios.json', require('./formats/ios.json.js'));
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -44,6 +45,7 @@ const webFormats = [
 
 const colorFormats = [
   {transformType: 'android', formatType: 'android.xml'},
+  {transformType: 'ios', formatType: 'ios.json'},
   {transformType: 'web', formatType: 'color-map.scss'},
   {transformType: 'web', formatType: 'sketchpalette'},
   {transformType: 'web', formatType: 'ase.json'},
