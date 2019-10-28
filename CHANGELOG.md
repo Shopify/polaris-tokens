@@ -5,7 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+<!-- ## [Unreleased] -->
+
+## [2.7.0] - 2019-10-28
 
 - Updated filter for the Blue color ([#64](https://github.com/Shopify/polaris-tokens/pull/64))
 - Removed reliance on the Invision DSM import script (colors are now directly managed in `tokens/colors.yml`) ([#66](https://github.com/Shopify/polaris-tokens/pull/66))
@@ -89,7 +91,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.6.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.7.0...HEAD
+[2.7.0]: https://github.com/Shopify/polaris-tokens/compare/v2.6.0...v2.7.0
 [2.6.0]: https://github.com/Shopify/polaris-tokens/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/Shopify/polaris-tokens/compare/v2.4.0...v2.5.0
 [2.4.0]: https://github.com/Shopify/polaris-tokens/compare/v2.3.0...v2.4.0
