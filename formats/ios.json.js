@@ -15,7 +15,7 @@ const convertToComposite = (input) => {
 
 const iosColorName = (propName) => _.camelCase(propName.replace('color-', ''));
 
-// Convert each color token into a Sketch-friendly color format
+// Convert each color token into an iOS-friendly color format
 const convertColorArray = (result) =>
   result.toJS().props.map((prop) => ({
     name: iosColorName(prop.name),
