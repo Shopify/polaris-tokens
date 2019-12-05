@@ -52,6 +52,12 @@ duration.json
 duration.map.scss
 duration.raw.json
 duration.scss
+easing.common.js
+easing.custom-properties.css
+easing.json
+easing.map.scss
+easing.raw.json
+easing.scss
 index.common.js
 index.custom-properties.css
 index.d.ts

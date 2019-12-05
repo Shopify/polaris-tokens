@@ -3,6 +3,7 @@
 imports:
   - ./colors.yml
   - ./duration.yml
+  - ./easing.yml
   - ./spacing.yml
   - ./typography.yml
 global:

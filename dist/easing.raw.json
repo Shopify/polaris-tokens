@@ -1,0 +1,26 @@
+{
+  "aliases": {},
+  "props": {
+    "easing-default": {
+      "type": "number",
+      "category": "cubic-bezier",
+      "name": "easing-default",
+      "value": "cubic-bezier(0.4, 0.22, 0.28, 1)",
+      "originalValue": "cubic-bezier(0.4, 0.22, 0.28, 1)"
+    },
+    "easing-appear": {
+      "type": "number",
+      "category": "cubic-bezier",
+      "name": "easing-appear",
+      "value": "cubic-bezier(0, 0, 0.13, 1)",
+      "originalValue": "cubic-bezier(0, 0, 0.13, 1)"
+    },
+    "easing-disappear": {
+      "type": "number",
+      "category": "cubic-bezier",
+      "name": "easing-disappear",
+      "value": "cubic-bezier(0.5, 0.1, 1, 1)",
+      "originalValue": "cubic-bezier(0.5, 0.1, 1, 1)"
+    }
+  }
+}
