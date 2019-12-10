@@ -148,3 +148,30 @@ code {
   background-image: linear-gradient($color-sky 1px, transparent 1px);
   background-size: 100% 1rem;
 }
+
+.cubicBezierVisual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 40%;
+  padding: $spacing-extra-tight $spacing-tight;
+  background: $color-sky;
+  transition: width 2s;
+
+  &:hover {
+    width: 100%;
+  }
+}
+
+.triangle {
+  $size: $spacing-tight;
+  border-top: $size solid transparent;
+  border-left: $size solid $color-ink-lightest;
+  border-bottom: $size solid transparent;
+}
+
+.hoverMeText {
+  font-size: 1.2rem;
+  color: $color-ink-lighter;
+}

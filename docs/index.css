@@ -146,4 +146,28 @@ code {
   background-size: 100% 1rem;
 }
 
+.cubicBezierVisual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  padding: 4px 8px;
+  background: #dfe3e8;
+  transition: width 2s;
+}
+.cubicBezierVisual:hover {
+  width: 100%;
+}
+
+.triangle {
+  border-top: 8px solid transparent;
+  border-left: 8px solid #919eab;
+  border-bottom: 8px solid transparent;
+}
+
+.hoverMeText {
+  font-size: 1.2rem;
+  color: #637381;
+}
+
 /*# sourceMappingURL=index.css.map */

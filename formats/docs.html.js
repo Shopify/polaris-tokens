@@ -275,7 +275,14 @@ class Styleguide {
 
   renderCubicBezier(props) {
     return props.map((prop) => {
-      const example = `<td></td>`;
+      const example = `
+        <td>
+          <div class="cubicBezierVisual" style="transition-timing-function: ${prop.value}">
+            <div class="hoverMeText">Hover me</div>
+            <div class="triangle" />
+          </div>
+        </td>
+      `;
       return this.renderRow(prop, example);
     });
   }
