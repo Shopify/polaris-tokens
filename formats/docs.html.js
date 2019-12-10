@@ -30,7 +30,7 @@ class Styleguide {
   renderRowHeader(id, heading) {
     return `
       <thead>
-        <tr id=${id}>
+        <tr id="${id}">
           <th scope="col">${heading}</th>
           <th scope="col">Values</th>
           <th scope="col">Examples</th>
@@ -273,6 +273,13 @@ class Styleguide {
     });
   }
 
+  renderCubicBezier(props) {
+    return props.map((prop) => {
+      const example = `<td></td>`;
+      return this.renderRow(prop, example);
+    });
+  }
+
   renderMediaQuery(props) {
     return props.map((prop) => {
       const example = `<td></td>`;
@@ -350,6 +357,7 @@ class Styleguide {
               ${this.renderSection('text-color', 'Text Colors')}
               ${this.renderSection('text-shadow', 'Text Shadows')}
               ${this.renderSection('time', 'Time')}
+              ${this.renderSection('cubic-bezier', 'Easing')}
               ${this.renderSection('media-query', 'Media Queries')}
             </main>
           </div>

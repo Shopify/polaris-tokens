@@ -20,7 +20,22 @@ theo.registerValueTransform(
   (prop) => (prop.get('value') === 0 ? 0 : ms(prop.get('value'))),
 );
 
-theo.registerTransform('web/js', ['color/rgb', 'timing/ms-unitless']);
+theo.registerValueTransform(
+  'easing/web',
+  (prop) => prop.get('type') === 'easing',
+  (prop) => {
+    const [x1, y1, x2, y2] = prop.get('value').toArray();
+    return `cubic-bezier(${x1}, ${y1}, ${x2}, ${y2})`;
+  },
+);
+
+theo.registerTransform('web', ['color/rgb', 'easing/web']);
+
+theo.registerTransform('web/js', [
+  'color/rgb',
+  'timing/ms-unitless',
+  'easing/web',
+]);
 
 theo.registerFormat(
   'spacing-map.scss',
