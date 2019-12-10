@@ -1988,6 +1988,9 @@ exports[`renders index.d.ts correctly 1`] = `
   durationSlow: 300;
   durationSlower: 400;
   durationSlowest: 500;
+  easingAppear: \\"cubic-bezier(0, 0, 0.13, 1)\\";
+  easingDefault: \\"cubic-bezier(0.4, 0.22, 0.28, 1)\\";
+  easingDisappear: \\"cubic-bezier(0.5, 0.1, 1, 1)\\";
   fontStackBase: \\"-apple-system, BlinkMacSystemFont, 'San Francisco', Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif\\";
   fontStackMonospace: \\"Monaco, Consolas, 'Lucida Console', monospace\\";
   spacingBase: \\"16px\\";
