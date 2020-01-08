@@ -1,5 +1,7 @@
 const path = require('path');
+
 const groupBy = require('lodash/groupBy');
+
 const {getPalette, getShade} = require('./utils/color');
 
 class CustomMap {

@@ -1,4 +1,5 @@
 const path = require('path');
+
 const Immutable = require('immutable');
 
 module.exports = (def) => {

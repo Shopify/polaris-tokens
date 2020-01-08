@@ -1,66 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`JSON object representation renders similar JSON objects 1`] = `
-Object {
-  "duration-base": 200,
-  "duration-fast": 100,
-  "duration-none": 0,
-  "duration-slow": 300,
-  "duration-slower": 400,
-  "duration-slowest": 500,
-}
-`;
-
-exports[`JSON object representation renders similar RAW JSON objects 1`] = `Object {}`;
-
-exports[`JSON object representation renders similar RAW JSON objects 2`] = `
-Array [
-  Object {
-    "category": "time",
-    "name": "duration-base",
-    "originalValue": "200ms",
-    "type": "time",
-    "value": "200ms",
-  },
-  Object {
-    "category": "time",
-    "name": "duration-fast",
-    "originalValue": "100ms",
-    "type": "time",
-    "value": "100ms",
-  },
-  Object {
-    "category": "time",
-    "name": "duration-none",
-    "originalValue": 0,
-    "type": "time",
-    "value": 0,
-  },
-  Object {
-    "category": "time",
-    "name": "duration-slow",
-    "originalValue": "300ms",
-    "type": "time",
-    "value": "300ms",
-  },
-  Object {
-    "category": "time",
-    "name": "duration-slower",
-    "originalValue": "400ms",
-    "type": "time",
-    "value": "400ms",
-  },
-  Object {
-    "category": "time",
-    "name": "duration-slowest",
-    "originalValue": "500ms",
-    "type": "time",
-    "value": "500ms",
-  },
-]
-`;
-
-exports[`renders duration.custom-properties.css correctly 1`] = `
+exports[`Compare files snapshots renders duration.custom-properties.css as expected 1`] = `
 ":root {
   --duration-none: 0;
   --duration-fast: 100ms;
@@ -72,7 +12,7 @@ exports[`renders duration.custom-properties.css correctly 1`] = `
 "
 `;
 
-exports[`renders duration.map.scss correctly 1`] = `
+exports[`Compare files snapshots renders duration.map.scss as expected 1`] = `
 "$polaris-duration-map: (
   'duration-none': (
     0,
@@ -96,7 +36,7 @@ exports[`renders duration.map.scss correctly 1`] = `
 "
 `;
 
-exports[`renders duration.scss correctly 1`] = `
+exports[`Compare files snapshots renders duration.scss as expected 1`] = `
 "$duration-none: 0;
 $duration-fast: 100ms;
 $duration-base: 200ms;
@@ -106,7 +46,7 @@ $duration-slowest: 500ms;
 "
 `;
 
-exports[`renders index.d.ts correctly 1`] = `
+exports[`Compare files snapshots renders index.d.ts as expected 1`] = `
 "declare interface Tokens {
   colorBlack: \\"rgb(0, 0, 0)\\";
   colorBlue: \\"rgb(0, 111, 187)\\";
@@ -184,4 +124,64 @@ exports[`renders index.d.ts correctly 1`] = `
 }
 declare let tokens: Tokens;
 export = tokens;"
+`;
+
+exports[`JSON object representation renders similar JSON objects 1`] = `
+Object {
+  "duration-base": 200,
+  "duration-fast": 100,
+  "duration-none": 0,
+  "duration-slow": 300,
+  "duration-slower": 400,
+  "duration-slowest": 500,
+}
+`;
+
+exports[`JSON object representation renders similar RAW JSON objects 1`] = `Object {}`;
+
+exports[`JSON object representation renders similar RAW JSON objects 2`] = `
+Array [
+  Object {
+    "category": "time",
+    "name": "duration-base",
+    "originalValue": "200ms",
+    "type": "time",
+    "value": "200ms",
+  },
+  Object {
+    "category": "time",
+    "name": "duration-fast",
+    "originalValue": "100ms",
+    "type": "time",
+    "value": "100ms",
+  },
+  Object {
+    "category": "time",
+    "name": "duration-none",
+    "originalValue": 0,
+    "type": "time",
+    "value": 0,
+  },
+  Object {
+    "category": "time",
+    "name": "duration-slow",
+    "originalValue": "300ms",
+    "type": "time",
+    "value": "300ms",
+  },
+  Object {
+    "category": "time",
+    "name": "duration-slower",
+    "originalValue": "400ms",
+    "type": "time",
+    "value": "400ms",
+  },
+  Object {
+    "category": "time",
+    "name": "duration-slowest",
+    "originalValue": "500ms",
+    "type": "time",
+    "value": "500ms",
+  },
+]
 `;
