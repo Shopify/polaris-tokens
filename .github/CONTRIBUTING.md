@@ -24,7 +24,7 @@ Without `dev` (external contributors), with [yarn](https://yarnpkg.com/en/):
 git clone https://github.com/Shopify/polaris-tokens.git
 cd polaris-tokens
 yarn
-yarn dist
+yarn run dist
 ```
 
 Tokens are exported under the `dist/` folder for consumption by external projects:
@@ -91,7 +91,7 @@ dev server
 or, if you don’t have `dev` on your machine:
 
 ```
-yarn watch
+yarn run watch
 ```
 
 ---
@@ -105,7 +105,7 @@ Tests are located in the [`__tests__`](https://github.com/Shopify/polaris-tokens
 ### Running tests once
 
 ```
-yarn test
+yarn run test
 ```
 
 ### Running tests on every file change
@@ -115,7 +115,7 @@ When developing or refactoring, running tests continuously can be a great time s
 This command will run the test suite every time a file change is detected:
 
 ```
-yarn test-watch
+yarn run test-watch
 ```
 
 ### Updating snapshots
@@ -123,7 +123,7 @@ yarn test-watch
 Snapshots can become out of date (for example, after an update was made to any of the `./tokens/*.yml` files), and need to be updated for the test to pass:
 
 ```
-yarn test -u
+yarn run test -u
 ```
 
 ---

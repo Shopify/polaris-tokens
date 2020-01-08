@@ -2,15 +2,15 @@ name: polaris-tokens
 
 up:
   - ruby:
-      version: 2.3.4
+      version: 2.6.3
   - node:
-      version: v10.13.0
+      version: v10.18.0
       yarn: true
   - bundler
 commands:
   test:
-    run: yarn test
+    run: yarn run test
   start:
-    run: yarn dist
+    run: yarn run build
   server:
-    run: yarn watch
+    run: yarn run watch

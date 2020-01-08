@@ -12,7 +12,7 @@ try {
   /* eslint-disable-next-line no-console */
   console.error(
     '\n',
-    '😯  Run `yarn dist` to be able to build the docs for the first time',
+    '😯  Run `yarn run build` to be able to build the docs for the first time',
     '\n',
   );
   process.exit(1);
@@ -21,7 +21,7 @@ try {
 const tokens = require('../');
 
 class Styleguide {
-  constructor({props, options}) {
+  constructor({ props, options }) {
     this.options = options;
     this.categories = groupBy(props, 'category');
     this.props = props;
@@ -293,9 +293,9 @@ class Styleguide {
           ${this.renderRowHeader(type, heading)}
           <tbody>
             ${render
-              .call(this, props)
-              .join('')
-              .trim()}
+        .call(this, props)
+        .join('')
+        .trim()}
           </tbody>
         </table>
       </section>
@@ -337,16 +337,16 @@ class Styleguide {
               ${this.renderSection('background-color', 'Background Colors')}
               ${this.renderSection('gradient', 'Gradients')}
               ${this.renderSection(
-                'background-gradient',
-                'Background Gradients',
-              )}
+      'background-gradient',
+      'Background Gradients',
+    )}
               ${this.renderSection('drop-shadow', 'Drop Shadows')}
               ${this.renderSection('box-shadow', 'Box Shadows')}
               ${this.renderSection(
-                'inner-shadow',
-                'Inner Drop Shadows',
-                this.renderDropShadow,
-              )}
+      'inner-shadow',
+      'Inner Drop Shadows',
+      this.renderDropShadow,
+    )}
               ${this.renderSection('text-color', 'Text Colors')}
               ${this.renderSection('text-shadow', 'Text Shadows')}
               ${this.renderSection('time', 'Time')}

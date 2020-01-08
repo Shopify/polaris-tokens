@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/app
     docker:
-      - image: circleci/node:10.13.0
+      - image: circleci/node:10.18.0
     steps:
       - checkout
       - restore_cache:
@@ -18,6 +18,6 @@ jobs:
           key: v2-npm-deps-{{ arch }}-{{ checksum "yarn.lock" }}
           paths:
             - node_modules
-      - run: yarn dist-ci
-      - run: yarn test
-      - run: yarn lint
+      - run: yarn run build-ci
+      - run: yarn run test
+      - run: yarn run lint
