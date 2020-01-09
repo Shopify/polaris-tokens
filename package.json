@@ -19,7 +19,7 @@
     "build:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
     "lint": "sewing-kit lint",
     "watch": "gulp watch",
-    "heroku-postbuild": "yarn run dist-ci",
+    "heroku-postbuild": "yarn run build-ci",
     "start": "http-server docs"
   },
   "repository": {
