@@ -24,7 +24,7 @@ Without `dev` (external contributors), with [yarn](https://yarnpkg.com/en/):
 git clone https://github.com/Shopify/polaris-tokens.git
 cd polaris-tokens
 yarn
-yarn run dist
+yarn run build
 ```
 
 Tokens are exported under the `dist/` folder for consumption by external projects:
