@@ -1,24 +1,24 @@
 {
   "aliases": {},
   "props": {
-    "easing-default": {
-      "type": "easing",
+    "ease-default": {
+      "type": "ease",
       "category": "cubic-bezier",
-      "name": "easing-default",
+      "name": "ease-default",
       "value": "cubic-bezier(0.4, 0.22, 0.28, 1)",
       "originalValue": [0.4, 0.22, 0.28, 1]
     },
-    "easing-appear": {
-      "type": "easing",
+    "ease-appear": {
+      "type": "ease",
       "category": "cubic-bezier",
-      "name": "easing-appear",
+      "name": "ease-appear",
       "value": "cubic-bezier(0, 0, 0.13, 1)",
       "originalValue": [0, 0, 0.13, 1]
     },
-    "easing-disappear": {
-      "type": "easing",
+    "ease-disappear": {
+      "type": "ease",
       "category": "cubic-bezier",
-      "name": "easing-disappear",
+      "name": "ease-disappear",
       "value": "cubic-bezier(0.5, 0.1, 1, 1)",
       "originalValue": [0.5, 0.1, 1, 1]
     }

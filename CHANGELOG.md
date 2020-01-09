@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-- Added `easing` tokens ([#87](https://github.com/Shopify/polaris-tokens/pull/87))
+- Added `ease` tokens ([#87](https://github.com/Shopify/polaris-tokens/pull/87))
 
 ## [2.7.0] - 2019-10-28
 

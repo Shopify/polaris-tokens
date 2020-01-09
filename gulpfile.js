@@ -21,20 +21,20 @@ theo.registerValueTransform(
 );
 
 theo.registerValueTransform(
-  'easing/web',
-  (prop) => prop.get('type') === 'easing',
+  'ease/web',
+  (prop) => prop.get('type') === 'ease',
   (prop) => {
     const [x1, y1, x2, y2] = prop.get('value').toArray();
     return `cubic-bezier(${x1}, ${y1}, ${x2}, ${y2})`;
   },
 );
 
-theo.registerTransform('web', ['color/rgb', 'easing/web']);
+theo.registerTransform('web', ['color/rgb', 'ease/web']);
 
 theo.registerTransform('web/js', [
   'color/rgb',
   'timing/ms-unitless',
-  'easing/web',
+  'ease/web',
 ]);
 
 theo.registerFormat(

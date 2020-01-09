@@ -1,10 +1,10 @@
 props:
-  - name: easing-default
+  - name: ease-default
     value: [0.4, 0.22, 0.28, 1]
-  - name: easing-appear
+  - name: ease-appear
     value: [0, 0, 0.13, 1]
-  - name: easing-disappear
+  - name: ease-disappear
     value: [0.5, 0.1, 1, 1]
 global:
-  type: easing
+  type: ease
   category: cubic-bezier

@@ -364,7 +364,7 @@ class Styleguide {
               ${this.renderSection('text-color', 'Text Colors')}
               ${this.renderSection('text-shadow', 'Text Shadows')}
               ${this.renderSection('time', 'Time')}
-              ${this.renderSection('cubic-bezier', 'Easing')}
+              ${this.renderSection('cubic-bezier', 'ease')}
               ${this.renderSection('media-query', 'Media Queries')}
             </main>
           </div>
