@@ -9,10 +9,9 @@ const tinycolor = require('tinycolor2');
 try {
   require('../');
 } catch (err) {
-  /* eslint-disable-next-line no-console */
   console.error(
     '\n',
-    '😯  Run `yarn dist` to be able to build the docs for the first time',
+    '😯  Run `yarn run build` to be able to build the docs for the first time',
     '\n',
   );
   process.exit(1);

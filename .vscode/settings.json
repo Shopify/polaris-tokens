@@ -3,6 +3,7 @@
   "css.validate": false,
   "scss.validate": false,
   "editor.formatOnSave": true,
-  "prettier.stylelintIntegration": true,
-  "prettier.eslintIntegration": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

@@ -1,7 +1,8 @@
-/* eslint-env jest */
+/* eslint-disable shopify/jest/no-snapshots */
 
 const fs = require('fs');
 const path = require('path');
+
 const _ = require('lodash');
 
 const colorsJSON = require('../dist/colors.json');
@@ -17,17 +18,19 @@ const colorFiles = [
   'index.d.ts',
 ];
 
-colorFiles.map((filename) =>
-  it(`renders ${filename} correctly`, () => {
-    const contents = fs.readFileSync(
-      path.join(__dirname, '..', 'dist', filename),
-      {
-        encoding: 'utf-8',
-      },
-    );
-    expect(contents).toMatchSnapshot();
-  }),
-);
+describe('Compare files snapshots', () => {
+  colorFiles.map((filename) =>
+    it(`renders ${filename} as expected`, () => {
+      const contents = fs.readFileSync(
+        path.join(__dirname, '..', 'dist', filename),
+        {
+          encoding: 'utf-8',
+        },
+      );
+      expect(contents).toMatchSnapshot();
+    }),
+  );
+});
 
 describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
@@ -42,7 +45,7 @@ describe('JSON object representation', () => {
 
   it('renders similar ASE JSON objects', () => {
     expect(colorsAseJSON.version).toBe('1.0');
-    expect(colorsAseJSON.groups.length).toBe(0);
+    expect(colorsAseJSON.groups).toHaveLength(0);
     expect(_(colorsAseJSON.colors).sortBy('name')).toMatchSnapshot();
   });
 

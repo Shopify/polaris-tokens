@@ -1,7 +1,8 @@
-/* eslint-env jest */
+/* eslint-disable shopify/jest/no-snapshots */
 
 const fs = require('fs');
 const path = require('path');
+
 const _ = require('lodash');
 
 const durationJSON = require('../dist/duration.json');
@@ -16,17 +17,19 @@ const durationFiles = [
 
 const rawUnitlessKey = 'duration-none';
 
-durationFiles.map((filename) =>
-  it(`renders ${filename} correctly`, () => {
-    const contents = fs.readFileSync(
-      path.join(__dirname, '..', 'dist', filename),
-      {
-        encoding: 'utf-8',
-      },
-    );
-    expect(contents).toMatchSnapshot();
-  }),
-);
+describe('Compare files snapshots', () => {
+  durationFiles.map((filename) =>
+    it(`renders ${filename} as expected`, () => {
+      const contents = fs.readFileSync(
+        path.join(__dirname, '..', 'dist', filename),
+        {
+          encoding: 'utf-8',
+        },
+      );
+      expect(contents).toMatchSnapshot();
+    }),
+  );
+});
 
 describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
