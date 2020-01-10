@@ -100,7 +100,7 @@ yarn run watch
 
 This project uses [Jest snapshot testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html) to test the output of design tokens files in `./dist` generated from the YAML source files from `./tokens`.
 
-Tests are located in the [`__tests__`](https://github.com/Shopify/polaris-tokens/tree/master/__tests__) folder.
+Tests are located in the [`tests`](https://github.com/Shopify/polaris-tokens/tree/master/tests) directory.
 
 ### Running tests once
 
