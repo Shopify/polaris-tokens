@@ -31,6 +31,7 @@ theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('ios.json', require('./formats/ios.json.js'));
+theo.registerFormat('rails.yml', require('./formats/rails.yml'));
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -103,6 +104,25 @@ gulp.task('typings', (done) => {
       $.theo({
         transform: {type: 'web/js'},
         format: {type: 'd.ts'},
+      }),
+    )
+    .pipe($.rename(removePrefix))
+    .on('error', (err) => {
+      throw new Error(err);
+    })
+    .pipe(gulp.dest('dist'));
+  done();
+});
+
+gulp.task('themes', (done) => {
+  console.log('hi');
+  gulp
+    .src('tokens/themes/back-office-web.yml')
+    .pipe($.rename(addPrefix))
+    .pipe(
+      $.theo({
+        transform: {type: 'web/js'},
+        format: {type: 'rails.yml'},
       }),
     )
     .pipe($.rename(removePrefix))
@@ -251,7 +271,7 @@ function watch() {
 gulp.task(
   'watch',
   gulp.series(
-    ['web-formats', 'spacing-formats', 'color-formats', 'docs'],
+    ['web-formats', 'spacing-formats', 'color-formats', 'themes', 'docs'],
     gulp.series(serve, watch),
   ),
 );
@@ -264,5 +284,6 @@ gulp.task(
     'color-filters',
     'spacing-formats',
     'color-formats',
+    'themes',
   ]),
 );
