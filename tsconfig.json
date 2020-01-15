@@ -1,0 +1,10 @@
+{
+  "extends": "@shopify/typescript-configs/library",
+  "compilerOptions": {
+    "outDir": "./dist-modern",
+    "module": "commonjs",
+    "declarationMap": false,
+    "importHelpers": true
+  },
+  "include": ["./src", "./tests"]
+}
