@@ -17,7 +17,6 @@ describe('colorFactory()', () => {
 
   it('outputs variants', () => {
     const variants = colorFactory(DefaultThemeColors, roleVariants, 'light');
-    console.log(variants);
     expect(Object.keys(variants)).toContain('text');
   });
 });
