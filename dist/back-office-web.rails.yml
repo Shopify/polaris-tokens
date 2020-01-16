@@ -1,1 +1,72 @@
-[{"type":"color","category":"background-color","name":"surface","value":"rgb(17, 18, 19)","originalValue":"#111213"},{"type":"color","category":"background-color","name":"on-surface","value":"rgb(17, 18, 19)","originalValue":"#111213"},{"type":"color","category":"background-color","name":"interactive","value":"rgb(46, 114, 210)","originalValue":"#2E72D2"},{"type":"color","category":"background-color","name":"secondary","value":"rgb(17, 18, 19)","originalValue":"#111213"},{"type":"color","category":"background-color","name":"primary","value":"rgb(0, 128, 96)","originalValue":"#008060"},{"type":"color","category":"background-color","name":"critical","value":"rgb(216, 44, 13)","originalValue":"#D82C0D"},{"type":"color","category":"background-color","name":"warning","value":"rgb(255, 196, 83)","originalValue":"#FFC453"},{"type":"color","category":"background-color","name":"highlight","value":"rgb(91, 205, 218)","originalValue":"#5BCDDA"},{"type":"color","category":"background-color","name":"success","value":"rgb(0, 128, 96)","originalValue":"#008060"},{"type":"color","category":"background-color","name":"decorative","value":"rgb(255, 201, 107)","originalValue":"#FFC96B"}]
+[
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'surface',
+    'value': 'rgb(17, 18, 19)',
+    'originalValue': '#111213',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'on-surface',
+    'value': 'rgb(17, 18, 19)',
+    'originalValue': '#111213',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'interactive',
+    'value': 'rgb(46, 114, 210)',
+    'originalValue': '#2E72D2',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'secondary',
+    'value': 'rgb(17, 18, 19)',
+    'originalValue': '#111213',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'primary',
+    'value': 'rgb(0, 128, 96)',
+    'originalValue': '#008060',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'critical',
+    'value': 'rgb(216, 44, 13)',
+    'originalValue': '#D82C0D',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'warning',
+    'value': 'rgb(255, 196, 83)',
+    'originalValue': '#FFC453',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'highlight',
+    'value': 'rgb(91, 205, 218)',
+    'originalValue': '#5BCDDA',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'success',
+    'value': 'rgb(0, 128, 96)',
+    'originalValue': '#008060',
+  },
+  {
+    'type': 'color',
+    'category': 'background-color',
+    'name': 'decorative',
+    'value': 'rgb(255, 201, 107)',
+    'originalValue': '#FFC96B',
+  },
+]
