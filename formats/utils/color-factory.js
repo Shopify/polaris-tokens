@@ -1,29 +1,30 @@
 /* eslint-disable id-length */
 const tinycolor = require('tinycolor2');
-const {hexToHsluvObj, hsluvToRgb} = require('hsluv');
+const {hexToHsluv, hsluvToRgb} = require('hsluv');
 
 const colorFactory = (colors, roleVariants, colorScheme) => {
   return Object.assign(
     {},
     ...Object.entries(colors).map(([role, hex]) => {
-      const base = hexToHsluvObj(hex);
+      const base = hexToHsluv(hex);
       const variants = roleVariants[role] || [];
       return {
         ...variants.reduce((accumulator, {name, ...settings}) => {
           const {
-            hue = base.hue,
-            saturation = base.saturation,
-            lightness = base.lightness,
+            hue = base[0],
+            saturation = base[1],
+            lightness = base[2],
             alpha = 1,
           } = settings[colorScheme];
 
-          const resolve = (value, baseToResolve) =>
-            typeof value === 'number' ? value : value(baseToResolve);
+          const resolve = (value, baseToResolve) => {
+            return typeof value === 'number' ? value : value(baseToResolve);
+          };
 
           const rgbColor = hsluvToRgb([
-            resolve(hue, base.hue),
-            resolve(saturation, base.saturation),
-            resolve(lightness, base.lightness),
+            resolve(hue, base[0]),
+            resolve(saturation, base[1]),
+            resolve(lightness, base[2]),
           ]);
 
           return {
