@@ -30,11 +30,11 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
           return {
             ...accumulator,
             [name]: tinycolor({
-              r: rgbColor[0],
-              g: rgbColor[1],
-              b: rgbColor[2],
+              r: rgbColor[0] * 255,
+              g: rgbColor[1] * 255,
+              b: rgbColor[2] * 255,
               a: alpha,
-            }),
+            }).toHex(),
           };
         }, {}),
       };
