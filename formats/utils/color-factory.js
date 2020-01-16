@@ -21,7 +21,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
             return typeof value === 'number' ? value : value(baseToResolve);
           };
 
-          const rgbColor = hsluvToRgb([
+          const [red, green, blue] = hsluvToRgb([
             resolve(hue, base[0]),
             resolve(saturation, base[1]),
             resolve(lightness, base[2]),
@@ -30,9 +30,9 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
           return {
             ...accumulator,
             [name]: tinycolor({
-              r: rgbColor[0] * 255,
-              g: rgbColor[1] * 255,
-              b: rgbColor[2] * 255,
+              r: red * 255,
+              g: green * 255,
+              b: blue * 255,
               a: alpha,
             }).toHex(),
           };
