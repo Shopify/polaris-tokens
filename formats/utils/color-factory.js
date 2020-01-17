@@ -34,7 +34,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
               g: green * 255,
               b: blue * 255,
               a: alpha,
-            }).toHex(),
+            }).toHslString(),
           };
         }, {}),
       };

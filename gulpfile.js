@@ -115,7 +115,6 @@ gulp.task('typings', (done) => {
 });
 
 gulp.task('themes', (done) => {
-  console.log('hi');
   gulp
     .src('tokens/themes/back-office-web.yml')
     .pipe($.rename(addPrefix))

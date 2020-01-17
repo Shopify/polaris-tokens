@@ -1,3 +1,6 @@
+const {colorFactory} = require('../formats/utils/color-factory');
+const {roleVariants} = require('../formats/utils/role-variants');
+
 function format(data) {
   return data.toJS().props.reduce(
     (accumulator, prop) => ({
@@ -10,6 +13,6 @@ function format(data) {
 
 module.exports = (result) => {
   const colors = format(result);
-  console.log(colors);
-  return JSON.stringify(format(result));
+  const variants = colorFactory(colors, roleVariants, 'light');
+  return JSON.stringify(variants);
 };
