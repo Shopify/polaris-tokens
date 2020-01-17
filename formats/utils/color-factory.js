@@ -1,5 +1,3 @@
-/* eslint-disable id-length */
-const tinycolor = require('tinycolor2');
 const {hexToHsluv, hsluvToRgb} = require('hsluv');
 
 const colorFactory = (colors, roleVariants, colorScheme) => {
@@ -25,16 +23,11 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
             resolve(hue, base[0]),
             resolve(saturation, base[1]),
             resolve(lightness, base[2]),
-          ]);
+          ]).map((channel) => Math.round(channel * 255));
 
           return {
             ...accumulator,
-            [name]: tinycolor({
-              r: red * 255,
-              g: green * 255,
-              b: blue * 255,
-              a: alpha,
-            }).toHslString(),
+            [name]: `rgba(${red}, ${green}, ${blue}, ${alpha})`,
           };
         }, {}),
       };
