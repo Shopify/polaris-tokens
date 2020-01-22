@@ -1,5 +1,23 @@
 const {hexToHsluv, hsluvToRgb} = require('hsluv');
 
+const hueRotationFn = (rotation) => {
+  return (hue) => (360 + hue + rotation) % 360;
+};
+
+const saturationAdjustmentFn = (adjustment) => {
+  return (saturation) => Math.min(Math.max(saturation + adjustment, 0), 100);
+};
+
+function tokensToColors(data) {
+  return data.toJS().props.reduce(
+    (accumulator, prop) => ({
+      ...accumulator,
+      [prop.name]: prop.originalValue,
+    }),
+    {},
+  );
+}
+
 const colorFactory = (colors, roleVariants, colorScheme) => {
   return Object.assign(
     {},
@@ -19,7 +37,9 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
             return typeof value === 'number' ? value : value(baseToResolve);
           };
 
-          const [red, green, blue] = hsluvToRgb([
+          const toHex = (color) => color.toString(16).slice(1);
+
+          const rgb = hsluvToRgb([
             resolve(hue, base[0]),
             resolve(saturation, base[1]),
             resolve(lightness, base[2]),
@@ -27,7 +47,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
 
           return {
             ...accumulator,
-            [name]: `rgba(${red}, ${green}, ${blue}, ${alpha})`,
+            [name]: `#${rgb.map(toHex)}${toHex(Math.round(alpha * 255))}`,
           };
         }, {}),
       };
@@ -37,4 +57,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
 
 module.exports = {
   colorFactory,
+  tokensToColors,
+  hueRotationFn,
+  saturationAdjustmentFn,
 };

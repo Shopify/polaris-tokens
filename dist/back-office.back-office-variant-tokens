@@ -1,0 +1,184 @@
+props:
+  - name: background
+    value: #a,a,af
+  - name: surface
+    value: #f,f,ff
+  - name: surfaceSubdued
+    value: #a,a,af
+  - name: surfaceHovered
+    value: #3,4,4f
+  - name: surfacePressed
+    value: #1,3,5f
+  - name: backdrop
+    value: #,,0
+  - name: overlay
+    value: #f,f,f0
+  - name: shadowFromAmbientLight
+    value: #7,8,8
+  - name: shadowFromDirectLight
+    value: #,,6
+  - name: hintFromDirectLight
+    value: #,,6
+  - name: border
+    value: #4,9,ef
+  - name: borderDisabled
+    value: #0,1,2f
+  - name: borderSubdued
+    value: #2,5,8f
+  - name: icon
+    value: #c,f,2f
+  - name: iconActionHovered
+    value: #a,c,df
+  - name: iconActionPressed
+    value: #4,7,af
+  - name: iconDisabled
+    value: #a,e,3f
+  - name: iconSubdued
+    value: #c,1,6f
+  - name: text
+    value: #0,2,3f
+  - name: textDisabled
+    value: #0,5,af
+  - name: textSubdued
+    value: #d,1,5f
+  - name: actionInteractive
+    value: #e,2,2f
+  - name: actionInteractiveDisabled
+    value: #9,a,2f
+  - name: actionInteractiveHovered
+    value: #1,6,1f
+  - name: actionInteractiveSubdued
+    value: #1,8,cf
+  - name: actionInteractivePressed
+    value: #a,8,9f
+  - name: focused
+    value: #9,a,2f
+  - name: surfaceSelected
+    value: #0,3,ef
+  - name: surfaceSelectedHovered
+    value: #6,f,cf
+  - name: surfaceSelectedPressed
+    value: #b,b,9f
+  - name: iconOnInteractive
+    value: #f,f,ff
+  - name: actionSecondary
+    value: #a,b,cf
+  - name: actionSecondaryDisabled
+    value: #d,e,ff
+  - name: actionSecondaryHovered
+    value: #1,3,5f
+  - name: actionSecondaryPressed
+    value: #8,a,df
+  - name: borderSecondary
+    value: #4,9,ef
+  - name: borderSecondaryHovered
+    value: #9,e,4f
+  - name: borderSecondaryDisabled
+    value: #2,5,8f
+  - name: actionPrimary
+    value: #,0,0f
+  - name: actionPrimaryDisabled
+    value: #,6,0f
+  - name: actionPrimaryHovered
+    value: #,2,5f
+  - name: actionPrimaryPressed
+    value: #,4,bf
+  - name: iconOnPrimary
+    value: #6,f,4f
+  - name: textOnPrimary
+    value: #f,f,ff
+  - name: primarySelected
+    value: #2,5,df
+  - name: primarySelectedHovered
+    value: #3,0,3f
+  - name: primarySelectedPressed
+    value: #2,c,0f
+  - name: borderCritical
+    value: #3,f,f
+  - name: borderCriticalDisabled
+    value: #e,c,9f
+  - name: iconCritical
+    value: #c,1,f
+  - name: surfaceCritical
+    value: #f,a,af
+  - name: surfaceCriticalSubdued
+    value: #f,8,7f
+  - name: surfaceCriticalSubduedHovered
+    value: #f,0,0f
+  - name: surfaceCriticalSubduedPressed
+    value: #e,3,1f
+  - name: textCritical
+    value: #7,c,f
+  - name: actionCritical
+    value: #8,c,f
+  - name: actionCriticalDisabled
+    value: #d,0,0f
+  - name: actionCriticalHovered
+    value: #1,6,f
+  - name: actionCriticalPressed
+    value: #c,1,f
+  - name: iconOnCritical
+    value: #f,8,7f
+  - name: textOnCritical
+    value: #f,f,ff
+  - name: criticalLink
+    value: #c,d,f
+  - name: criticalLinkDisabled
+    value: #d,3,df
+  - name: criticalLinkHovered
+    value: #d,9,f
+  - name: criticalLinkPressed
+    value: #7,,f
+  - name: borderWarning
+    value: #1,3,f
+  - name: iconWarning
+    value: #d,8,f
+  - name: surfaceWarning
+    value: #f,b,4f
+  - name: surfaceWarningSubdued
+    value: #f,2,2f
+  - name: textWarning
+    value: #1,a,f
+  - name: borderHighlight
+    value: #4,d,7f
+  - name: iconHighlight
+    value: #1,7,1f
+  - name: surfaceHighlight
+    value: #e,0,bf
+  - name: surfaceHighlightSubdued
+    value: #4,d,ef
+  - name: textHighlight
+    value: #,f,1f
+  - name: borderSuccess
+    value: #,7,6f
+  - name: iconSuccess
+    value: #,4,2f
+  - name: surfaceSuccess
+    value: #9,5,2f
+  - name: surfaceSuccessSubdued
+    value: #7,e,bf
+  - name: textSuccess
+    value: #,0,0f
+  - name: decorativeOneSurface
+    value: #f,9,bf
+  - name: decorativeOneText
+    value: #d,8,f
+  - name: decorativeTwoSurface
+    value: #f,4,0f
+  - name: decorativeTwoText
+    value: #9,,cf
+  - name: decorativeThreeSurface
+    value: #0,3,3f
+  - name: decorativeThreeText
+    value: #,f,9f
+  - name: decorativeFourSurface
+    value: #1,0,6f
+  - name: decorativeFourText
+    value: #,d,df
+  - name: decorativeFiveSurface
+    value: #d,9,0f
+  - name: decorativeFiveText
+    value: #f,,ff
+global:
+  type: color
+  category: background-color

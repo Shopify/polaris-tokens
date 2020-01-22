@@ -31,7 +31,10 @@ theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('ios.json', require('./formats/ios.json.js'));
-theo.registerFormat('rails.yml', require('./formats/rails.yml'));
+theo.registerFormat(
+  'back-office-variant-tokens',
+  require('./formats/back-office-variant-tokens'),
+);
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -116,12 +119,18 @@ gulp.task('typings', (done) => {
 
 gulp.task('themes', (done) => {
   gulp
-    .src('tokens/themes/back-office-web.yml')
+    .src('tokens/themes/back-office.yml')
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'web'},
-        format: {type: 'rails.yml'},
+        transform: {type: 'raw'},
+        format: {type: 'back-office-variant-tokens'},
+      }),
+    )
+    .pipe(
+      $.theo({
+        transform: {type: 'android'},
+        format: {type: 'android.xml'},
       }),
     )
     .pipe($.rename(removePrefix))

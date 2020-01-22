@@ -1,12 +1,6 @@
-const hueRotationFn = (rotation) => {
-  return (hue) => (360 + hue + rotation) % 360;
-};
+const {saturationAdjustmentFn, hueRotationFn} = require('../color-factory');
 
-const saturationAdjustmentFn = (adjustment) => {
-  return (saturation) => Math.min(Math.max(saturation + adjustment, 0), 100);
-};
-
-const roleVariants = {
+const backOfficeVariants = {
   surface: [
     {
       name: 'background',
@@ -741,5 +735,5 @@ const roleVariants = {
 };
 
 module.exports = {
-  roleVariants,
+  backOfficeVariants,
 };
