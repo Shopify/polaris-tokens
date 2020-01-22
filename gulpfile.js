@@ -120,14 +120,14 @@ gulp.task('themes', (done) => {
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'web/js'},
-        format: {type: 'json'},
+        transform: {type: 'ios'},
+        format: {type: 'yml'},
       }),
     )
     .pipe(
       $.theo({
-        transform: {type: 'android'},
-        format: {type: 'android.xml'},
+        transform: {type: 'web/js'},
+        format: {type: 'json'},
       }),
     )
     .pipe($.rename(removePrefix))
