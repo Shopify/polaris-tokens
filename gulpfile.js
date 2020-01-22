@@ -120,7 +120,7 @@ gulp.task('themes', (done) => {
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'ios'},
+        transform: {type: 'raw'},
         format: {type: 'yml'},
       }),
     )
