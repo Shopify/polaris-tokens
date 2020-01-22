@@ -31,10 +31,7 @@ theo.registerFormat('sketchpalette', require('./formats/sketchpalette.js'));
 theo.registerFormat('ase.json', require('./formats/ase.json.js'));
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('ios.json', require('./formats/ios.json.js'));
-theo.registerFormat(
-  'back-office-variant-tokens',
-  require('./formats/back-office-variant-tokens'),
-);
+theo.registerFormat('yml', require('./formats/tokens'));
 
 theo.registerFormat('d.ts', require('./formats/d.ts'));
 
@@ -123,8 +120,8 @@ gulp.task('themes', (done) => {
     .pipe($.rename(addPrefix))
     .pipe(
       $.theo({
-        transform: {type: 'raw'},
-        format: {type: 'back-office-variant-tokens'},
+        transform: {type: 'web/js'},
+        format: {type: 'json'},
       }),
     )
     .pipe(

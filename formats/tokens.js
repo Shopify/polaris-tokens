@@ -11,7 +11,7 @@ module.exports = (result) => {
   const variants = colorFactory(backOfficeColors, backOfficeVariants, 'light');
 
   const yml = Object.entries(variants).reduce((accumulator, [key, value]) => {
-    return `${accumulator}  - name: ${key}\n    value: ${value}\n`;
+    return `${accumulator}  - name: ${key}\n    value: '${value}'\n`;
   }, '');
 
   return `props:\n${yml}global:\n  type: color\n  category: background-color\n`;

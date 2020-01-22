@@ -37,9 +37,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
             return typeof value === 'number' ? value : value(baseToResolve);
           };
 
-          const toHex = (color) => color.toString(16).slice(1);
-
-          const rgb = hsluvToRgb([
+          const [red, green, blue] = hsluvToRgb([
             resolve(hue, base[0]),
             resolve(saturation, base[1]),
             resolve(lightness, base[2]),
@@ -47,7 +45,7 @@ const colorFactory = (colors, roleVariants, colorScheme) => {
 
           return {
             ...accumulator,
-            [name]: `#${rgb.map(toHex)}${toHex(Math.round(alpha * 255))}`,
+            [name]: `rgba(${red}, ${green}, ${blue}, ${alpha})`,
           };
         }, {}),
       };
