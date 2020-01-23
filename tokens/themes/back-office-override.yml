@@ -1,0 +1,8 @@
+props:
+  - name: decorative
+    value: '#000000'
+imports:
+  - ./back-office.yml
+global:
+  type: color
+  category: background-color
