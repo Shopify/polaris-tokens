@@ -77,5 +77,8 @@
     "theo": "8.1.4",
     "tinycolor2": "^1.4.1",
     "xml": "^1.0.1"
+  },
+  "dependencies": {
+    "hsluv": "^0.1.0"
   }
 }
