@@ -18,7 +18,7 @@ interface Variant {
 type Config = Record<string, Variant[]>;
 
 export declare function colorFactory(
-  theme: Record<string, string>,
+  theme: Partial<Record<string, string>>,
   scheme: Scheme,
-  config: Config,
+  config?: Config,
 ): Record<string, string>;
