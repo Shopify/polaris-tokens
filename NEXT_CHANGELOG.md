@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [3.0.0-beta.3] - 2020-01-28
+
+- Marked the config as optional and the colors as partial ([dd3d8fc](https://github.com/Shopify/polaris-tokens/commit/dd3d8fc05572fb03e764a85a0519bbd3dde11855))
+
 ## [3.0.0-beta.2] - 2020-01-28
 
 - Actually exporting the types would be helpful ([4998856](https://github.com/Shopify/polaris-tokens/commit/49988564d7048c73e53cd85eab89f5ff49d0e28b))
