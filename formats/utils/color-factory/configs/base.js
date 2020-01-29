@@ -125,20 +125,13 @@ const base = {
   onSurface: [
     {
       name: 'border',
-      description: 'For use as a border (border or interactive outline).',
+      description: 'For use as a border on non-interactive elements.',
       light: {lightness: 75},
       dark: {lightness: 35},
     },
     {
-      name: 'borderDisabled',
-      description: 'For use as a an interactive outline on disabled elements.',
-      light: {lightness: 95},
-      dark: {lightness: 30},
-    },
-    {
       name: 'borderSubdued',
-      description:
-        'For use as a subdued border (border or interactive outline).',
+      description: 'For use as a subdued border on non-interactive elements.',
       light: {lightness: 85},
       dark: {lightness: 32},
     },
@@ -477,28 +470,28 @@ const base = {
       dark: {lightness: 100},
     },
     {
-      name: 'criticalLink',
+      name: 'linkCritical',
       description:
         'For use as a text color in destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 48.5},
       dark: {lightness: 65},
     },
     {
-      name: 'criticalLinkDisabled',
+      name: 'linkCriticalDisabled',
       description:
         'For use as a text color in disabled destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 72},
       dark: {lightness: 78},
     },
     {
-      name: 'criticalLinkHovered',
+      name: 'linkCriticalHovered',
       description:
         'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 45},
       dark: {lightness: 70},
     },
     {
-      name: 'criticalLinkPressed',
+      name: 'linkCriticalPressed',
       description:
         'For use as a text color in pressed destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 21},
