@@ -19,6 +19,21 @@ describe('colorFactory()', () => {
     expect(Object.keys(variants)).toContain('text');
   });
 
+  it('does not throw when given a color role without a corresponding config', () => {
+    expect(() => {
+      colorFactory({blarp: 'notAColor'}, 'light');
+    }).not.toThrow();
+  });
+
+  it('does not throw when given a non-standard shape', () => {
+    expect(() => {
+      colorFactory(
+        {topBar: {background: '#eeeeee'}, surface: '#ffffff'},
+        'light',
+      );
+    }).not.toThrow();
+  });
+
   it.todo('creates variants based on a theme');
 
   it.todo('creates variants based on a custom config');
