@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [3.0.0-beta.5] - 2020-01-30
+
+- Fixed an issue where legacy themes caused the color factory to throw ([#92](https://github.com/Shopify/polaris-tokens/pull/92))
+
 ## [3.0.0-beta.4] - 2020-01-29
 
 - Update color variants for consistency with changes in Polaris React ([#91](https://github.com/Shopify/polaris-tokens/pull/91))
