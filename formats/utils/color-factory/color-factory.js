@@ -6,6 +6,10 @@ function colorFactory(theme, scheme, config = baseConfig) {
   return Object.assign(
     {},
     ...Object.entries(theme).map(([role, hex]) => {
+      if (typeof hex !== 'string') {
+        return null;
+      }
+
       const base = hexToHsluv(hex);
       const variants = config[role] || [];
       return {
