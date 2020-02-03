@@ -29,6 +29,7 @@
   "surfaceSelectedHovered": "rgb(7, 29, 61)",
   "surfaceSelectedPressed": "rgb(13, 43, 86)",
   "iconOnInteractive": "rgb(255, 255, 255)",
+  "textOnInteractive": "rgb(255, 255, 255)",
   "actionSecondary": "rgb(51, 53, 55)",
   "actionSecondaryDisabled": "rgb(32, 34, 35)",
   "actionSecondaryHovered": "rgb(84, 87, 91)",

@@ -262,6 +262,12 @@ const base = {
       light: {lightness: 100},
       dark: {lightness: 100},
     },
+    {
+      name: 'textOnInteractive',
+      description: 'For use as a text color on interactive elements.',
+      light: {lightness: 100},
+      dark: {lightness: 100},
+    },
   ],
   secondary: [
     {

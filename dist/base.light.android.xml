@@ -85,6 +85,7 @@
     <color name="polaris_text_disabled">#ff90959a</color>
     <color name="polaris_text_highlight">#ff081f21</color>
     <color name="polaris_text_on_critical">#ffffffff</color>
+    <color name="polaris_text_on_interactive">#ffffffff</color>
     <color name="polaris_text_on_primary">#ffffffff</color>
     <color name="polaris_text_subdued">#ff6d7175</color>
     <color name="polaris_text_success">#ff008060</color>
