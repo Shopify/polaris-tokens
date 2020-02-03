@@ -22,7 +22,6 @@
     <color name="polaris_border">#ff505356</color>
     <color name="polaris_border_critical">#ffe32f0e</color>
     <color name="polaris_border_critical_disabled">#ff831704</color>
-    <color name="polaris_border_disabled">#ff44474a</color>
     <color name="polaris_border_highlight">#ff449da7</color>
     <color name="polaris_border_secondary">#ff505356</color>
     <color name="polaris_border_secondary_disabled">#ff676b6f</color>
@@ -30,10 +29,6 @@
     <color name="polaris_border_subdued">#ff494c4e</color>
     <color name="polaris_border_success">#ff008766</color>
     <color name="polaris_border_warning">#ff997000</color>
-    <color name="polaris_critical_link">#fffd726a</color>
-    <color name="polaris_critical_link_disabled">#fffeaca8</color>
-    <color name="polaris_critical_link_hovered">#fffd8a84</color>
-    <color name="polaris_critical_link_pressed">#fffd9f9b</color>
     <color name="polaris_decorative_five_surface">#ffc23356</color>
     <color name="polaris_decorative_five_text">#ffffffff</color>
     <color name="polaris_decorative_four_surface">#ff167c79</color>
@@ -58,6 +53,10 @@
     <color name="polaris_icon_subdued">#ff787d81</color>
     <color name="polaris_icon_success">#ff005e46</color>
     <color name="polaris_icon_warning">#ff684b00</color>
+    <color name="polaris_link_critical">#fffd726a</color>
+    <color name="polaris_link_critical_disabled">#fffeaca8</color>
+    <color name="polaris_link_critical_hovered">#fffd8a84</color>
+    <color name="polaris_link_critical_pressed">#fffd9f9b</color>
     <color name="polaris_overlay">#80212121</color>
     <color name="polaris_primary_selected">#ff0c1210</color>
     <color name="polaris_primary_selected_hovered">#ff28302c</color>
