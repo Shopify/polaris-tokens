@@ -615,7 +615,10 @@ const base = {
         hue: hueRotationFn(-4.5),
         lightness: 40,
       },
-      dark: {lightness: 80},
+      dark: {
+        hue: hueRotationFn(-4.5),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeOneSurface',
@@ -648,7 +651,11 @@ const base = {
         saturation: saturationAdjustmentFn(-20),
         lightness: 40,
       },
-      dark: {lightness: 100},
+      dark: {
+        hue: hueRotationFn(305.5),
+        saturation: saturationAdjustmentFn(-20),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeTwoSurface',
@@ -682,7 +689,10 @@ const base = {
         hue: hueRotationFn(87.5),
         lightness: 40,
       },
-      dark: {lightness: 80},
+      dark: {
+        hue: hueRotationFn(87.5),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeThreeSurface',
@@ -715,7 +725,10 @@ const base = {
         hue: hueRotationFn(133.5),
         lightness: 40,
       },
-      dark: {lightness: 80},
+      dark: {
+        hue: hueRotationFn(133.5),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeFourSurface',
@@ -750,7 +763,11 @@ const base = {
         saturation: saturationAdjustmentFn(-22),
         lightness: 40,
       },
-      dark: {lightness: 80},
+      dark: {
+        hue: hueRotationFn(306.5),
+        saturation: saturationAdjustmentFn(-22),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeFiveSurface',
