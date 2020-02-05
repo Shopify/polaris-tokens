@@ -1,6 +1,7 @@
 import {saturationAdjustmentFn, hueRotationFn} from '../utils';
+import {Config} from '../types';
 
-export const base = {
+export const base: Config = {
   surface: [
     {
       name: 'background',
