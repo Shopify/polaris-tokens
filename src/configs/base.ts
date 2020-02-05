@@ -1,6 +1,6 @@
-const {saturationAdjustmentFn, hueRotationFn} = require('../utils');
+import {saturationAdjustmentFn, hueRotationFn} from '../utils';
 
-const base = {
+export const base = {
   surface: [
     {
       name: 'background',
@@ -803,5 +803,3 @@ const base = {
     },
   ],
 };
-
-module.exports = base;

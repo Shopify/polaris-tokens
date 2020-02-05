@@ -1,12 +1,12 @@
-function hueRotationFn(rotation) {
+export function hueRotationFn(rotation) {
   return (hue) => (360 + hue + rotation) % 360;
 }
 
-function saturationAdjustmentFn(adjustment) {
+export function saturationAdjustmentFn(adjustment) {
   return (saturation) => Math.min(Math.max(saturation + adjustment, 0), 100);
 }
 
-function tokensToJson(data) {
+export function tokensToJson(data) {
   return data.toJS().props.reduce(
     (accumulator, prop) => ({
       ...accumulator,
@@ -16,7 +16,7 @@ function tokensToJson(data) {
   );
 }
 
-function mergeConfigs(base, extended) {
+export function mergeConfigs(base, extended) {
   return Object.entries(base).reduce((accumulator, [role, variants]) => {
     const extendedVariants = extended[role];
     const mergedVariants = variants;
@@ -42,10 +42,3 @@ function mergeConfigs(base, extended) {
     };
   }, {});
 }
-
-module.exports = {
-  tokensToJson,
-  hueRotationFn,
-  saturationAdjustmentFn,
-  mergeConfigs,
-};

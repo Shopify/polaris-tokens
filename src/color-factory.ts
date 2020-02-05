@@ -1,8 +1,7 @@
-const {hexToHsluv, hsluvToRgb} = require('hsluv');
+import {hexToHsluv, hsluvToRgb} from 'hsluv';
+import {base as baseConfig} from './configs/base';
 
-const baseConfig = require('./configs/base');
-
-function colorFactory(theme, scheme, config = baseConfig) {
+export function colorFactory(theme, scheme, config = baseConfig) {
   return Object.assign(
     {},
     ...Object.entries(theme).map(([role, hex]) => {
@@ -40,5 +39,3 @@ function colorFactory(theme, scheme, config = baseConfig) {
     }),
   );
 }
-
-module.exports = {colorFactory};

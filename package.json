@@ -5,6 +5,7 @@
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "type-check": "sewing-kit type-check",
     "test": "sewing-kit test",
     "test-watch": "nodemon --exec 'yarn run build && yarn run test --no-watch' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts --ext js,ts,json,yml",
     "clean": "rimraf ./dist",
@@ -76,9 +77,11 @@
     "rimraf": "^3.0.0",
     "theo": "8.1.4",
     "tinycolor2": "^1.4.1",
+    "typescript": "^3.7.5",
     "xml": "^1.0.1"
   },
   "dependencies": {
-    "hsluv": "^0.1.0"
+    "hsluv": "^0.1.0",
+    "tslib": "^1.10.0"
   }
 }
