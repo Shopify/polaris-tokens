@@ -1,1 +1,5 @@
+node_modules
 package.json
+/.dev
+/dist-modern
+/tmp
