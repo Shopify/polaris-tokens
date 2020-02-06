@@ -137,57 +137,58 @@ const base = {
     },
     {
       name: 'icon',
-      description: 'For use as the fill color of secondary icons.',
+      description: 'For use as the fill color of icons.',
       light: {lightness: 40.1},
       dark: {lightness: 70.1},
     },
     {
-      name: 'iconActionHovered',
-      description: 'For use as the fill color of hovered secondary icons.',
+      name: 'iconHovered',
+      description: 'For use as the fill color of hovered icons.',
       light: {lightness: 10},
       dark: {lightness: 90},
     },
     {
-      name: 'iconActionPressed',
-      description: 'For use as the fill color of hovered secondary icons.',
+      name: 'iconPressed',
+      description: 'For use as the fill color of hovered icons.',
       light: {lightness: 30},
       dark: {lightness: 70},
     },
     {
       name: 'iconDisabled',
-      description: 'For use as the fill color of disabled secondary icons.',
+      description: 'For use as the fill color of disabled icons.',
       light: {lightness: 76.9},
       dark: {lightness: 36.8},
     },
     {
       name: 'iconSubdued',
-      description: 'For use as the fill color of subdued secondary icons.',
+      description: 'For use as the fill color of subdued icons.',
       light: {lightness: 59.8},
       dark: {lightness: 52.1},
     },
     {
       name: 'text',
-      description: 'For use as a secondary text color.',
+      description: 'For use as a text color.',
       light: {lightness: 13.1},
       dark: {lightness: 90.8},
     },
     {
       name: 'textDisabled',
-      description: 'For use as a disabled secondary text color.',
+      description: 'For use as a disabled text color.',
       light: {lightness: 61.3},
       dark: {lightness: 48.2},
     },
     {
       name: 'textSubdued',
-      description: 'For use as a subdued secondary text color.',
+      description: 'For use as a subdued text color.',
       light: {lightness: 47.4},
       dark: {lightness: 65.1},
     },
   ],
   interactive: [
     {
-      name: 'actionInteractive',
-      description: 'Used for links and plain buttons.',
+      name: 'interactive',
+      description:
+        'Used for links, plain buttons, and as the fill color for selected checkboxes and radio buttons.',
       light: {lightness: 48.6},
       dark: {
         lightness: 65,
@@ -196,7 +197,7 @@ const base = {
       },
     },
     {
-      name: 'actionInteractiveDisabled',
+      name: 'interactiveDisabled',
       description: 'Used for disabled links and plain buttons.',
       light: {lightness: 58},
       dark: {
@@ -204,7 +205,7 @@ const base = {
       },
     },
     {
-      name: 'actionInteractiveHovered',
+      name: 'interactiveHovered',
       description: 'Used for hovered links and plain buttons.',
       light: {lightness: 37},
       dark: {
@@ -214,13 +215,7 @@ const base = {
       },
     },
     {
-      name: 'actionInteractiveSubdued',
-      description: 'Used for subdued links and plain buttons.',
-      light: {lightness: 51},
-      dark: {lightness: 49},
-    },
-    {
-      name: 'actionInteractivePressed',
+      name: 'interactivePressed',
       description: 'Used for pressed links and plain buttons.',
       light: {lightness: 31},
       dark: {
@@ -238,21 +233,21 @@ const base = {
     {
       name: 'surfaceSelected',
       description:
-        'For use as a surface color in selected interactive elements, in components such as option list and resource list.',
+        'For use as a surface color in selected interactive elements, in components such as action list and resource list.',
       light: {lightness: 96},
       dark: {lightness: 4},
     },
     {
       name: 'surfaceSelectedHovered',
       description:
-        'For use as a surface color in selected interactive elements that are hovered, in components such as option list and resource list.',
+        'For use as a surface color in selected interactive elements that are hovered, in components such as action list and resource list.',
       light: {lightness: 89},
       dark: {lightness: 11},
     },
     {
       name: 'surfaceSelectedPressed',
       description:
-        'For use as a surface color in selected interactive elements that are pressed, in components such as option list and resource list.',
+        'For use as a surface color in selected interactive elements that are pressed, in components such as action list and resource list.',
       light: {lightness: 82},
       dark: {lightness: 18},
     },
@@ -358,21 +353,21 @@ const base = {
       dark: {lightness: 100},
     },
     {
-      name: 'primarySelected',
+      name: 'surfacePrimarySelected',
       description:
         'Used as a surface color to indicate selected interactive states in navigation and tabs.',
       light: {lightness: 95, saturation: 30},
       dark: {lightness: 5, saturation: 30},
     },
     {
-      name: 'primarySelectedHovered',
+      name: 'surfacePrimarySelectedHovered',
       description:
         'Used as a surface color to indicate selected interactive states that are hovered in navigation and tabs.',
       light: {lightness: 81, saturation: 22},
       dark: {lightness: 19, saturation: 22},
     },
     {
-      name: 'primarySelectedPressed',
+      name: 'surfacePrimarySelectedPressed',
       description:
         'Used as a surface color to indicate selected interactive states that are pressed in navigation and tabs.',
       light: {lightness: 74, saturation: 22},
@@ -476,28 +471,28 @@ const base = {
       dark: {lightness: 100},
     },
     {
-      name: 'linkCritical',
+      name: 'interactiveCritical',
       description:
-        'For use as a text color in destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+        'Used for destructive interactive elements: links, destructive plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 48.5},
       dark: {lightness: 65},
     },
     {
-      name: 'linkCriticalDisabled',
+      name: 'interactiveCriticalDisabled',
       description:
         'For use as a text color in disabled destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 72},
       dark: {lightness: 78},
     },
     {
-      name: 'linkCriticalHovered',
+      name: 'interactiveCriticalHovered',
       description:
         'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 45},
       dark: {lightness: 70},
     },
     {
-      name: 'linkCriticalPressed',
+      name: 'interactiveCriticalPressed',
       description:
         'For use as a text color in pressed destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 21},
