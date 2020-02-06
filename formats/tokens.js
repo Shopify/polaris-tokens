@@ -1,17 +1,17 @@
 const path = require('path');
 const fs = require('fs');
 
-const {colorFactory} = require('./utils/color-factory/color-factory');
-const {tokensToJson} = require('./utils/color-factory/utils');
+const {colorFactory} = require('../dist-modern/color-factory.js');
+const {tokensToJson} = require('../dist-modern/utils');
 
 function tokenify(scheme) {
   return (result) => {
     const configFile = path.basename(result.toJS().meta.file, '.yml');
-    const config = `${__dirname}/utils/color-factory/configs/${configFile}`;
+    const config = `${__dirname}/../dist-modern/configs/${configFile}`;
     let configArg;
 
     if (fs.existsSync(`${config}.js`)) {
-      configArg = require(`./utils/color-factory/configs/${configFile}`);
+      configArg = require(`../dist-modern/configs/${configFile}`).config;
     }
 
     const theme = tokensToJson(result);

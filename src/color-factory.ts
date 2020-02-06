@@ -1,5 +1,5 @@
 import {hexToHsluv, hsluvToRgb} from 'hsluv';
-import {base as baseConfig} from './configs/base';
+import {config as baseConfig} from './configs/base';
 import {Lambda} from './types';
 
 type Scheme = 'light' | 'dark';
