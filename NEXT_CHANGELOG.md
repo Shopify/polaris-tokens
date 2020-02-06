@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [3.0.0-beta.7] - 2020-02-06
+
+- Updated variant names and descriptions ([#96](https://github.com/Shopify/polaris-tokens/pull/96))
+- Added decorative icon variants ([#94](https://github.com/Shopify/polaris-tokens/pull/94))
+
 ## [3.0.0-beta.6] - 2020-02-03
 
 - Built changes from previous release, and added textOnInteractive variant ([#93](https://github.com/Shopify/polaris-tokens/pull/93))
