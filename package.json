@@ -43,7 +43,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "plugin:shopify/esnext",
+      "plugin:shopify/typescript",
       "plugin:shopify/node",
       "plugin:shopify/jest",
       "plugin:shopify/prettier"

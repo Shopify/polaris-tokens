@@ -10,12 +10,13 @@
     "**/.DS_Store": true,
     "**/.git": true,
     "**/node_modules": true,
-    ".{bundle,dev,shadowenv.d}": true
+    ".{bundle,dev,shadowenv.d}": true,
+    "{tmp,dist-modern}/": true
   },
   "search.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
     "**/node_modules": true,
-    ".{bundle,dev,shadowenv.d}": true
+    "{tmp,dist-modern}/": true
   }
 }

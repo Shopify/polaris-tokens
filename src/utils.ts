@@ -9,6 +9,7 @@ export function saturationAdjustmentFn(adjustment: number) {
     Math.min(Math.max(saturation + adjustment, 0), 100);
 }
 
+// eslint-disable-next-line no-warning-comments
 // TODO: type data
 export function tokensToJson(data: any) {
   return data.toJS().props.reduce(
