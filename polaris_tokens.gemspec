@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.summary = 'Design Tokens for the Polaris Design System'
   s.description = 'Design Tokens for the Polaris Design System'
   s.files = Dir[
-    "{dist,lib}/**/*",
+    "{dist,dist-modern,lib}/**/*",
     'README.md',
     'LICENSE.md',
     'package.json',

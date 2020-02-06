@@ -106,7 +106,7 @@ gulp.task('themes', (done) => {
     .on('error', (err) => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist-modern/tokens'));
   done();
 });
 
@@ -133,7 +133,7 @@ gulp.task('palettes', (done) => {
           .on('error', (err) => {
             throw new Error(err);
           })
-          .pipe(gulp.dest('dist')),
+          .pipe(gulp.dest('dist-modern/tokens')),
       ),
   );
   done();
