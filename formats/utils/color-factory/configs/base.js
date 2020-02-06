@@ -471,28 +471,28 @@ const base = {
       dark: {lightness: 100},
     },
     {
-      name: 'linkCritical',
+      name: 'interactiveCritical',
       description:
-        'For use as a text color in destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+        'Used for destructive interactive elements: links, destructive plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 48.5},
       dark: {lightness: 65},
     },
     {
-      name: 'linkCriticalDisabled',
+      name: 'interactiveCriticalDisabled',
       description:
         'For use as a text color in disabled destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 72},
       dark: {lightness: 78},
     },
     {
-      name: 'linkCriticalHovered',
+      name: 'interactiveCriticalHovered',
       description:
         'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 45},
       dark: {lightness: 70},
     },
     {
-      name: 'linkCriticalPressed',
+      name: 'interactiveCriticalPressed',
       description:
         'For use as a text color in pressed destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 21},
