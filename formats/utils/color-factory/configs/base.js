@@ -608,6 +608,19 @@ const base = {
   ],
   decorative: [
     {
+      name: 'decorativeOneIcon',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(-4.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(-4.5),
+        lightness: 80,
+      },
+    },
+    {
       name: 'decorativeOneSurface',
       description: 'For use as a decorative surface color.',
       light: {
@@ -628,6 +641,21 @@ const base = {
         lightness: 18,
       },
       dark: {lightness: 100},
+    },
+    {
+      name: 'decorativeTwoIcon',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(305.5),
+        saturation: saturationAdjustmentFn(-20),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(305.5),
+        saturation: saturationAdjustmentFn(-20),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeTwoSurface',
@@ -654,6 +682,19 @@ const base = {
       dark: {lightness: 100},
     },
     {
+      name: 'decorativeThreeIcon',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(87.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(87.5),
+        lightness: 80,
+      },
+    },
+    {
       name: 'decorativeThreeSurface',
       description: 'For use as a decorative surface color.',
       light: {
@@ -675,6 +716,19 @@ const base = {
         lightness: 16,
       },
       dark: {lightness: 100},
+    },
+    {
+      name: 'decorativeFourIcon',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(133.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(133.5),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeFourSurface',
@@ -699,6 +753,21 @@ const base = {
         lightness: 16,
       },
       dark: {lightness: 100},
+    },
+    {
+      name: 'decorativeFiveIcon',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(306.5),
+        saturation: saturationAdjustmentFn(-22),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(306.5),
+        saturation: saturationAdjustmentFn(-22),
+        lightness: 80,
+      },
     },
     {
       name: 'decorativeFiveSurface',

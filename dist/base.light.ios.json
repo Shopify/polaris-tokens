@@ -675,6 +675,11 @@
     "hex": "#008060ff"
   },
   {
+    "name": "decorativeOneIcon",
+    "rgba": {"r": 0.49411764705882355, "g": 0.3411764705882353, "b": 0, "a": 1},
+    "hex": "#7e5700ff"
+  },
+  {
     "name": "decorativeOneSurface",
     "rgba": {"r": 1, "g": 0.788235294117647, "b": 0.4196078431372549, "a": 1},
     "hex": "#ffc96bff"
@@ -683,6 +688,16 @@
     "name": "decorativeOneText",
     "rgba": {"r": 0.23921568627450981, "g": 0.1568627450980392, "b": 0, "a": 1},
     "hex": "#3d2800ff"
+  },
+  {
+    "name": "decorativeTwoIcon",
+    "rgba": {
+      "r": 0.6862745098039216,
+      "g": 0.1607843137254902,
+      "b": 0.3058823529411765,
+      "a": 1
+    },
+    "hex": "#af294eff"
   },
   {
     "name": "decorativeTwoSurface",
@@ -700,6 +715,11 @@
     "hex": "#490b1cff"
   },
   {
+    "name": "decorativeThreeIcon",
+    "rgba": {"r": 0, "g": 0.42745098039215684, "b": 0.2549019607843137, "a": 1},
+    "hex": "#006d41ff"
+  },
+  {
     "name": "decorativeThreeSurface",
     "rgba": {
       "r": 0.5647058823529412,
@@ -713,6 +733,16 @@
     "name": "decorativeThreeText",
     "rgba": {"r": 0, "g": 0.1843137254901961, "b": 0.09803921568627451, "a": 1},
     "hex": "#002f19ff"
+  },
+  {
+    "name": "decorativeFourIcon",
+    "rgba": {
+      "r": 0,
+      "g": 0.41568627450980394,
+      "b": 0.40784313725490196,
+      "a": 1
+    },
+    "hex": "#006a68ff"
   },
   {
     "name": "decorativeFourSurface",
@@ -733,6 +763,16 @@
       "a": 1
     },
     "hex": "#002d2dff"
+  },
+  {
+    "name": "decorativeFiveIcon",
+    "rgba": {
+      "r": 0.6823529411764706,
+      "g": 0.16862745098039217,
+      "b": 0.2980392156862745,
+      "a": 1
+    },
+    "hex": "#ae2b4cff"
   },
   {
     "name": "decorativeFiveSurface",
