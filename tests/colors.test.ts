@@ -1,13 +1,15 @@
 /* eslint-disable shopify/jest/no-snapshots */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const _ = require('lodash');
+import lodash from 'lodash';
 
+/* eslint-disable @typescript-eslint/no-var-requires */
 const colorsJSON = require('../dist/colors.json');
 const colorsAseJSON = require('../dist/colors.ase.json');
 const colorsRawJSON = require('../dist/colors.raw.json');
+/* eslint-enable @typescript-eslint/no-var-requires */
 
 const colorFiles = [
   'colors.android.xml',
@@ -34,8 +36,10 @@ describe('Compare files snapshots', () => {
 
 describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
+    // console.log('hai', lodash);
     expect(
-      _(colorsJSON)
+      lodash
+        .chain(colorsJSON)
         .toPairs()
         .sortBy(0)
         .fromPairs()
@@ -46,13 +50,14 @@ describe('JSON object representation', () => {
   it('renders similar ASE JSON objects', () => {
     expect(colorsAseJSON.version).toBe('1.0');
     expect(colorsAseJSON.groups).toHaveLength(0);
-    expect(_(colorsAseJSON.colors).sortBy('name')).toMatchSnapshot();
+    expect(lodash.sortBy(colorsAseJSON.colors, 'name')).toMatchSnapshot();
   });
 
   it('renders similar RAW JSON objects', () => {
     // Aliases
     expect(
-      _(colorsRawJSON.aliases)
+      lodash
+        .chain(colorsRawJSON.aliases)
         .toPairs()
         .sortBy(0)
         .fromPairs()
@@ -60,6 +65,6 @@ describe('JSON object representation', () => {
     ).toMatchSnapshot();
 
     // Props
-    expect(_(colorsRawJSON.props).sortBy('name')).toMatchSnapshot();
+    expect(lodash.sortBy(colorsRawJSON.props, 'name')).toMatchSnapshot();
   });
 });

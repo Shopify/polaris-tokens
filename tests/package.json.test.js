@@ -1,5 +1,5 @@
 describe('package.json', () => {
-  it('has one dependency', () => {
+  it('has limited dependencies', () => {
     expect(Object.keys(require('../package.json').dependencies)).toHaveLength(
       2,
     );
