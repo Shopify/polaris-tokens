@@ -5,8 +5,4 @@
 !LICENSE.md
 !README.md
 !package.json
-!yarn.lock
-!formats/utils/color-factory/**/*
-!color-factory.js
-!color-factory.d.ts
 dist/colors.ase.json
