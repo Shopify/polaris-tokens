@@ -105,7 +105,7 @@
     "hex": "#5c5f62ff"
   },
   {
-    "name": "iconActionHovered",
+    "name": "iconHovered",
     "rgba": {
       "r": 0.10196078431372549,
       "g": 0.10980392156862745,
@@ -115,7 +115,7 @@
     "hex": "#1a1c1dff"
   },
   {
-    "name": "iconActionPressed",
+    "name": "iconPressed",
     "rgba": {
       "r": 0.26666666666666666,
       "g": 0.2784313725490196,
@@ -175,7 +175,7 @@
     "hex": "#6d7175ff"
   },
   {
-    "name": "actionInteractive",
+    "name": "interactive",
     "rgba": {
       "r": 0.1803921568627451,
       "g": 0.4470588235294118,
@@ -185,7 +185,7 @@
     "hex": "#2e72d2ff"
   },
   {
-    "name": "actionInteractiveDisabled",
+    "name": "interactiveDisabled",
     "rgba": {
       "r": 0.28627450980392155,
       "g": 0.5411764705882353,
@@ -195,7 +195,7 @@
     "hex": "#498af2ff"
   },
   {
-    "name": "actionInteractiveHovered",
+    "name": "interactiveHovered",
     "rgba": {
       "r": 0.12941176470588237,
       "g": 0.33725490196078434,
@@ -205,17 +205,7 @@
     "hex": "#2156a1ff"
   },
   {
-    "name": "actionInteractiveSubdued",
-    "rgba": {
-      "r": 0.19215686274509805,
-      "g": 0.47058823529411764,
-      "b": 0.8627450980392157,
-      "a": 1
-    },
-    "hex": "#3178dcff"
-  },
-  {
-    "name": "actionInteractivePressed",
+    "name": "interactivePressed",
     "rgba": {
       "r": 0.10196078431372549,
       "g": 0.2823529411764706,
@@ -385,7 +375,7 @@
     "hex": "#ffffffff"
   },
   {
-    "name": "primarySelected",
+    "name": "surfacePrimarySelected",
     "rgba": {
       "r": 0.8862745098039215,
       "g": 0.9607843137254902,
@@ -395,7 +385,7 @@
     "hex": "#e2f5edff"
   },
   {
-    "name": "primarySelectedHovered",
+    "name": "surfacePrimarySelectedHovered",
     "rgba": {
       "r": 0.7019607843137254,
       "g": 0.8156862745098039,
@@ -405,7 +395,7 @@
     "hex": "#b3d0c3ff"
   },
   {
-    "name": "primarySelectedPressed",
+    "name": "surfacePrimarySelectedPressed",
     "rgba": {
       "r": 0.6352941176470588,
       "g": 0.7372549019607844,
@@ -530,7 +520,7 @@
     "hex": "#ffffffff"
   },
   {
-    "name": "linkCritical",
+    "name": "interactiveCritical",
     "rgba": {
       "r": 0.8627450980392157,
       "g": 0.17647058823529413,
@@ -540,7 +530,7 @@
     "hex": "#dc2d0eff"
   },
   {
-    "name": "linkCriticalDisabled",
+    "name": "interactiveCriticalDisabled",
     "rgba": {
       "r": 0.9921568627450981,
       "g": 0.5764705882352941,
@@ -550,7 +540,7 @@
     "hex": "#fd938dff"
   },
   {
-    "name": "linkCriticalHovered",
+    "name": "interactiveCriticalHovered",
     "rgba": {
       "r": 0.803921568627451,
       "g": 0.1607843137254902,
@@ -560,7 +550,7 @@
     "hex": "#cd290cff"
   },
   {
-    "name": "linkCriticalPressed",
+    "name": "interactiveCriticalPressed",
     "rgba": {
       "r": 0.403921568627451,
       "g": 0.058823529411764705,
