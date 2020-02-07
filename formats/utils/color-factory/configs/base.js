@@ -27,14 +27,14 @@ const base = {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 96},
+      light: {lightness: 95},
       dark: {lightness: 20},
     },
     {
       name: 'surfacePressed',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
-      light: {lightness: 90},
+      light: {lightness: 92},
       dark: {lightness: 27},
     },
     {
@@ -356,7 +356,7 @@ const base = {
       name: 'surfacePrimarySelected',
       description:
         'Used as a surface color to indicate selected interactive states in navigation and tabs.',
-      light: {lightness: 95, saturation: 30},
+      light: {lightness: 95, saturation: 20},
       dark: {lightness: 5, saturation: 30},
     },
     {
@@ -392,7 +392,7 @@ const base = {
     {
       name: 'iconCritical',
       description: 'For use as an icon fill color on top of critical elements.',
-      light: {lightness: 52},
+      light: {lightness: 47.3},
       dark: {lightness: 48},
     },
     {
@@ -509,7 +509,7 @@ const base = {
     {
       name: 'iconWarning',
       description: 'For use as an icon fill color on top of warning elements.',
-      light: {lightness: 66},
+      light: {lightness: 60},
       dark: {lightness: 34},
     },
     {
