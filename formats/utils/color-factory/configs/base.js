@@ -270,7 +270,7 @@ const base = {
       description:
         'Used for secondary buttons and tertiary buttons, as well as in form elements as a background color and pontentially other secondary surfaces.',
       light: {lightness: 93},
-      dark: {lightness: 22},
+      dark: {lightness: 34},
     },
     {
       name: 'actionSecondaryDisabled',
@@ -700,7 +700,7 @@ const base = {
       light: {
         hue: hueRotationFn(87.5),
         saturation: saturationAdjustmentFn(-46),
-        lightness: 84,
+        lightness: 85,
       },
       dark: {
         hue: hueRotationFn(97.5),
