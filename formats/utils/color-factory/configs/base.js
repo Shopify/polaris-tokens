@@ -24,6 +24,13 @@ const base = {
       dark: {lightness: 10},
     },
     {
+      name: 'surfaceDisabled',
+      description:
+        'For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state.',
+      light: {lightness: 98.3},
+      dark: {lightness: 10},
+    },
+    {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
