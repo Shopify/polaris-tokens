@@ -24,17 +24,24 @@ const base = {
       dark: {lightness: 10},
     },
     {
+      name: 'surfaceDisabled',
+      description:
+        'For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state.',
+      light: {lightness: 98.3},
+      dark: {lightness: 10},
+    },
+    {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 96},
+      light: {lightness: 95},
       dark: {lightness: 20},
     },
     {
       name: 'surfacePressed',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
-      light: {lightness: 90},
+      light: {lightness: 92},
       dark: {lightness: 27},
     },
     {
@@ -270,12 +277,12 @@ const base = {
       description:
         'Used for secondary buttons and tertiary buttons, as well as in form elements as a background color and pontentially other secondary surfaces.',
       light: {lightness: 93},
-      dark: {lightness: 22},
+      dark: {lightness: 34},
     },
     {
       name: 'actionSecondaryDisabled',
       description: 'Used as a disabled state for secondary buttons',
-      light: {lightness: 94},
+      light: {lightness: 95},
       dark: {lightness: 13},
     },
     {
@@ -356,7 +363,7 @@ const base = {
       name: 'surfacePrimarySelected',
       description:
         'Used as a surface color to indicate selected interactive states in navigation and tabs.',
-      light: {lightness: 95, saturation: 30},
+      light: {lightness: 95, saturation: 20},
       dark: {lightness: 5, saturation: 30},
     },
     {
@@ -392,7 +399,7 @@ const base = {
     {
       name: 'iconCritical',
       description: 'For use as an icon fill color on top of critical elements.',
-      light: {lightness: 52},
+      light: {lightness: 47.3},
       dark: {lightness: 48},
     },
     {
@@ -509,7 +516,7 @@ const base = {
     {
       name: 'iconWarning',
       description: 'For use as an icon fill color on top of warning elements.',
-      light: {lightness: 66},
+      light: {lightness: 60},
       dark: {lightness: 34},
     },
     {
@@ -700,7 +707,7 @@ const base = {
       light: {
         hue: hueRotationFn(87.5),
         saturation: saturationAdjustmentFn(-46),
-        lightness: 84,
+        lightness: 85,
       },
       dark: {
         hue: hueRotationFn(97.5),
