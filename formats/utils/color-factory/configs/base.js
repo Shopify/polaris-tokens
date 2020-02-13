@@ -275,7 +275,7 @@ const base = {
     {
       name: 'actionSecondaryDisabled',
       description: 'Used as a disabled state for secondary buttons',
-      light: {lightness: 94},
+      light: {lightness: 95},
       dark: {lightness: 13},
     },
     {
