@@ -1,4 +1,4 @@
-# Polaris design language
+# Polaris design language [WIP]
 
 The Polaris design language helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
 
@@ -39,8 +39,6 @@ As a part of our visual design language, we use colors purposefully to establish
 ## Updating prototypes and existing designs
 
 ## Learn more
-
-We'll link these to subtopics in this folder
 
 - [Accessibility](/color-system-documentation/accessibility.md)
 - [Organization and naming](/color-system-documentation/organization-and-naming.md)
