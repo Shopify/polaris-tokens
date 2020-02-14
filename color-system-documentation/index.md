@@ -1,6 +1,6 @@
-# Color system
+# Polaris design language
 
-The Polaris color system helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
+The Polaris design language helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
 
 As a part of our visual design language, we use colors purposefully to establish brand presence and to communicate the interactive state, hierarchy, and emphasis of elements on the screen. The color palette is optimized for contrast between different kinds of elements, and helps to ensure an accessible experience.
 
@@ -42,10 +42,9 @@ As a part of our visual design language, we use colors purposefully to establish
 
 We'll link these to subtopics in this folder
 
-- Accessibility
-- Organization and naming
-- Diagram of how it works
-- Schemes
+- [Accessibility](/color-system-documentation/accessibility.md)
+- [Organization and naming](/color-system-documentation/organization-and-naming.md)
+- [Schemes](/color-system-documentation/schemes.md)
 - Mobile
 - Decorative colors
-- Glossary
+- [Glossary](/color-system-documentation/glossary.md)
