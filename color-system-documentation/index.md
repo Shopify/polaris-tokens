@@ -1,15 +1,16 @@
-# Polaris design language [WIP]
+# Shopify's design language [WIP]
 
-The Polaris design language helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
+Shopify's design language helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
 
 As a part of our visual design language, we use colors purposefully to establish brand presence and to communicate the interactive state, hierarchy, and emphasis of elements on the screen. The color palette is optimized for contrast between different kinds of elements, and helps to ensure an accessible experience.
 
 ## Table of contents
 
-- [Converting to the new design language](#converting-to-the-new-design-language)
+- [Getting started with Shopify's design language](#getting-started-with-shopifys-design-language)
   - [Consuming updates from polaris-react](#consuming-updates-from-polaris-react)
   - [Updating custom components in React](#updating-custom-components-in-react)
   - [Updating custom components in Rails](#updating-custom-components-in-rails)
+  - [How to use the theme provider](#how-to-use-the-theme-provider)
   - [Timeline for Web](#timeline-for-web)
 - [Mobile](#mobile)
   - [Embedded web views](#embedded-web-views)
@@ -18,13 +19,21 @@ As a part of our visual design language, we use colors purposefully to establish
 - [Updating prototypes and existing designs](#updating-prototypes-and-existing-designs)
 - [Learn more](#learn-more)
 
-## Converting to the new design language
+## Getting started with Shopify's design language
 
-### Consuming updates from polaris-react
+### Consuming the updates from polaris-react
+
+- Updating from an older version
 
 ### Updating custom components in React
 
 ### Updating custom components in Rails
+
+### How to use the theme provider
+
+### Should I update existing designs?
+
+### When should I start using the new design language?
 
 ### Timeline for Web
 
@@ -32,11 +41,13 @@ As a part of our visual design language, we use colors purposefully to establish
 
 ### Embedded web views
 
-### Timeline
+### Timeline for native apps
 
-## UI Kit and Figma palette
+## UI Kit
 
-## Updating prototypes and existing designs
+### Color styles
+
+### Applying color to components
 
 ## Learn more
 
