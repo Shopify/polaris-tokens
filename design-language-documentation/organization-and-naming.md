@@ -57,7 +57,7 @@ The interactive state of an element
 
 ## Visual examples
 
-To see examples of how color roles relate to variants how the colors are applied in the UI, see [Color roles and variants](/design-language-documentation/color-roles-and-variants/#visual-examples.
+To see examples of how color roles relate to variants how the colors are applied in the UI, see [Color roles and variants](/design-language-documentation/color-roles-and-variants/#visual-examples).
 
 ## Related pages
 
