@@ -1,20 +1,21 @@
-# Color organization and naming
+# Color variant organization and naming
 
 Each part of a color variant name refers to a category. When strung together, the combination of categories defines the element that the color is intended to be applied to.
 
 The format of a color variant name is the UI element accompanied by any modifiers that give us information about the element and affect the way it looks. The modifiers belong to categories and are strung in a specific order.
 
-[Element] + [Status] + [Emphasis] + [State]
+**[Element]** + **[Status]** + **[Emphasis]** + **[State]**
 
 Examples:
-[Border] + [critical] + [n/a] + [disabled] = border critical disabled
-[Action] + [n/a] + [primary] + [pressed] = action primary pressed
+
+- **[border]** + **[critical]** + [n/a] + **[disabled]** = border critical disabled
+- **[action]** + [n/a] + **[primary]** + **[pressed]** = action primary pressed
 
 The same color in the palette can have multiple names because of the different roles it plays in the color system. The naming conventions teach people the purpose of the color and where they should be applied. This strategy should reduce the inconsistent application of colors to shared behaviors throughout the system, and ultimately, make Shopify feel more crafted and familiar.
 
 ## Element
 
-The specific part of the UI that you’re applying color to
+The specific part of the UI that a color is applied to
 
 - background
 - surface
@@ -53,3 +54,17 @@ The interactive state of an element
 - error
 - selected
 - focused
+
+## Visual examples
+
+To see examples of how color roles relate to variants how the colors are applied in the UI, see [Color roles and variants](/design-language-documentation/color-roles-and-variants/#visual-examples.
+
+## Related pages
+
+- [Shopify's design language](/design-language-documentation/index.md)
+- [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
+- [Accessibility](/design-language-documentation/accessibility.md)
+- [Dark and light schemes](/design-language-documentation/schemes.md)
+- Mobile
+- Decorative colors
+- [Glossary](/design-language-documentation/glossary.md)

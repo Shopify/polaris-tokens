@@ -13,3 +13,13 @@
 **Theme**: A collection of 10 base colors, one for for each of the 10 color roles
 
 **Palette**: The collection of color variant values
+
+## Related pages
+
+- [Shopify's design language](/design-language-documentation/index.md)
+- [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
+- [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
+- [Accessibility](/design-language-documentation/accessibility.md)
+- [Dark and light schemes](/design-language-documentation/schemes.md)
+- Mobile
+- Decorative colors

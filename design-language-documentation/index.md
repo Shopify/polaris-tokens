@@ -14,12 +14,13 @@ Shopify's design language helps designers and developers to create user interfac
 - [Getting started with Shopify's design language](#getting-started-with-shopifys-design-language)
   - [Updating custom components in React](#updating-custom-components-in-react)
   - [Updating custom components in Rails](#updating-custom-components-in-rails)
-- [UI Kit](#ui-kit-and-figma-palette)
+- [UI Kit](#ui-kit)
   - [Color styles](#color-styles)
   - [Applying color to components](#applying-color-to-components)
-- [Resources](#resources)
+- [Related pages](#related-pages)
+  - [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
+  - [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
   - [Color system accessibility](/design-language-documentation/accessibility.md)
-  - [Color organization and naming](/design-language-documentation/organization-and-naming.md)
   - [Dark and light schemes](/design-language-documentation/schemes.md)
   - Mobile
   - Decorative colors
@@ -45,10 +46,11 @@ To update custom components (including forked components and Rails components wi
 
 ### Applying color to components
 
-## Resources
+## Related pages
 
-- [Color system accessibility](/design-language-documentation/accessibility.md)
-- [Color organization and naming](/design-language-documentation/organization-and-naming.md)
+- [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
+- [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
+- [Accessibility](/design-language-documentation/accessibility.md)
 - [Dark and light schemes](/design-language-documentation/schemes.md)
 - Mobile
 - Decorative colors
