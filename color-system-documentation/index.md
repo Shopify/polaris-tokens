@@ -4,6 +4,8 @@ Shopify's design language helps designers and developers to create user interfac
 
 As a part of our visual design language, we use colors purposefully to establish brand presence and to communicate the interactive state, hierarchy, and emphasis of elements on the screen. The color palette is optimized for contrast between different kinds of elements, and helps to ensure an accessible experience.
 
+🦄 [Project](https://vault.shopify.io/projects/7859)
+
 ## Table of contents
 
 - [Getting started with Shopify's design language](#getting-started-with-shopifys-design-language)
@@ -27,6 +29,8 @@ As a part of our visual design language, we use colors purposefully to establish
 
 ### Updating custom components in React
 
+1. Add your custom components to the [tracking spreadsheet](https://docs.google.com/spreadsheets/d/1hUXmywBByL1124Nsn6OrORfgI1H2R7FX5DWliYQZW_I/edit?usp=sharing)
+
 ### Updating custom components in Rails
 
 ### How to use the theme provider
@@ -36,6 +40,8 @@ As a part of our visual design language, we use colors purposefully to establish
 ### When should I start using the new design language?
 
 ### Timeline for Web
+
+[Design language rollout](https://docs.google.com/spreadsheets/d/1hUXmywBByL1124Nsn6OrORfgI1H2R7FX5DWliYQZW_I/edit?usp=sharing)
 
 ## Mobile
 
