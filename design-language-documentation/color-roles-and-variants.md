@@ -6,18 +6,9 @@ Color roles and variants are the variables or tokens that make up the color syst
 
 Color roles are variables that apply a theme to multiple areas at once, in a purposeful way. A theme is made up of 10 color roles, which are used to generate the values of all the color variants in the palette.
 
-The color roles are:
+For the base theme, the values of the 10 color roles look like this:
 
-- Surface
-- onSurface
-- Interactive
-- Secondary
-- Primary
-- Critical
-- Warning
-- Highlight
-- Success
-- Decorative
+![Base theme color roles](/design-language-documentation/assets/basetheme.png)
 
 ## Color variants
 
@@ -35,16 +26,65 @@ Learn more about [how color variants are named and organized](/design-language-d
 
 The following examples show how color roles relate to variants how the colors are applied in the UI.
 
-![Visual example of surface role](/design-language-documentation/assets/surface.jpg)
-![Visual example of onsurface role](/design-language-documentation/assets/onsurface.jpg)
-![Visual example of interactive role](/design-language-documentation/assets/interactive.jpg)
-![Visual example of secondary role](/design-language-documentation/assets/secondary.jpg)
-![Visual example of primary role](/design-language-documentation/assets/primary.jpg)
-![Visual example of critical role](/design-language-documentation/assets/critical.jpg)
-![Visual example of warning role](/design-language-documentation/assets/warning.jpg)
-![Visual example of highlight role](/design-language-documentation/assets/highlight.jpg)
-![Visual example of success role](/design-language-documentation/assets/success.jpg)
-![Visual example of decorative role](/design-language-documentation/assets/decorative.jpg)
+### Surface
+
+Surface colors affect surfaces of components, such as page, card, sheet, and popover
+
+![Surface role examples](/design-language-documentation/assets/surface.png)
+
+### On surface
+
+On surface colors are applied to elements that appear on neutral surfaces, usually borders, secondary icons, and text elements
+
+![Onsurface role examples](/design-language-documentation/assets/onsurface.png)
+
+### Interactive
+
+Interactive colors are applied to links, focus indicators, and selected interactive states
+
+![Interactive role examples](/design-language-documentation/assets/interactive.png)
+
+### Secondary
+
+Secondary colors are applied to secondary and tertiary buttons and the background of form elements
+
+![Secondary role examples](/design-language-documentation/assets/secondary.png)
+
+### Primary
+
+Primary colors are applied to primary buttons, icons and text on navigation and tabs, and the background for navigation and tab interactive states
+
+![Primary role examples](/design-language-documentation/assets/primary.png)
+
+### Critical
+
+Critical colors are applied to destructive interactive elements, errors, and critical events that require immediate user action
+
+![Critical role examples](/design-language-documentation/assets/critical.png)
+
+### Warning
+
+Warning colors indicate that users should take action and are applied to badges, banners, and exception lists
+
+![Warning role examples](/design-language-documentation/assets/warning.png)
+
+### Highlight
+
+Highlight colors indicate important elements that don’t require immediate action and are applied to informational banners and badges, indicators that draw attention to new information, bars that indicate loading or progress, and in data visualization
+
+![Highlight role examples](/design-language-documentation/assets/highlight.png)
+
+### Success
+
+Success colors indicate successful action taken by a user, a positive event, or to illustrate growth
+
+![Success role examples](/design-language-documentation/assets/success.png)
+
+### Decorative
+
+Decorative colors are used for expressive communications that assert brand presence
+
+![Decorative role examples](/design-language-documentation/assets/decorative.png)
 
 ## Related pages
 
