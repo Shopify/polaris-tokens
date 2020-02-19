@@ -330,14 +330,16 @@ gulp.task(
 );
 
 gulp.task(
-  'default',
+  'build-legacy',
   gulp.series([
     'web-formats',
     'typings',
     'color-filters',
     'spacing-formats',
     'color-formats',
-    'themes',
-    'palettes',
   ]),
 );
+
+gulp.task('build-modern', gulp.series(['themes', 'palettes']));
+
+gulp.task('default', gulp.series(['build-modern', 'build-legacy']));
