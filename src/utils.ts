@@ -1,3 +1,5 @@
+import {ImmutableStyleMap} from 'theo';
+
 import {Config} from './types';
 
 export function hueRotationFn(rotation: number) {
@@ -9,9 +11,7 @@ export function saturationAdjustmentFn(adjustment: number) {
     Math.min(Math.max(saturation + adjustment, 0), 100);
 }
 
-// eslint-disable-next-line no-warning-comments
-// TODO: type data
-export function tokensToJson(data: any) {
+export function tokensToJson(data: ImmutableStyleMap) {
   return data.toJS().props.reduce(
     (accumulator: any, prop: any) => ({
       ...accumulator,
