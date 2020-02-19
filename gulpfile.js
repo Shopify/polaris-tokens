@@ -250,6 +250,7 @@ gulp.task('docs:styles', (done) => {
       $.sass
         .sync({
           precision: 10,
+          outputStyle: 'expanded',
         })
         .on('error', $.sass.logError),
     )
