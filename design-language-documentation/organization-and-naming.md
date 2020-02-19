@@ -13,7 +13,7 @@ Examples:
 
 ## Categories
 
-![Table of categories](/assets/namingcategories.png)
+![Table of categories](/design-language-documentation/assets/namingcategories.png)
 
 The same color in the palette can have multiple names because of the different roles it plays in the color system. The naming conventions teach people the purpose of the color and where they should be applied. This strategy should reduce the inconsistent application of colors to shared behaviors throughout the system, and ultimately, make Shopify feel more crafted and familiar.
 
