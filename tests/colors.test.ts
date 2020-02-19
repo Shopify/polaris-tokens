@@ -36,7 +36,6 @@ describe('Compare files snapshots', () => {
 
 describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
-    // console.log('hai', lodash);
     expect(
       lodash
         .chain(colorsJSON)
