@@ -106,7 +106,7 @@ gulp.task('themes', (done) => {
     .on('error', (err) => {
       throw new Error(err);
     })
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist-modern/theme'));
   done();
 });
 
@@ -133,7 +133,7 @@ gulp.task('palettes', (done) => {
           .on('error', (err) => {
             throw new Error(err);
           })
-          .pipe(gulp.dest('dist')),
+          .pipe(gulp.dest('dist-modern/palette')),
       ),
   );
   done();
@@ -250,6 +250,7 @@ gulp.task('docs:styles', (done) => {
       $.sass
         .sync({
           precision: 10,
+          outputStyle: 'expanded',
         })
         .on('error', $.sass.logError),
     )
@@ -330,14 +331,16 @@ gulp.task(
 );
 
 gulp.task(
-  'default',
+  'build-legacy',
   gulp.series([
     'web-formats',
     'typings',
     'color-filters',
     'spacing-formats',
     'color-formats',
-    'themes',
-    'palettes',
   ]),
 );
+
+gulp.task('build-modern', gulp.series(['themes', 'palettes']));
+
+gulp.task('default', gulp.series(['build-modern', 'build-legacy']));

@@ -6,8 +6,7 @@ body {
   text-transform: initial;
   letter-spacing: initial;
   color: #212b36;
-  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', Roboto,
-    'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 @media (min-width: 40em) {
@@ -121,7 +120,7 @@ thead th:first-child {
 }
 
 code {
-  font-family: Monaco, Consolas, 'Lucida Console', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
 .metric-box,

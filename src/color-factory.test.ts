@@ -1,4 +1,4 @@
-const {colorFactory} = require('../formats/utils/color-factory/color-factory');
+import {colorFactory} from './color-factory';
 
 describe('colorFactory()', () => {
   const colors = {
@@ -28,7 +28,12 @@ describe('colorFactory()', () => {
   it('does not throw when given a non-standard shape', () => {
     expect(() => {
       colorFactory(
-        {topBar: {background: '#eeeeee'}, surface: '#ffffff'},
+        {
+          // Silly casting needed to stop typescript helpfully pointing out that
+          // this is invalid as topBar should be a string, not an object
+          topBar: ({background: '#eeeeee'} as unknown) as string,
+          surface: '#ffffff',
+        },
         'light',
       );
     }).not.toThrow();

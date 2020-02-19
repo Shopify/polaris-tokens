@@ -1,14 +1,19 @@
-function hueRotationFn(rotation) {
-  return (hue) => (360 + hue + rotation) % 360;
+import {ImmutableStyleMap} from 'theo';
+
+import {Config} from './types';
+
+export function hueRotationFn(rotation: number) {
+  return (hue: number) => (360 + hue + rotation) % 360;
 }
 
-function saturationAdjustmentFn(adjustment) {
-  return (saturation) => Math.min(Math.max(saturation + adjustment, 0), 100);
+export function saturationAdjustmentFn(adjustment: number) {
+  return (saturation: number) =>
+    Math.min(Math.max(saturation + adjustment, 0), 100);
 }
 
-function tokensToJson(data) {
+export function tokensToJson(data: ImmutableStyleMap) {
   return data.toJS().props.reduce(
-    (accumulator, prop) => ({
+    (accumulator: any, prop: any) => ({
       ...accumulator,
       [prop.name]: prop.originalValue,
     }),
@@ -16,7 +21,7 @@ function tokensToJson(data) {
   );
 }
 
-function mergeConfigs(base, extended) {
+export function mergeConfigs(base: Config, extended: Config) {
   return Object.entries(base).reduce((accumulator, [role, variants]) => {
     const extendedVariants = extended[role];
     const mergedVariants = variants;
@@ -42,10 +47,3 @@ function mergeConfigs(base, extended) {
     };
   }, {});
 }
-
-module.exports = {
-  tokensToJson,
-  hueRotationFn,
-  saturationAdjustmentFn,
-  mergeConfigs,
-};

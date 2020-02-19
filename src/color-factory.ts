@@ -1,8 +1,15 @@
-const {hexToHsluv, hsluvToRgb} = require('hsluv');
+import {hexToHsluv, hsluvToRgb} from 'hsluv';
 
-const baseConfig = require('./configs/base');
+import {config as baseConfig} from './configs/base';
+import {Lambda} from './types';
 
-function colorFactory(theme, scheme, config = baseConfig) {
+type Scheme = 'light' | 'dark';
+
+export function colorFactory(
+  theme: Partial<Record<string, string>>,
+  scheme: Scheme,
+  config = baseConfig,
+) {
   return Object.assign(
     {},
     ...Object.entries(theme).map(([role, hex]) => {
@@ -21,7 +28,7 @@ function colorFactory(theme, scheme, config = baseConfig) {
             alpha = 1,
           } = settings[scheme];
 
-          const resolve = (value, baseToResolve) => {
+          const resolve = (value: number | Lambda, baseToResolve: number) => {
             return typeof value === 'number' ? value : value(baseToResolve);
           };
 
@@ -40,5 +47,3 @@ function colorFactory(theme, scheme, config = baseConfig) {
     }),
   );
 }
-
-module.exports = {colorFactory};

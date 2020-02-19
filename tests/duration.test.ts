@@ -1,12 +1,14 @@
 /* eslint-disable shopify/jest/no-snapshots */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const _ = require('lodash');
+import lodash from 'lodash';
 
+/* eslint-disable @typescript-eslint/no-var-requires */
 const durationJSON = require('../dist/duration.json');
 const durationRawJSON = require('../dist/duration.raw.json');
+/* eslint-enable @typescript-eslint/no-var-requires */
 
 const durationFiles = [
   'duration.map.scss',
@@ -34,7 +36,8 @@ describe('Compare files snapshots', () => {
 describe('JSON object representation', () => {
   it('renders similar JSON objects', () => {
     expect(
-      _(durationJSON)
+      lodash
+        .chain(durationJSON)
         .toPairs()
         .sortBy(0)
         .fromPairs()
@@ -43,16 +46,17 @@ describe('JSON object representation', () => {
   });
 
   it('outputs integers in JSON', () => {
-    const everyValueIsInteger = Object.values(durationJSON).every((value) =>
-      Number.isInteger(value),
-    );
+    const everyValueIsInteger = Object.values(
+      durationJSON,
+    ).every((value: any) => Number.isInteger(value));
     expect(everyValueIsInteger).toBe(true);
   });
 
   it('renders similar RAW JSON objects', () => {
     // Aliases
     expect(
-      _(durationRawJSON.aliases)
+      lodash
+        .chain(durationRawJSON.aliases)
         .toPairs()
         .sortBy(0)
         .fromPairs()
@@ -60,7 +64,7 @@ describe('JSON object representation', () => {
     ).toMatchSnapshot();
 
     // Props
-    expect(_(durationRawJSON.props).sortBy('name')).toMatchSnapshot();
+    expect(lodash.sortBy(durationRawJSON.props, 'name')).toMatchSnapshot();
   });
 
   it('outputs `none` value as integer', () => {
