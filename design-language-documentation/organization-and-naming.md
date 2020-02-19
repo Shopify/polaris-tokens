@@ -11,9 +11,15 @@ Examples:
 - **[border]** + **[critical]** + [n/a] + **[disabled]** = border critical disabled
 - **[action]** + [n/a] + **[primary]** + **[pressed]** = action primary pressed
 
+## Categories
+
+![Table of categories](/assets/namingcategories.png)
+
 The same color in the palette can have multiple names because of the different roles it plays in the color system. The naming conventions teach people the purpose of the color and where they should be applied. This strategy should reduce the inconsistent application of colors to shared behaviors throughout the system, and ultimately, make Shopify feel more crafted and familiar.
 
-## Element
+To determine the name of a color that should be applied to a part of the UI, start with element and add on any modifiers from the status, emphasis, and state categories.
+
+### Element
 
 The specific part of the UI that a color is applied to
 
@@ -25,7 +31,7 @@ The specific part of the UI that a color is applied to
 - interactive
 - action
 
-## Status
+### Status
 
 An indication that calls a user’s attention for a specific purpose
 
@@ -36,7 +42,7 @@ An indication that calls a user’s attention for a specific purpose
 - positive
 - negative
 
-## Emphasis
+### Emphasis
 
 An element’s level of relative importance
 
@@ -44,7 +50,7 @@ An element’s level of relative importance
 - secondary
 - subdued
 
-## State
+### State
 
 The interactive state of an element
 
