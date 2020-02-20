@@ -157,7 +157,7 @@ export const config: Config = {
     },
     {
       name: 'iconPressed',
-      description: 'For use as the fill color of hovered icons.',
+      description: 'For use as the fill color of pressed icons.',
       light: {lightness: 30},
       dark: {lightness: 70},
     },
