@@ -17,9 +17,8 @@
 ## Related pages
 
 - [Shopify's design language](/design-language-documentation/index.md)
-- [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
-- [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
-- [Accessibility](/design-language-documentation/accessibility.md)
-- [Dark and light schemes](/design-language-documentation/schemes.md)
-- Mobile
-- Decorative colors
+- [Color system](/design-language-documentation/color-system/index.md)
+- [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md)
+- [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
+- [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
+- [Accessibility](/design-language-documentation/color-system/accessibility.md)

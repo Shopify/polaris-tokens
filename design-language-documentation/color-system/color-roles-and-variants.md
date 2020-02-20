@@ -89,9 +89,8 @@ Decorative colors are used for expressive communications that assert brand prese
 ## Related pages
 
 - [Shopify's design language](/design-language-documentation/index.md)
-- [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
-- [Accessibility](/design-language-documentation/accessibility.md)
-- [Dark and light schemes](/design-language-documentation/schemes.md)
-- Mobile
-- Decorative colors
+- [Color system](/design-language-documentation/color-system/index.md)
+- [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
+- [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
+- [Accessibility](/design-language-documentation/color-system/accessibility.md)
 - [Glossary](/design-language-documentation/glossary.md)

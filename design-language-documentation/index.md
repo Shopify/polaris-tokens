@@ -1,8 +1,21 @@
 # Shopify's design language [WIP]
 
-_...to express ourselves in a familiar way, across contexts, so our audiences experience one Shopify._
+_...to express ourselves in a familiar way across contexts so our audiences experience one Shopify_
 
-Shopify's design language helps designers and developers to create user interfaces that look familiar and feel like Shopify, while giving them the flexibility to be creative.
+Shopify’s design language helps teams to create products and experiences that look familiar and feel like Shopify, while giving them the flexibility to be creative. With the support of a solid foundation, we can empower teams to innovate more quickly.
+
+The design language encompasses all the pieces that come together to help us express ourselves visually and verbally. These include:
+
+- color
+- voice and tone
+- typography and spacing
+- shape and depth
+- illustration
+- motion
+- photography and videography
+- icons
+
+This documentation was created to support designers and developers in understanding and rolling out the design language internally.
 
 🦄 Projects:
 
@@ -11,26 +24,23 @@ Shopify's design language helps designers and developers to create user interfac
 
 ## Table of contents
 
-- [Getting started with Shopify's design language](#getting-started-with-shopifys-design-language)
+- [Component updates](#component-updates)
   - [Updating custom components in React](#updating-custom-components-in-react)
   - [Updating custom components in Rails](#updating-custom-components-in-rails)
 - [UI Kit](#ui-kit)
   - [Color styles](#color-styles)
   - [Applying color to components](#applying-color-to-components)
 - [Related pages](#related-pages)
-  - [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
-  - [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
-  - [Color system accessibility](/design-language-documentation/accessibility.md)
-  - [Dark and light schemes](/design-language-documentation/schemes.md)
-  - Mobile
-  - Decorative colors
+  - [Color system](/design-language-documentation/color-system/index.md)
+  - [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md)
+  - [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
+  - [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
+  - [Accessibility](/design-language-documentation/color-system/accessibility.md)
   - [Glossary](/design-language-documentation/glossary.md)
 
-## Getting started with Shopify's design language
+## Component updates
 
-As a part of our design language, we use colors purposefully to establish brand presence and to communicate the interactive state, hierarchy, and emphasis of elements on the screen. The color palette is optimized for contrast between different kinds of elements, and helps to ensure an accessible experience.
-
-Instead of referring to the colors by their hue or Hex value, we refer to them by the role they play in the UI. This allows us to easily modify, customize, and extend the color system.
+Shopify's design language will be applied to all Polaris components in React and Rails during the rollout.
 
 To update custom components (including forked components and Rails components with Sass that overrides default styling) see the following sections.
 
@@ -48,10 +58,9 @@ To update custom components (including forked components and Rails components wi
 
 ## Related pages
 
-- [Color roles and variants](/design-language-documentation/color-roles-and-variants.md)
-- [Color variant organization and naming](/design-language-documentation/organization-and-naming.md)
-- [Accessibility](/design-language-documentation/accessibility.md)
-- [Dark and light schemes](/design-language-documentation/schemes.md)
-- Mobile
-- Decorative colors
+- [Color system](/design-language-documentation/color-system/index.md)
+- [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md)
+- [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
+- [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
+- [Accessibility](/design-language-documentation/color-system/accessibility.md)
 - [Glossary](/design-language-documentation/glossary.md)
