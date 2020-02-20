@@ -80,9 +80,22 @@ export const config: Config = {
       },
     },
     {
+      name: 'shadowFromDimLight',
+      description:
+        'For use in building shadows for modals. This color has an alpha of `0.02`.',
+      light: {
+        lightness: 0,
+        alpha: 0.2,
+      },
+      dark: {
+        lightness: 100,
+        alpha: 0.2,
+      },
+    },
+    {
       name: 'shadowFromAmbientLight',
       description:
-        'For use in building shadows for popovers, cards, and modals. This color has an alpha of `0.05`.',
+        'For use in building shadows for popovers, and cards. This color has an alpha of `0.05`.',
       light: {
         hue: 180,
         saturation: 5,
@@ -140,7 +153,7 @@ export const config: Config = {
     {
       name: 'borderSubdued',
       description: 'For use as a subdued border on non-interactive elements.',
-      light: {lightness: 85},
+      light: {lightness: 94},
       dark: {lightness: 32},
     },
     {
