@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.8.0-rc.0] - 2020-02-06
+
+- Added surface disabled variant and updated other variant configs ([#101](https://github.com/Shopify/polaris-tokens/pull/101))
+- Added TypeScript build for modern tokens, and shifted directory structures to differentiate between legacy and modern tokens ([#97](https://github.com/Shopify/polaris-tokens/pull/97))
+
 ## [3.0.0-beta.7] - 2020-02-06
 
 - Updated variant names and descriptions ([#96](https://github.com/Shopify/polaris-tokens/pull/96))
