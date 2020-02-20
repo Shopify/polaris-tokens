@@ -21,4 +21,4 @@ The colors for related UI elements have names that reflect their compatibility. 
 - [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
 - [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
 - [Accessibility](/design-language-documentation/color-system/accessibility.md)
-- [Glossary](/design-language-documentation/glossary.md)
+- [Glossary](/design-language-documentation/color-system/glossary.md)

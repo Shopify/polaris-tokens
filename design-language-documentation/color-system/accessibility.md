@@ -13,4 +13,4 @@ To ensure that custom themes are WCAG 2.1 compliant, the color system uses the H
 - [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md)
 - [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md)
 - [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
-- [Glossary](/design-language-documentation/glossary.md)
+- [Glossary](/design-language-documentation/color-system/glossary.md)

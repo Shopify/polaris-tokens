@@ -72,4 +72,4 @@ To see examples of how color roles relate to variants how the colors are applied
 - [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md)
 - [Dark and light schemes](/design-language-documentation/color-system/schemes.md)
 - [Accessibility](/design-language-documentation/color-system/accessibility.md)
-- [Glossary](/design-language-documentation/glossary.md)
+- [Glossary](/design-language-documentation/color-system/glossary.md)
