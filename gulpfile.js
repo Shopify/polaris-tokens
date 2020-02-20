@@ -75,6 +75,70 @@ const removePrefix = (gulpRenameOptions) => {
   return gulpRenameOptions;
 };
 
+const {tokenify} = require('./formats/tokens');
+
+theo.registerTransform('theme', ['color/hex']);
+theo.registerFormat('light.yml', tokenify('light'));
+theo.registerFormat('dark.yml', tokenify('dark'));
+
+const colorSchemes = [
+  {transformType: 'raw', formatType: 'light.yml'},
+  {transformType: 'raw', formatType: 'dark.yml'},
+];
+
+const colorSystemFormats = [
+  {transformType: 'web/js', formatType: 'json'},
+  {transformType: 'android', formatType: 'android.xml'},
+  {transformType: 'ios', formatType: 'ios.json'},
+];
+
+gulp.task('themes', (done) => {
+  gulp
+    .src('tokens/themes/*.yml')
+    .pipe($.rename(addPrefix))
+    .pipe(
+      $.theo({
+        transform: {type: 'theme'},
+        format: {type: 'json'},
+      }),
+    )
+    .pipe($.rename(removePrefix))
+    .on('error', (err) => {
+      throw new Error(err);
+    })
+    .pipe(gulp.dest('dist-modern/theme'));
+  done();
+});
+
+gulp.task('palettes', (done) => {
+  colorSchemes.map(
+    ({transformType: schemeTransform, formatType: schemeFormat}) =>
+      colorSystemFormats.map(({transformType, formatType}) =>
+        gulp
+          .src('tokens/themes/*.yml')
+          .pipe(
+            $.theo({
+              transform: {type: schemeTransform},
+              format: {type: schemeFormat},
+            }),
+          )
+          .pipe($.rename(addPrefix))
+          .pipe(
+            $.theo({
+              transform: {type: transformType},
+              format: {type: formatType},
+            }),
+          )
+          .pipe($.rename(removePrefix))
+          .on('error', (err) => {
+            throw new Error(err);
+          })
+          .pipe(gulp.dest('dist-modern/palette')),
+      ),
+  );
+  done();
+});
+
 gulp.task('web-formats', (done) => {
   webFormats.map(({transformType, formatType}) =>
     gulp
@@ -186,6 +250,7 @@ gulp.task('docs:styles', (done) => {
       $.sass
         .sync({
           precision: 10,
+          outputStyle: 'expanded',
         })
         .on('error', $.sass.logError),
     )
@@ -234,13 +299,15 @@ function reload(done) {
 
 function watch() {
   gulp.watch(
-    ['tokens/*.yml'],
+    ['tokens/*.yml', 'tokens/themes/*.yml'],
     gulp.series([
       'web-formats',
       'typings',
       'spacing-formats',
       'color-formats',
       'docs',
+      'themes',
+      'palettes',
     ]),
   );
   gulp.watch('docs/**/*.scss', gulp.series('docs:styles'));
@@ -251,13 +318,20 @@ function watch() {
 gulp.task(
   'watch',
   gulp.series(
-    ['web-formats', 'spacing-formats', 'color-formats', 'docs'],
+    [
+      'web-formats',
+      'spacing-formats',
+      'color-formats',
+      'docs',
+      'themes',
+      'palettes',
+    ],
     gulp.series(serve, watch),
   ),
 );
 
 gulp.task(
-  'default',
+  'build-legacy',
   gulp.series([
     'web-formats',
     'typings',
@@ -266,3 +340,7 @@ gulp.task(
     'color-formats',
   ]),
 );
+
+gulp.task('build-modern', gulp.series(['themes', 'palettes']));
+
+gulp.task('default', gulp.series(['build-modern', 'build-legacy']));
