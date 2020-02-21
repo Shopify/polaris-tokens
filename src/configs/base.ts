@@ -494,7 +494,7 @@ export const config: Config = {
     {
       name: 'interactiveCritical',
       description:
-        'Used for destructive interactive elements: links, destructive plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
+        'For use as the text color for destructive interactive elements: links, plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
       light: {lightness: 48.5},
       dark: {lightness: 65},
     },
