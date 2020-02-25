@@ -524,7 +524,7 @@ export const config: Config = {
     {
       name: 'borderWarning',
       description: 'For use as a border on warning components such as banners.',
-      light: {lightness: 60},
+      light: {lightness: 77, saturation: 60},
       dark: {lightness: 50},
     },
     {
@@ -596,7 +596,7 @@ export const config: Config = {
     {
       name: 'borderSuccess',
       description: 'For use as a border on success components such as banners.',
-      light: {lightness: 47.5},
+      light: {lightness: 77, saturation: 40},
       dark: {lightness: 50},
     },
     {
