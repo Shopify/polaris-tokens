@@ -248,7 +248,7 @@ export const config: Config = {
     {
       name: 'focused',
       description: 'For use in the focus ring on interactive elements.',
-      light: {lightness: 58},
+      light: {lightness: 60, saturation: 100},
       dark: {lightness: 42},
     },
     {
@@ -342,21 +342,21 @@ export const config: Config = {
       name: 'actionPrimaryDisabled',
       description:
         'Used as the background color for disabled primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 32},
+      light: {lightness: 95, saturation: 0},
       dark: {lightness: 32},
     },
     {
       name: 'actionPrimaryHovered',
       description:
         'Used as the background color for hovered primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 42.3},
+      light: {lightness: 41, saturation: 100},
       dark: {lightness: 55},
     },
     {
       name: 'actionPrimaryPressed',
       description:
         'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 37.3},
+      light: {lightness: 35, saturation: 100},
       dark: {lightness: 60},
     },
     {
@@ -407,7 +407,7 @@ export const config: Config = {
       name: 'borderCriticalDisabled',
       description:
         'For use as a disabled border on critical components such as banners, and as an outline on interactive elements in an error state.',
-      light: {lightness: 82},
+      light: {lightness: 77, saturation: 100},
       dark: {lightness: 28},
     },
     {
@@ -462,21 +462,21 @@ export const config: Config = {
       name: 'actionCriticalDisabled',
       description:
         'For use as the background color for disabled destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 59},
+      light: {lightness: 95, saturation: 0},
       dark: {lightness: 41},
     },
     {
       name: 'actionCriticalHovered',
       description:
         'For use as the background color for hovered destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 42.5},
+      light: {lightness: 41, saturation: 100},
       dark: {lightness: 50},
     },
     {
       name: 'actionCriticalPressed',
       description:
         'For use as the background color for pressed destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 37.5},
+      light: {lightness: 35, saturation: 100},
       dark: {lightness: 55},
     },
     {
@@ -524,7 +524,7 @@ export const config: Config = {
     {
       name: 'borderWarning',
       description: 'For use as a border on warning components such as banners.',
-      light: {lightness: 76.6},
+      light: {lightness: 60},
       dark: {lightness: 50},
     },
     {
@@ -560,7 +560,7 @@ export const config: Config = {
       name: 'borderHighlight',
       description:
         'For use as a border on informational components such as banners.',
-      light: {lightness: 60},
+      light: {lightness: 60, saturation: 100},
       dark: {lightness: 60},
     },
     {
@@ -596,7 +596,7 @@ export const config: Config = {
     {
       name: 'borderSuccess',
       description: 'For use as a border on success components such as banners.',
-      light: {lightness: 50},
+      light: {lightness: 47.5},
       dark: {lightness: 50},
     },
     {
