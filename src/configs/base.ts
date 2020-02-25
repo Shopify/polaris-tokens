@@ -255,21 +255,21 @@ export const config: Config = {
       name: 'surfaceSelected',
       description:
         'For use as a surface color in selected interactive elements, in components such as action list and resource list.',
-      light: {lightness: 97},
+      light: {lightness: 97, hue: hueRotationFn(-12)},
       dark: {lightness: 4},
     },
     {
       name: 'surfaceSelectedHovered',
       description:
         'For use as a surface color in selected interactive elements that are hovered, in components such as action list and resource list.',
-      light: {lightness: 96},
+      light: {lightness: 96, hue: hueRotationFn(-12)},
       dark: {lightness: 11},
     },
     {
       name: 'surfaceSelectedPressed',
       description:
         'For use as a surface color in selected interactive elements that are pressed, in components such as action list and resource list.',
-      light: {lightness: 94},
+      light: {lightness: 94, hue: hueRotationFn(-10)},
       dark: {lightness: 18},
     },
     {
