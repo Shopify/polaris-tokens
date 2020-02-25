@@ -147,13 +147,13 @@ export const config: Config = {
     {
       name: 'border',
       description: 'For use as a border on non-interactive elements.',
-      light: {lightness: 75},
+      light: {lightness: 60},
       dark: {lightness: 35},
     },
     {
       name: 'borderSubdued',
       description: 'For use as a subdued border on non-interactive elements.',
-      light: {lightness: 94},
+      light: {lightness: 90},
       dark: {lightness: 32},
     },
     {
@@ -195,7 +195,7 @@ export const config: Config = {
     {
       name: 'textDisabled',
       description: 'For use as a disabled text color.',
-      light: {lightness: 61.3},
+      light: {lightness: 60},
       dark: {lightness: 48.2},
     },
     {
@@ -210,7 +210,7 @@ export const config: Config = {
       name: 'interactive',
       description:
         'Used for links, plain buttons, and as the fill color for selected checkboxes and radio buttons.',
-      light: {lightness: 48.6},
+      light: {lightness: 47},
       dark: {
         lightness: 65,
         saturation: saturationAdjustmentFn(11.2),
@@ -220,7 +220,7 @@ export const config: Config = {
     {
       name: 'interactiveDisabled',
       description: 'Used for disabled links and plain buttons.',
-      light: {lightness: 58},
+      light: {lightness: 78, saturation: 17},
       dark: {
         lightness: 42,
       },
@@ -228,7 +228,7 @@ export const config: Config = {
     {
       name: 'interactiveHovered',
       description: 'Used for hovered links and plain buttons.',
-      light: {lightness: 37},
+      light: {lightness: 35},
       dark: {
         lightness: 70,
         saturation: saturationAdjustmentFn(11.2),
@@ -238,7 +238,7 @@ export const config: Config = {
     {
       name: 'interactivePressed',
       description: 'Used for pressed links and plain buttons.',
-      light: {lightness: 31},
+      light: {lightness: 21},
       dark: {
         lightness: 75,
         saturation: saturationAdjustmentFn(11.2),
@@ -255,21 +255,21 @@ export const config: Config = {
       name: 'surfaceSelected',
       description:
         'For use as a surface color in selected interactive elements, in components such as action list and resource list.',
-      light: {lightness: 96},
+      light: {lightness: 97},
       dark: {lightness: 4},
     },
     {
       name: 'surfaceSelectedHovered',
       description:
         'For use as a surface color in selected interactive elements that are hovered, in components such as action list and resource list.',
-      light: {lightness: 89},
+      light: {lightness: 96},
       dark: {lightness: 11},
     },
     {
       name: 'surfaceSelectedPressed',
       description:
         'For use as a surface color in selected interactive elements that are pressed, in components such as action list and resource list.',
-      light: {lightness: 82},
+      light: {lightness: 94},
       dark: {lightness: 18},
     },
     {
@@ -363,7 +363,7 @@ export const config: Config = {
       name: 'iconOnPrimary',
       description:
         'For use as a fill color for icons on primary actions. Not for use in icons on navigation and tabs.',
-      light: {lightness: 98},
+      light: {lightness: 100},
       dark: {lightness: 98},
     },
     {
@@ -420,14 +420,14 @@ export const config: Config = {
       name: 'surfaceCritical',
       description:
         'For use as a surface color on critical elements including badges.',
-      light: {lightness: 98.6},
+      light: {lightness: 88},
       dark: {lightness: 12},
     },
     {
       name: 'surfaceCriticalSubdued',
       description:
         'For use as a subdued surface color on critical elements including banners.',
-      light: {lightness: 98},
+      light: {lightness: 97},
       dark: {lightness: 12},
     },
     {
@@ -441,7 +441,7 @@ export const config: Config = {
       name: 'surfaceCriticalSubduedPressed',
       description:
         'For use as a surface color on critical interactive elements including action list items in a pressed state.',
-      light: {lightness: 88},
+      light: {lightness: 94},
       dark: {lightness: 22},
     },
     {
@@ -482,7 +482,7 @@ export const config: Config = {
     {
       name: 'iconOnCritical',
       description: 'For use as a fill color for icons on critical actions.',
-      light: {lightness: 98},
+      light: {lightness: 100},
       dark: {lightness: 98},
     },
     {
@@ -495,7 +495,7 @@ export const config: Config = {
       name: 'interactiveCritical',
       description:
         'For use as the text color for destructive interactive elements: links, plain buttons, error state of selected checkboxes and radio buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
-      light: {lightness: 48.5},
+      light: {lightness: 47.5},
       dark: {lightness: 65},
     },
     {
@@ -537,14 +537,14 @@ export const config: Config = {
       name: 'surfaceWarning',
       description:
         'For use as a surface color on warning elements including badges.',
-      light: {lightness: 84.5},
+      light: {lightness: 88},
       dark: {lightness: 50},
     },
     {
       name: 'surfaceWarningSubdued',
       description:
         'For use as a subdued surface color on warning elements including banners.',
-      light: {lightness: 96},
+      light: {lightness: 97},
       dark: {lightness: 26, saturation: 71},
     },
     {
@@ -567,28 +567,28 @@ export const config: Config = {
       name: 'iconHighlight',
       description:
         'For use as an icon fill color on top of informational elements.',
-      light: {lightness: 58},
+      light: {lightness: 60, saturation: 100},
       dark: {lightness: 42},
     },
     {
       name: 'surfaceHighlight',
       description:
         'For use as a surface color on information elements including badges.',
-      light: {lightness: 84.5, saturation: 60},
+      light: {lightness: 88, saturation: 60},
       dark: {lightness: 40, saturation: 100},
     },
     {
       name: 'surfaceHighlightSubdued',
       description:
         'For use as a surface color on information elements including banners.',
-      light: {lightness: 98.6},
+      light: {lightness: 97, saturation: 60},
       dark: {lightness: 20},
     },
     {
       name: 'textHighlight',
       description:
         'For use as a text color in inert informational elements. Not for use as a text color on banners and badges.',
-      light: {lightness: 10},
+      light: {lightness: 48},
       dark: {lightness: 90},
     },
   ],
@@ -602,21 +602,21 @@ export const config: Config = {
     {
       name: 'iconSuccess',
       description: 'For use as an icon fill color on top of success elements.',
-      light: {lightness: 25},
+      light: {lightness: 47},
       dark: {lightness: 35},
     },
     {
       name: 'surfaceSuccess',
       description:
         'For use as a surface color on success elements including badges.',
-      light: {lightness: 84.5, saturation: 60},
+      light: {lightness: 88, saturation: 40},
       dark: {lightness: 35},
     },
     {
       name: 'surfaceSuccessSubdued',
       description:
         'For use as a surface color on information elements including banners.',
-      light: {lightness: 99, saturation: 60},
+      light: {lightness: 97, saturation: 20},
       dark: {lightness: 20, saturation: 60},
     },
     {
