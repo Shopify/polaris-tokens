@@ -9,6 +9,9 @@ export const config: Config = {
         'For use as a background color, in components such as Page and Frame backgrounds.',
       light: {lightness: 98.3},
       dark: {lightness: 3.3},
+      meta: {
+        figmaName: 'Background/Default',
+      },
     },
     {
       name: 'surface',
@@ -16,6 +19,9 @@ export const config: Config = {
         'For use as a background color, in components such as Card, Modal, and Popover.',
       light: {lightness: 100},
       dark: {lightness: 12.7},
+      meta: {
+        figmaName: 'Surface/Default',
+      },
     },
     {
       name: 'surfaceSubdued',
@@ -539,6 +545,10 @@ export const config: Config = {
         'For use as a surface color on warning elements including badges.',
       light: {lightness: 88},
       dark: {lightness: 50},
+      meta: {
+        figmaName: 'Surface Warning/Deafult',
+        figmaDescription: 'Use for badges',
+      },
     },
     {
       name: 'surfaceWarningSubdued',

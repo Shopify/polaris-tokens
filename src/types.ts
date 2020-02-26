@@ -12,6 +12,10 @@ export interface Variant {
   description?: string;
   light: HslaSetting;
   dark: HslaSetting;
+  meta?: {
+    figmaName?: string;
+    figmaDescription?: string;
+  };
 }
 
 export type Config = Record<string, Variant[]>;
