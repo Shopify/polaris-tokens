@@ -546,7 +546,7 @@ export const config: Config = {
       light: {lightness: 88},
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Surface Warning/Deafult',
+        figmaName: 'Surface Warning/Default',
         figmaDescription: 'Use for badges',
       },
     },
