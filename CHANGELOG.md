@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.8.1] - 2020-02-27
+
+- Updated color variants to match Figma ([#108](https://github.com/Shopify/polaris-tokens/pull/108))
+- Updated `interactiveCritical` description ([#107](https://github.com/Shopify/polaris-tokens/pull/107))
+
 ## [2.8.0] - 2020-02-20
 
 - Added color factory and built modern tokens ([#105](https://github.com/Shopify/polaris-tokens/pull/105))
