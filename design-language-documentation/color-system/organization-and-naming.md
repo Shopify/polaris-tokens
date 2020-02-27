@@ -15,7 +15,7 @@ Examples:
 
 ![Table of categories](/design-language-documentation/assets/namingcategories.png)
 
-The same color in the palette can have multiple names because of the different roles it plays in the color system. The naming conventions teach people the purpose of the color and where they should be applied. This strategy should reduce the inconsistent application of colors to shared behaviors throughout the system, and ultimately, make Shopify feel more crafted and familiar.
+The same color in the palette can have multiple names because of the different roles it plays in the color system. The naming conventions teach people the purpose of the colors and where they should be applied. This strategy should reduce the inconsistent application of colors throughout the system and ultimately make Shopify feel more crafted and familiar.
 
 To determine the name of a color that should be applied to a part of the UI, start with element and add on any modifiers from the status, emphasis, and state categories.
 

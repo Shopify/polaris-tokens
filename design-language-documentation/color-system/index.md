@@ -8,7 +8,7 @@ Instead of referring to the colors by their hue or Hex value, we refer to them b
 
 ### Customizability
 
-Color roles are variables that can be used to apply the base theme or a custom color theme to multiple areas at once, in a purposeful way. Each color has a light and a dark variant that applies depending on whether the interface is being viewed in light or dark mode.
+Color roles are variables that can be used to apply the base theme or a custom theme to multiple areas at once in a purposeful way. Each color has a light and a dark variant that applies depending on whether the interface is being viewed in light or dark mode.
 
 ### Intentionality
 

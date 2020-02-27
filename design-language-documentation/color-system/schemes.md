@@ -1,6 +1,6 @@
 # Dark and light schemes
 
-The Polaris color system provides 2 default schemes, one for light mode and one for dark mode. The following example shows the two schemes for surface colors:
+The Polaris color system provides 2 default schemes, one for light mode and one for dark mode. The following example shows surface colors in the two schemes:
 
 <img alt="Surface colors in dark and light mode" src="/design-language-documentation/assets/schemes.png" style="max-height: 600px;">
 

@@ -4,7 +4,7 @@ Using color roles intentionally helps to ensure that UIs meet contrast standards
 
 Components in the system are designed such that color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. To support people with vision and cognitive issues, it’s important to convey meaning as directly and perceivably as we can.
 
-To ensure that custom themes are WCAG 2.1 compliant, the color system uses the HSLUV colorspace to set and keep consistent lightness values for the generated color variants, regardless of the chosen base color.
+To ensure that custom themes are WCAG 2.1 compliant, the color system uses the [HSLuv color space](https://www.hsluv.org/) to set and keep consistent lightness values for the generated color variants, regardless of the chosen base color.
 
 ## Related pages
 

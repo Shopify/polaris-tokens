@@ -40,7 +40,7 @@ This documentation was created to support designers and developers in understand
 
 ## Component updates
 
-Shopify's design language will be applied to all Polaris components in React and Rails during the rollout.
+Shopify's new design language will be applied to all Polaris components in React and Rails during the rollout.
 
 To update custom components (including forked components and Rails components with Sass that overrides default styling) see the following sections.
 
@@ -50,11 +50,39 @@ To update custom components (including forked components and Rails components wi
 
 ### Updating custom components in Rails
 
-## UI Kit
+## UI kit
+
+The UI kit provides visual representations of Polaris React components in Figma. Use the UI kit to prototype designs and to reference the way that color and other styles are applied to components.
+
+[See the UI kit in Figma](link)
+
+### New features
+
+Some of the changes we've introduced to the UI kit include:
+
+- documentation for global and component-specific decisions within the UI kit
+- Figma-specific features like [auto layout](https://www.figma.com/blog/announcing-auto-layout/)
+- the ability to set the background color on the frame instead of using rectangles
+- selection colors - you can see all the color variants that are applied to a component when you click on it
+- standardized focus rings - they're the same across elements and more visible than before
 
 ### Color styles
 
+The color system uses a semantic naming structure, which means the names tell us about the purpose or use case of the colors rather than their hue. To see how colors are named and organized in the UI kit, see [Color variant organization and naming](/design-language-documentation/color-system/organization-and-naming.md).
+
+Although the color variants have the same naming convention in Figma and in code, the way that colors are organized appears differently in Figma and on GitHub. In Figma, colors are grouped based on the UI element they apply to. On GitHub, colors are grouped based on color role, which means that colors generated from the same source value are grouped together. To learn more about color roles and variants and how they relate to each other, see [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md).
+
+Another difference in Figma that doesn't appear on GitHub is the use of "default" in some color names. "Default" is added as a workaround to create groups in Figma, but isn't actually a part of the naming convention. For example, to make sure that the colors surface and surface critical appear at the same level, "Default" is added to the surface color.
+
+_A visual here showing colors in the Figma palette, illustrating how "Default" is used_
+
 ### Applying color to components
+
+Shopify's new design language refers to colors by the role they play in the UI as opposed to their hue or Hex value. Using color names that are independent from hue does introduce complexity, however the benefits for scalability, flexibility, and accessibility are worth crafters’ efforts in learning a new system.
+
+The UI kit can help us to adopt this new way of working with color by showing how color variants are named and how they map to different elements. By clicking on a component in Figma, you can see the color variants applied to it and observe the way they pattern. The colors for related UI elements have names that reflect their compatibility, for example, “action primary” (the color for a primary button) and “text on primary” (the color for the text on a primary button) go together. When color variants are applied intentionally, their values help to establish visual hierarchy, ensure accessible contrast, and distinguish UI elements and surfaces from one another.
+
+To learn more about the color system, see [Color system](/design-language-documentation/color-system/index.md).
 
 ## Related pages
 
