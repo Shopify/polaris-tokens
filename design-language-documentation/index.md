@@ -20,9 +20,9 @@ This documentation was created to support designers and developers in understand
 🦄 Projects:
 
 - [Design language rollout in Polaris components](https://vault.shopify.io/projects/7859)
-- [Supporting design language rollout in the admin](https://vault.shopify.io/projects/11452)
+- [Color system docs and tools for the design language rollout in the admin](https://vault.shopify.io/projects/11452)
 
-## Table of contents
+## On this page
 
 - [Component updates](#component-updates)
   - [Updating custom components in React](#updating-custom-components-in-react)
@@ -72,15 +72,15 @@ The color system uses a semantic naming structure, which means the names tell us
 
 Although the color variants have the same naming convention in Figma and in code, the way that colors are organized appears differently in Figma and on GitHub. In Figma, colors are grouped based on the UI element they apply to. On GitHub, colors are grouped based on color role, which means that colors generated from the same source value are grouped together. To learn more about color roles and variants and how they relate to each other, see [Color roles and variants](/design-language-documentation/color-system/color-roles-and-variants.md).
 
-Another difference in Figma that doesn't appear on GitHub is the use of "default" in some color names. "Default" is added as a workaround to create groups in Figma, but isn't actually a part of the naming convention. For example, to make sure that the colors surface and surface critical appear at the same level, "Default" is added to the surface color.
+Another difference in Figma that doesn't appear on GitHub is the use of "default" in some color names. “Default” is added as a workaround to create groups in Figma, but isn't actually a part of the naming convention. For example, the color “surface” becomes “surface default” to make sure that it appears at the same level as colors like “surface critical” and “surface highlight”.
 
 _A visual here showing colors in the Figma palette, illustrating how "Default" is used_
 
 ### Applying color to components
 
-Shopify's new design language refers to colors by the role they play in the UI as opposed to their hue or Hex value. Using color names that are independent from hue does introduce complexity, however the benefits for scalability, flexibility, and accessibility are worth crafters’ efforts in learning a new system.
+Shopify's new design language refers to colors by the role they play in the UI as opposed to their hue or Hex value. The UI kit can help us to adopt this new way of working with color by showing how color variants are named and how they map to different elements. By clicking on a component in Figma, you can see the color variants applied to it and observe the way they pattern. The colors for related UI elements have names that reflect their compatibility, for example, “action primary” (the color for a primary button) and “text on primary” (the color for the text on a primary button) go together. When color variants are applied intentionally, their values help to establish visual hierarchy, ensure accessible contrast, and distinguish UI elements and surfaces from one another.
 
-The UI kit can help us to adopt this new way of working with color by showing how color variants are named and how they map to different elements. By clicking on a component in Figma, you can see the color variants applied to it and observe the way they pattern. The colors for related UI elements have names that reflect their compatibility, for example, “action primary” (the color for a primary button) and “text on primary” (the color for the text on a primary button) go together. When color variants are applied intentionally, their values help to establish visual hierarchy, ensure accessible contrast, and distinguish UI elements and surfaces from one another.
+Using color names that are independent from hue introduces complexity, however the benefits for scalability, flexibility, and accessibility are worth crafters’ efforts in learning a new system.
 
 To learn more about the color system, see [Color system](/design-language-documentation/color-system/index.md).
 
