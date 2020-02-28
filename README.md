@@ -8,7 +8,7 @@
 
 <div align="center" markdown="1">
 
-[![CircleCI](https://circleci.com/gh/Shopify/polaris-tokens.svg?style=shield)](https://circleci.com/gh/Shopify/polaris-tokens) [![npm version](https://img.shields.io/npm/v/@shopify/polaris-tokens.svg)](https://www.npmjs.com/package/@shopify/polaris-tokens) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm version](https://img.shields.io/npm/v/@shopify/polaris-tokens.svg)](https://www.npmjs.com/package/@shopify/polaris-tokens) [![Travis build status](https://travis-ci.com/Shopify/polaris-tokens.svg?branch=master)](https://travis-ci.com/Shopify/polaris-react)
 
 </div>
 

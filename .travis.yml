@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '10.18.0'
+cache: yarn
+
+jobs:
+  include:
+    - name: 'Type Check'
+      script:
+        - yarn run type-check
+
+    - name: 'Lint'
+      script:
+        - yarn run lint
+
+    - name: 'Build and Unit Tests'
+      script:
+        - yarn run build-ci
+        - yarn run test
