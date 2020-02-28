@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.8.2] - 2020-02-27
+
+- Fixed an issue where dev environment utils and types were exported ([#113](https://github.com/Shopify/polaris-tokens/pull/113))
+
 ## [2.8.1] - 2020-02-27
 
 - Updated color variants to match Figma ([#108](https://github.com/Shopify/polaris-tokens/pull/108))
