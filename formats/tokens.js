@@ -2,7 +2,6 @@ const path = require('path');
 const fs = require('fs');
 
 const {colorFactory} = require('../dist-modern/color-factory.js');
-const {tokensToJson} = require('../dist-modern/utils');
 
 function tokenify(scheme) {
   return (result) => {
@@ -23,6 +22,16 @@ function tokenify(scheme) {
 
     return `props:\n${yml}global:\n  type: color\n  category: background-color\n`;
   };
+}
+
+function tokensToJson(data) {
+  return data.toJS().props.reduce(
+    (accumulator, prop) => ({
+      ...accumulator,
+      [prop.name]: prop.originalValue,
+    }),
+    {},
+  );
 }
 
 module.exports = {tokenify};

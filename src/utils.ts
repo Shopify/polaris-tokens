@@ -1,5 +1,3 @@
-import {ImmutableStyleMap} from 'theo';
-
 import {Config} from './types';
 
 export function hueRotationFn(rotation: number) {
@@ -9,16 +7,6 @@ export function hueRotationFn(rotation: number) {
 export function saturationAdjustmentFn(adjustment: number) {
   return (saturation: number) =>
     Math.min(Math.max(saturation + adjustment, 0), 100);
-}
-
-export function tokensToJson(data: ImmutableStyleMap) {
-  return data.toJS().props.reduce(
-    (accumulator: any, prop: any) => ({
-      ...accumulator,
-      [prop.name]: prop.originalValue,
-    }),
-    {},
-  );
 }
 
 export function mergeConfigs(base: Config, extended: Config) {
