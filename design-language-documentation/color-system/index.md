@@ -12,7 +12,11 @@ Color roles are variables that can be used to apply the base theme or a custom t
 
 The following example shows how the primary brand color is used to generate the color variants for primary buttons in their different states:
 
-![](/design-language-documentation/assets/brandtoprimary.png)
+![](/design-language-documentation/assets/greenprimary.png)
+
+Using a different primary brand color creates a new theme while maintaining accessible contrast and visual harmony across all the generated color values:
+
+![](/design-language-documentation/assets/blueprimary.png)
 
 ### Intentionality
 
