@@ -10,6 +10,10 @@ Instead of referring to the colors by their hue or Hex value, we refer to them b
 
 Color roles are variables that can be used to apply the base theme or a custom theme to multiple areas at once in a purposeful way. Each color has a light and a dark variant that applies depending on whether the interface is being viewed in light or dark mode.
 
+The following example shows how the primary brand color is used to generate the color variants for primary buttons in their different states:
+
+![](/design-language-documentation/assets/brandtoprimary.png)
+
 ### Intentionality
 
 The colors for related UI elements have names that reflect their compatibility. For example, “action primary” (the color for a primary button) and “text on primary” (the color for the text on a primary button) go together. When color variants are applied intentionally, their values help to establish visual hierarchy, ensure accessible contrast, and distinguish UI elements and surfaces from one another.
