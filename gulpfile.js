@@ -80,6 +80,7 @@ const {tokenify} = require('./formats/tokens');
 theo.registerTransform('theme', ['color/hex']);
 theo.registerFormat('light.yml', tokenify('light'));
 theo.registerFormat('dark.yml', tokenify('dark'));
+theo.registerFormat('figma.json', require('./formats/figma.json.js'));
 
 const colorSchemes = [
   {transformType: 'raw', formatType: 'light.yml'},
@@ -90,6 +91,7 @@ const colorSystemFormats = [
   {transformType: 'web/js', formatType: 'json'},
   {transformType: 'android', formatType: 'android.xml'},
   {transformType: 'ios', formatType: 'ios.json'},
+  {transformType: 'raw', formatType: 'figma.json'},
 ];
 
 gulp.task('themes', (done) => {
@@ -125,7 +127,7 @@ gulp.task('palettes', (done) => {
           .pipe($.rename(addPrefix))
           .pipe(
             $.theo({
-              transform: {type: transformType},
+              transform: {type: transformType, includeMeta: true},
               format: {type: formatType},
             }),
           )
