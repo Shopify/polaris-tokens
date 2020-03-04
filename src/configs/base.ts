@@ -164,7 +164,7 @@ export const config: Config = {
   onSurface: [
     {
       name: 'border',
-      description: 'For use as a border on non-interactive elements.',
+      description: 'For use as the default border on elements.',
       light: {lightness: 60},
       dark: {lightness: 35},
       meta: {
@@ -172,8 +172,26 @@ export const config: Config = {
       },
     },
     {
+      name: 'borderHovered',
+      description: 'Used for borders on hovered interactive elements',
+      light: {lightness: 65},
+      dark: {lightness: 35},
+      meta: {
+        figmaName: 'Border/Hovered',
+      },
+    },
+    {
+      name: 'borderDisabled',
+      description: 'Used for disabled borders on interactive elements',
+      light: {lightness: 85},
+      dark: {lightness: 45},
+      meta: {
+        figmaName: 'Border/Disabled',
+      },
+    },
+    {
       name: 'borderSubdued',
-      description: 'For use as a subdued border on non-interactive elements.',
+      description: 'For use as a secondary border on elements.',
       light: {lightness: 90},
       dark: {lightness: 32},
       meta: {
@@ -399,33 +417,6 @@ export const config: Config = {
       dark: {lightness: 42},
       meta: {
         figmaName: 'Action Secondary/Pressed',
-      },
-    },
-    {
-      name: 'borderSecondary',
-      description: 'Used for borders on form elements',
-      light: {lightness: 75},
-      dark: {lightness: 35},
-      meta: {
-        figmaName: 'Border Secondary/Default',
-      },
-    },
-    {
-      name: 'borderSecondaryHovered',
-      description: 'Used for borders on hovered form elements',
-      light: {lightness: 65},
-      dark: {lightness: 35},
-      meta: {
-        figmaName: 'Border Secondary/Hovered',
-      },
-    },
-    {
-      name: 'borderSecondaryDisabled',
-      description: 'Used for disabled borders on form elements',
-      light: {lightness: 85},
-      dark: {lightness: 45},
-      meta: {
-        figmaName: 'Border Secondary/Disabled',
       },
     },
   ],
