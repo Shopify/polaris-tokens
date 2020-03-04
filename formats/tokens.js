@@ -17,7 +17,11 @@ function tokenify(scheme) {
     const palette = colorFactory(theme, scheme, configArg);
 
     const yml = Object.entries(palette).reduce((accumulator, [key, value]) => {
-      return `${accumulator}  - name: ${key}\n    value: '${value}'\n`;
+      const figmaName = findFigmaName(configArg, key);
+
+      return `${accumulator}  - name: ${key}\n    value: '${value}'\n${figmaMetaData(
+        figmaName,
+      )}`;
     }, '');
 
     return `props:\n${yml}global:\n  type: color\n  category: background-color\n`;
@@ -32,6 +36,25 @@ function tokensToJson(data) {
     }),
     {},
   );
+}
+
+function figmaMetaData(name) {
+  return name == null ? '' : `    meta:\n      figmaName: ${name}\n`;
+}
+
+function findFigmaName(config, key) {
+  if (config == null) return null;
+
+  let returnValue;
+  Object.values(config).forEach((variants) => {
+    const found = variants.find((variant) => variant.name === key);
+
+    if (found && found.meta && found.meta.figmaName) {
+      returnValue = found.meta.figmaName;
+    }
+  });
+
+  return returnValue;
 }
 
 module.exports = {tokenify};
