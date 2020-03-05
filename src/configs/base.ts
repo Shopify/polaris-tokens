@@ -191,7 +191,7 @@ export const config: Config = {
     },
     {
       name: 'borderSubdued',
-      description: 'For use as a secondary border on elements.',
+      description: 'For use as a subdued border on elements.',
       light: {lightness: 90},
       dark: {lightness: 32},
       meta: {
