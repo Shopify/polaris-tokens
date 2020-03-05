@@ -671,16 +671,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'interactiveCriticalDisabled',
-      description:
-        'For use as a text color in disabled destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
-      light: {lightness: 72},
-      dark: {lightness: 78},
-      meta: {
-        figmaName: 'Interactive/Critical Disabled',
-      },
-    },
-    {
       name: 'interactiveCriticalHovered',
       description:
         'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
