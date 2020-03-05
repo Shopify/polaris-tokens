@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+<!-- ## [Unreleased] -->
 
-- Remove `borderSecondary` variants and update border `onSurface` variants ([#115](https://github.com/Shopify/polaris-tokens/pull/115))
+## [2.10.0] - 2020-03-05
+
+- Removed `borderSecondary`, `borderSecondaryHovered`, and `borderSecondaryDisabled` color variants from the `secondary` role in favor of `border` and the newly added `borderHovered` and `borderDisabled` color variants in the `onSurface` role ([#115](https://github.com/Shopify/polaris-tokens/pull/115))
+  - Note: This is technically a breaking change although we will continue to ship as minor and patch versions until the new color system is enabled by default in production
 
 ## [2.9.0] - 2020-03-03
 
@@ -119,7 +122,12 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.7.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.10.0...HEAD
+[2.10.0]: https://github.com/Shopify/polaris-tokens/compare/v2.9.0...v2.10.0
+[2.9.0]: https://github.com/Shopify/polaris-tokens/compare/v2.8.2...v2.9.0
+[2.8.2]: https://github.com/Shopify/polaris-tokens/compare/v2.8.1...v2.8.2
+[2.8.1]: https://github.com/Shopify/polaris-tokens/compare/v2.8.0...v2.8.1
+[2.8.0]: https://github.com/Shopify/polaris-tokens/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Shopify/polaris-tokens/compare/v2.6.0...v2.7.0
 [2.6.0]: https://github.com/Shopify/polaris-tokens/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/Shopify/polaris-tokens/compare/v2.4.0...v2.5.0
