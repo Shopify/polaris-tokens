@@ -326,7 +326,7 @@ export const config: Config = {
     {
       name: 'focused',
       description: 'For use in the focus ring on interactive elements.',
-      light: {lightness: 60, saturation: 100},
+      light: {lightness: 60, saturation: saturationAdjustmentFn(11.2)},
       dark: {lightness: 42},
       meta: {
         figmaName: 'Focused/Default',
@@ -445,7 +445,7 @@ export const config: Config = {
       name: 'actionPrimaryHovered',
       description:
         'Used as the background color for hovered primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 41, saturation: 100},
+      light: {lightness: 41},
       dark: {lightness: 55},
       meta: {
         figmaName: 'Action Primary/Hovered',
@@ -455,7 +455,7 @@ export const config: Config = {
       name: 'actionPrimaryPressed',
       description:
         'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 35, saturation: 100},
+      light: {lightness: 35},
       dark: {lightness: 60},
       meta: {
         figmaName: 'Action Primary/Pressed',
@@ -527,7 +527,7 @@ export const config: Config = {
       name: 'borderCriticalDisabled',
       description:
         'For use as a disabled border on critical components such as banners, and as an outline on interactive elements in an error state.',
-      light: {lightness: 77, saturation: 100},
+      light: {lightness: 77, saturation: saturationAdjustmentFn(2.7)},
       dark: {lightness: 28},
       meta: {
         figmaName: 'Border Critical/Disabled',
@@ -617,7 +617,7 @@ export const config: Config = {
       name: 'actionCriticalHovered',
       description:
         'For use as the background color for hovered destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 41, saturation: 100},
+      light: {lightness: 41, saturation: saturationAdjustmentFn(2.7)},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Action Critical/Hovered',
@@ -627,7 +627,7 @@ export const config: Config = {
       name: 'actionCriticalPressed',
       description:
         'For use as the background color for pressed destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 35, saturation: 100},
+      light: {lightness: 35, saturation: saturationAdjustmentFn(2.7)},
       dark: {lightness: 55},
       meta: {
         figmaName: 'Action Critical/Pressed',
@@ -696,7 +696,7 @@ export const config: Config = {
     {
       name: 'borderWarning',
       description: 'For use as a border on warning components such as banners.',
-      light: {lightness: 77, saturation: 60},
+      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Warning/Default',
@@ -749,7 +749,7 @@ export const config: Config = {
       name: 'borderHighlight',
       description:
         'For use as a border on informational components such as banners.',
-      light: {lightness: 60, saturation: 100},
+      light: {lightness: 60, saturation: saturationAdjustmentFn(19.6)},
       dark: {lightness: 60},
       meta: {
         figmaName: 'Border Highlight/Default',
@@ -759,7 +759,7 @@ export const config: Config = {
       name: 'iconHighlight',
       description:
         'For use as an icon fill color on top of informational elements.',
-      light: {lightness: 60, saturation: 100},
+      light: {lightness: 60, saturation: saturationAdjustmentFn(19.6)},
       dark: {lightness: 42},
       meta: {
         figmaName: 'Icon/Highlight',
@@ -769,7 +769,7 @@ export const config: Config = {
       name: 'surfaceHighlight',
       description:
         'For use as a surface color on information elements including badges.',
-      light: {lightness: 88, saturation: 60},
+      light: {lightness: 88, saturation: saturationAdjustmentFn(-20.4)},
       dark: {lightness: 40, saturation: 100},
       meta: {
         figmaName: 'Surface Highlight/Default',
@@ -779,7 +779,7 @@ export const config: Config = {
       name: 'surfaceHighlightSubdued',
       description:
         'For use as a surface color on information elements including banners.',
-      light: {lightness: 97, saturation: 60},
+      light: {lightness: 97, saturation: saturationAdjustmentFn(-20.4)},
       dark: {lightness: 20},
       meta: {
         figmaName: 'Surface Highlight/Subdued',
@@ -800,7 +800,7 @@ export const config: Config = {
     {
       name: 'borderSuccess',
       description: 'For use as a border on success components such as banners.',
-      light: {lightness: 77, saturation: 40},
+      light: {lightness: 77, saturation: saturationAdjustmentFn(-60)},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Success/Default',
@@ -819,7 +819,7 @@ export const config: Config = {
       name: 'surfaceSuccess',
       description:
         'For use as a surface color on success elements including badges.',
-      light: {lightness: 88, saturation: 40},
+      light: {lightness: 88, saturation: saturationAdjustmentFn(-60)},
       dark: {lightness: 35},
       meta: {
         figmaName: 'Surface Success/Default',
@@ -829,8 +829,8 @@ export const config: Config = {
       name: 'surfaceSuccessSubdued',
       description:
         'For use as a surface color on information elements including banners.',
-      light: {lightness: 97, saturation: 20},
-      dark: {lightness: 20, saturation: 60},
+      light: {lightness: 97, saturation: saturationAdjustmentFn(-80)},
+      dark: {lightness: 20, saturation: saturationAdjustmentFn(-40)},
       meta: {
         figmaName: 'Surface Success/Subdued',
       },
@@ -840,7 +840,7 @@ export const config: Config = {
       description:
         'For use as a text color in inert success elements. Not for use as a text color on banners and badges.',
       light: {lightness: 47.3},
-      dark: {lightness: 65, saturation: 70},
+      dark: {lightness: 65, saturation: saturationAdjustmentFn(-30)},
       meta: {
         figmaName: 'Text/Success',
       },
