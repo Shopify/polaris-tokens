@@ -64,6 +64,16 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceDepressed',
+      description:
+        'For use as a surface color on interactive elements such as resource list items and action list items when in a depressed state.',
+      light: {lightness: 62},
+      dark: {lightness: 35},
+      meta: {
+        figmaName: 'Surface/Depressed',
+      },
+    },
+    {
       name: 'backdrop',
       description:
         'For use as the background color of the backdrop component for navigation and modal. This color has an alpha of `0.5`.',
@@ -417,6 +427,15 @@ export const config: Config = {
       dark: {lightness: 42},
       meta: {
         figmaName: 'Action Secondary/Pressed',
+      },
+    },
+    {
+      name: 'actionSecondaryDepressed',
+      description: 'Used as a depressed state for secondary buttons',
+      light: {lightness: 48},
+      dark: {lightness: 47},
+      meta: {
+        figmaName: 'Action Secondary/Depressed',
       },
     },
   ],
