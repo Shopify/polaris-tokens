@@ -631,7 +631,7 @@ export const config: Config = {
       },
     },
     {
-      name: 'surfaceCriticalSubduedDeressed',
+      name: 'surfaceCriticalSubduedDepressed',
       description:
         'For use as a surface color on critical interactive elements including action list items in a depressed state.',
       light: {lightness: 82},
