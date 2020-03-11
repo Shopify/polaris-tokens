@@ -200,6 +200,15 @@ export const config: Config = {
       },
     },
     {
+      name: 'borderNeutralSubdued',
+      description: 'For use as the border on banners.',
+      light: {lightness: 77},
+      dark: {lightness: 35},
+      meta: {
+        figmaName: 'Border Neutral/Subdued',
+      },
+    },
+    {
       name: 'borderHovered',
       description: 'Used for borders on hovered interactive elements',
       light: {lightness: 65},
@@ -563,11 +572,21 @@ export const config: Config = {
     {
       name: 'borderCritical',
       description:
-        'For use as a border on critical components such as banners, and as an outline on interactive elements in an error state.',
-      light: {lightness: 50},
+        'For use as a border on critical components such as an outline on interactive elements in an error state.',
+      light: {lightness: 60},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Critical/Default',
+      },
+    },
+    {
+      name: 'borderCriticalSubdued',
+      description:
+        'For use as a border on critical components such as banners.',
+      light: {lightness: 77, saturation:saturationAdjustmentFn(-50)},
+      dark: {lightness: 50},
+      meta: {
+        figmaName: 'Border Critical/Subdued',
       },
     },
     {
@@ -762,11 +781,21 @@ export const config: Config = {
   warning: [
     {
       name: 'borderWarning',
-      description: 'For use as a border on warning components such as banners.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
+      description: 'For use as a border on warning components such as...',
+      light: {lightness: 60},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Warning/Default',
+      },
+    },
+    {
+      name: 'borderWarningSubdued',
+      description:
+        'For use as a border on warning components such as banners.',
+      light: {lightness: 77, saturation:saturationAdjustmentFn(-40)},
+      dark: {lightness: 50},
+      meta: {
+        figmaName: 'Border Warning/Subdued',
       },
     },
     {
@@ -815,11 +844,21 @@ export const config: Config = {
     {
       name: 'borderHighlight',
       description:
-        'For use as a border on informational components such as banners.',
-      light: {lightness: 60, saturation: saturationAdjustmentFn(19.6)},
+        'For use as a border on informational components such as...',
+      light: {lightness: 60},
       dark: {lightness: 60},
       meta: {
         figmaName: 'Border Highlight/Default',
+      },
+    },
+    {
+      name: 'borderHighlightSubdued',
+      description:
+        'For use as a border on informational components such as banners.',
+      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
+      dark: {lightness: 60},
+      meta: {
+        figmaName: 'Border Highlight/Subdued',
       },
     },
     {
@@ -866,11 +905,20 @@ export const config: Config = {
   success: [
     {
       name: 'borderSuccess',
+      description: 'For use as a border on success components such as text inputs.',
+      light: {lightness: 60},
+      dark: {lightness: 50},
+      meta: {
+        figmaName: 'Border Success/Default',
+      },
+    },
+    {
+      name: 'borderSuccessSubdued',
       description: 'For use as a border on success components such as banners.',
       light: {lightness: 77, saturation: saturationAdjustmentFn(-60)},
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Border Success/Default',
+        figmaName: 'Border Success/Subdued',
       },
     },
     {
