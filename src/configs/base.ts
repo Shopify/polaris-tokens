@@ -583,7 +583,7 @@ export const config: Config = {
       name: 'borderCriticalSubdued',
       description:
         'For use as a border on critical components such as banners.',
-      light: {lightness: 77, saturation:saturationAdjustmentFn(-50)},
+      light: {lightness: 77, saturation: saturationAdjustmentFn(-50)},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Critical/Subdued',
@@ -790,9 +790,8 @@ export const config: Config = {
     },
     {
       name: 'borderWarningSubdued',
-      description:
-        'For use as a border on warning components such as banners.',
-      light: {lightness: 77, saturation:saturationAdjustmentFn(-40)},
+      description: 'For use as a border on warning components such as banners.',
+      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Warning/Subdued',
@@ -843,8 +842,7 @@ export const config: Config = {
   highlight: [
     {
       name: 'borderHighlight',
-      description:
-        'For use as a border on informational components such as...',
+      description: 'For use as a border on informational components such as...',
       light: {lightness: 60},
       dark: {lightness: 60},
       meta: {
@@ -905,7 +903,8 @@ export const config: Config = {
   success: [
     {
       name: 'borderSuccess',
-      description: 'For use as a border on success components such as text inputs.',
+      description:
+        'For use as a border on success components such as text inputs.',
       light: {lightness: 60},
       dark: {lightness: 50},
       meta: {
