@@ -47,7 +47,7 @@ export const config: Config = {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 95},
+      light: {lightness: 97},
       dark: {lightness: 20},
       meta: {
         figmaName: 'Surface/Hovered',
@@ -485,7 +485,7 @@ export const config: Config = {
       name: 'surfacePrimarySelected',
       description:
         'Used as a surface color to indicate selected interactive states in navigation and tabs.',
-      light: {lightness: 95, saturation: 20},
+      light: {lightness: 97, saturation: 20},
       dark: {lightness: 5, saturation: 30},
       meta: {
         figmaName: 'Surface Primary/Selected',
