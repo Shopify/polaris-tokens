@@ -24,6 +24,24 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceNeutral',
+      description: 'For use as a background color in neutral badges.',
+      light: {lightness: 91},
+      dark: {lightness: 21},
+      meta: {
+        figmaName: 'SurfaceNeutral/Default',
+      },
+    },
+    {
+      name: 'surfaceNeutralSubdued',
+      description: 'For use as a background color in neutral banners.',
+      light: {lightness: 97},
+      dark: {lightness: 30},
+      meta: {
+        figmaName: 'SurfaceNeutral/Subdued',
+      },
+    },
+    {
       name: 'surfaceSubdued',
       description:
         'For use as a subdued background color, in components such as Card, Modal, and Popover.',
@@ -61,6 +79,16 @@ export const config: Config = {
       dark: {lightness: 27},
       meta: {
         figmaName: 'Surface/Pressed',
+      },
+    },
+    {
+      name: 'surfaceDepressed',
+      description:
+        'For use as a surface color on interactive elements such as resource list items and action list items when in a depressed state.',
+      light: {lightness: 62},
+      dark: {lightness: 35},
+      meta: {
+        figmaName: 'Surface/Depressed',
       },
     },
     {
@@ -419,6 +447,15 @@ export const config: Config = {
         figmaName: 'Action Secondary/Pressed',
       },
     },
+    {
+      name: 'actionSecondaryDepressed',
+      description: 'Used as a depressed state for secondary buttons',
+      light: {lightness: 48},
+      dark: {lightness: 47},
+      meta: {
+        figmaName: 'Action Secondary/Depressed',
+      },
+    },
   ],
   primary: [
     {
@@ -459,6 +496,16 @@ export const config: Config = {
       dark: {lightness: 60},
       meta: {
         figmaName: 'Action Primary/Pressed',
+      },
+    },
+    {
+      name: 'actionPrimaryDepressed',
+      description:
+        'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+      light: {lightness: 22},
+      dark: {lightness: 65},
+      meta: {
+        figmaName: 'Action Primary/Depressed',
       },
     },
     {
@@ -584,6 +631,16 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceCriticalSubduedDepressed',
+      description:
+        'For use as a surface color on critical interactive elements including action list items in a depressed state.',
+      light: {lightness: 82},
+      dark: {lightness: 29},
+      meta: {
+        figmaName: 'Surface Critical/Subdued Depressed',
+      },
+    },
+    {
       name: 'textCritical',
       description:
         'For use as a text color in inert critical elements such as exception list. Not for use as a text color on banners and badges.',
@@ -631,6 +688,16 @@ export const config: Config = {
       dark: {lightness: 55},
       meta: {
         figmaName: 'Action Critical/Pressed',
+      },
+    },
+    {
+      name: 'actionCriticalDepressed',
+      description:
+        'For use as the background color for depressed destructive buttons, and as the background color for error toast messages.',
+      light: {lightness: 22, saturation: saturationAdjustmentFn(2.7)},
+      dark: {lightness: 60},
+      meta: {
+        figmaName: 'Action Critical/Depressed',
       },
     },
     {
