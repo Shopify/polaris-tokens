@@ -92,6 +92,13 @@ export const config: Config = {
       },
     },
     {
+      name: 'iconOnBackdrop',
+      description:
+        'For use as the color of an icon overlaying the backdrop component.',
+      light: {lightness: 100},
+      dark: {lightness: 100},
+    },
+    {
       name: 'backdrop',
       description:
         'For use as the background color of the backdrop component for navigation and modal. This color has an alpha of `0.5`.',
