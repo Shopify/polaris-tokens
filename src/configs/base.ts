@@ -170,7 +170,7 @@ export const config: Config = {
     {
       name: 'shadowFromDirectLight',
       description:
-        'For use in building shadows for popovers, cards, and modals. This color has an alpha of `0.15`.',
+        'For use in building shadows for popovers and cards. This color has an alpha of `0.15`.',
       light: {
         hue: 0,
         saturation: 0,
