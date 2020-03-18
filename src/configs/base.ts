@@ -29,7 +29,7 @@ export const config: Config = {
       light: {lightness: 91},
       dark: {lightness: 21},
       meta: {
-        figmaName: 'SurfaceNeutral/Default',
+        figmaName: 'Surface Neutral/Default',
       },
     },
     {
@@ -38,7 +38,7 @@ export const config: Config = {
       light: {lightness: 97},
       dark: {lightness: 30},
       meta: {
-        figmaName: 'SurfaceNeutral/Subdued',
+        figmaName: 'Surface Neutral/Subdued',
       },
     },
     {
@@ -107,6 +107,9 @@ export const config: Config = {
         lightness: 0,
         alpha: 0.5,
       },
+      meta: {
+        figmaName: 'Backdrop',
+      },
     },
     {
       name: 'overlay',
@@ -124,6 +127,9 @@ export const config: Config = {
         lightness: 12.7,
         alpha: 0.5,
       },
+      meta: {
+        figmaName: 'Overlay',
+      },
     },
     {
       name: 'shadowFromDimLight',
@@ -136,6 +142,9 @@ export const config: Config = {
       dark: {
         lightness: 100,
         alpha: 0.2,
+      },
+      meta: {
+        figmaName: 'Shadow/From dim light',
       },
     },
     {
@@ -154,11 +163,14 @@ export const config: Config = {
         lightness: 8,
         alpha: 0.05,
       },
+      meta: {
+        figmaName: 'Shadow/From ambient light',
+      },
     },
     {
       name: 'shadowFromDirectLight',
       description:
-        'For use in building shadows for popovers, cards, and modals. This color has an alpha of `0.15`.',
+        'For use in building shadows for popovers and cards. This color has an alpha of `0.15`.',
       light: {
         hue: 0,
         saturation: 0,
@@ -170,6 +182,9 @@ export const config: Config = {
         saturation: 0,
         lightness: 100,
         alpha: 0.15,
+      },
+      meta: {
+        figmaName: 'Shadow/From direct light',
       },
     },
     {
@@ -186,6 +201,9 @@ export const config: Config = {
         saturation: 0,
         lightness: 75,
         alpha: 0.2,
+      },
+      meta: {
+        figmaName: 'Hint/From direct light',
       },
     },
   ],
