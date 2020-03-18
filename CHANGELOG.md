@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
-## [2.12.1] - 2020-03-17
+## [2.12.1] - 2020-03-18
 
 - Adjusted Figma metadata for variants. Adjusted description of one variant.
 
