@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.12.1] - 2020-03-17
+
+- Adjusted Figma metadata for variants. Adjusted description of one variant.
+
 ## [2.12.0] - 2020-03-13
 
 - Added variants for border subdued roles ([#123](https://github.com/Shopify/polaris-tokens/pull/123))
