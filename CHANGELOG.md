@@ -136,7 +136,10 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.10.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.12.1...HEAD
+[2.12.1]: https://github.com/Shopify/polaris-tokens/compare/v2.12.0...v2.12.1
+[2.12.0]: https://github.com/Shopify/polaris-tokens/compare/v2.11.0...v2.12.0
+[2.11.0]: https://github.com/Shopify/polaris-tokens/compare/v2.10.0...v2.11.0
 [2.10.0]: https://github.com/Shopify/polaris-tokens/compare/v2.9.0...v2.10.0
 [2.9.0]: https://github.com/Shopify/polaris-tokens/compare/v2.8.2...v2.9.0
 [2.8.2]: https://github.com/Shopify/polaris-tokens/compare/v2.8.1...v2.8.2
