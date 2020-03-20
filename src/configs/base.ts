@@ -310,7 +310,7 @@ export const config: Config = {
     {
       name: 'textDisabled',
       description:
-        'For use as a disabled text color and as a placeholder text color in text fields.',
+        'For use as a disabled text color and as a placeholder text color.',
       light: {lightness: 60},
       dark: {lightness: 48.2},
       meta: {
