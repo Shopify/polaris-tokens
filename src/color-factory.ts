@@ -5,8 +5,17 @@ import {Lambda} from './types';
 
 type Scheme = 'light' | 'dark';
 
+// This really should have a value of "one of the variant names defined in the
+// config you pass in", but my TS-fu isn't that strong at the moment.
+// We can't use a value of "string" because TS 3.8 refuses to merge a known
+// object shape into this interface, complaining that
+// "Index signature is missing in type of [THE TYPE OF THE OBJECT YOU PASS INTO THEME]"
+interface Theme {
+  [K: string]: any;
+}
+
 export function colorFactory(
-  theme: Partial<Record<string, string>>,
+  theme: Theme,
   scheme: Scheme,
   config = baseConfig,
 ) {
