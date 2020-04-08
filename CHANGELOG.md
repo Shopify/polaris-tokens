@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.12.3] - 2020-04-07
+
 - Updated the font stack so that Segoe UI comes before Roboto. ([#131](https://github.com/Shopify/polaris-tokens/pull/131))
 
 ## [2.12.2] - 2020-03-25
@@ -142,7 +144,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.12.2...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.12.3...HEAD
+[2.12.3]: https://github.com/Shopify/polaris-tokens/compare/v2.12.2..v2.12.3
 [2.12.2]: https://github.com/Shopify/polaris-tokens/compare/v2.12.1...v2.12.2
 [2.12.1]: https://github.com/Shopify/polaris-tokens/compare/v2.12.0...v2.12.1
 [2.12.0]: https://github.com/Shopify/polaris-tokens/compare/v2.11.0...v2.12.0
