@@ -1,6 +1,6 @@
 {
   "name": "@shopify/polaris-tokens",
-  "version": "2.12.0",
+  "version": "2.12.2",
   "description": "Design Tokens for the Polaris Design System",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -60,7 +60,7 @@
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
-    "@shopify/sewing-kit": "^0.116.0",
+    "@shopify/sewing-kit": "^0.120.0",
     "@types/lodash": "^4.14.149",
     "@types/theo": "^8.1.3",
     "ase-util": "^1.0.3",

@@ -1,7 +1,7 @@
 props:
   # Font stacks
   - name: font-stack-base
-    value: -apple-system, BlinkMacSystemFont, 'San Francisco', Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif
+    value: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif
     type: font-family
     category: font-family
   - name: font-stack-monospace
