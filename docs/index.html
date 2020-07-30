@@ -1,709 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Design Tokens (legacy)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header role="banner" class="banner">
+      <div class="container container">
+        <h1>Design Tokens (legacy)</h1>
+      </div>
+    </header>
+    <div class="container container--shadow">
+      <main role="main">
+        <section>
+          <table>
+            <thead>
+              <tr id="spacing">
+                <th scope="col">Spacing</th>
+                <th scope="col">Values</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Usage</th>
+              </tr>
+            </thead>
 
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="utf-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <title>Design Tokens</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="stylesheet" href="index.css" />
-        </head>
-        <body>
-          <header role="banner" class="banner">
-            <div class="container container">
-              <h1>Design Tokens</h1>
-            </div>
-          </header>
-          <div class="container container--shadow">
-            <main role="main">
-              
-              
-      <section>
-        <table>
-          
-      <thead>
-        <tr id=spacing>
-          <th scope="col">Spacing</th>
-          <th scope="col">Values</th>
-          <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
-        </tr>
-      </thead>
-    
-          <tbody>
-            <tr>
-        <th scope="row"><code>spacing-none</code></th>
-        <td><code>0</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 0; height: 0;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-extra-tight</code></th>
-        <td><code>4px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 4px; height: 4px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-tight</code></th>
-        <td><code>8px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 8px; height: 8px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-base-tight</code></th>
-        <td><code>12px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 12px; height: 12px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-base</code></th>
-        <td><code>16px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 16px; height: 16px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-loose</code></th>
-        <td><code>20px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 20px; height: 20px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>spacing-extra-loose</code></th>
-        <td><code>32px</code></td>
-        
-        <td>
-          <div class="metric-box" style="width: 32px; height: 32px;"></div>
-        </td>
-      
-        <td></td>
-      </tr>
-          </tbody>
-        </table>
-      </section>
-    
-              
-              
-              
-              
-              
-              
-      <section>
-        <table>
-          
-      <thead>
-        <tr id=font-family>
-          <th scope="col">Font Families</th>
-          <th scope="col">Values</th>
-          <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
-        </tr>
-      </thead>
-    
-          <tbody>
-            <tr>
-        <th scope="row"><code>font-stack-base</code></th>
-        <td><code>-apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif</code></td>
-        
-        <td>
-          <div style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;">
-            The quick brown fox jumps over the lazy dog.
-          </div>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>font-stack-monospace</code></th>
-        <td><code>Monaco, Consolas, 'Lucida Console', monospace</code></td>
-        
-        <td>
-          <div style="font-family: Monaco, Consolas, 'Lucida Console', monospace;">
-            The quick brown fox jumps over the lazy dog.
-          </div>
-        </td>
-      
-        <td></td>
-      </tr>
-          </tbody>
-        </table>
-      </section>
-    
-              
-              
-              
-              
-              
-              
-      <section>
-        <table>
-          
-      <thead>
-        <tr id=background-color>
-          <th scope="col">Background Colors</th>
-          <th scope="col">Values</th>
-          <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
-        </tr>
-      </thead>
-    
-          <tbody>
-            <tr>
-        <th scope="row"><code>color-purple-darker</code></th>
-        <td><code>#230051</code></td>
-        <td style="background-color: #230051; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-purple-dark</code></th>
-        <td><code>#50248f</code></td>
-        <td style="background-color: #50248f; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-purple</code></th>
-        <td><code>#9c6ade</code></td>
-        <td style="background-color: #9c6ade; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-purple-light</code></th>
-        <td><code>#e3d0ff</code></td>
-        <td style="background-color: #e3d0ff; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-purple-lighter</code></th>
-        <td><code>#f6f0fd</code></td>
-        <td style="background-color: #f6f0fd; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo-darker</code></th>
-        <td><code>#000639</code></td>
-        <td style="background-color: #000639; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo-dark</code></th>
-        <td><code>#202e78</code></td>
-        <td style="background-color: #202e78; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo</code></th>
-        <td><code>#5c6ac4</code></td>
-        <td style="background-color: #5c6ac4; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo-light</code></th>
-        <td><code>#b3bcf5</code></td>
-        <td style="background-color: #b3bcf5; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo-lighter</code></th>
-        <td><code>#f4f5fa</code></td>
-        <td style="background-color: #f4f5fa; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue-darker</code></th>
-        <td><code>#001429</code></td>
-        <td style="background-color: #001429; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue-dark</code></th>
-        <td><code>#084e8a</code></td>
-        <td style="background-color: #084e8a; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue</code></th>
-        <td><code>#006fbb</code></td>
-        <td style="background-color: #006fbb; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue-light</code></th>
-        <td><code>#b4e1fa</code></td>
-        <td style="background-color: #b4e1fa; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue-lighter</code></th>
-        <td><code>#ebf5fa</code></td>
-        <td style="background-color: #ebf5fa; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal-darker</code></th>
-        <td><code>#003135</code></td>
-        <td style="background-color: #003135; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal-dark</code></th>
-        <td><code>#00848e</code></td>
-        <td style="background-color: #00848e; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal</code></th>
-        <td><code>#47c1bf</code></td>
-        <td style="background-color: #47c1bf; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal-light</code></th>
-        <td><code>#b7ecec</code></td>
-        <td style="background-color: #b7ecec; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal-lighter</code></th>
-        <td><code>#e0f5f5</code></td>
-        <td style="background-color: #e0f5f5; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green-darker</code></th>
-        <td><code>#173630</code></td>
-        <td style="background-color: #173630; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green-dark</code></th>
-        <td><code>#108043</code></td>
-        <td style="background-color: #108043; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green</code></th>
-        <td><code>#50b83c</code></td>
-        <td style="background-color: #50b83c; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green-light</code></th>
-        <td><code>#bbe5b3</code></td>
-        <td style="background-color: #bbe5b3; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green-lighter</code></th>
-        <td><code>#e3f1df</code></td>
-        <td style="background-color: #e3f1df; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow-darker</code></th>
-        <td><code>#573b00</code></td>
-        <td style="background-color: #573b00; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow-dark</code></th>
-        <td><code>#8a6116</code></td>
-        <td style="background-color: #8a6116; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow</code></th>
-        <td><code>#eec200</code></td>
-        <td style="background-color: #eec200; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow-light</code></th>
-        <td><code>#ffea8a</code></td>
-        <td style="background-color: #ffea8a; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow-lighter</code></th>
-        <td><code>#fcf1cd</code></td>
-        <td style="background-color: #fcf1cd; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange-darker</code></th>
-        <td><code>#4a1504</code></td>
-        <td style="background-color: #4a1504; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange-dark</code></th>
-        <td><code>#c05717</code></td>
-        <td style="background-color: #c05717; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange</code></th>
-        <td><code>#f49342</code></td>
-        <td style="background-color: #f49342; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange-light</code></th>
-        <td><code>#ffc58b</code></td>
-        <td style="background-color: #ffc58b; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange-lighter</code></th>
-        <td><code>#fcebdb</code></td>
-        <td style="background-color: #fcebdb; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red-darker</code></th>
-        <td><code>#330101</code></td>
-        <td style="background-color: #330101; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red-dark</code></th>
-        <td><code>#bf0711</code></td>
-        <td style="background-color: #bf0711; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red</code></th>
-        <td><code>#de3618</code></td>
-        <td style="background-color: #de3618; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red-light</code></th>
-        <td><code>#fead9a</code></td>
-        <td style="background-color: #fead9a; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red-lighter</code></th>
-        <td><code>#fbeae5</code></td>
-        <td style="background-color: #fbeae5; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-ink</code></th>
-        <td><code>#212b36</code></td>
-        <td style="background-color: #212b36; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-ink-light</code></th>
-        <td><code>#454f5b</code></td>
-        <td style="background-color: #454f5b; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-ink-lighter</code></th>
-        <td><code>#637381</code></td>
-        <td style="background-color: #637381; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-ink-lightest</code></th>
-        <td><code>#919eab</code></td>
-        <td style="background-color: #919eab; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-sky-dark</code></th>
-        <td><code>#c4cdd5</code></td>
-        <td style="background-color: #c4cdd5; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-sky</code></th>
-        <td><code>#dfe3e8</code></td>
-        <td style="background-color: #dfe3e8; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-sky-light</code></th>
-        <td><code>#f4f6f8</code></td>
-        <td style="background-color: #f4f6f8; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-sky-lighter</code></th>
-        <td><code>#f9fafb</code></td>
-        <td style="background-color: #f9fafb; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-black</code></th>
-        <td><code>#000000</code></td>
-        <td style="background-color: #000000; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-white</code></th>
-        <td><code>#ffffff</code></td>
-        <td style="background-color: #ffffff; border: 1px solid #f6f6f6;"></td>
-        <td></td>
-      </tr>
-          </tbody>
-        </table>
-      </section>
-    
-              
-              
-              
-              
-              
-              
-      <section>
-        <table>
-          
-      <thead>
-        <tr id=text-color>
-          <th scope="col">Text Colors</th>
-          <th scope="col">Values</th>
-          <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
-        </tr>
-      </thead>
-    
-          <tbody>
-            <tr>
-        <th scope="row"><code>color-purple-text</code></th>
-        <td><code>#50495a</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #50495a; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-indigo-text</code></th>
-        <td><code>#3e4155</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #3e4155; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-blue-text</code></th>
-        <td><code>#3e4e57</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #3e4e57; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-teal-text</code></th>
-        <td><code>#405352</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #405352; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-green-text</code></th>
-        <td><code>#414f3e</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #414f3e; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-yellow-text</code></th>
-        <td><code>#595130</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #595130; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-orange-text</code></th>
-        <td><code>#594430</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #594430; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>color-red-text</code></th>
-        <td><code>#583c35</code></td>
-        
-        <td style="background-color: rgb(249, 250, 251); color: #583c35; padding: 8px 16px; line-height: 1.3;">
-          <strong><big><big>The quick brown fox jumps over the lazy dog.</big></big></strong>
-        </td>
-      
-        <td></td>
-      </tr>
-          </tbody>
-        </table>
-      </section>
-    
-              
-              
-      <section>
-        <table>
-          
-      <thead>
-        <tr id=time>
-          <th scope="col">Time</th>
-          <th scope="col">Values</th>
-          <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
-        </tr>
-      </thead>
-    
-          <tbody>
-            <tr>
-        <th scope="row"><code>duration-none</code></th>
-        <td><code>0</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>duration-fast</code></th>
-        <td><code>100ms</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>duration-base</code></th>
-        <td><code>200ms</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>duration-slow</code></th>
-        <td><code>300ms</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>duration-slower</code></th>
-        <td><code>400ms</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-    
-      <tr>
-        <th scope="row"><code>duration-slowest</code></th>
-        <td><code>500ms</code></td>
-        <td></td>
-        <td></td>
-      </tr>
-          </tbody>
-        </table>
-      </section>
-    
-              
-            </main>
-          </div>
-        </body>
-      </html>
-    
+            <tbody>
+              <tr>
+                <th scope="row"><code>spacing-none</code></th>
+                <td><code>0</code></td>
+
+                <td>
+                  <div class="metric-box" style="width: 0; height: 0;"></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-extra-tight</code></th>
+                <td><code>4px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 4px; height: 4px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-tight</code></th>
+                <td><code>8px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 8px; height: 8px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-base-tight</code></th>
+                <td><code>12px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 12px; height: 12px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-base</code></th>
+                <td><code>16px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 16px; height: 16px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-loose</code></th>
+                <td><code>20px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 20px; height: 20px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>spacing-extra-loose</code></th>
+                <td><code>32px</code></td>
+
+                <td>
+                  <div
+                    class="metric-box"
+                    style="width: 32px; height: 32px;"
+                  ></div>
+                </td>
+
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <table>
+            <thead>
+              <tr id="font-family">
+                <th scope="col">Font Families</th>
+                <th scope="col">Values</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Usage</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row"><code>font-stack-base</code></th>
+                <td>
+                  <code
+                    >-apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe
+                    UI', Roboto, 'Helvetica Neue', sans-serif</code
+                  >
+                </td>
+
+                <td>
+                  <div
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;"
+                  >
+                    The quick brown fox jumps over the lazy dog.
+                  </div>
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>font-stack-monospace</code></th>
+                <td>
+                  <code>Monaco, Consolas, 'Lucida Console', monospace</code>
+                </td>
+
+                <td>
+                  <div
+                    style="font-family: Monaco, Consolas, 'Lucida Console', monospace;"
+                  >
+                    The quick brown fox jumps over the lazy dog.
+                  </div>
+                </td>
+
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <table>
+            <thead>
+              <tr id="background-color">
+                <th scope="col">Background Colors</th>
+                <th scope="col">Values</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Usage</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row"><code>color-purple-darker</code></th>
+                <td><code>#230051</code></td>
+                <td
+                  style="background-color: #230051; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-purple-dark</code></th>
+                <td><code>#50248f</code></td>
+                <td
+                  style="background-color: #50248f; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-purple</code></th>
+                <td><code>#9c6ade</code></td>
+                <td
+                  style="background-color: #9c6ade; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-purple-light</code></th>
+                <td><code>#e3d0ff</code></td>
+                <td
+                  style="background-color: #e3d0ff; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-purple-lighter</code></th>
+                <td><code>#f6f0fd</code></td>
+                <td
+                  style="background-color: #f6f0fd; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo-darker</code></th>
+                <td><code>#000639</code></td>
+                <td
+                  style="background-color: #000639; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo-dark</code></th>
+                <td><code>#202e78</code></td>
+                <td
+                  style="background-color: #202e78; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo</code></th>
+                <td><code>#5c6ac4</code></td>
+                <td
+                  style="background-color: #5c6ac4; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo-light</code></th>
+                <td><code>#b3bcf5</code></td>
+                <td
+                  style="background-color: #b3bcf5; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo-lighter</code></th>
+                <td><code>#f4f5fa</code></td>
+                <td
+                  style="background-color: #f4f5fa; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue-darker</code></th>
+                <td><code>#001429</code></td>
+                <td
+                  style="background-color: #001429; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue-dark</code></th>
+                <td><code>#084e8a</code></td>
+                <td
+                  style="background-color: #084e8a; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue</code></th>
+                <td><code>#006fbb</code></td>
+                <td
+                  style="background-color: #006fbb; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue-light</code></th>
+                <td><code>#b4e1fa</code></td>
+                <td
+                  style="background-color: #b4e1fa; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue-lighter</code></th>
+                <td><code>#ebf5fa</code></td>
+                <td
+                  style="background-color: #ebf5fa; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal-darker</code></th>
+                <td><code>#003135</code></td>
+                <td
+                  style="background-color: #003135; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal-dark</code></th>
+                <td><code>#00848e</code></td>
+                <td
+                  style="background-color: #00848e; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal</code></th>
+                <td><code>#47c1bf</code></td>
+                <td
+                  style="background-color: #47c1bf; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal-light</code></th>
+                <td><code>#b7ecec</code></td>
+                <td
+                  style="background-color: #b7ecec; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal-lighter</code></th>
+                <td><code>#e0f5f5</code></td>
+                <td
+                  style="background-color: #e0f5f5; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green-darker</code></th>
+                <td><code>#173630</code></td>
+                <td
+                  style="background-color: #173630; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green-dark</code></th>
+                <td><code>#108043</code></td>
+                <td
+                  style="background-color: #108043; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green</code></th>
+                <td><code>#50b83c</code></td>
+                <td
+                  style="background-color: #50b83c; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green-light</code></th>
+                <td><code>#bbe5b3</code></td>
+                <td
+                  style="background-color: #bbe5b3; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green-lighter</code></th>
+                <td><code>#e3f1df</code></td>
+                <td
+                  style="background-color: #e3f1df; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow-darker</code></th>
+                <td><code>#573b00</code></td>
+                <td
+                  style="background-color: #573b00; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow-dark</code></th>
+                <td><code>#8a6116</code></td>
+                <td
+                  style="background-color: #8a6116; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow</code></th>
+                <td><code>#eec200</code></td>
+                <td
+                  style="background-color: #eec200; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow-light</code></th>
+                <td><code>#ffea8a</code></td>
+                <td
+                  style="background-color: #ffea8a; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow-lighter</code></th>
+                <td><code>#fcf1cd</code></td>
+                <td
+                  style="background-color: #fcf1cd; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange-darker</code></th>
+                <td><code>#4a1504</code></td>
+                <td
+                  style="background-color: #4a1504; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange-dark</code></th>
+                <td><code>#c05717</code></td>
+                <td
+                  style="background-color: #c05717; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange</code></th>
+                <td><code>#f49342</code></td>
+                <td
+                  style="background-color: #f49342; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange-light</code></th>
+                <td><code>#ffc58b</code></td>
+                <td
+                  style="background-color: #ffc58b; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange-lighter</code></th>
+                <td><code>#fcebdb</code></td>
+                <td
+                  style="background-color: #fcebdb; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red-darker</code></th>
+                <td><code>#330101</code></td>
+                <td
+                  style="background-color: #330101; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red-dark</code></th>
+                <td><code>#bf0711</code></td>
+                <td
+                  style="background-color: #bf0711; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red</code></th>
+                <td><code>#de3618</code></td>
+                <td
+                  style="background-color: #de3618; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red-light</code></th>
+                <td><code>#fead9a</code></td>
+                <td
+                  style="background-color: #fead9a; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red-lighter</code></th>
+                <td><code>#fbeae5</code></td>
+                <td
+                  style="background-color: #fbeae5; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-ink</code></th>
+                <td><code>#212b36</code></td>
+                <td
+                  style="background-color: #212b36; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-ink-light</code></th>
+                <td><code>#454f5b</code></td>
+                <td
+                  style="background-color: #454f5b; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-ink-lighter</code></th>
+                <td><code>#637381</code></td>
+                <td
+                  style="background-color: #637381; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-ink-lightest</code></th>
+                <td><code>#919eab</code></td>
+                <td
+                  style="background-color: #919eab; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-sky-dark</code></th>
+                <td><code>#c4cdd5</code></td>
+                <td
+                  style="background-color: #c4cdd5; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-sky</code></th>
+                <td><code>#dfe3e8</code></td>
+                <td
+                  style="background-color: #dfe3e8; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-sky-light</code></th>
+                <td><code>#f4f6f8</code></td>
+                <td
+                  style="background-color: #f4f6f8; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-sky-lighter</code></th>
+                <td><code>#f9fafb</code></td>
+                <td
+                  style="background-color: #f9fafb; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-black</code></th>
+                <td><code>#000000</code></td>
+                <td
+                  style="background-color: #000000; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-white</code></th>
+                <td><code>#ffffff</code></td>
+                <td
+                  style="background-color: #ffffff; border: 1px solid #f6f6f6;"
+                ></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <table>
+            <thead>
+              <tr id="text-color">
+                <th scope="col">Text Colors</th>
+                <th scope="col">Values</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Usage</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row"><code>color-purple-text</code></th>
+                <td><code>#50495a</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #50495a; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-indigo-text</code></th>
+                <td><code>#3e4155</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #3e4155; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-blue-text</code></th>
+                <td><code>#3e4e57</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #3e4e57; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-teal-text</code></th>
+                <td><code>#405352</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #405352; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-green-text</code></th>
+                <td><code>#414f3e</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #414f3e; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-yellow-text</code></th>
+                <td><code>#595130</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #595130; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-orange-text</code></th>
+                <td><code>#594430</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #594430; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>color-red-text</code></th>
+                <td><code>#583c35</code></td>
+
+                <td
+                  style="background-color: rgb(249, 250, 251); color: #583c35; padding: 8px 16px; line-height: 1.3;"
+                >
+                  <strong
+                    ><big
+                      ><big
+                        >The quick brown fox jumps over the lazy dog.</big
+                      ></big
+                    ></strong
+                  >
+                </td>
+
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <table>
+            <thead>
+              <tr id="time">
+                <th scope="col">Time</th>
+                <th scope="col">Values</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Usage</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row"><code>duration-none</code></th>
+                <td><code>0</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>duration-fast</code></th>
+                <td><code>100ms</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>duration-base</code></th>
+                <td><code>200ms</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>duration-slow</code></th>
+                <td><code>300ms</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>duration-slower</code></th>
+                <td><code>400ms</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th scope="row"><code>duration-slowest</code></th>
+                <td><code>500ms</code></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
