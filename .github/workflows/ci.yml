@@ -28,5 +28,5 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn run type-check
       - run: yarn run lint
-      - run: yarn run build-ci
+      - run: yarn run build
       - run: yarn run test

@@ -1,6 +1,6 @@
 **/*
 !dist/**/*
-!dist-modern/**/*
+!dist-legacy/**/*
 !index.js
 !LICENSE.md
 !README.md

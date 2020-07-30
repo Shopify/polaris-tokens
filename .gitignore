@@ -15,5 +15,3 @@ node_modules
 
 # sewing-kit temporary folder
 /build
-
-dist-modern
