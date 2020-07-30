@@ -501,7 +501,7 @@ export const config: Config = {
       description:
         'Used as the background color for disabled primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
       light: {lightness: 95, saturation: 0},
-      dark: {lightness: 32},
+      dark: {lightness: 32, saturation: 0},
       meta: {
         figmaName: 'Action Primary/Disabled',
       },
@@ -703,7 +703,7 @@ export const config: Config = {
       description:
         'For use as the background color for disabled destructive buttons, and as the background color for error toast messages.',
       light: {lightness: 95, saturation: 0},
-      dark: {lightness: 41},
+      dark: {lightness: 41, saturation: 0},
       meta: {
         figmaName: 'Action Critical/Disabled',
       },
