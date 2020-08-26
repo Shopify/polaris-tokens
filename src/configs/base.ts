@@ -7,7 +7,7 @@ export const config: Config = {
       name: 'background',
       description:
         'For use as a background color, in components such as Page and Frame backgrounds.',
-      light: {lightness: 98.3},
+      light: {lightness: 97},
       dark: {lightness: 3.3},
       meta: {
         figmaName: 'Background/Default',
@@ -45,7 +45,7 @@ export const config: Config = {
       name: 'surfaceSubdued',
       description:
         'For use as a subdued background color, in components such as Card, Modal, and Popover.',
-      light: {lightness: 98.3},
+      light: {lightness: 98.5},
       dark: {lightness: 10},
       meta: {
         figmaName: 'Surface/Subdued',
@@ -55,7 +55,7 @@ export const config: Config = {
       name: 'surfaceDisabled',
       description:
         'For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state.',
-      light: {lightness: 98.3},
+      light: {lightness: 98.5},
       dark: {lightness: 10},
       meta: {
         figmaName: 'Surface/Disabled',
@@ -65,7 +65,7 @@ export const config: Config = {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 97},
+      light: {lightness: 95.5},
       dark: {lightness: 20},
       meta: {
         figmaName: 'Surface/Hovered',
@@ -75,7 +75,7 @@ export const config: Config = {
       name: 'surfacePressed',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
-      light: {lightness: 92},
+      light: {lightness: 94},
       dark: {lightness: 27},
       meta: {
         figmaName: 'Surface/Pressed',
@@ -85,7 +85,7 @@ export const config: Config = {
       name: 'surfaceDepressed',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a depressed state.',
-      light: {lightness: 62},
+      light: {lightness: 94},
       dark: {lightness: 35},
       meta: {
         figmaName: 'Surface/Depressed',
@@ -442,7 +442,7 @@ export const config: Config = {
       name: 'actionSecondary',
       description:
         'Used for secondary buttons and tertiary buttons, as well as in form elements as a background color and pontentially other secondary surfaces.',
-      light: {lightness: 93},
+      light: {lightness: 100},
       dark: {lightness: 34},
       meta: {
         figmaName: 'Action Secondary/Default',
@@ -451,7 +451,7 @@ export const config: Config = {
     {
       name: 'actionSecondaryDisabled',
       description: 'Used as a disabled state for secondary buttons',
-      light: {lightness: 95},
+      light: {lightness: 100},
       dark: {lightness: 13},
       meta: {
         figmaName: 'Action Secondary/Disabled',
@@ -460,7 +460,7 @@ export const config: Config = {
     {
       name: 'actionSecondaryHovered',
       description: 'Used as a hovered state for secondary buttons',
-      light: {lightness: 90},
+      light: {lightness: 97},
       dark: {lightness: 37},
       meta: {
         figmaName: 'Action Secondary/Hovered',
@@ -469,7 +469,7 @@ export const config: Config = {
     {
       name: 'actionSecondaryPressed',
       description: 'Used as a pressed state for secondary buttons',
-      light: {lightness: 87},
+      light: {lightness: 95.5},
       dark: {lightness: 42},
       meta: {
         figmaName: 'Action Secondary/Pressed',
@@ -478,7 +478,7 @@ export const config: Config = {
     {
       name: 'actionSecondaryDepressed',
       description: 'Used as a depressed state for secondary buttons',
-      light: {lightness: 48},
+      light: {lightness: 97},
       dark: {lightness: 47},
       meta: {
         figmaName: 'Action Secondary/Depressed',
