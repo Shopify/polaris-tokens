@@ -1,6 +1,6 @@
 props:
   - name: surface
-    value: '#111213'
+    value: '#f4f5f6'
   - name: onSurface
     value: '#111213'
   - name: interactive

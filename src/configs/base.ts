@@ -7,8 +7,8 @@ export const config: Config = {
       name: 'background',
       description:
         'For use as a background color, in components such as Page and Frame backgrounds.',
-      light: {lightness: 98.3},
-      dark: {lightness: 3.3},
+      light: {lightness: 96.5},
+      dark: {lightness: 3.5},
       meta: {
         figmaName: 'Background/Default',
       },
