@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.12.4] - 2020-08-27
+
 - Updated background, surface, and action colors ([#140](https://github.com/Shopify/polaris-tokens/pull/140))
 
 ## [2.12.3] - 2020-04-07
