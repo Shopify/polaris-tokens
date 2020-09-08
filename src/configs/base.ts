@@ -210,8 +210,7 @@ export const config: Config = {
   onSurface: [
     {
       name: 'background',
-      description:
-        'For use as a background color, in components such as TopBar SearchField.',
+      description: 'For use as a background color on components',
       light: {lightness: 95.5},
       dark: {lightness: 20},
       meta: {
