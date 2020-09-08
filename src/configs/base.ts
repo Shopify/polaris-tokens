@@ -247,10 +247,64 @@ export const config: Config = {
     {
       name: 'borderSubdued',
       description: 'For use as a subdued border on elements.',
-      light: {lightness: 90},
-      dark: {lightness: 32},
+      light: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 81.9,
+      },
+      dark: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 18,
+      },
       meta: {
         figmaName: 'Border/Subdued',
+      },
+    },
+    {
+      name: 'borderShadow',
+      description: 'For use as an additional bottom border on elements.',
+      light: {
+        hue: hueRotationFn(3),
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 60,
+      },
+      dark: {
+        hue: hueRotationFn(3),
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 40,
+      },
+      meta: {
+        figmaName: 'BorderShadow',
+      },
+    },
+    {
+      name: 'borderShadowSubdued',
+      description:
+        'For use as an additional, subdued bottom border on elements.',
+      light: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 77.1,
+      },
+      dark: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 23,
+      },
+      meta: {
+        figmaName: 'BorderShadow/Subdued',
+      },
+    },
+    {
+      name: 'divider',
+      description: 'For use as a divider between elements.',
+      light: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 90.1,
+      },
+      dark: {
+        saturation: saturationAdjustmentFn(-1),
+        lightness: 10,
+      },
+      meta: {
+        figmaName: 'Divider',
       },
     },
     {
