@@ -209,6 +209,16 @@ export const config: Config = {
   ],
   onSurface: [
     {
+      name: 'background',
+      description:
+        'For use as a background color, in components on surface elements such as SearchField',
+      light: {lightness: 95.5},
+      dark: {lightness: 20},
+      meta: {
+        figmaName: 'Background/Default',
+      },
+    },
+    {
       name: 'border',
       description: 'For use as the default border on elements.',
       light: {lightness: 60},
