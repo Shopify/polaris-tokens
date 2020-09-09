@@ -209,7 +209,7 @@ export const config: Config = {
   ],
   onSurface: [
     {
-      name: 'background',
+      name: 'onSurfaceBackground',
       description:
         'For use as a background color, in components on surface elements such as SearchField',
       light: {lightness: 95.5},
