@@ -140,11 +140,11 @@ Adding, removing, and updating design tokens should be discussed in the issues o
 
 When releasing a new version, follow these steps on `master`:
 
-1. Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/master/CHANGELOG.md) (move unreleased notes to a new heading with version number and todays date e.g. `## [1.11.1] - 2020-09-29`)
-1. Commit the changes
+1. Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/master/CHANGELOG.md) and commit the changes
 1. Run `yarn version` and assign a new version
 1. Run `git push --follow-tags`
 1. [Deploy on Shipit](https://shipit.shopify.io/shopify/polaris-tokens/production)
 1. Visit [the releases page on github](https://github.com/Shopify/polaris-tokens/releases) and click on the just-added unpublished version
-1. Add the version as the title and add the changelog entries as the description
-1. Click publish to publish the release
+1. Add the version as the title and add the changelog entry as the description
+1. Publish the release
+
