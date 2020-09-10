@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.12.8] - 2020-09-10
+
 - Add icon and action colors to color-filters-map ([#149](https://github.com/Shopify/polaris-tokens/pull/149))
 
 ## [2.12.7] - 2020-09-09
