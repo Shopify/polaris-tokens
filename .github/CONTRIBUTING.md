@@ -147,4 +147,3 @@ When releasing a new version, follow these steps on `master`:
 1. Visit [the releases page on github](https://github.com/Shopify/polaris-tokens/releases) and click on the just-added unpublished version
 1. Add the version as the title and add the changelog entry as the description
 1. Publish the release
-
