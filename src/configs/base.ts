@@ -270,6 +270,23 @@ export const config: Config = {
       },
     },
     {
+      name: 'borderDepressed',
+      description: 'For use as a border on depressed elements.',
+      light: {
+        hue: hueRotationFn(-45),
+        saturation: saturationAdjustmentFn(-4),
+        lightness: 37.7,
+      },
+      dark: {
+        hue: hueRotationFn(-45),
+        saturation: saturationAdjustmentFn(-4),
+        lightness: 60,
+      },
+      meta: {
+        figmaName: 'Border/Depressed',
+      },
+    },
+    {
       name: 'borderShadow',
       description: 'For use as an additional bottom border on elements.',
       light: {
@@ -542,8 +559,14 @@ export const config: Config = {
     {
       name: 'actionSecondaryDepressed',
       description: 'Used as a depressed state for secondary buttons',
-      light: {lightness: 97},
-      dark: {lightness: 47},
+      light: {
+        hue: hueRotationFn(4),
+        lightness: 47.4,
+      },
+      dark: {
+        hue: hueRotationFn(4),
+        lightness: 53,
+      },
       meta: {
         figmaName: 'Action Secondary/Depressed',
       },
