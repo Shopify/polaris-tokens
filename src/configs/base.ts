@@ -16,7 +16,7 @@ export const config: Config = {
     {
       name: 'backgroundHovered',
       description:
-        'For use when an action or navigation is used on a background',
+        'For use when an action or navigation is used on a background.',
       light: {lightness: 95.5},
       dark: {lightness: 3.3},
       meta: {
