@@ -14,6 +14,35 @@ export const config: Config = {
       },
     },
     {
+      name: 'backgroundHovered',
+      description:
+        'For use when an action or navigation is used on a background.',
+      light: {lightness: 95.5},
+      dark: {lightness: 3.3},
+      meta: {
+        figmaName: 'Background/Hovered',
+      },
+    },
+    {
+      name: 'backgroundPressed',
+      description:
+        'For use when an action or navigation is used on a background.',
+      light: {lightness: 94},
+      dark: {lightness: 3.3},
+      meta: {
+        figmaName: 'Background/Pressed',
+      },
+    },
+    {
+      name: 'backgroundSelected',
+      description: 'For use in the selected item in navigation',
+      light: {lightness: 94},
+      dark: {lightness: 3.3},
+      meta: {
+        figmaName: 'Background/Selected',
+      },
+    },
+    {
       name: 'surface',
       description:
         'For use as a background color, in components such as Card, Modal, and Popover.',
@@ -65,7 +94,7 @@ export const config: Config = {
       name: 'surfaceHovered',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 95.5},
+      light: {lightness: 97},
       dark: {lightness: 20},
       meta: {
         figmaName: 'Surface/Hovered',
@@ -75,7 +104,7 @@ export const config: Config = {
       name: 'surfacePressed',
       description:
         'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
-      light: {lightness: 94},
+      light: {lightness: 95.5},
       dark: {lightness: 27},
       meta: {
         figmaName: 'Surface/Pressed',
