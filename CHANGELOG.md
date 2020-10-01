@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Changed dark mode values for some subdued borders ([#156](https://github.com/Shopify/polaris-tokens/pull/156))
+
 ## [2.13.1] - 2020-11-1
 
 - Moved mistaken border variants to surface variants ([#154](https://github.com/Shopify/polaris-tokens/pull/154))
