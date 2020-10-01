@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.13.0] - 2020-11-1
+
 - Add subdued variants to warning, highlight, and success ([#153](https://github.com/Shopify/polaris-tokens/pull/153))
 
 ## [2.12.9] - 2020-09-11
