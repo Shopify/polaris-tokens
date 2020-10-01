@@ -260,7 +260,7 @@ export const config: Config = {
       name: 'borderNeutralSubdued',
       description: 'For use as the border on banners.',
       light: {lightness: 77},
-      dark: {lightness: 35},
+      dark: {lightness: 56},
       meta: {
         figmaName: 'Border Neutral/Subdued',
       },
@@ -290,10 +290,7 @@ export const config: Config = {
         saturation: saturationAdjustmentFn(-1),
         lightness: 81.9,
       },
-      dark: {
-        saturation: saturationAdjustmentFn(-1),
-        lightness: 18,
-      },
+      dark: {lightness: 56},
       meta: {
         figmaName: 'Border/Subdued',
       },
@@ -340,10 +337,7 @@ export const config: Config = {
         saturation: saturationAdjustmentFn(-1),
         lightness: 77.1,
       },
-      dark: {
-        saturation: saturationAdjustmentFn(-1),
-        lightness: 23,
-      },
+      dark: {lightness: 56},
       meta: {
         figmaName: 'BorderShadow/Subdued',
       },
