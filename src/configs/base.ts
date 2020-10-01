@@ -1098,24 +1098,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'borderSuccessSubduedHovered',
-      description: 'For use as a border on success components such as banners.',
-      light: {lightness: 76, saturation: saturationAdjustmentFn(-60)},
-      dark: {lightness: 52},
-      meta: {
-        figmaName: 'Border Success/Subdued Hovered',
-      },
-    },
-    {
-      name: 'borderSuccessSubduedPressed',
-      description: 'For use as a border on success components such as banners.',
-      light: {lightness: 74, saturation: saturationAdjustmentFn(-60)},
-      dark: {lightness: 55},
-      meta: {
-        figmaName: 'Border Success/Subdued Pressed',
-      },
-    },
-    {
       name: 'iconSuccess',
       description: 'For use as an icon fill color on top of success elements.',
       light: {lightness: 47},
@@ -1142,6 +1124,26 @@ export const config: Config = {
       dark: {lightness: 20, saturation: saturationAdjustmentFn(-40)},
       meta: {
         figmaName: 'Surface Success/Subdued',
+      },
+    },
+    {
+      name: 'surfaceSuccessSubduedHovered',
+      description:
+        'For use as a surface color on information elements including banners.',
+      light: {lightness: 96, saturation: saturationAdjustmentFn(-80)},
+      dark: {lightness: 22, saturation: saturationAdjustmentFn(-40)},
+      meta: {
+        figmaName: 'Surface Success/Subdued Hovered',
+      },
+    },
+    {
+      name: 'surfaceSuccessSubduedPressed',
+      description:
+        'For use as a surface color on information elements including banners.',
+      light: {lightness: 94, saturation: saturationAdjustmentFn(-80)},
+      dark: {lightness: 25, saturation: saturationAdjustmentFn(-40)},
+      meta: {
+        figmaName: 'Surface Success/Subdued Pressed',
       },
     },
     {
