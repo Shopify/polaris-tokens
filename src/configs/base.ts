@@ -964,6 +964,28 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceWarningSubduedHovered',
+      description:
+        'For use as a subdued surface color on warning elements including banners.',
+      light: {lightness: 96},
+      dark: {lightness: 28, saturation: 71},
+      meta: {
+        figmaName: 'Surface Warning/Subdued Hovered',
+        figmaDescription: 'Used for banners',
+      },
+    },
+    {
+      name: 'surfaceWarningSubduedPressed',
+      description:
+        'For use as a subdued surface color on warning elements including banners.',
+      light: {lightness: 94},
+      dark: {lightness: 30, saturation: 71},
+      meta: {
+        figmaName: 'Surface Warning/Subdued Pressed',
+        figmaDescription: 'Used for banners',
+      },
+    },
+    {
       name: 'textWarning',
       description:
         'For use as a text color in inert critical elements such as exception list. Not for use as a text color on banners and badges.',
@@ -1025,6 +1047,26 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceHighlightSubduedHovered',
+      description:
+        'For use as a surface color on information elements including banners.',
+      light: {lightness: 96, saturation: saturationAdjustmentFn(-20.4)},
+      dark: {lightness: 22},
+      meta: {
+        figmaName: 'Surface Highlight/Subdued Hovered',
+      },
+    },
+    {
+      name: 'surfaceHighlightSubduedPressed',
+      description:
+        'For use as a surface color on information elements including banners.',
+      light: {lightness: 94, saturation: saturationAdjustmentFn(-20.4)},
+      dark: {lightness: 25},
+      meta: {
+        figmaName: 'Surface Highlight/Subdued Pressed',
+      },
+    },
+    {
       name: 'textHighlight',
       description:
         'For use as a text color in inert informational elements. Not for use as a text color on banners and badges.',
@@ -1053,6 +1095,24 @@ export const config: Config = {
       dark: {lightness: 50},
       meta: {
         figmaName: 'Border Success/Subdued',
+      },
+    },
+    {
+      name: 'borderSuccessSubduedHovered',
+      description: 'For use as a border on success components such as banners.',
+      light: {lightness: 76, saturation: saturationAdjustmentFn(-60)},
+      dark: {lightness: 52},
+      meta: {
+        figmaName: 'Border Success/Subdued Hovered',
+      },
+    },
+    {
+      name: 'borderSuccessSubduedPressed',
+      description: 'For use as a border on success components such as banners.',
+      light: {lightness: 74, saturation: saturationAdjustmentFn(-60)},
+      dark: {lightness: 55},
+      meta: {
+        figmaName: 'Border Success/Subdued Pressed',
       },
     },
     {

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Add subdued variants to warning, highlight, and success ([#153](https://github.com/Shopify/polaris-tokens/pull/153))
+
 ## [2.12.9] - 2020-09-11
 
 - Update action secondary depressed color / add border depressed ([#150](https://github.com/Shopify/polaris-tokens/pull/150))
