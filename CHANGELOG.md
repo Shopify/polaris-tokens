@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.13.1] - 2020-11-1
+
+- Moved mistaken border variants to surface variants ([#154](https://github.com/Shopify/polaris-tokens/pull/154))
+
 ## [2.13.0] - 2020-11-1
 
 - Add subdued variants to warning, highlight, and success ([#153](https://github.com/Shopify/polaris-tokens/pull/153))
