@@ -62,6 +62,33 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceNeutralHovered',
+      description: 'For use as a hovered background color in neutral badges.',
+      light: {lightness: 88},
+      dark: {lightness: 21},
+      meta: {
+        figmaName: 'Surface Neutral/Hovered',
+      },
+    },
+    {
+      name: 'surfaceNeutralPressed',
+      description: 'For use as a pressed background color in neutral badges.',
+      light: {lightness: 82},
+      dark: {lightness: 21},
+      meta: {
+        figmaName: 'Surface Neutral/Pressed',
+      },
+    },
+    {
+      name: 'surfaceNeutralDisabled',
+      description: 'For use as a disabled background color in neutral badges.',
+      light: {lightness: 95.5},
+      dark: {lightness: 21},
+      meta: {
+        figmaName: 'Surface Neutral/Disabled',
+      },
+    },
+    {
       name: 'surfaceNeutralSubdued',
       description: 'For use as a background color in neutral banners.',
       light: {lightness: 97},
