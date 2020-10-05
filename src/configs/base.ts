@@ -343,13 +343,9 @@ export const config: Config = {
       name: 'borderShadow',
       description: 'For use as an additional bottom border on elements.',
       light: {
-        hue: hueRotationFn(3),
-        saturation: saturationAdjustmentFn(-1),
-        lightness: 60,
+        lightness: 73,
       },
       dark: {
-        hue: hueRotationFn(3),
-        saturation: saturationAdjustmentFn(-1),
         lightness: 40,
       },
       meta: {
@@ -361,10 +357,11 @@ export const config: Config = {
       description:
         'For use as an additional, subdued bottom border on elements.',
       light: {
-        saturation: saturationAdjustmentFn(-1),
         lightness: 77.1,
       },
-      dark: {lightness: 56},
+      dark: {
+        lightness: 56,
+      },
       meta: {
         figmaName: 'BorderShadow/Subdued',
       },
