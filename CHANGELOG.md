@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.15.0] - 2020-11-7
+
+- Changed borderShadow value ([#157](https://github.com/Shopify/polaris-tokens/pull/157))
+
 ## [2.14.0] - 2020-11-1
 
 - Adds states for surfaceNeutral ([#155](https://github.com/Shopify/polaris-tokens/pull/155))
