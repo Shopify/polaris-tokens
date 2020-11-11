@@ -624,7 +624,7 @@ export const config: Config = {
       name: 'actionPrimary',
       description:
         'Used as the background color for primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 47.3},
+      light: {lightness: 45.7},
       dark: {lightness: 47.3},
       meta: {
         figmaName: 'Action Primary/Default',
