@@ -343,6 +343,7 @@ export const config: Config = {
       name: 'borderShadow',
       description: 'For use as an additional bottom border on elements.',
       light: {
+        saturation: saturationAdjustmentFn(-4),
         lightness: 61.7,
       },
       dark: {
