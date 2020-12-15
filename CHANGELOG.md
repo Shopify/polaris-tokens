@@ -7,20 +7,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.15.0] - 2020-11-7
+## [2.15.0] - 2020-11-07
 
 - Changed borderShadow value ([#157](https://github.com/Shopify/polaris-tokens/pull/157))
 
-## [2.14.0] - 2020-11-1
+## [2.14.0] - 2020-11-01
 
 - Adds states for surfaceNeutral ([#155](https://github.com/Shopify/polaris-tokens/pull/155))
 - Changed dark mode values for some subdued borders ([#156](https://github.com/Shopify/polaris-tokens/pull/156))
 
-## [2.13.1] - 2020-11-1
+## [2.13.1] - 2020-11-01
 
 - Moved mistaken border variants to surface variants ([#154](https://github.com/Shopify/polaris-tokens/pull/154))
 
-## [2.13.0] - 2020-11-1
+## [2.13.0] - 2020-11-01
 
 - Add subdued variants to warning, highlight, and success ([#153](https://github.com/Shopify/polaris-tokens/pull/153))
 
@@ -185,7 +185,17 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.12.3...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.15.0...HEAD
+[2.15.0]: https://github.com/Shopify/polaris-tokens/compare/v2.14.0..v2.15.0
+[2.14.0]: https://github.com/Shopify/polaris-tokens/compare/v2.13.1..v2.14.0
+[2.13.1]: https://github.com/Shopify/polaris-tokens/compare/v2.13.0..v2.13.1
+[2.13.0]: https://github.com/Shopify/polaris-tokens/compare/v2.12.9..v2.13.0
+[2.12.9]: https://github.com/Shopify/polaris-tokens/compare/v2.12.8..v2.12.9
+[2.12.8]: https://github.com/Shopify/polaris-tokens/compare/v2.12.7..v2.12.8
+[2.12.7]: https://github.com/Shopify/polaris-tokens/compare/v2.12.6..v2.12.7
+[2.12.6]: https://github.com/Shopify/polaris-tokens/compare/v2.12.5..v2.12.6
+[2.12.5]: https://github.com/Shopify/polaris-tokens/compare/v2.12.4..v2.12.5
+[2.12.4]: https://github.com/Shopify/polaris-tokens/compare/v2.12.3..v2.12.4
 [2.12.3]: https://github.com/Shopify/polaris-tokens/compare/v2.12.2..v2.12.3
 [2.12.2]: https://github.com/Shopify/polaris-tokens/compare/v2.12.1...v2.12.2
 [2.12.1]: https://github.com/Shopify/polaris-tokens/compare/v2.12.0...v2.12.1
