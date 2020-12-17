@@ -691,6 +691,36 @@ export const config: Config = {
       },
     },
     {
+      name: 'textPrimary',
+      description:
+        'For use as primary text color on background. For use in text in components such as Navigation.',
+      light: {lightness: 45.7},
+      dark: {lightness: 52},
+      meta: {
+        figmaName: 'Text Primary/Default',
+      },
+    },
+    {
+      name: 'textPrimaryHovered',
+      description:
+        'For use as primary hovered text color on background. For use in text in components such as Navigation.',
+      light: {lightness: 40},
+      dark: {lightness: 58},
+      meta: {
+        figmaName: 'Text Primary/hover',
+      },
+    },
+    {
+      name: 'textPrimaryPressed',
+      description:
+        'For use as primary pressed text color on background. For use in text in components such as Navigation.',
+      light: {lightness: 34},
+      dark: {lightness: 64},
+      meta: {
+        figmaName: 'Text Primary/Pressed',
+      },
+    },
+    {
       name: 'surfacePrimarySelected',
       description:
         'Used as a surface color to indicate selected interactive states in navigation and tabs.',
