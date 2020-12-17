@@ -18,7 +18,7 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - run: yarn --prefer-offline
+      - run: yarn install --frozen-lockfile
       - run: yarn run type-check
       - run: yarn run lint
       - run: yarn run build-ci
