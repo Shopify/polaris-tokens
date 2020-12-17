@@ -8,7 +8,7 @@
 
 <div align="center" markdown="1">
 
-[![npm version](https://img.shields.io/npm/v/@shopify/polaris-tokens.svg)](https://www.npmjs.com/package/@shopify/polaris-tokens) [![Continuos integration](https://github.com/shopify/polaris-tokens/workflows/Continuous%20integration/badge.svg)](https://github.com/shopify/polaris-tokens/actions)
+[![npm version](https://img.shields.io/npm/v/@shopify/polaris-tokens.svg)](https://www.npmjs.com/package/@shopify/polaris-tokens) [![Continuous integration](https://github.com/shopify/polaris-tokens/workflows/CI/badge.svg)](https://github.com/shopify/polaris-tokens/actions)
 
 </div>
 
