@@ -70,7 +70,7 @@
   --spacing-base: 16px;
   --spacing-loose: 20px;
   --spacing-extra-loose: 32px;
-  --font-stack-base: -apple-system, BlinkMacSystemFont, 'San Francisco', Roboto,
-    'Segoe UI', 'Helvetica Neue', sans-serif;
+  --font-stack-base: -apple-system, BlinkMacSystemFont, 'San Francisco',
+    'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   --font-stack-monospace: Monaco, Consolas, 'Lucida Console', monospace;
 }
