@@ -71,6 +71,6 @@ module.exports = {
   spacingLoose: '20px',
   spacingExtraLoose: '32px',
   fontStackBase:
-    "-apple-system, BlinkMacSystemFont, 'San Francisco', Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif",
+    "-apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
   fontStackMonospace: "Monaco, Consolas, 'Lucida Console', monospace",
 };
