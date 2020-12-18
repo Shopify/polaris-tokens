@@ -1,9 +1,5 @@
 // getPalette('color-ink-lightest') -> 'ink'
-const getPalette = (name) =>
-  name
-    .replace('color-', '')
-    .split('-')
-    .shift();
+const getPalette = (name) => name.replace('color-', '').split('-').shift();
 
 // getShade('color-ink-lightest') -> 'lightest'
 // getShade('color-ink') -> 'base'
