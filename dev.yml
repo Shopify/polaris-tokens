@@ -4,13 +4,11 @@ up:
   - ruby:
       version: 2.6.3
   - node:
-      version: v10.18.0
+      version: v14.15.3
       yarn: true
   - bundler
 commands:
   test:
     run: yarn run test
-  start:
+  build:
     run: yarn run build
-  server:
-    run: yarn run watch

@@ -6,27 +6,15 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "sewing-kit test",
-    "test-watch": "nodemon --exec 'yarn run build && yarn run test --no-watch' --watch ./tokens --watch ./formats --watch ./gulpfile.js --watch ./scripts --ext js,ts,json,yml",
-    "clean": "rimraf ./dist-modern ./dist",
+    "clean": "rimraf ./dist-modern",
     "prebuild": "yarn run clean",
-    "build": "npm-run-all build-modern build-legacy build-docs",
-    "build-ci": "npm-run-all build-modern build-legacy-ci build-docs",
-    "build-legacy": "npm-run-all build-legacy:**",
-    "build-legacy-ci": "npm-run-all build-legacy:* build-legacy:*:*",
-    "build-legacy:gulp": "gulp build-legacy",
-    "build-legacy:format": "prettier ./dist/*.{js,json,css,scss,sketchpalette} --write",
-    "build-legacy:colors:ase": "node ./scripts/ase-encode.js",
-    "build-legacy:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
-    "build-legacy:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Polaris ./dist/colors.{ase,clr,sketchpalette}",
-    "build-modern": "npm-run-all build-modern:ts build-modern:gulp",
-    "build-modern:ts": "tsc -p tsconfig.build.json",
-    "build-modern:gulp": "gulp build-modern",
-    "build-docs": "gulp docs",
+    "build": "npm-run-all build:ts build:gulp",
+    "build:ts": "tsc -p tsconfig.build.json",
+    "build:gulp": "gulp",
+    "postbuild": "yarn run format",
+    "format": "prettier './dist-modern/**/*.{js,json}' --write && prettier './dist-modern/**/*.ts' --write --parser typescript",
     "type-check": "sewing-kit type-check",
-    "lint": "sewing-kit lint",
-    "watch": "gulp watch",
-    "heroku-postbuild": "yarn run build-ci",
-    "start": "http-server docs"
+    "lint": "sewing-kit lint"
   },
   "repository": {
     "type": "git",
@@ -47,48 +35,39 @@
   },
   "eslintConfig": {
     "extends": [
-      "plugin:shopify/typescript",
-      "plugin:shopify/node",
-      "plugin:shopify/jest",
-      "plugin:shopify/prettier"
+      "plugin:@shopify/typescript",
+      "plugin:@shopify/node",
+      "plugin:@shopify/jest",
+      "plugin:@shopify/prettier"
     ]
   },
   "stylelint": {
     "extends": [
-      "stylelint-config-shopify/prettier"
+      "@shopify/stylelint-plugin"
     ]
   },
   "homepage": "https://github.com/Shopify/polaris-tokens#readme",
   "devDependencies": {
-    "@shopify/sewing-kit": "^0.120.0",
-    "@types/lodash": "^4.14.149",
+    "@shopify/sewing-kit": "^0.143.0",
+    "@types/lodash": "^4.14.165",
     "@types/theo": "^8.1.3",
-    "ase-util": "^1.0.3",
-    "ase-utils": "^0.1.1",
-    "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-load-plugins": "^2.0.2",
-    "gulp-plumber": "^1.2.1",
+    "gulp-load-plugins": "^2.0.6",
     "gulp-rename": "^2.0.0",
-    "gulp-restart": "^0.1.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-theo": "^2.0.0",
-    "http-server": "^0.12.1",
-    "immutable": "^3.8.2",
-    "lodash": "^4.17.15",
-    "ms": "^2.1.2",
-    "nodemon": "^2.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-theo": "^2.0.1",
+    "lodash": "^4.17.20",
+    "ms": "^2.1.3",
+    "nodemon": "^2.0.6",
     "npm-run-all": "^4.1.5",
-    "renamer": "^1.1.4",
-    "rimraf": "^3.0.0",
-    "theo": "8.1.4",
-    "tinycolor2": "^1.4.1",
-    "typescript": "^3.7.5",
+    "rimraf": "^3.0.2",
+    "theo": "8.1.5",
+    "tinycolor2": "^1.4.2",
+    "typescript": "^4.1.3",
     "xml": "^1.0.1"
   },
   "dependencies": {
     "hsluv": "^0.1.0",
-    "tslib": "^1.10.0"
+    "tslib": "^1.14.1"
   }
 }

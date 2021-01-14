@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Froze and deprecated design tokens in `./dist`. In a future version, this directory will be moved to `./dist-legacy` ([#170](https://github.com/Shopify/polaris-tokens/pull/170))
+
 ## [2.16.0] - 2020-12-17
 
 - Added textPrimary with hovered and pressed variations ([#164](https://github.com/Shopify/polaris-tokens/pull/164))

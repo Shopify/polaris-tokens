@@ -6,7 +6,13 @@ const {colorFactory} = require('../dist-modern/color-factory.js');
 function tokenify(scheme) {
   return (result) => {
     const configFile = path.basename(result.toJS().meta.file, '.yml');
-    const config = `${__dirname}/../dist-modern/configs/${configFile}`;
+    const config = path.join(
+      __dirname,
+      '..',
+      'dist-modern',
+      'configs',
+      configFile,
+    );
     let configArg;
 
     if (fs.existsSync(`${config}.js`)) {
