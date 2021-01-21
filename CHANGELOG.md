@@ -172,7 +172,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.3.0] - 2018-06-29
 
-- Added [`colors.android-colors.xml`](https://github.com/Shopify/polaris-tokens/blob/master/dist/colors.android-colors.xml), for Android apps
+- Added [`colors.android-colors.xml`](https://github.com/Shopify/polaris-tokens/blob/main/dist/colors.android-colors.xml), for Android apps
 
 ## [1.2.0] - 2018-05-30
 
@@ -181,7 +181,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.1.0] - 2018-04-24
 
-Polaris tokens are now available as both a [npm package](https://www.npmjs.com/package/@shopify/polaris-tokens) and a [Ruby gem](https://rubygems.org/gems/polaris_tokens)! Check the [README](https://github.com/Shopify/polaris-tokens/blob/master/README.md) for installation and usage instructions for both.
+Polaris tokens are now available as both a [npm package](https://www.npmjs.com/package/@shopify/polaris-tokens) and a [Ruby gem](https://rubygems.org/gems/polaris_tokens)! Check the [README](https://github.com/Shopify/polaris-tokens/blob/main/README.md) for installation and usage instructions for both.
 
 ## 1.0.0 - 2018-04-13
 

@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make via an issue with the owners of this repository before making a change. Adding tests, documentation updates such as typo fixes and other improvements are welcome at any time without submitting an issue first.
 
-Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/master/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/main/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ---
 
@@ -100,7 +100,7 @@ yarn run watch
 
 This project uses [Jest snapshot testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html) to test the output of design tokens files in `./dist` generated from the YAML source files from `./tokens`.
 
-Tests are located in the [`tests`](https://github.com/Shopify/polaris-tokens/tree/master/tests) directory.
+Tests are located in the [`tests`](https://github.com/Shopify/polaris-tokens/tree/main/tests) directory.
 
 ### Running tests once
 
@@ -138,9 +138,9 @@ Adding, removing, and updating design tokens should be discussed in the issues o
 
 ## Releasing
 
-When releasing a new version, follow these steps on `master`:
+When releasing a new version, follow these steps on `main`:
 
-1. Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/master/CHANGELOG.md) and commit the changes
+1. Update [CHANGELOG.md](https://github.com/Shopify/polaris-tokens/blob/main/CHANGELOG.md) and commit the changes
 1. Run `yarn version` and assign a new version
 1. Run `git push --follow-tags`
 1. [Deploy on Shipit](https://shipit.shopify.io/shopify/polaris-tokens/production)
