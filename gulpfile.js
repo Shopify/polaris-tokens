@@ -43,6 +43,7 @@ const colorSystemFormats = [
   {transformType: 'android', formatType: 'android.xml'},
   {transformType: 'ios', formatType: 'ios.json'},
   {transformType: 'raw', formatType: 'figma.json'},
+  {transformType: 'web', formatType: 'custom-properties.css'},
 ];
 
 gulp.task('themes', (done) => {
