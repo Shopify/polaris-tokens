@@ -1,0 +1,8 @@
+module.exports = `:root {
+  {{#each props as |prop|}}
+    {{#if prop.comment}}
+    {{{trimLeft (indent (comment (trim prop.comment)))}}}
+    {{/if}}
+    --p-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}};
+  {{/each}}
+}`;
