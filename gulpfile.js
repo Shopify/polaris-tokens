@@ -29,6 +29,10 @@ theo.registerTransform('web/js', ['color/rgb', 'timing/ms-unitless']);
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('ios.json', require('./formats/ios.json.js'));
 theo.registerFormat('figma.json', require('./formats/figma.json.js'));
+theo.registerFormat(
+  'polaris.custom-properties.css',
+  require('./formats/polaris.custom-properties.css.js'),
+);
 
 theo.registerFormat('light.yml', tokenify('light'));
 theo.registerFormat('dark.yml', tokenify('dark'));
@@ -43,7 +47,7 @@ const colorSystemFormats = [
   {transformType: 'android', formatType: 'android.xml'},
   {transformType: 'ios', formatType: 'ios.json'},
   {transformType: 'raw', formatType: 'figma.json'},
-  {transformType: 'web', formatType: 'custom-properties.css'},
+  {transformType: 'web', formatType: 'polaris.custom-properties.css'},
 ];
 
 gulp.task('themes', (done) => {
