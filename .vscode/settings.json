@@ -18,5 +18,6 @@
     "**/.git": true,
     "**/node_modules": true,
     "{build,dist-modern,dist}/": true
-  }
+  },
+  "html.format.indentHandlebars": true
 }
