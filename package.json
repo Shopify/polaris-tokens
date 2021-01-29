@@ -12,7 +12,7 @@
     "build:ts": "tsc -p tsconfig.build.json",
     "build:gulp": "gulp",
     "postbuild": "yarn run format",
-    "format": "prettier './dist-modern/**/*.{js,json}' --write && prettier './dist-modern/**/*.ts' --write --parser typescript",
+    "format": "prettier './dist-modern/**/*.{js,json,css}' --write && prettier './dist-modern/**/*.ts' --write --parser typescript",
     "type-check": "sewing-kit type-check",
     "lint": "sewing-kit lint"
   },

@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const theo = require('theo');
@@ -29,9 +31,10 @@ theo.registerTransform('web/js', ['color/rgb', 'timing/ms-unitless']);
 theo.registerFormat('android.xml', require('./formats/android.xml.js'));
 theo.registerFormat('ios.json', require('./formats/ios.json.js'));
 theo.registerFormat('figma.json', require('./formats/figma.json.js'));
+
 theo.registerFormat(
   'polaris.custom-properties.css',
-  require('./formats/polaris.custom-properties.css.js'),
+  fs.readFileSync('./formats/polaris.custom-properties.css.hbs', 'utf8'),
 );
 
 theo.registerFormat('light.yml', tokenify('light'));
