@@ -375,7 +375,7 @@ export const config: Config = {
       },
       dark: {
         saturation: saturationAdjustmentFn(-1),
-        lightness: 20,
+        lightness: 30,
       },
       meta: {
         figmaName: 'Divider',
