@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.20.0] - 2021-02-24
+
+- Added color theme for 6 River Systems MFP UI design system ([#179](https://github.com/Shopify/polaris-tokens/pull/179))
+
 ## [2.19.0] - 2021-02-17
 
 - Added support for `.hbs` (handlebars) format templates ([#176](https://github.com/Shopify/polaris-tokens/pull/176))
@@ -202,7 +206,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.19.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.20.0...HEAD
+[2.20.0]: https://github.com/Shopify/polaris-tokens/compare/v2.19.0...v2.20.0
 [2.19.0]: https://github.com/Shopify/polaris-tokens/compare/v2.18.0...v2.19.0
 [2.18.0]: https://github.com/Shopify/polaris-tokens/compare/v2.17.0...v2.18.0
 [2.17.0]: https://github.com/Shopify/polaris-tokens/compare/v2.16.0...v2.17.0

@@ -1,0 +1,24 @@
+props:
+  - name: surface
+    value: '#111213'
+  - name: onSurface
+    value: '#111213'
+  - name: interactive
+    value: '#2E72D2'
+  - name: secondary
+    value: '#111213'
+  - name: primary
+    value: '#2864AA'
+  - name: critical
+    value: '#D82C0D'
+  - name: warning
+    value: '#FFC453'
+  - name: highlight
+    value: '#5BCDDA'
+  - name: success
+    value: '#008060'
+  - name: decorative
+    value: '#FFC96B'
+global:
+  type: color
+  category: background-color
