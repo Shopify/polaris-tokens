@@ -17,7 +17,7 @@
     "**/.DS_Store": true,
     "**/.git": true,
     "**/node_modules": true,
-    "{build,dist-modern,dist}/": true
+    "{build,dist-modern}/": true
   },
   "html.format.indentHandlebars": true
 }
