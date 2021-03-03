@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [2.21.1] - 2021-03-03
+
+- Fix `icon` and `action` colors not being exposed in `dist/color-filters.color-map.scss`. ([#182](https://github.com/Shopify/polaris-tokens/pull/182))
+
 ## [2.21.0] - 2021-03-02
 
 - Added `mergeConfigs` and `Config` to the public API of `dist-modern/index.js` ([#180](https://github.com/Shopify/polaris-tokens/pull/180))
@@ -211,7 +215,8 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.21.0...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.21.1...HEAD
+[2.21.1]: https://github.com/Shopify/polaris-tokens/compare/v2.21.0...v2.21.1
 [2.21.0]: https://github.com/Shopify/polaris-tokens/compare/v2.20.0...v2.21.0
 [2.20.0]: https://github.com/Shopify/polaris-tokens/compare/v2.19.0...v2.20.0
 [2.19.0]: https://github.com/Shopify/polaris-tokens/compare/v2.18.0...v2.19.0
