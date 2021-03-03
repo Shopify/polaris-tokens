@@ -1,6 +1,6 @@
 {
   "name": "@shopify/polaris-tokens",
-  "version": "2.21.0",
+  "version": "2.21.1",
   "description": "Design Tokens for the Polaris Design System",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
