@@ -2,3 +2,4 @@ node_modules
 package.json
 /.dev
 /build
+dist-modern
