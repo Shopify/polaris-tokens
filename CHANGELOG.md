@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 - Added `mergeConfigs` and `Config` to the public API of `dist-modern/index.js` ([#180](https://github.com/Shopify/polaris-tokens/pull/180))
+- Added esm support for legacy tokens. Doing `import {colorInk} from '@shopify/polaris-tokens';` shall load content from `dist/index.esm.js` which allows for better tree shaking. A default export so you can do `import tokens from '@shopify/polaris-tokens';` is provided for backwards compatability however this is just a stopgap, and will be removed in polaris-tokens v3.0.0. You should use either named imports (`import {colorInk}`) or a namespace import (`import * as tokens`) ([#181](https://github.com/Shopify/polaris-tokens/pull/181))
 
 ## [2.20.0] - 2021-02-24
 
