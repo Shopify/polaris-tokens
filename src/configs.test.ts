@@ -17,7 +17,7 @@ describe('configs', () => {
         variants[index],
       ]);
       it.each(variantsByName)(
-        'variant "%s" uses a unique Figma name',
+        'variant "%s" must use a unique Figma name',
         (_, variant) => {
           try {
             expect(variant).toUseUniqueFigmaName(config);
