@@ -81,7 +81,7 @@ expect.extend({
         'config',
       )}
 
-Variants using the Figma name "${figmaName}":
+Duplicate Figma name "${figmaName}" found in variants:
 ${variantsOutput}
 `,
     };
