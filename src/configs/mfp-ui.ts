@@ -148,6 +148,16 @@ export const config: Config = {
       },
     },
     {
+      name: 'surfaceSearchField',
+      description:
+        'For use as a background color, in components on surface elements such as SearchField',
+      light: {lightness: 95.5},
+      dark: {lightness: 20},
+      meta: {
+        figmaName: 'Surface/SearchField',
+      },
+    },
+    {
       name: 'backdrop',
       description:
         'For use as the background color of the backdrop component for navigation and modal. This color has an alpha of `0.5`.',
@@ -264,16 +274,6 @@ export const config: Config = {
     },
   ],
   onSurface: [
-    {
-      name: 'onSurfaceBackground',
-      description:
-        'For use as a background color, in components on surface elements such as SearchField',
-      light: {lightness: 95.5},
-      dark: {lightness: 20},
-      meta: {
-        figmaName: 'Background/Default',
-      },
-    },
     {
       name: 'border',
       description: 'For use as the default border on elements.',
