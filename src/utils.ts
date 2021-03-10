@@ -12,7 +12,7 @@ export function saturationAdjustmentFn(adjustment: number) {
 export function mergeConfigs(base: Config, extended: Config) {
   return Object.entries(base).reduce((accumulator, [role, variants]) => {
     const extendedVariants = extended[role];
-    const mergedVariants = variants;
+    const mergedVariants = [...variants];
 
     if (extendedVariants != null) {
       extendedVariants.forEach((variant) => {
