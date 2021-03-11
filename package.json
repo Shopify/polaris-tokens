@@ -1,8 +1,9 @@
 {
   "name": "@shopify/polaris-tokens",
-  "version": "2.19.0",
+  "version": "3.0.0",
   "description": "Design Tokens for the Polaris Design System",
-  "main": "index.js",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "sewing-kit test",
