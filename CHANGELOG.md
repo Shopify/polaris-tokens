@@ -5,12 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2021-04-15
+
+Added `iconInteractive` to colors ([#189](https://github.com/Shopify/polaris-tokens/pull/189))
+
 ## [3.0.0] - 2021-03-10
 
 - **Breaking:** Move `onSurface.onSurfaceBackground` to `surface.surfaceSearchField`. ([#183](https://github.com/Shopify/polaris-tokens/pull/183))
   Consumers of the variant `onSurfaceBackground` should replace it with `surfaceSearchField`. The color value is unchanged.
-
-Added `iconInteractive` to colors ([#189](https://github.com/Shopify/polaris-tokens/pull/189))
 
 ## [2.21.1] - 2021-03-03
 
