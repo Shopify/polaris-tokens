@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - **Breaking:** Move `onSurface.onSurfaceBackground` to `surface.surfaceSearchField`. ([#183](https://github.com/Shopify/polaris-tokens/pull/183))
   Consumers of the variant `onSurfaceBackground` should replace it with `surfaceSearchField`. The color value is unchanged.
 
+Added `iconInteractive` to colors ([#189](https://github.com/Shopify/polaris-tokens/pull/189))
+
 ## [2.21.1] - 2021-03-03
 
 - Fix `icon` and `action` colors not being exposed in `dist/color-filters.color-map.scss`. ([#182](https://github.com/Shopify/polaris-tokens/pull/182))

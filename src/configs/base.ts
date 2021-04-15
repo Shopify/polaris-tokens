@@ -508,6 +508,19 @@ export const config: Config = {
       },
     },
     {
+      name: 'iconInteractive',
+      description: 'For use as an interactive icon fill color',
+      light: {lightness: 47},
+      dark: {
+        lightness: 65,
+        saturation: saturationAdjustmentFn(11.2),
+        hue: hueRotationFn(-7.1),
+      },
+      meta: {
+        figmaName: 'Icon/Interactive',
+      },
+    },
+    {
       name: 'focused',
       description: 'For use in the focus ring on interactive elements.',
       light: {lightness: 60, saturation: saturationAdjustmentFn(11.2)},
