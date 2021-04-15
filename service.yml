@@ -3,4 +3,4 @@ production:
 gem:
   classification: library
 slack_channels:
-- polaris
+  - polaris
