@@ -66,6 +66,26 @@ p {
   padding: 1em 0;
 }
 
+.alert-banner {
+  display: flex;
+  padding: $spacing-base;
+  margin-bottom: $spacing-base-tight;
+  border-radius: 10px;
+  border: 1px solid rgb(185, 137, 0);
+  background-color: rgb(255, 245, 234);
+
+  a {
+    color: inherit;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    fill: rgb(185, 137, 0);
+    margin-right: $spacing-base-tight;
+  }
+}
+
 .container {
   margin: 0 auto;
   padding: $spacing-base $spacing-extra-loose;

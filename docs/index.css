@@ -62,6 +62,24 @@ p {
   padding: 1em 0;
 }
 
+.alert-banner {
+  display: flex;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #b98900;
+  background-color: #fff5ea;
+}
+.alert-banner a {
+  color: inherit;
+}
+.alert-banner .icon {
+  height: 20px;
+  width: 20px;
+  fill: #b98900;
+  margin-right: 12px;
+}
+
 .container {
   margin: 0 auto;
   padding: 16px 32px;
@@ -120,7 +138,7 @@ thead th:first-child {
 }
 
 code {
-  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-family: Monaco, Consolas, 'Lucida Console', monospace;
 }
 
 .metric-box,
