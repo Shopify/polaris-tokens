@@ -14,16 +14,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'backgroundHovered',
-      description:
-        'For use when an action or navigation is used on a background.',
-      light: {lightness: 95.5},
-      dark: {lightness: 3.3},
-      meta: {
-        figmaName: 'Background/Hovered',
-      },
-    },
-    {
       name: 'backgroundPressed',
       description:
         'For use when an action or navigation is used on a background.',
@@ -59,15 +49,6 @@ export const config: Config = {
       dark: {lightness: 21},
       meta: {
         figmaName: 'Surface Neutral/Default',
-      },
-    },
-    {
-      name: 'surfaceNeutralHovered',
-      description: 'For use as a hovered background color in neutral badges.',
-      light: {lightness: 88},
-      dark: {lightness: 21},
-      meta: {
-        figmaName: 'Surface Neutral/Hovered',
       },
     },
     {
@@ -115,16 +96,6 @@ export const config: Config = {
       dark: {lightness: 10},
       meta: {
         figmaName: 'Surface/Disabled',
-      },
-    },
-    {
-      name: 'surfaceHovered',
-      description:
-        'For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state.',
-      light: {lightness: 97},
-      dark: {lightness: 20},
-      meta: {
-        figmaName: 'Surface/Hovered',
       },
     },
     {
@@ -293,15 +264,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'borderHovered',
-      description: 'Used for borders on hovered interactive elements',
-      light: {lightness: 65},
-      dark: {lightness: 35},
-      meta: {
-        figmaName: 'Border/Hovered',
-      },
-    },
-    {
       name: 'borderDisabled',
       description: 'Used for disabled borders on interactive elements',
       light: {lightness: 85},
@@ -391,15 +353,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'iconHovered',
-      description: 'For use as the fill color of hovered icons.',
-      light: {lightness: 10},
-      dark: {lightness: 90},
-      meta: {
-        figmaName: 'Icon/Hovered',
-      },
-    },
-    {
       name: 'iconPressed',
       description: 'For use as the fill color of pressed icons.',
       light: {lightness: 30},
@@ -482,19 +435,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'interactiveHovered',
-      description: 'Used for hovered links and plain buttons.',
-      light: {lightness: 35},
-      dark: {
-        lightness: 70,
-        saturation: saturationAdjustmentFn(11.2),
-        hue: hueRotationFn(-7.1),
-      },
-      meta: {
-        figmaName: 'Interactive/Hovered',
-      },
-    },
-    {
       name: 'interactivePressed',
       description: 'Used for pressed links and plain buttons.',
       light: {lightness: 21},
@@ -524,16 +464,6 @@ export const config: Config = {
       dark: {lightness: 4},
       meta: {
         figmaName: 'Surface Selected/Default',
-      },
-    },
-    {
-      name: 'surfaceSelectedHovered',
-      description:
-        'For use as a surface color in selected interactive elements that are hovered, in components such as action list and resource list.',
-      light: {lightness: 96, hue: hueRotationFn(-12)},
-      dark: {lightness: 11},
-      meta: {
-        figmaName: 'Surface Selected/Hovered',
       },
     },
     {
@@ -586,15 +516,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'actionSecondaryHovered',
-      description: 'Used as a hovered state for secondary buttons',
-      light: {lightness: 97},
-      dark: {lightness: 37},
-      meta: {
-        figmaName: 'Action Secondary/Hovered',
-      },
-    },
-    {
       name: 'actionSecondaryPressed',
       description: 'Used as a pressed state for secondary buttons',
       light: {lightness: 95.5},
@@ -638,16 +559,6 @@ export const config: Config = {
       dark: {lightness: 32},
       meta: {
         figmaName: 'Action Primary/Disabled',
-      },
-    },
-    {
-      name: 'actionPrimaryHovered',
-      description:
-        'Used as the background color for hovered primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 41},
-      dark: {lightness: 55},
-      meta: {
-        figmaName: 'Action Primary/Hovered',
       },
     },
     {
@@ -701,16 +612,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'textPrimaryHovered',
-      description:
-        'For use as primary hovered text color on background. For use in text in components such as Navigation.',
-      light: {lightness: 40},
-      dark: {lightness: 58},
-      meta: {
-        figmaName: 'Text Primary/hover',
-      },
-    },
-    {
       name: 'textPrimaryPressed',
       description:
         'For use as primary pressed text color on background. For use in text in components such as Navigation.',
@@ -728,16 +629,6 @@ export const config: Config = {
       dark: {lightness: 5, saturation: 30},
       meta: {
         figmaName: 'Surface Primary/Selected',
-      },
-    },
-    {
-      name: 'surfacePrimarySelectedHovered',
-      description:
-        'Used as a surface color to indicate selected interactive states that are hovered in navigation and tabs.',
-      light: {lightness: 81, saturation: 22},
-      dark: {lightness: 19, saturation: 22},
-      meta: {
-        figmaName: 'Surface Primary/Selected Hovered',
       },
     },
     {
@@ -812,17 +703,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'surfaceCriticalSubduedHovered',
-      description:
-        'For use as a surface color on critical interactive elements including action list items in a hovered state.',
-      light: {lightness: 96},
-      dark: {lightness: 15, saturation: 60},
-      meta: {
-        figmaName: 'Surface Critical/Subdued Hovered',
-        figmaDescription: 'Used on action lists',
-      },
-    },
-    {
       name: 'surfaceCriticalSubduedPressed',
       description:
         'For use as a surface color on critical interactive elements including action list items in a pressed state.',
@@ -870,16 +750,6 @@ export const config: Config = {
       dark: {lightness: 41},
       meta: {
         figmaName: 'Action Critical/Disabled',
-      },
-    },
-    {
-      name: 'actionCriticalHovered',
-      description:
-        'For use as the background color for hovered destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 41, saturation: saturationAdjustmentFn(2.7)},
-      dark: {lightness: 50},
-      meta: {
-        figmaName: 'Action Critical/Hovered',
       },
     },
     {
@@ -941,16 +811,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'interactiveCriticalHovered',
-      description:
-        'For use as a text color in hovered destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
-      light: {lightness: 45},
-      dark: {lightness: 70},
-      meta: {
-        figmaName: 'Interactive/Critical Hovered',
-      },
-    },
-    {
       name: 'interactiveCriticalPressed',
       description:
         'For use as a text color in pressed destructive plain buttons, as well as a text color on destructive action list items. Not for use on critical banners and badges.',
@@ -1008,17 +868,6 @@ export const config: Config = {
       dark: {lightness: 26, saturation: 71},
       meta: {
         figmaName: 'Surface Warning/Subdued',
-        figmaDescription: 'Used for banners',
-      },
-    },
-    {
-      name: 'surfaceWarningSubduedHovered',
-      description:
-        'For use as a subdued surface color on warning elements including banners.',
-      light: {lightness: 96},
-      dark: {lightness: 28, saturation: 71},
-      meta: {
-        figmaName: 'Surface Warning/Subdued Hovered',
         figmaDescription: 'Used for banners',
       },
     },
@@ -1095,16 +944,6 @@ export const config: Config = {
       },
     },
     {
-      name: 'surfaceHighlightSubduedHovered',
-      description:
-        'For use as a surface color on information elements including banners.',
-      light: {lightness: 96, saturation: saturationAdjustmentFn(-20.4)},
-      dark: {lightness: 22},
-      meta: {
-        figmaName: 'Surface Highlight/Subdued Hovered',
-      },
-    },
-    {
       name: 'surfaceHighlightSubduedPressed',
       description:
         'For use as a surface color on information elements including banners.',
@@ -1172,16 +1011,6 @@ export const config: Config = {
       dark: {lightness: 20, saturation: saturationAdjustmentFn(-40)},
       meta: {
         figmaName: 'Surface Success/Subdued',
-      },
-    },
-    {
-      name: 'surfaceSuccessSubduedHovered',
-      description:
-        'For use as a surface color on information elements including banners.',
-      light: {lightness: 96, saturation: saturationAdjustmentFn(-80)},
-      dark: {lightness: 22, saturation: saturationAdjustmentFn(-40)},
-      meta: {
-        figmaName: 'Surface Success/Subdued Hovered',
       },
     },
     {
