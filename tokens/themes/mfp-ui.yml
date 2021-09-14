@@ -1,14 +1,14 @@
 props:
   - name: surface
-    value: '#111213'
+    value: '#F0F0F0'
   - name: onSurface
     value: '#111213'
   - name: interactive
     value: '#2E72D2'
   - name: secondary
-    value: '#111213'
+    value: '#CCCCCC'
   - name: primary
-    value: '#2864AA'
+    value: '#2E72D2'
   - name: critical
     value: '#D82C0D'
   - name: warning
