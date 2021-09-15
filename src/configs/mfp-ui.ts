@@ -7,29 +7,19 @@ export const config: Config = {
       name: 'background',
       description:
         'For use as a background color, in components such as Page and Frame backgrounds.',
-      light: {lightness: 97},
+      light: {lightness: 98.3},
       dark: {lightness: 3.3},
       meta: {
-        figmaName: 'Background/Default',
+        figmaName: 'surface/BackgroundDefault',
       },
     },
     {
-      name: 'backgroundPressed',
-      description:
-        'For use when an action or navigation is used on a background.',
-      light: {lightness: 94},
+      name: 'backgroundSubdued',
+      description: '',
+      light: {lightness: 100},
       dark: {lightness: 3.3},
       meta: {
-        figmaName: 'Background/Pressed',
-      },
-    },
-    {
-      name: 'backgroundSelected',
-      description: 'For use in the selected item in navigation',
-      light: {lightness: 94},
-      dark: {lightness: 3.3},
-      meta: {
-        figmaName: 'Background/Selected',
+        figmaName: 'surface/BackgroundSubdued',
       },
     },
     {
@@ -39,93 +29,43 @@ export const config: Config = {
       light: {lightness: 100},
       dark: {lightness: 12.7},
       meta: {
-        figmaName: 'Surface/Default',
+        figmaName: 'surface/Default',
       },
     },
     {
       name: 'surfaceNeutral',
       description: 'For use as a background color in neutral badges.',
-      light: {lightness: 91},
+      light: {
+        hue: hueRotationFn(235.7),
+        saturation: saturationAdjustmentFn(6.4),
+        lightness: 88,
+      },
       dark: {lightness: 21},
       meta: {
-        figmaName: 'Surface Neutral/Default',
-      },
-    },
-    {
-      name: 'surfaceNeutralPressed',
-      description: 'For use as a pressed background color in neutral badges.',
-      light: {lightness: 82},
-      dark: {lightness: 21},
-      meta: {
-        figmaName: 'Surface Neutral/Pressed',
-      },
-    },
-    {
-      name: 'surfaceNeutralDisabled',
-      description: 'For use as a disabled background color in neutral badges.',
-      light: {lightness: 95.5},
-      dark: {lightness: 21},
-      meta: {
-        figmaName: 'Surface Neutral/Disabled',
-      },
-    },
-    {
-      name: 'surfaceNeutralSubdued',
-      description: 'For use as a background color in neutral banners.',
-      light: {lightness: 97},
-      dark: {lightness: 30},
-      meta: {
-        figmaName: 'Surface Neutral/Subdued',
+        figmaName: 'surface/Neutral',
       },
     },
     {
       name: 'surfaceSubdued',
       description:
         'For use as a subdued background color, in components such as Card, Modal, and Popover.',
-      light: {lightness: 98.5},
-      dark: {lightness: 10},
-      meta: {
-        figmaName: 'Surface/Subdued',
-      },
-    },
-    {
-      name: 'surfaceDisabled',
-      description:
-        'For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state.',
-      light: {lightness: 98.5},
-      dark: {lightness: 10},
-      meta: {
-        figmaName: 'Surface/Disabled',
-      },
-    },
-    {
-      name: 'surfacePressed',
-      description:
-        'For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state.',
       light: {lightness: 95.5},
+      dark: {lightness: 10},
+      meta: {
+        figmaName: 'surface/Subdued',
+      },
+    },
+    {
+      name: 'surfaceInverse',
+      description: '',
+      light: {
+        hue: hueRotationFn(236.3),
+        saturation: saturationAdjustmentFn(7.4),
+        lightness: 21.1,
+      },
       dark: {lightness: 27},
       meta: {
-        figmaName: 'Surface/Pressed',
-      },
-    },
-    {
-      name: 'surfaceDepressed',
-      description:
-        'For use as a surface color on interactive elements such as resource list items and action list items when in a depressed state.',
-      light: {lightness: 94},
-      dark: {lightness: 35},
-      meta: {
-        figmaName: 'Surface/Depressed',
-      },
-    },
-    {
-      name: 'surfaceSearchField',
-      description:
-        'For use as a background color, in components on surface elements such as SearchField',
-      light: {lightness: 95.5},
-      dark: {lightness: 20},
-      meta: {
-        figmaName: 'Surface/SearchField',
+        figmaName: 'surface/Inverse',
       },
     },
     {
@@ -248,84 +188,23 @@ export const config: Config = {
     {
       name: 'border',
       description: 'For use as the default border on elements.',
-      light: {lightness: 60},
+      light: {lightness: 59.9},
       dark: {lightness: 35},
       meta: {
-        figmaName: 'Border/Default',
-      },
-    },
-    {
-      name: 'borderNeutralSubdued',
-      description: 'For use as the border on banners.',
-      light: {lightness: 77},
-      dark: {lightness: 56},
-      meta: {
-        figmaName: 'Border Neutral/Subdued',
-      },
-    },
-    {
-      name: 'borderDisabled',
-      description: 'Used for disabled borders on interactive elements',
-      light: {lightness: 85},
-      dark: {lightness: 45},
-      meta: {
-        figmaName: 'Border/Disabled',
+        figmaName: 'border/Default',
       },
     },
     {
       name: 'borderSubdued',
       description: 'For use as a subdued border on elements.',
       light: {
-        saturation: saturationAdjustmentFn(-1),
+        hue: hueRotationFn(-0.5),
+        saturation: saturationAdjustmentFn(-1.4),
         lightness: 81.9,
       },
       dark: {lightness: 56},
       meta: {
-        figmaName: 'Border/Subdued',
-      },
-    },
-    {
-      name: 'borderDepressed',
-      description: 'For use as a border on depressed elements.',
-      light: {
-        hue: hueRotationFn(-45),
-        saturation: saturationAdjustmentFn(-4),
-        lightness: 37.7,
-      },
-      dark: {
-        hue: hueRotationFn(-45),
-        saturation: saturationAdjustmentFn(-4),
-        lightness: 60,
-      },
-      meta: {
-        figmaName: 'Border/Depressed',
-      },
-    },
-    {
-      name: 'borderShadow',
-      description: 'For use as an additional bottom border on elements.',
-      light: {
-        lightness: 73,
-      },
-      dark: {
-        lightness: 40,
-      },
-      meta: {
-        figmaName: 'BorderShadow',
-      },
-    },
-    {
-      name: 'borderShadowSubdued',
-      description:
-        'For use as an additional, subdued bottom border on elements.',
-      light: {
-        lightness: 77.1,
-      },
-      dark: {
-        lightness: 56,
-      },
-      meta: {
-        figmaName: 'BorderShadow/Subdued',
+        figmaName: 'border/Subdued',
       },
     },
     {
@@ -344,30 +223,38 @@ export const config: Config = {
       },
     },
     {
-      name: 'icon',
-      description: 'For use as the fill color of icons.',
-      light: {lightness: 40.1},
+      name: 'iconOnSurface',
+      description: 'For use as the fill color of icons on a surface color.',
+      light: {
+        hue: hueRotationFn(-14.6),
+        saturation: saturationAdjustmentFn(1.4),
+        lightness: 13.1,
+      },
       dark: {lightness: 70.1},
       meta: {
-        figmaName: 'Icon/Default',
+        figmaName: 'icon/OnSurfaceDefault',
       },
     },
     {
-      name: 'iconPressed',
-      description: 'For use as the fill color of pressed icons.',
-      light: {lightness: 30},
-      dark: {lightness: 70},
+      name: 'iconOnSurfaceSubdued',
+      description: 'For use as the fill color of icons on a surface color.',
+      light: {lightness: 100},
+      dark: {lightness: 70.1},
       meta: {
-        figmaName: 'Icon/Pressed',
+        figmaName: 'icon/OnSurfaceSubdued',
       },
     },
     {
-      name: 'iconDisabled',
-      description: 'For use as the fill color of disabled icons.',
-      light: {lightness: 76.9},
-      dark: {lightness: 36.8},
+      name: 'icon',
+      description: 'For use as the fill color of icons.',
+      light: {
+        hue: hueRotationFn(-0.1),
+        saturation: saturationAdjustmentFn(-0.9),
+        lightness: 40.1,
+      },
+      dark: {lightness: 70.1},
       meta: {
-        figmaName: 'Icon/Disabled',
+        figmaName: 'icon/Default',
       },
     },
     {
@@ -376,26 +263,29 @@ export const config: Config = {
       light: {lightness: 59.8},
       dark: {lightness: 52.1},
       meta: {
-        figmaName: 'Icon/Subdued',
+        figmaName: 'icon/Subdued',
+      },
+    },
+    {
+      name: 'iconDisabled',
+      description: 'For use as the fill color of disabled icons.',
+      light: {lightness: 76.9},
+      dark: {lightness: 36.8},
+      meta: {
+        figmaName: 'icon/Disabled',
       },
     },
     {
       name: 'text',
       description: 'For use as a text color.',
-      light: {lightness: 13.1},
+      light: {
+        hue: hueRotationFn(-14.6),
+        saturation: saturationAdjustmentFn(1.4),
+        lightness: 13.1,
+      },
       dark: {lightness: 90.8},
       meta: {
-        figmaName: 'Text/Default',
-      },
-    },
-    {
-      name: 'textDisabled',
-      description:
-        'For use as a disabled text color and as a placeholder text color.',
-      light: {lightness: 60},
-      dark: {lightness: 48.2},
-      meta: {
-        figmaName: 'Text/Disabled',
+        figmaName: 'text/Default',
       },
     },
     {
@@ -404,7 +294,27 @@ export const config: Config = {
       light: {lightness: 47.4},
       dark: {lightness: 65.1},
       meta: {
-        figmaName: 'Text/Subdued',
+        figmaName: 'text/Subdued',
+      },
+    },
+    {
+      name: 'textDisabled',
+      description:
+        'For use as a disabled text color and as a placeholder text color.',
+      light: {lightness: 59.9},
+      dark: {lightness: 48.2},
+      meta: {
+        figmaName: 'text/Disabled',
+      },
+    },
+    {
+      name: 'textOnSurfaceDefault',
+      description:
+        'For use as a text color for text on top of a surface color.',
+      light: {lightness: 100},
+      dark: {lightness: 48.2},
+      meta: {
+        figmaName: 'text/OnSurfaceDefault',
       },
     },
   ],
@@ -477,128 +387,98 @@ export const config: Config = {
       },
     },
     {
-      name: 'iconOnInteractive',
-      description: 'For use as a fill color for icons on interactive elements.',
-      light: {lightness: 100},
-      dark: {lightness: 100},
+      name: 'textInteractive',
+      description: 'For use as a text color in interactive elements.',
+      light: {},
+      dark: {lightness: 50},
       meta: {
-        figmaName: 'Icon On/Interactive',
+        figmaName: 'text/InteractiveDefault',
       },
     },
     {
-      name: 'textOnInteractive',
-      description: 'For use as a text color on interactive elements.',
-      light: {lightness: 100},
-      dark: {lightness: 100},
+      name: 'iconInteractive',
+      description: 'For use as the fill color of interactive icons.',
+      light: {
+        saturation: saturationAdjustmentFn(0.4),
+      },
+      dark: {lightness: 70.1},
       meta: {
-        figmaName: 'Text On/Interactive',
+        figmaName: 'icon/InteractiveDefault',
       },
     },
   ],
   secondary: [
     {
-      name: 'actionSecondary',
+      name: 'actionNeutral',
       description:
         'Used for secondary buttons and tertiary buttons, as well as in form elements as a background color and pontentially other secondary surfaces.',
-      light: {lightness: 100},
+      light: {
+        hue: hueRotationFn(235.6),
+        saturation: saturationAdjustmentFn(5.5),
+        lightness: 93,
+      },
       dark: {lightness: 34},
       meta: {
-        figmaName: 'Action Secondary/Default',
+        figmaName: 'action/Neutral',
       },
     },
     {
-      name: 'actionSecondaryDisabled',
-      description: 'Used as a disabled state for secondary buttons',
-      light: {lightness: 100},
-      dark: {lightness: 13},
-      meta: {
-        figmaName: 'Action Secondary/Disabled',
-      },
-    },
-    {
-      name: 'actionSecondaryPressed',
+      name: 'actionNeutralPressed',
       description: 'Used as a pressed state for secondary buttons',
-      light: {lightness: 95.5},
+      light: {
+        hue: hueRotationFn(243.6),
+        saturation: saturationAdjustmentFn(8.5),
+        lightness: 87.3,
+      },
       dark: {lightness: 42},
       meta: {
-        figmaName: 'Action Secondary/Pressed',
+        figmaName: 'action/NeutralPressed',
       },
     },
     {
-      name: 'actionSecondaryDepressed',
-      description: 'Used as a depressed state for secondary buttons',
+      name: 'actionDisabled',
+      description: 'Used as a disabled state for secondary buttons',
       light: {
-        hue: hueRotationFn(4),
-        lightness: 47.4,
+        lightness: 96.5,
       },
-      dark: {
-        hue: hueRotationFn(4),
-        lightness: 53,
-      },
+      dark: {lightness: 13},
       meta: {
-        figmaName: 'Action Secondary/Depressed',
+        figmaName: 'action/Disabled',
       },
     },
   ],
   primary: [
     {
-      name: 'actionPrimary',
-      description:
-        'Used as the background color for primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 47.3},
-      dark: {lightness: 47.3},
+      name: 'borderPrimary',
+      description: 'For use as a border on components.',
+      light: {},
+      dark: {lightness: 50},
       meta: {
-        figmaName: 'Action Primary/Default',
+        figmaName: 'border/PrimaryDefault',
       },
     },
     {
-      name: 'actionPrimaryDisabled',
+      name: 'actionPrimary',
       description:
-        'Used as the background color for disabled primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 95, saturation: 0},
-      dark: {lightness: 32},
+        'Used as the background color for primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
+      light: {},
+      dark: {lightness: 47.3},
       meta: {
-        figmaName: 'Action Primary/Disabled',
+        figmaName: 'action/PrimaryDefault',
       },
     },
     {
       name: 'actionPrimaryPressed',
       description:
         'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 35},
+      light: {
+        hue: hueRotationFn(0.1),
+        saturation: saturationAdjustmentFn(0.2),
+        lightness: 31,
+      },
       dark: {lightness: 60},
       meta: {
-        figmaName: 'Action Primary/Pressed',
-      },
-    },
-    {
-      name: 'actionPrimaryDepressed',
-      description:
-        'Used as the background color for pressed primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states.',
-      light: {lightness: 22},
-      dark: {lightness: 65},
-      meta: {
-        figmaName: 'Action Primary/Depressed',
-      },
-    },
-    {
-      name: 'iconOnPrimary',
-      description:
-        'For use as a fill color for icons on primary actions. Not for use in icons on navigation and tabs.',
-      light: {lightness: 100},
-      dark: {lightness: 98},
-      meta: {
-        figmaName: 'Icon On/Primary',
-      },
-    },
-    {
-      name: 'textOnPrimary',
-      description:
-        'For use as a text color on primary actions. Not for use in text on navigation and tabs.',
-      light: {lightness: 100},
-      dark: {lightness: 100},
-      meta: {
-        figmaName: 'Text On/Primary',
+        figmaName: 'action/PrimaryPressed',
       },
     },
     {
@@ -647,147 +527,99 @@ export const config: Config = {
       name: 'borderCritical',
       description:
         'For use as a border on critical components such as an outline on interactive elements in an error state.',
-      light: {lightness: 60},
+      light: {
+        saturation: saturationAdjustmentFn(2.7),
+        lightness: 47.3,
+      },
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Border Critical/Default',
-      },
-    },
-    {
-      name: 'borderCriticalSubdued',
-      description:
-        'For use as a border on critical components such as banners.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(-50)},
-      dark: {lightness: 50},
-      meta: {
-        figmaName: 'Border Critical/Subdued',
-      },
-    },
-    {
-      name: 'borderCriticalDisabled',
-      description:
-        'For use as a disabled border on critical components such as banners, and as an outline on interactive elements in an error state.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(2.7)},
-      dark: {lightness: 28},
-      meta: {
-        figmaName: 'Border Critical/Disabled',
+        figmaName: 'border/CriticalDefault',
       },
     },
     {
       name: 'iconCritical',
       description: 'For use as an icon fill color on top of critical elements.',
-      light: {lightness: 47.3},
+      light: {
+        saturation: saturationAdjustmentFn(-0.1),
+        lightness: 47.3,
+      },
       dark: {lightness: 48},
       meta: {
-        figmaName: 'Icon/Critical',
+        figmaName: 'icon/Critical',
       },
     },
     {
       name: 'surfaceCritical',
       description:
         'For use as a surface color on critical elements including badges.',
-      light: {lightness: 88},
+      light: {},
       dark: {lightness: 12},
       meta: {
-        figmaName: 'Surface Critical/Default',
+        figmaName: 'surface/CriticalDefault',
+      },
+    },
+    {
+      name: 'surfaceCriticalNeutral',
+      description:
+        'For use as a subdued surface color on critical elements including banners.',
+      light: {
+        hue: hueRotationFn(0.7),
+        saturation: saturationAdjustmentFn(-0.6),
+        lightness: 88.1,
+      },
+      dark: {lightness: 12},
+      meta: {
+        figmaName: 'surface/CriticalNeutral',
       },
     },
     {
       name: 'surfaceCriticalSubdued',
       description:
         'For use as a subdued surface color on critical elements including banners.',
-      light: {lightness: 97},
+      light: {
+        hue: hueRotationFn(-2.3),
+        saturation: saturationAdjustmentFn(2.7),
+        lightness: 97,
+      },
       dark: {lightness: 12},
       meta: {
-        figmaName: 'Surface Critical/Subdued',
-      },
-    },
-    {
-      name: 'surfaceCriticalSubduedPressed',
-      description:
-        'For use as a surface color on critical interactive elements including action list items in a pressed state.',
-      light: {lightness: 94},
-      dark: {lightness: 22},
-      meta: {
-        figmaName: 'Surface Critical/Subdued Pressed',
-      },
-    },
-    {
-      name: 'surfaceCriticalSubduedDepressed',
-      description:
-        'For use as a surface color on critical interactive elements including action list items in a depressed state.',
-      light: {lightness: 82},
-      dark: {lightness: 29},
-      meta: {
-        figmaName: 'Surface Critical/Subdued Depressed',
+        figmaName: 'surface/CriticalSubdued',
       },
     },
     {
       name: 'textCritical',
       description:
         'For use as a text color in inert critical elements such as exception list. Not for use as a text color on banners and badges.',
-      light: {lightness: 47.3},
+      light: {
+        saturation: saturationAdjustmentFn(-0.1),
+        lightness: 47.3,
+      },
       dark: {lightness: 65, saturation: 70},
       meta: {
-        figmaName: 'Text/Critical',
+        figmaName: 'text/CriticalDefault',
       },
     },
     {
       name: 'actionCritical',
       description:
         'For use as the background color for destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 47.5},
+      light: {},
       dark: {lightness: 45},
       meta: {
-        figmaName: 'Action Critical/Default',
-      },
-    },
-    {
-      name: 'actionCriticalDisabled',
-      description:
-        'For use as the background color for disabled destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 95, saturation: 0},
-      dark: {lightness: 41},
-      meta: {
-        figmaName: 'Action Critical/Disabled',
+        figmaName: 'action/CriticalDefault',
       },
     },
     {
       name: 'actionCriticalPressed',
       description:
         'For use as the background color for pressed destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 35, saturation: saturationAdjustmentFn(2.7)},
+      light: {
+        saturation: saturationAdjustmentFn(-0.1),
+        lightness: 37.1,
+      },
       dark: {lightness: 55},
       meta: {
-        figmaName: 'Action Critical/Pressed',
-      },
-    },
-    {
-      name: 'actionCriticalDepressed',
-      description:
-        'For use as the background color for depressed destructive buttons, and as the background color for error toast messages.',
-      light: {lightness: 22, saturation: saturationAdjustmentFn(2.7)},
-      dark: {lightness: 60},
-      meta: {
-        figmaName: 'Action Critical/Depressed',
-      },
-    },
-    {
-      name: 'iconOnCritical',
-      description: 'For use as a fill color for icons on critical actions.',
-      light: {lightness: 100},
-      dark: {lightness: 98},
-      meta: {
-        figmaName: 'Icon On/Critical',
-      },
-    },
-    {
-      name: 'textOnCritical',
-      description: 'For use as a text color on critical actions.',
-      light: {lightness: 100},
-      dark: {lightness: 100},
-      meta: {
-        figmaName: 'Text On/Critical',
+        figmaName: 'action/CriticalPressed',
       },
     },
     {
@@ -825,19 +657,13 @@ export const config: Config = {
     {
       name: 'borderWarning',
       description: 'For use as a border on warning components such as...',
-      light: {lightness: 60},
-      dark: {lightness: 50},
-      meta: {
-        figmaName: 'Border Warning/Default',
+      light: {
+        hue: hueRotationFn(0.5),
+        lightness: 60.1,
       },
-    },
-    {
-      name: 'borderWarningSubdued',
-      description: 'For use as a border on warning components such as banners.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Border Warning/Subdued',
+        figmaName: 'border/WarningDefault',
       },
     },
     {
@@ -846,18 +672,29 @@ export const config: Config = {
       light: {lightness: 60},
       dark: {lightness: 34},
       meta: {
-        figmaName: 'Icon/Warning',
+        figmaName: 'icon/Warning',
       },
     },
     {
       name: 'surfaceWarning',
       description:
         'For use as a surface color on warning elements including badges.',
-      light: {lightness: 88},
+      light: {},
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Surface Warning/Default',
+        figmaName: 'surface/WarningDefault',
         figmaDescription: 'Use for badges',
+      },
+    },
+    {
+      name: 'surfaceWarningNeutral',
+      description:
+        'For use as a neutral surface color on warning elements including banners.',
+      light: {hue: 56.5, lightness: 88.1},
+      dark: {lightness: 26, saturation: 71},
+      meta: {
+        figmaName: 'surface/WarningNeutral',
+        figmaDescription: 'Used for banners',
       },
     },
     {
@@ -867,18 +704,7 @@ export const config: Config = {
       light: {lightness: 97},
       dark: {lightness: 26, saturation: 71},
       meta: {
-        figmaName: 'Surface Warning/Subdued',
-        figmaDescription: 'Used for banners',
-      },
-    },
-    {
-      name: 'surfaceWarningSubduedPressed',
-      description:
-        'For use as a subdued surface color on warning elements including banners.',
-      light: {lightness: 94},
-      dark: {lightness: 30, saturation: 71},
-      meta: {
-        figmaName: 'Surface Warning/Subdued Pressed',
+        figmaName: 'surface/WarningSubdued',
         figmaDescription: 'Used for banners',
       },
     },
@@ -889,7 +715,7 @@ export const config: Config = {
       light: {lightness: 47.4},
       dark: {lightness: 64.9},
       meta: {
-        figmaName: 'Text/Warning',
+        figmaName: 'text/WarningDefault',
       },
     },
   ],
@@ -897,20 +723,13 @@ export const config: Config = {
     {
       name: 'borderHighlight',
       description: 'For use as a border on informational components such as...',
-      light: {lightness: 60},
-      dark: {lightness: 60},
-      meta: {
-        figmaName: 'Border Highlight/Default',
+      light: {
+        hue: hueRotationFn(-0.2),
+        lightness: 60,
       },
-    },
-    {
-      name: 'borderHighlightSubdued',
-      description:
-        'For use as a border on informational components such as banners.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(-40)},
       dark: {lightness: 60},
       meta: {
-        figmaName: 'Border Highlight/Subdued',
+        figmaName: 'border/HighlightDefault',
       },
     },
     {
@@ -927,40 +746,52 @@ export const config: Config = {
       name: 'surfaceHighlight',
       description:
         'For use as a surface color on information elements including badges.',
-      light: {lightness: 88, saturation: saturationAdjustmentFn(-20.4)},
+      light: {},
       dark: {lightness: 40, saturation: 100},
       meta: {
-        figmaName: 'Surface Highlight/Default',
+        figmaName: 'surface/HighlightDefault',
+      },
+    },
+    {
+      name: 'surfaceHighlightNeutral',
+      description:
+        'For use as a neutral surface color on information elements including banners.',
+      light: {
+        hue: hueRotationFn(0.4),
+        saturation: saturationAdjustmentFn(-19.3),
+        lightness: 88,
+      },
+      dark: {lightness: 20},
+      meta: {
+        figmaName: 'surface/HighlightNeutral',
       },
     },
     {
       name: 'surfaceHighlightSubdued',
       description:
-        'For use as a surface color on information elements including banners.',
-      light: {lightness: 97, saturation: saturationAdjustmentFn(-20.4)},
+        'For use as a subdued surface color on information elements including banners.',
+      light: {
+        hue: hueRotationFn(2.7),
+        saturation: saturationAdjustmentFn(-15.3),
+        lightness: 97,
+      },
       dark: {lightness: 20},
       meta: {
-        figmaName: 'Surface Highlight/Subdued',
-      },
-    },
-    {
-      name: 'surfaceHighlightSubduedPressed',
-      description:
-        'For use as a surface color on information elements including banners.',
-      light: {lightness: 94, saturation: saturationAdjustmentFn(-20.4)},
-      dark: {lightness: 25},
-      meta: {
-        figmaName: 'Surface Highlight/Subdued Pressed',
+        figmaName: 'surface/HighlightSubdued',
       },
     },
     {
       name: 'textHighlight',
       description:
         'For use as a text color in inert informational elements. Not for use as a text color on banners and badges.',
-      light: {lightness: 48},
+      light: {
+        hue: hueRotationFn(-0.3),
+        saturation: saturationAdjustmentFn(0.5),
+        lightness: 48,
+      },
       dark: {lightness: 90},
       meta: {
-        figmaName: 'Text/Highlight',
+        figmaName: 'text/HighlightDefault',
       },
     },
   ],
@@ -969,19 +800,10 @@ export const config: Config = {
       name: 'borderSuccess',
       description:
         'For use as a border on success components such as text inputs.',
-      light: {lightness: 60},
+      light: {},
       dark: {lightness: 50},
       meta: {
-        figmaName: 'Border Success/Default',
-      },
-    },
-    {
-      name: 'borderSuccessSubdued',
-      description: 'For use as a border on success components such as banners.',
-      light: {lightness: 77, saturation: saturationAdjustmentFn(-60)},
-      dark: {lightness: 50},
-      meta: {
-        figmaName: 'Border Success/Subdued',
+        figmaName: 'border/SuccessDefault',
       },
     },
     {
@@ -997,62 +819,77 @@ export const config: Config = {
       name: 'surfaceSuccess',
       description:
         'For use as a surface color on success elements including badges.',
-      light: {lightness: 88, saturation: saturationAdjustmentFn(-60)},
+      light: {},
       dark: {lightness: 35},
       meta: {
-        figmaName: 'Surface Success/Default',
+        figmaName: 'surface/SuccessDefault',
+      },
+    },
+    {
+      name: 'surfaceSuccessNeutral',
+      description:
+        'For use as a neutral surface color on information elements including banners.',
+      light: {
+        hue: hueRotationFn(0.4),
+        saturation: saturationAdjustmentFn(-60.3),
+        lightness: 87.9,
+      },
+      dark: {lightness: 20, saturation: saturationAdjustmentFn(-40)},
+      meta: {
+        figmaName: 'surface/SuccessNeutral',
       },
     },
     {
       name: 'surfaceSuccessSubdued',
       description:
         'For use as a surface color on information elements including banners.',
-      light: {lightness: 97, saturation: saturationAdjustmentFn(-80)},
+      light: {
+        hue: hueRotationFn(1.8),
+        saturation: saturationAdjustmentFn(-80.2),
+        lightness: 97,
+      },
       dark: {lightness: 20, saturation: saturationAdjustmentFn(-40)},
       meta: {
-        figmaName: 'Surface Success/Subdued',
-      },
-    },
-    {
-      name: 'surfaceSuccessSubduedPressed',
-      description:
-        'For use as a surface color on information elements including banners.',
-      light: {lightness: 94, saturation: saturationAdjustmentFn(-80)},
-      dark: {lightness: 25, saturation: saturationAdjustmentFn(-40)},
-      meta: {
-        figmaName: 'Surface Success/Subdued Pressed',
+        figmaName: 'surface/SuccessSubdued',
       },
     },
     {
       name: 'textSuccess',
       description:
         'For use as a text color in inert success elements. Not for use as a text color on banners and badges.',
-      light: {lightness: 47.3},
+      light: {},
       dark: {lightness: 65, saturation: saturationAdjustmentFn(-30)},
       meta: {
-        figmaName: 'Text/Success',
+        figmaName: 'text/SuccessDefault',
+      },
+    },
+    {
+      name: 'actionSuccess',
+      description:
+        'For use as the background color for success buttons, and as the background color for success toast messages.',
+      light: {},
+      dark: {lightness: 45},
+      meta: {
+        figmaName: 'action/SuccessDefault',
+      },
+    },
+    {
+      name: 'actionSuccessPressed',
+      description:
+        'For use as the background color for pressed success buttons, and as the background color for success toast messages.',
+      light: {
+        saturation: saturationAdjustmentFn(0.4),
+        lightness: 34.9,
+      },
+      dark: {lightness: 55},
+      meta: {
+        figmaName: 'action/SuccessPressed',
       },
     },
   ],
   decorative: [
     {
-      name: 'decorativeOneIcon',
-      description:
-        'For use as a decorative icon color that is applied on a decorative surface.',
-      light: {
-        hue: hueRotationFn(-4.5),
-        lightness: 40,
-      },
-      dark: {
-        hue: hueRotationFn(-4.5),
-        lightness: 80,
-      },
-      meta: {
-        figmaName: 'Decorative/Icon/One',
-      },
-    },
-    {
-      name: 'decorativeOneSurface',
+      name: 'decorativeSurfaceOne',
       description: 'For use as a decorative surface color.',
       light: {
         lightness: 84,
@@ -1063,11 +900,27 @@ export const config: Config = {
         lightness: 46,
       },
       meta: {
-        figmaName: 'Decorative/Surface/One',
+        figmaName: 'decorative/SurfaceOne',
       },
     },
     {
-      name: 'decorativeOneText',
+      name: 'decorativeIconOne',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(-4.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(-4.5),
+        lightness: 80,
+      },
+      meta: {
+        figmaName: 'decorative/IconOne',
+      },
+    },
+    {
+      name: 'decorativeTextOne',
       description:
         'For use as a decorative text color that is applied on a decorative surface.',
       light: {
@@ -1076,29 +929,11 @@ export const config: Config = {
       },
       dark: {lightness: 100},
       meta: {
-        figmaName: 'Decorative/Text/One',
+        figmaName: 'decorative/TextOne',
       },
     },
     {
-      name: 'decorativeTwoIcon',
-      description:
-        'For use as a decorative icon color that is applied on a decorative surface.',
-      light: {
-        hue: hueRotationFn(305.5),
-        saturation: saturationAdjustmentFn(-20),
-        lightness: 40,
-      },
-      dark: {
-        hue: hueRotationFn(305.5),
-        saturation: saturationAdjustmentFn(-20),
-        lightness: 80,
-      },
-      meta: {
-        figmaName: 'Decorative/Icon/Two',
-      },
-    },
-    {
-      name: 'decorativeTwoSurface',
+      name: 'decorativeSurfaceTwo',
       description: 'For use as a decorative surface color.',
       light: {
         hue: hueRotationFn(-26.5),
@@ -1110,11 +945,29 @@ export const config: Config = {
         lightness: 52,
       },
       meta: {
-        figmaName: 'Decorative/Surface/Two',
+        figmaName: 'decorative/SurfaceTwo',
       },
     },
     {
-      name: 'decorativeTwoText',
+      name: 'decorativeIconTwo',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(305.5),
+        saturation: saturationAdjustmentFn(-20),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(305.5),
+        saturation: saturationAdjustmentFn(-20),
+        lightness: 80,
+      },
+      meta: {
+        figmaName: 'decorative/IconTwo',
+      },
+    },
+    {
+      name: 'decorativeTextTwo',
       description:
         'For use as a decorative text color that is applied on a decorative surface.',
       light: {
@@ -1124,27 +977,11 @@ export const config: Config = {
       },
       dark: {lightness: 100},
       meta: {
-        figmaName: 'Decorative/Text/Two',
+        figmaName: 'decorative/Text/Two',
       },
     },
     {
-      name: 'decorativeThreeIcon',
-      description:
-        'For use as a decorative icon color that is applied on a decorative surface.',
-      light: {
-        hue: hueRotationFn(87.5),
-        lightness: 40,
-      },
-      dark: {
-        hue: hueRotationFn(87.5),
-        lightness: 80,
-      },
-      meta: {
-        figmaName: 'Decorative/Icon/Three',
-      },
-    },
-    {
-      name: 'decorativeThreeSurface',
+      name: 'decorativeSurfaceThree',
       description: 'For use as a decorative surface color.',
       light: {
         hue: hueRotationFn(87.5),
@@ -1156,11 +993,27 @@ export const config: Config = {
         lightness: 46,
       },
       meta: {
-        figmaName: 'Decorative/Surface/Three',
+        figmaName: 'decorative/SurfaceThree',
       },
     },
     {
-      name: 'decorativeThreeText',
+      name: 'decorativeIconThree',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(87.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(87.5),
+        lightness: 80,
+      },
+      meta: {
+        figmaName: 'decorative/IconThree',
+      },
+    },
+    {
+      name: 'decorativeTextThree',
       description:
         'For use as a decorative text color that is applied on a decorative surface.',
       light: {
@@ -1169,27 +1022,11 @@ export const config: Config = {
       },
       dark: {lightness: 100},
       meta: {
-        figmaName: 'Decorative/Text/Three',
+        figmaName: 'decorative/TextThree',
       },
     },
     {
-      name: 'decorativeFourIcon',
-      description:
-        'For use as a decorative icon color that is applied on a decorative surface.',
-      light: {
-        hue: hueRotationFn(133.5),
-        lightness: 40,
-      },
-      dark: {
-        hue: hueRotationFn(133.5),
-        lightness: 80,
-      },
-      meta: {
-        figmaName: 'Decorative/Icon/Four',
-      },
-    },
-    {
-      name: 'decorativeFourSurface',
+      name: 'decorativeSurfaceFour',
       description: 'For use as a decorative surface color.',
       light: {
         hue: hueRotationFn(123.5),
@@ -1202,11 +1039,27 @@ export const config: Config = {
         lightness: 47,
       },
       meta: {
-        figmaName: 'Decorative/Surface/Four',
+        figmaName: 'decorative/SurfaceFour',
       },
     },
     {
-      name: 'decorativeFourText',
+      name: 'decorativeIconFour',
+      description:
+        'For use as a decorative icon color that is applied on a decorative surface.',
+      light: {
+        hue: hueRotationFn(133.5),
+        lightness: 40,
+      },
+      dark: {
+        hue: hueRotationFn(133.5),
+        lightness: 80,
+      },
+      meta: {
+        figmaName: 'decorative/IconFour',
+      },
+    },
+    {
+      name: 'decorativeTextFour',
       description:
         'For use as a decorative text color that is applied on a decorative surface.',
       light: {
@@ -1215,11 +1068,28 @@ export const config: Config = {
       },
       dark: {lightness: 100},
       meta: {
-        figmaName: 'Decorative/Text/Four',
+        figmaName: 'decorative/TextFour',
       },
     },
     {
-      name: 'decorativeFiveIcon',
+      name: 'decorativeSurfaceFive',
+      description: 'For use as a decorative surface color.',
+      light: {
+        hue: hueRotationFn(-53.4),
+        saturation: saturationAdjustmentFn(-5.4),
+        lightness: 85.6,
+      },
+      dark: {
+        hue: hueRotationFn(306.5),
+        saturation: saturationAdjustmentFn(-23),
+        lightness: 45,
+      },
+      meta: {
+        figmaName: 'decorative/SurfaceFive',
+      },
+    },
+    {
+      name: 'decorativeIconFive',
       description:
         'For use as a decorative icon color that is applied on a decorative surface.',
       light: {
@@ -1233,28 +1103,11 @@ export const config: Config = {
         lightness: 80,
       },
       meta: {
-        figmaName: 'Decorative/Icon/Five',
+        figmaName: 'decorative/IconFive',
       },
     },
     {
-      name: 'decorativeFiveSurface',
-      description: 'For use as a decorative surface color.',
-      light: {
-        hue: hueRotationFn(-53.4),
-        saturation: saturationAdjustmentFn(-5.4),
-        lightness: 85.6,
-      },
-      dark: {
-        hue: hueRotationFn(306.5),
-        saturation: saturationAdjustmentFn(-23),
-        lightness: 45,
-      },
-      meta: {
-        figmaName: 'Decorative/Surface/Five',
-      },
-    },
-    {
-      name: 'decorativeFiveText',
+      name: 'decorativeTextFive',
       description:
         'For use as a decorative text color that is applied on a decorative surface.',
       light: {
@@ -1264,7 +1117,7 @@ export const config: Config = {
       },
       dark: {lightness: 100},
       meta: {
-        figmaName: 'Decorative/Text/Five',
+        figmaName: 'decorative/TextFive',
       },
     },
   ],
