@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [4.0.0] - 2021-09-17
+
+- Removed color theme for 6 River Systems MFP UI design system ([#208](https://github.com/Shopify/polaris-tokens/pull/208))
+
 ## [3.1.0] - 2021-04-15
 
 Added `iconInteractive` to colors ([#189](https://github.com/Shopify/polaris-tokens/pull/189))
@@ -222,7 +226,10 @@ Color design tokens are now used in:
 - `Shopify/polaris-styleguide`
 - `Shopify/polaris-react` (`@shopify/polaris` v2 on npm)
 
-[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v2.21.1...HEAD
+[unreleased]: https://github.com/Shopify/polaris-tokens/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/Shopify/polaris-tokens/compare/v3.1.0...v4.0.0
+[3.1.0]: https://github.com/Shopify/polaris-tokens/compare/v3.0.0...v3.1.0
+[3.0.0]: https://github.com/Shopify/polaris-tokens/compare/v2.21.1...v3.0.0
 [2.21.1]: https://github.com/Shopify/polaris-tokens/compare/v2.21.0...v2.21.1
 [2.21.0]: https://github.com/Shopify/polaris-tokens/compare/v2.20.0...v2.21.0
 [2.20.0]: https://github.com/Shopify/polaris-tokens/compare/v2.19.0...v2.20.0
