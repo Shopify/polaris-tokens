@@ -180,8 +180,7 @@ If you need to generate new filter values, you can do so with [this CodePen](htt
 The purpose of this repository is to see the core design elements of the Polaris design system
 evolve and improve over time with the needs of developers, designers and partners in mind.
 
-We gratefully accept impromptu contributions to the documentation, typo and bug fixes,
-and expect design token requests and changes to be discussed before a pull request.
+This project is now deprecated and no longer accepting contributions.
 
 ### [Code of conduct](https://github.com/Shopify/polaris-tokens/blob/main/.github/CODE_OF_CONDUCT.md)
 
