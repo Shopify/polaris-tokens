@@ -1,4 +1,4 @@
-<h1 align="center">Polaris design tokens</h1>
+<h1 align="center">LEGACY Polaris design tokens</h1>
 
 <img src="https://user-images.githubusercontent.com/85783/39013335-ebf76f5e-43cb-11e8-81f2-706259125897.png" alt="" align="center" />
 
@@ -43,10 +43,6 @@ Using [Bundler](https://bundler.io/):
 ```console
 bundle add polaris_tokens
 ```
-
-## Usage
-
-Find all available tokens in the [design tokens documentation](https://shopify.github.io/polaris-tokens/).
 
 ### JavaScript
 
@@ -184,18 +180,12 @@ If you need to generate new filter values, you can do so with [this CodePen](htt
 The purpose of this repository is to see the core design elements of the Polaris design system
 evolve and improve over time with the needs of developers, designers and partners in mind.
 
-We gratefully accept impromptu contributions to the documentation, typo and bug fixes,
-and expect design token requests and changes to be discussed before a pull request.
+This project is now deprecated and no longer accepting contributions.
 
 ### [Code of conduct](https://github.com/Shopify/polaris-tokens/blob/main/.github/CODE_OF_CONDUCT.md)
 
 We have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/main/.github/CODE_OF_CONDUCT.md),
 please follow it in all your interactions with the project.
-
-### [Contributing guide](https://github.com/Shopify/polaris-tokens/blob/main/.github/CONTRIBUTING.md)
-
-Read the [contributing guide](https://github.com/Shopify/polaris-tokens/blob/main/.github/CONTRIBUTING.md)
-to learn how to propose changes and understand our development process.
 
 ### [License](https://github.com/Shopify/polaris-tokens/blob/main/LICENSE.md)
 
