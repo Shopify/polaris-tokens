@@ -1,4 +1,4 @@
-<h1 align="center">Polaris design tokens</h1>
+<h1 align="center">LEGACY Polaris design tokens</h1>
 
 <img src="https://user-images.githubusercontent.com/85783/39013335-ebf76f5e-43cb-11e8-81f2-706259125897.png" alt="" align="center" />
 
@@ -43,10 +43,6 @@ Using [Bundler](https://bundler.io/):
 ```console
 bundle add polaris_tokens
 ```
-
-## Usage
-
-Find all available tokens in the [design tokens documentation](https://shopify.github.io/polaris-tokens/).
 
 ### JavaScript
 
