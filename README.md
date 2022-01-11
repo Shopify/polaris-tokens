@@ -187,11 +187,6 @@ This project is now deprecated and no longer accepting contributions.
 We have a [code of conduct](https://github.com/Shopify/polaris-tokens/blob/main/.github/CODE_OF_CONDUCT.md),
 please follow it in all your interactions with the project.
 
-### [Contributing guide](https://github.com/Shopify/polaris-tokens/blob/main/.github/CONTRIBUTING.md)
-
-Read the [contributing guide](https://github.com/Shopify/polaris-tokens/blob/main/.github/CONTRIBUTING.md)
-to learn how to propose changes and understand our development process.
-
 ### [License](https://github.com/Shopify/polaris-tokens/blob/main/LICENSE.md)
 
 The polaris-tokens project is available under the [MIT license](https://github.com/Shopify/polaris-tokens/blob/main/LICENSE.md).
